@@ -19,3 +19,21 @@ begin
 					from temp_json);
 end;
 $$;
+
+create or replace procedure sanctions.sp_fill_entities_with_json(in_json_entities json)
+language plpgsql as
+$$
+begin
+	insert into sanctions.entities 
+		(select * from json_to_recordset
+	($1) as x
+	(caption text,
+	datasets text array,
+	first_seen text,
+	id text,
+	last_seen text,
+	referents text array,
+	schema text,
+	target text));
+end;
+$$;
