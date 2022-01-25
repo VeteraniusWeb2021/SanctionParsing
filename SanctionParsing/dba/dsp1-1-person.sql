@@ -15,7 +15,9 @@ target text,
 primary key (id),
 unique(id_int)
 );
-drop table sanctions.entities;
+
+
+
 create table sanctions.thing
 (general_id text,
 address text array,
