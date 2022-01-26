@@ -124,7 +124,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'G:\database\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\modify.json';
+		copy temp_json from 'entities.json';
 		insert into sanctions.entities (
 				caption ,
 				datasets  ,
@@ -150,40 +150,61 @@ end;
 $$;
 
 
---
---create or replace procedure sanctions.sp_fill_thing_with_json(in_json_thing json)
---language plpgsql as
---$$
---begin
---	insert into sanctions.thing 
---		(select * from json_to_record
---	($1) as x
---	(general_id text,
---	address text array,
---	addressEntity text array,
---	alias text array,
---	country text array,
---	description text array,
---	keywords text array,
---	modifiedAt text array,
---	name text array,
---	notes text array,
---	previousName text array,
---	program text array,
---	publisher text array,
---	publisherUrl text array,
---	retrievedAt text array,
---	sanctions text array,
---	sourceUrl text array,
---	summary text array,
---	topics text array,
---	unknownLinkFrom text array,
---	unknownLinkTo text array,
---	weakAlias text array,
---	wikidataId text array,
---	wikipediaUrl text array));
---end;
---$$;
+
+create or replace procedure sanctions.sp_fill_thing_with_json(in_json_thing json)
+language plpgsql as
+$$
+begin
+	insert into sanctions.thing 
+		(select * from json_to_record
+	($1) as x
+	(general_id text,
+	address text array,
+	addressEntity text array,
+	alias text array,
+	country text array,
+	description text array,
+	keywords text array,
+	modifiedAt text array,
+	name text array,
+	notes text array,
+	previousName text array,
+	program text array,
+	publisher text array,
+	publisherUrl text array,
+	retrievedAt text array,
+	sanctions text array,
+	sourceUrl text array,
+	summary text array,
+	topics text array,
+	unknownLinkFrom text array,
+	unknownLinkTo text array,
+	weakAlias text array,
+	wikidataId text array,
+	wikipediaUrl text array));
+end;
+$$;
+
+create or replace procedure sanctions.sp_fill_thing_with_json()
+language plpgsql as
+$$
+begin
+		create temporary table  temp_json (value json) on commit drop;
+		copy temp_json from 'thing.json';
+		insert into sanctions.thing
+				
+			(select 
+				value->>'caption',
+				array[value->>'datasets'],
+				value->>'first_seen',
+				value->>'id',
+				value->>'last_seen',
+				array[value->>'referents'],
+				value->>'schema',
+				value->>'target'
+					from temp_json);
+end;
+$$;
 --
 --create or replace procedure sanctions.sp_fill_legal_entity_with_json(in_json_legal_entity json)
 --language plpgsql as

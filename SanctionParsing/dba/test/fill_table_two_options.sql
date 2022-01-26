@@ -1,15 +1,18 @@
 --заполняет одну таблицу из файла json к этой таблице(в from нужно указать абсолютный или относительный путь к файлу)
 
+копи в json ,работает с экранированными символами не работает с массивом по полю. нужно в поля с массивом добавить
+обработку json array
 
-
-копи в json ,работает
+drop schema sanctions cascade;
+create schema sanctions;
+delete from sanctions.entities ;
 
 create or replace procedure sanctions.sp_fill_entities_with_json()
 language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'G:\database\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\modify.json';
+		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\modify.json';
 		insert into sanctions.entities(
 				caption ,
 				datasets  ,
@@ -32,10 +35,10 @@ begin
 end;
 $$;
 
+call sanctions.sp_fill_entities_with_json();
 
-delete from sanctions.entities ;
 
-select * from sanctions.entities e ;
+Работает с неэкранированными символами т.е. с одним бэкслешем и с массивом "datasets": ["eu_fsf","eu"]
 
 create or replace procedure sanctions.sp_fill_entities_with_json(in_json_entities json)
 language plpgsql as
@@ -63,7 +66,7 @@ begin
 end;
 $$;
 
-call sanctions.sp_fill_entities_with_json('[{"caption": "Minist\u00e9rio do Interior", "datasets": ["eu_fsf"], "first_seen": "2021-09-26T14:52:11", "id": "NK-2QtbU49vp9LkfKRjd8WQni", "last_seen": "2021-12-19T03:03:11", "referents": ["eu-fsf-eu-3074-61"], "schema": "Organization", "target": true},
+call sanctions.sp_fill_entities_with_json('[{"caption": "Minist\u00e9rio do Interior", "datasets": ["eu_fsf","eu"], "first_seen": "2021-09-26T14:52:11", "id": "NK-2QtbU49vp9LkfKRjd8WQni", "last_seen": "2021-12-19T03:03:11", "referents": ["eu-fsf-eu-3074-61"], "schema": "Organization", "target": true},
 {"caption": "Fajr Aviation Composite Industries", "datasets": ["eu_fsf"], "first_seen": "2021-09-26T14:52:11", "id": "NK-28X5jMopMz2jCXsUDUJczU", "last_seen": "2021-12-19T03:03:11", "referents": ["eu-fsf-eu-2001-61"], "schema": "Organization", "target": true},
 {"caption": "Sergei Ivanovich MENYAILO", "datasets": ["eu_fsf"], "first_seen": "2021-09-26T14:52:11", "id": "NK-2CHqNtWeErMHi5i8RPCqC7", "last_seen": "2021-12-19T03:03:11", "referents": ["eu-fsf-eu-5896-7"], "schema": "Person", "target": true},
 {"caption": "Abdolsamad KHORAMABADI", "datasets": ["eu_fsf"], "first_seen": "2021-09-26T14:52:11", "id": "NK-2DzyaDxjobuVwcDTps4VSJ", "last_seen": "2021-12-19T03:03:11", "referents": ["eu-fsf-eu-2978-90"], "schema": "Person", "target": true},

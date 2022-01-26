@@ -1,3 +1,4 @@
+Работает без экрана с одним бэкслешем
 
 create or replace procedure sanctions.sp_fill_entities_with_json(in_json_entities json)
 language plpgsql as
