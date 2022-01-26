@@ -2,7 +2,7 @@
 
 drop procedure sanctions.sp_fill_entities_with_json();
 
-копи в json но вылезает ошибка
+копи в json ,но вылезает ошибка
 
 create or replace procedure sanctions.sp_fill_entities_with_json()
 language plpgsql as
@@ -33,7 +33,7 @@ SQL-оператор: "copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\S
 функция PL/pgSQL sanctions.sp_fill_entities_with_json(), строка 4, оператор SQL-оператор
 
 --!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-Копи в текст потом разбираю в json но вылезает ошибка
+Копи в текст потом разбираю в json, но вылезает ошибка
 
 create table  temp_json (value text);
 		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\Entities.json';
