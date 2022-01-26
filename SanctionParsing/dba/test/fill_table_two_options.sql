@@ -1,16 +1,24 @@
 --заполняет одну таблицу из файла json к этой таблице(в from нужно указать абсолютный или относительный путь к файлу)
 
-drop procedure sanctions.sp_fill_entities_with_json();
 
-копи в json ,но вылезает ошибка
+
+копи в json ,работает
 
 create or replace procedure sanctions.sp_fill_entities_with_json()
 language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\Entities.json';
-		insert into sanctions.entities
+		copy temp_json from 'G:\database\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\modify.json';
+		insert into sanctions.entities(
+				caption ,
+				datasets  ,
+				first_seen ,
+				id ,
+				last_seen ,
+				referents  ,
+				schema ,
+				target )
 			(select 
 				value->>'caption',
 				array[value->>'datasets'],
@@ -23,43 +31,6 @@ begin
 					from temp_json);
 end;
 $$;
-
-call sanctions.sp_fill_entities_with_json();
-SQL Error [22P02]: ОШИБКА: неверный синтаксис для типа json
-  Detail: Неожиданный конец входной строки.
-  Where: данные JSON, строка 1: ...-61"], "schema": "Organization", "target": true},
-COPY temp_json, строка 1, столбец value: "[{"caption": "Ministu00e9rio do Interior", "datasets": ["eu_fsf"], "first_seen": "2021-09-26T14:52:1..."
-SQL-оператор: "copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\Entities.json'"
-функция PL/pgSQL sanctions.sp_fill_entities_with_json(), строка 4, оператор SQL-оператор
-
---!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-Копи в текст потом разбираю в json, но вылезает ошибка
-
-create table  temp_json (value text);
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\Entities.json';
-	insert into sanctions.entities(
-				caption ,
-				datasets  ,
-				first_seen ,
-				id ,
-				last_seen ,
-				referents  ,
-				schema ,
-				target )
-					(select 
-						value->>'caption',
-						array[value->>'datasets'],
-						value->>'first_seen',
-						value->>'id',
-						value->>'last_seen',
-						array[value->>'referents'],
-						value->>'schema',
-						value->>'target'
-							from      (select value::json from temp_json)as t);
---						
---						SQL Error [22P02]: ОШИБКА: неверный синтаксис для типа json
---  Detail: Неожиданный конец входной строки.
---  Where: данные JSON, строка 1: ...-61"], "schema": "Organization", "target": true}
 
 
 delete from sanctions.entities ;

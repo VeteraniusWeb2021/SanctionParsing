@@ -124,8 +124,16 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\Entities.json';
-		insert into sanctions.entities
+		copy temp_json from 'G:\database\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\modify.json';
+		insert into sanctions.entities (
+				caption ,
+				datasets  ,
+				first_seen ,
+				id ,
+				last_seen ,
+				referents  ,
+				schema ,
+				target )
 			(select 
 				value->>'caption',
 				array[value->>'datasets'],
@@ -136,52 +144,12 @@ begin
 				value->>'schema',
 				value->>'target'
 					from temp_json);
+				
+			
 end;
 $$;
 
---create or replace procedure sanctions.sp_fill_entities_with_text_json()
---language plpgsql as
---$$
---begin
-		create  table  temp_json (value text) ;
-		copy temp_json from 'G:\database\veteranius\Entities.json';
-		insert into sanctions.entities
-			(select 
-				values->>'caption',
-				array[values->>'datasets'],
-				values->>'first_seen',
-				values->>'id',
-				values->>'last_seen',
-				values->>'referents',
-				values->>'schema',
-				values->>'target'
-					from (
-							select json_array_elements(replace(value,'\','\\')::json) as values 
-	           				from   temp_json)a);
---end;
---$$;
 
-drop table temp_json;
---call sanctions.sp_fill_entities_with_json();
---select * from sanctions.entities e ;
-
---create or replace procedure sanctions.sp_fill_entities_with_json(in_json_entities json)
---language plpgsql as
---$$
---begin
---	insert into sanctions.entities 
---		(select * from json_to_record
---	($1) as x
---	(caption text,
---	datasets text array,
---	first_seen text,
---	id text,
---	last_seen text,
---	referents text,
---	schema text,
---	target text));
---end;
---$$;
 --
 --create or replace procedure sanctions.sp_fill_thing_with_json(in_json_thing json)
 --language plpgsql as
