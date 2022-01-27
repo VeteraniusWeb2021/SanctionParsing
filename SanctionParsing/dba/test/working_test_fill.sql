@@ -1,4 +1,3 @@
-Работает без экрана с одним бэкслешем
 
 create or replace procedure sanctions.sp_fill_entities_with_json(in_json_entities json)
 language plpgsql as
@@ -43,6 +42,4 @@ call sanctions.sp_fill_entities_with_json('[{"caption": "Minist\u00e9rio do Inte
 select * from sanctions.entities e ;
 
 --second option!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-
 
