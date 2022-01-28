@@ -66,5 +66,5 @@ begin
 end;
 $$;
 select * from sanctions.entities e ;
-call sanctions.sp_fill_entities_with_json('[{"caption": "Vladimir Stepanovich ALEXSEYEV", "datasets": ["eu_fsf"], "first_seen": "2021-09-26T14:52:11", "id": "NK-2ZrGocoY3llAQBHSbpKg5", "last_seen": "2021-12-19T03:03:11", "referents": ["eu-fsf-eu-4908-14"], "schema": "Person", "target": true},
-{"caption": "Vladimir Stepnovich ALEXSEYEV", "datasets": ["eu_fsf"], "first_seen": "2021-09-26T14:52:11", "id": "NK-2ZrGJDokkcRYQBHpbpKg5", "last_seen": "2021-12-19T03:03:11", "referents": ["eu-fsf-eu-4908-14"], "schema": "Person", "target": true}]');
+call sanctions.sp_fill_entities_with_json('[{"caption": "Vladimir Stepanovich ALEXSEYEV", "datasets": ["eu_fsf"], "first_seen": "2021-09-26T14:52:11", "id": "NK-2ZrGocoY3AQBHSbpKg5", "last_seen": "2021-12-19T03:03:11", "referents": ["eu-fsf-eu-4908-14"], "schema": "Person", "target": true},
+{"caption": "Vladimir Stepnovich ALEXSEYEV", "datasets": ["eu_fsf","eu"], "first_seen": "2021-09-26T14:52:11", "id": "NK-2ZrGJDokkcRQBHpbpKg5", "last_seen": "2021-12-19T03:03:11", "referents": ["eu-fsf-eu-4908-14"], "schema": "Person", "target": true}]');

@@ -33,3 +33,11 @@ join sanctions.person_caption pc on pc.person_id = p.general_id
 join sanctions.entities e on e.id = pc.caption_id 
 group by p.caption ,p.first_seen ,p.general_id ,p.country ) as t) 
 to 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\test\ok_json.json';
+
+
+select p.general_id ,unnest (p.country) from sanctions.person p ;
+
+
+
+
+
