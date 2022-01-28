@@ -384,3 +384,12 @@ primary key (general_id),
 foreign key (general_id) references sanctions.entities(id)
 );
 
+create table sanctions.country 
+(code varchar,
+label varchar,
+primary key (code));
+
+create table sanctions.topics 
+(code varchar,
+label varchar,
+primary key (code));

@@ -156,7 +156,7 @@ language plpgsql as
 $$
 begin
 	insert into sanctions.thing 
-		(select * from json_to_record
+		(select * from json_to_recordset
 	($1) as x
 	(general_id text,
 	address text array,
@@ -192,17 +192,32 @@ begin
 		create temporary table  temp_json (value json) on commit drop;
 		copy temp_json from 'thing.json';
 		insert into sanctions.thing
-				
-			(select 
-				value->>'caption',
-				array[value->>'datasets'],
-				value->>'first_seen',
-				value->>'id',
-				value->>'last_seen',
-				array[value->>'referents'],
-				value->>'schema',
-				value->>'target'
-					from temp_json);
+				(select
+				value->>'general_id',
+				array[value->>'address'],
+				array[value->>'addressEntity'],
+				array[value->>'alias'],
+				array[value->>'country'],
+				array[value->>'description'],
+				array[value->>'keywords'],
+				array[value->>'modifiedAt'],
+				array[value->>'name'],
+				array[value->>'notes'],
+				array[value->>'previousName'],
+				array[value->>'program'],
+				array[value->>'publisher'],
+				array[value->>'publisherUrl'],
+				array[value->>'retrievedAt'],
+				array[value->>'sanctions'],
+				array[value->>'sourceUrl'],
+				array[value->>'summary'],
+				array[value->>'topics'],
+				array[value->>'unknownLinkFrom'],
+				array[value->>'unknownLinkTo'],
+				array[value->>'weakAlias'],
+				array[value->>'wikidataId'],
+				array[value->>'wikipediaUrl']
+				from temp_json);
 end;
 $$;
 --
