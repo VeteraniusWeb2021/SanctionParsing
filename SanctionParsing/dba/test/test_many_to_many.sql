@@ -26,7 +26,7 @@ foreign key (id_person) references sanctions.person(general_id),
 foreign key (code_country) references sanctions.country(code));
 
 insert into sanctions.person values ('Minist?rio do Interior','2021-09-26T14:52:11','NK-2QtbU49vp9LkfKRjd8WQni','{ac,ad}'),
-									('Fajr Aviation Composite Industries','2021-09-26T14:52:11','NK-28X5jMopMz2jCXsUDUJczU','{am,ao}');
+									('Fajr Aviation Composite Industries','2021-09-26T14:52:11','addr-007fdb0e3654fc794a3f4e347f5b68882dbf3df5','{am,ao}');
 
 select  * from sanctions.person;
 
