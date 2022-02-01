@@ -1,4 +1,4 @@
-create database data_ocean_sanction_parsing;
+--create database data_ocean_sanction_parsing;
 
 create schema sanctions;
 
@@ -11,10 +11,11 @@ id text,
 last_seen text,
 referents text array,
 schema text,
-target text,
-primary key (id),
-unique(id_int)
+target boolean,
+unique(id_int),
+primary key (id)
 );
+
 
 create table sanctions.thing
 (general_id text,
