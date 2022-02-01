@@ -303,6 +303,18 @@ ALTER SEQUENCE sanctions.entities_id_int_seq OWNED BY sanctions.entities.id_int;
 
 
 --
+-- Name: entities_referents; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.entities_referents (
+    entities character varying NOT NULL,
+    referents character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.entities_referents OWNER TO postgres;
+
+--
 -- Name: family; Type: TABLE; Schema: sanctions; Owner: postgres
 --
 
@@ -3184,6 +3196,14 @@ COPY sanctions.entities (id_int, caption, datasets, first_seen, id, last_seen, r
 
 
 --
+-- Data for Name: entities_referents; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.entities_referents (entities, referents) FROM stdin;
+\.
+
+
+--
 -- Data for Name: family; Type: TABLE DATA; Schema: sanctions; Owner: postgres
 --
 
@@ -3648,6 +3668,14 @@ ALTER TABLE ONLY sanctions.entities
 
 
 --
+-- Name: entities_referents entities_referents_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.entities_referents
+    ADD CONSTRAINT entities_referents_pkey PRIMARY KEY (entities, referents);
+
+
+--
 -- Name: family family_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
 --
 
@@ -4037,6 +4065,22 @@ ALTER TABLE ONLY sanctions.crypto_wallet
 
 ALTER TABLE ONLY sanctions.directorships
     ADD CONSTRAINT directorships_general_id_fkey FOREIGN KEY (general_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: entities_referents entities_referents_entities_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.entities_referents
+    ADD CONSTRAINT entities_referents_entities_fkey FOREIGN KEY (entities) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: entities_referents entities_referents_referents_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.entities_referents
+    ADD CONSTRAINT entities_referents_referents_fkey FOREIGN KEY (referents) REFERENCES sanctions.entities(id);
 
 
 --

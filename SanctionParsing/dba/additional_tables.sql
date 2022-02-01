@@ -1,3 +1,11 @@
+create table sanctions.entities_referents
+(entities varchar,
+referents varchar,
+primary key(entities,referents),
+foreign key (entities) references sanctions.entities(id),
+foreign key (referents) references sanctions.entities(id));
+
+
 create table sanctions.legalEntity_agencyClient
 (legalEntity_id varchar,
 agencyClient_representation_id varchar,
