@@ -5,7 +5,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\entities.txt';
+		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\entities_test.txt';
 		insert into sanctions.entities(
 				caption ,
 				datasets  ,
@@ -35,7 +35,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\thing.txt';
+		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\thing_test.txt';
 		insert into sanctions.thing(
 				general_id ,
 				address,
@@ -85,10 +85,15 @@ begin
 				array (select json_array_elements_text (value->'unknownLinkTo')) as rew,
 				array (select json_array_elements_text (value->'weakAlias')) as ty,
 				array (select json_array_elements_text (value->'wikidataId')) as nm,
-				array (select json_array_elements_text (value->'wikipediaUrl')) as fds);
+				array (select json_array_elements_text (value->'wikipediaUrl')) as fds
+					from temp_json );
 end;
 $$;
 
 call sanctions.sp_fill_thing_with_json();
+select * from sanctions.entities e ;
+delete from sanctions.entities ;
+delete from sanctions.thing ;
+select * from sanctions.thing t ;
 
 
