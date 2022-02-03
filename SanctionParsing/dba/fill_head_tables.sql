@@ -90,7 +90,7 @@ begin
 				array (select json_array_elements_text (value->'weakAlias'))  ,
 				array (select json_array_elements_text (value->'wikidataId'))  ,
 				array (select json_array_elements_text (value->'wikipediaUrl'))  
-					from temp_json );
+					from temp_json ) on conflict(general_id) do nothing;
 end;
 $$;
 
@@ -180,7 +180,7 @@ begin
 				array (select json_array_elements_text (value->'taxStatus')) ,
 				array (select json_array_elements_text (value->'vatCode')) ,
 				array (select json_array_elements_text (value->'website'))
-				from temp_json );
+				from temp_json ) on conflict(general_id) do nothing;
 end;				 					
 $$;
 
@@ -244,7 +244,7 @@ begin
 				array (select json_array_elements_text (value->'religion')),
 				array (select json_array_elements_text (value->'secondName')),
 				array (select json_array_elements_text (value->'title'))  
-					from temp_json );
+					from temp_json ) on conflict(general_id) do nothing;
 end;
 $$;
 
@@ -290,7 +290,7 @@ begin
 				array (select json_array_elements_text (value->'street')),
 				array (select json_array_elements_text (value->'street2')),
 				array (select json_array_elements_text (value->'things'))  
-					from temp_json );
+					from temp_json ) on conflict(general_id) do nothing;
 end;
 $$;
 
