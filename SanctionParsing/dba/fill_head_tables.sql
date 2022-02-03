@@ -30,6 +30,8 @@ $$;
 
 call sanctions.sp_fill_entities_with_json();
 select count(*) from sanctions.entities e ;
+select * from sanctions.entities e ;
+delete from sanctions.entities ;
 --/////////////////////////////////////////////////////////////////////
 
 create or replace procedure sanctions.sp_fill_thing_with_json()
@@ -93,9 +95,97 @@ end;
 $$;
 
 call sanctions.sp_fill_thing_with_json();
-select * from sanctions.entities e ;
-delete from sanctions.entities ;
 delete from sanctions.thing ;
 select * from sanctions.thing t ;
+
+--/////////////////////////////////////////////////////////////////
+
+create or replace procedure sanctions.sp_fill_legal_entity_with_json()
+language plpgsql as
+$$
+begin
+		create temporary table  temp_json (value json) on commit drop;
+		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\LegalEntity.txt';
+		insert into sanctions.legal_entity(
+				general_id,
+				agencyClient,
+				agentRepresentation,
+				bvdId,
+				classification,
+				cryptoWallets,
+				directorshipDirector,
+				dissolutionDate,
+				dunsCode,
+				email,
+				icijId,
+				idNumber,
+				identificiation,
+				incorporationDate,
+				innCode,
+				jurisdiction,
+				legalForm,
+				mainCountry,
+				membershipMember,
+				okpoCode,
+				opencorporatesUrl,
+				operatedVehicles,
+				ownedVehicles,
+				ownershipOwner,
+				parent,
+				phone,
+				registrationNumber,
+				sector,
+				securities,
+				status,
+				subsidiaries,
+				swiftBic,
+				taxNumber,
+				taxStatus,
+				vatCode,
+				website) 
+			(select 
+				value->>'general_id',
+				array (select json_array_elements_text (value->'agencyClient')) ,
+				array (select json_array_elements_text (value->'agentRepresentation')) ,
+				array (select json_array_elements_text (value->'bvdId')) ,
+				array (select json_array_elements_text (value->'classification')) ,
+				array (select json_array_elements_text (value->'cryptoWallets')) ,
+				array (select json_array_elements_text (value->'directorshipDirector')) ,
+				array (select json_array_elements_text (value->'dissolutionDate')) ,
+				array (select json_array_elements_text (value->'dunsCode')) ,
+				array (select json_array_elements_text (value->'email')) ,
+				array (select json_array_elements_text (value->'icijId')) ,
+				array (select json_array_elements_text (value->'idNumber')) ,
+				array (select json_array_elements_text (value->'identificiation')) ,
+				array (select json_array_elements_text (value->'incorporationDate')) ,
+				array (select json_array_elements_text (value->'innCode')) ,
+				array (select json_array_elements_text (value->'jurisdiction')) ,
+				array (select json_array_elements_text (value->'legalForm')) ,
+				array (select json_array_elements_text (value->'mainCountry')) ,
+				array (select json_array_elements_text (value->'membershipMember')) ,
+				array (select json_array_elements_text (value->'okpoCode')) ,
+				array (select json_array_elements_text (value->'opencorporatesUrl')) ,
+				array (select json_array_elements_text (value->'operatedVehicles')) ,
+				array (select json_array_elements_text (value->'ownedVehicles')) ,
+				array (select json_array_elements_text (value->'ownershipOwner')) ,
+				array (select json_array_elements_text (value->'parent')) ,
+				array (select json_array_elements_text (value->'phone')) ,
+				array (select json_array_elements_text (value->'registrationNumber')) ,
+				array (select json_array_elements_text (value->'sector')) ,
+				array (select json_array_elements_text (value->'securities')) ,
+				array (select json_array_elements_text (value->'status')) ,
+				array (select json_array_elements_text (value->'subsidiaries')) ,
+				array (select json_array_elements_text (value->'swiftBic')) ,
+				array (select json_array_elements_text (value->'taxNumber')) ,
+				array (select json_array_elements_text (value->'taxStatus')) ,
+				array (select json_array_elements_text (value->'vatCode')) ,
+				array (select json_array_elements_text (value->'website'))
+				from temp_json );
+end;				 					
+$$;
+
+call sanctions.sp_fill_legal_entity_with_json();
+delete from sanctions.legal_entity ;
+select * from sanctions.legal_entity t ;
 
 
