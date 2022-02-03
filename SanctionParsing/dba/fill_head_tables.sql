@@ -145,7 +145,7 @@ begin
 				website) 
 			(select 
 				value->>'general_id',
-				array (select json_array_elements_text (value->'agencyClient')) ,
+				array (select json_array_elements_text (value->'agencyClient')),
 				array (select json_array_elements_text (value->'agentRepresentation')) ,
 				array (select json_array_elements_text (value->'bvdId')) ,
 				array (select json_array_elements_text (value->'classification')) ,
@@ -188,4 +188,112 @@ call sanctions.sp_fill_legal_entity_with_json();
 delete from sanctions.legal_entity ;
 select * from sanctions.legal_entity t ;
 
+--////////////////////////////////////////////////////////////////////////////////////////
 
+create or replace procedure sanctions.sp_fill_person_with_json()
+language plpgsql as
+$$
+begin
+		create temporary table  temp_json (value json) on commit drop;
+		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\person.txt';
+		insert into sanctions.person(
+				general_id ,
+				associates,
+				associations,
+				birthDate,
+				birthPlace,
+				deathDate,
+				education,
+				ethnicity,
+				familyPerson,
+				familyRelative,
+				fatherName,
+				firstName,
+				gender,
+				lastName,
+				middleName,
+				motherName,
+				nationality,
+				passportNumber,
+				political,
+				position,
+				religion,
+				secondName,
+				title)
+			(select 
+				value->>'general_id',
+				array (select json_array_elements_text (value->'associates')),
+				array (select json_array_elements_text (value->'associations')),
+				array (select json_array_elements_text (value->'birthDate')),
+				array (select json_array_elements_text (value->'birthPlace')),
+				array (select json_array_elements_text (value->'deathDate')),
+				array (select json_array_elements_text (value->'education')),
+				array (select json_array_elements_text (value->'ethnicity')),
+				array (select json_array_elements_text (value->'familyPerson')),
+				array (select json_array_elements_text (value->'familyRelative')),
+				array (select json_array_elements_text (value->'fatherName')),
+				array (select json_array_elements_text (value->'firstName')),
+				array (select json_array_elements_text (value->'gender')),
+				array (select json_array_elements_text (value->'lastName')),
+				array (select json_array_elements_text (value->'middleName')),
+				array (select json_array_elements_text (value->'motherName')),
+				array (select json_array_elements_text (value->'nationality')),
+				array (select json_array_elements_text (value->'passportNumber')),
+				array (select json_array_elements_text (value->'political')),
+				array (select json_array_elements_text (value->'position')),
+				array (select json_array_elements_text (value->'religion')),
+				array (select json_array_elements_text (value->'secondName')),
+				array (select json_array_elements_text (value->'title'))  
+					from temp_json );
+end;
+$$;
+
+call sanctions.sp_fill_person_with_json();
+delete from sanctions.person ;
+select * from sanctions.person t ;
+
+--/////////////////////////////////////////////////////////////////////
+
+create or replace procedure sanctions.sp_fill_address_with_json()
+language plpgsql as
+$$
+begin
+		create temporary table  temp_json (value json) on commit drop;
+		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\address.txt';
+		insert into sanctions.address(
+				general_id ,
+				city,
+				country,
+				"full",
+				latitude,
+				longitude,
+				postOfficeBox,
+				postalCode,
+				region,
+				remarks,
+				state,
+				street,
+				street2,
+				things)
+			(select 
+				value->>'general_id',
+				array (select json_array_elements_text (value->'city')),
+				array (select json_array_elements_text (value->'country')),
+				array (select json_array_elements_text (value->'"full"')),
+				array (select json_array_elements_text (value->'latitude')),
+				array (select json_array_elements_text (value->'longitude')),
+				array (select json_array_elements_text (value->'postOfficeBox')),
+				array (select json_array_elements_text (value->'postalCode')),
+				array (select json_array_elements_text (value->'region')),
+				array (select json_array_elements_text (value->'remarks')),
+				array (select json_array_elements_text (value->'state')),
+				array (select json_array_elements_text (value->'street')),
+				array (select json_array_elements_text (value->'street2')),
+				array (select json_array_elements_text (value->'things'))  
+					from temp_json );
+end;
+$$;
+
+call sanctions.sp_fill_address_with_json();
+delete from sanctions.address ;
+select * from sanctions.address t ;
