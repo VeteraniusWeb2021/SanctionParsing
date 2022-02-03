@@ -153,9 +153,9 @@ foreign key (general_id) references sanctions.entities(id)
 
 create table sanctions.value
 (general_id text,
-amount money ,
-amountEur money,
-amountUsd money,
+amount text ,
+amountEur text,
+amountUsd text,
 currency text array,
 primary key (general_id),
 foreign key (general_id) references sanctions.entities(id)
