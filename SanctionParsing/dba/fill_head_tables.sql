@@ -464,3 +464,108 @@ call sanctions.sp_fill_sanction_with_json();
 delete from sanctions.sanction ;
 select * from sanctions.sanction t ;
 
+--/////////////////////////////////////////////////////////////////////
+
+create or replace procedure sanctions.sp_fill_security_with_json()
+language plpgsql as
+$$
+begin
+		create temporary table  temp_json (value json) on commit drop;
+		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\usa\security.txt';
+		insert into sanctions.security(
+				general_id ,
+				classification,
+				collateral,
+				isin,
+				issueDate,
+				issuer,
+				ticker,
+				type)
+			(select 
+				value->>'general_id',
+				array (select json_array_elements_text (value->'classification')),
+				array (select json_array_elements_text (value->'collateral')),
+				array (select json_array_elements_text (value->'isin')),
+				array (select json_array_elements_text (value->'issueDate')),
+				array (select json_array_elements_text (value->'issuer')),
+				array (select json_array_elements_text (value->'ticker')),
+				array (select json_array_elements_text (value->'type'))
+					from temp_json ) on conflict(general_id) do nothing;
+end;
+$$;
+
+call sanctions.sp_fill_security_with_json();
+delete from sanctions.security ;
+select * from sanctions.security t ;
+
+--/////////////////////////////////////////////////////////////////////
+
+create or replace procedure sanctions.sp_fill_other_link_with_json()
+language plpgsql as
+$$
+begin
+		create temporary table  temp_json (value json) on commit drop;
+		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\usa\other_link.txt';
+		insert into sanctions.other_link(
+				general_id ,
+				object,
+				subject)
+			(select 
+				value->>'general_id',
+				array (select json_array_elements_text (value->'object')),
+				array (select json_array_elements_text (value->'subject'))
+				from temp_json ) on conflict(general_id) do nothing;
+end;
+$$;
+
+call sanctions.sp_fill_other_link_with_json();
+delete from sanctions.other_link ;
+select * from sanctions.other_link t ;
+
+--/////////////////////////////////////////////////////////////////////
+
+create or replace procedure sanctions.sp_fill_vessel_with_json()
+language plpgsql as
+$$
+begin
+		create temporary table  temp_json (value json) on commit drop;
+		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\usa\vessel.txt';
+		insert into sanctions.vessel(
+				general_id ,
+				callSign,
+				crsNumber,
+				flag,
+				grossRegisteredTonnage,
+				imoNumber,
+				mmsi,
+				nameChangeDate,
+				navigationArea,
+				pastFlags,
+				pastNames,
+				pastTypes,
+				registrationPort,
+				tonnage)
+			(select 
+				value->>'general_id',
+				array (select json_array_elements_text (value->'callSign')),
+				array (select json_array_elements_text (value->'crsNumber')),
+				array (select json_array_elements_text (value->'flag')),
+				array (select json_array_elements_text (value->'grossRegisteredTonnage')),
+				array (select json_array_elements_text (value->'imoNumber')),
+				array (select json_array_elements_text (value->'mmsi')),
+				array (select json_array_elements_text (value->'nameChangeDate')),
+				array (select json_array_elements_text (value->'navigationArea')),
+				array (select json_array_elements_text (value->'pastFlags')),
+				array (select json_array_elements_text (value->'pastNames')),
+				array (select json_array_elements_text (value->'pastTypes')),
+				array (select json_array_elements_text (value->'registrationPort')),
+				array (select json_array_elements_text (value->'tonnage'))
+				from temp_json ) on conflict(general_id) do nothing;
+end;
+$$;
+
+call sanctions.sp_fill_vessel_with_json();
+delete from sanctions.vessel ;
+select * from sanctions.vessel t ;
+
+--/////////////////////////////////////////////////////////////////////
