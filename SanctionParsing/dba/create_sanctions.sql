@@ -1,9 +1,9 @@
 --create database data_ocean_sanction_parsing;
 drop schema sanctions cascade;
-
+call public.create_schema_sanctions();
 create or replace procedure public.create_schema_sanctions()
 language plpgsql
-as &&
+as $$
 begin
 create schema sanctions;
 create table sanctions.entities
@@ -424,12 +424,6 @@ mainCountry_country varchar,
 primary key(legalEntity_id,mainCountry_country),
 foreign key (legalEntity_id) references sanctions.legal_entity(general_id),
 foreign key (mainCountry_country) references sanctions.country(code));
-create table sanctions.legalEntity_jurisdiction
-(legalEntity_id varchar,
-jurisdiction_country varchar,
-primary key(legalEntity_id,jurisdiction_country),
-foreign key (legalEntity_id) references sanctions.legal_entity(general_id),
-foreign key (jurisdiction_country) references sanctions.country(code));
 create table sanctions.legalEntity_membershipMember
 (legalEntity_id varchar,
 membershipMember varchar,
@@ -652,18 +646,6 @@ owner varchar,
 primary key(ownership_id,owner),
 foreign key (ownership_id) references sanctions.ownership(general_id),
 foreign key (owner) references sanctions.entities(id));
-create table sanctions.identification_country
-(identification_id varchar,
-country_code varchar,
-primary key(identification_id,country_code),
-foreign key (identification_id) references sanctions.identification(general_id),
-foreign key (country_code) references sanctions.country(code));
-create table sanctions.identification_holder
-(identification_id varchar,
-holder varchar,
-primary key(identification_id,holder),
-foreign key (identification_id) references sanctions.identification(general_id),
-foreign key (holder) references sanctions.entities(id));
 create table sanctions.publicBody_directorshipOrganization
 (publicBody_id varchar,
 directorshipOrganization varchar,
@@ -725,4 +707,4 @@ primary key(vessel_id,flag),
 foreign key (vessel_id) references sanctions.vessel(general_id),
 foreign key (flag) references sanctions.country(code));
 end;
-&&;
+$$;

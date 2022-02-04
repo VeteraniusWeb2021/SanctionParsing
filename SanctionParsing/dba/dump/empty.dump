@@ -1,0 +1,4434 @@
+--
+-- PostgreSQL database dump
+--
+
+-- Dumped from database version 12.9
+-- Dumped by pg_dump version 12.9
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET xmloption = content;
+SET client_min_messages = warning;
+SET row_security = off;
+
+--
+-- Name: sanctions; Type: SCHEMA; Schema: -; Owner: postgres
+--
+
+CREATE SCHEMA sanctions;
+
+
+ALTER SCHEMA sanctions OWNER TO postgres;
+
+--
+-- Name: create_schema_sanctions(); Type: PROCEDURE; Schema: public; Owner: postgres
+--
+
+CREATE PROCEDURE public.create_schema_sanctions()
+    LANGUAGE plpgsql
+    AS $$
+begin
+create schema sanctions;
+create table sanctions.entities
+(id_int serial,
+caption text,
+datasets text array,
+first_seen text,
+id text,
+last_seen text,
+referents text array,
+schema text,
+target boolean,
+unique(id_int),
+primary key (id)
+);
+create table sanctions.thing
+(general_id text,
+address text array,
+addressEntity text array,
+alias text array,
+country text array,
+description text array,
+keywords text array,
+modifiedAt text array,
+name text array,
+notes text array,
+previousName text array,
+program text array,
+publisher text array,
+publisherUrl text array,
+retrievedAt text array,
+sanctions text array,
+sourceUrl text array,
+summary text array,
+topics text array,
+unknownLinkFrom text array,
+unknownLinkTo text array,
+weakAlias text array,
+wikidataId text array,
+wikipediaUrl text array,
+primary key (general_id),
+foreign key (general_id) references sanctions.entities(id)
+);
+create table sanctions.legal_entity
+(general_id text,
+agencyClient text array,
+agentRepresentation text array,
+bvdId text array,
+classification text array,
+cryptoWallets text array,
+directorshipDirector text array,
+dissolutionDate text array,
+dunsCode text array,
+email text array,
+icijId text array,
+idNumber text array,
+identificiation text array,
+incorporationDate text array,
+innCode text array,
+jurisdiction text array,
+legalForm text array,
+mainCountry text array,
+membershipMember text array,
+okpoCode text array,
+opencorporatesUrl text array,
+operatedVehicles text array,
+ownedVehicles text array,
+ownershipOwner text array,
+parent text array,
+phone text array,
+registrationNumber text array,
+sector text array,
+securities text array,
+status text array,
+subsidiaries text array,
+swiftBic text array,
+taxNumber text array,
+taxStatus text array,
+vatCode text array,
+website text array,
+primary key(general_id),
+foreign key(general_id) references sanctions.entities(id)
+);
+create table sanctions.person
+(general_id text,
+associates text array,
+associations text array,
+birthDate text array,
+birthPlace text array,
+deathDate text array,
+education text array,
+ethnicity text array,
+familyPerson text array,
+familyRelative text array,
+fatherName text array,
+firstName text array,
+gender text array,
+lastName text array,
+middleName text array,
+motherName text array,
+nationality text array,
+passportNumber text array,
+political text array,
+position text array,
+religion text array,
+secondName text array,
+title text array,
+primary key(general_id),
+foreign key(general_id) references sanctions.entities(id)
+);
+create table sanctions.address
+(general_id text,
+city text array,
+country text array,
+"full" text array,
+latitude text array,
+longitude text array,
+postOfficeBox text array,
+postalCode text array,
+region text array,
+remarks text array,
+state text array,
+street text array,
+street2 text array,
+things text array,
+primary key (general_id),
+foreign key (general_id) references sanctions.entities(id)
+);
+create table sanctions.interval
+(general_id text,
+date text array,
+description text array,
+endDate text array,
+modifiedAt text array,
+publisher text array,
+publisherUrl text array,
+recordId text array,
+retrievedAt text array,
+sourceUrl text array,
+startDate text array,
+summary text array,
+primary key (general_id),
+foreign key (general_id) references sanctions.entities(id)
+);
+create table sanctions.value
+(general_id text,
+amount text ,
+amountEur text,
+amountUsd text,
+currency text array,
+primary key (general_id),
+foreign key (general_id) references sanctions.entities(id)
+);
+create table sanctions.asset
+(general_id text,
+ownershipAsset text array,
+primary key (general_id),
+foreign key (general_id) references sanctions.entities(id)
+);
+create table sanctions.vehicle
+(general_id text,
+buildDate text array,
+model text array,
+operator text array,
+owner text array,
+registrationDate text array,
+registrationNumber text array,
+type text array,
+primary key (general_id),
+foreign key (general_id) references sanctions.entities(id)
+);
+create table sanctions.airplane
+(general_id text,
+icaoCode text array,
+manufacturer text array,
+serialNumber text array,
+primary key (general_id),
+foreign key (general_id) references sanctions.entities(id)
+);
+create table sanctions.associate
+(general_id text,
+associate text array,
+person text array,
+relationship text array,
+primary key (general_id),
+foreign key (general_id) references sanctions.entities(id)
+);
+create table sanctions.company
+(general_id text,
+bikCode text array,
+caemCode text array,
+capital text array,
+cikCode text array,
+coatoCode text array,
+fnsCode text array,
+fssCode text array,
+ibcRuc text array,
+ipoCode text array,
+irsCode text array,
+jibCode text array,
+kppCode text array,
+mbsCode text array,
+ogrnCode text array,
+okopfCode text array,
+oksmCode text array,
+okvedCode text array,
+pfrNumber text array,
+voenCode text array,
+primary key (general_id),
+foreign key (general_id) references sanctions.entities(id)
+);
+create table sanctions.organization
+(general_id text,
+directorshipOrganization text array,
+membershipOrganization text array,
+primary key (general_id),
+foreign key (general_id) references sanctions.entities(id)
+);
+create table sanctions.crypto_wallet
+(general_id text,
+balance text array,
+balanceDate text array,
+creationDate text array,
+currencySymbol text array,
+holder text array,
+mangingExchange text array,
+privateKey text array,
+publicKey text array,
+primary key (general_id),
+foreign key (general_id) references sanctions.entities(id)
+);
+create table sanctions.directorships
+(general_id text,
+director text array,
+organization text array,
+secretary text array,
+primary key (general_id),
+foreign key (general_id) references sanctions.entities(id)
+);
+create table sanctions.interest
+(general_id text,
+role text array,
+status text array,
+primary key (general_id),
+foreign key (general_id) references sanctions.entities(id)
+);
+create table sanctions.family
+(general_id text,
+person text array,
+relationship text array,
+relative text array,
+primary key (general_id),
+foreign key (general_id) references sanctions.entities(id)
+);
+create table sanctions.identification
+(general_id text,
+authority text array,
+country text array,
+holder text array,
+number text array,
+type text array,
+primary key(general_id),
+foreign key(general_id) references sanctions.entities(id)
+);
+create table sanctions.membership
+(general_id text,
+member text array,
+organization text array,
+primary key (general_id),
+foreign key (general_id) references sanctions.entities(id)
+);
+create table sanctions.ownership
+(general_id text,
+asset text array,
+legalBasis text array,
+owner text array,
+ownershipType text array,
+percentage text array,
+sharesCount text array,
+sharesCurrency text array,
+sharesType text array,
+sharesValue text array,
+primary key (general_id),
+foreign key (general_id) references sanctions.entities(id)
+);
+create table sanctions.passport
+(general_id text,
+birthDate text array,
+birthPlace text array,
+gender text array,
+givenName text array,
+passportNumber text array,
+personalNumber text array,
+surname text array,
+primary key (general_id),
+foreign key (general_id) references sanctions.entities(id)
+);
+create table sanctions.representation
+(general_id text,
+agent text array,
+client text array,
+primary key (general_id),
+foreign key (general_id) references sanctions.entities(id)
+);
+create table sanctions.sanction
+(general_id text,
+authority text array,
+authorityId text array,
+country text array,
+duration text array,
+entity text array,
+listingDate text array,
+program text array,
+provisions text array,
+reason text array,
+status text array,
+unscId text array,
+primary key (general_id),
+foreign key (general_id) references sanctions.entities(id)
+);
+create table sanctions.security
+(general_id text,
+classification text array,
+collateral text array,
+isin text array,
+issueDate text array,
+issuer text array,
+ticker text array,
+type text array,
+primary key (general_id),
+foreign key (general_id) references sanctions.entities(id)
+);
+create table sanctions.other_link
+(general_id text,
+object text array,
+subject text array,
+primary key (general_id),
+foreign key (general_id) references sanctions.entities(id)
+);
+create table sanctions.vessel
+(general_id text,
+callSign text array,
+crsNumber text array,
+flag text array,
+grossRegisteredTonnage text array,
+imoNumber text array,
+mmsi text array,
+nameChangeDate text array,
+navigationArea text array,
+pastFlags text array,
+pastNames text array,
+pastTypes text array,
+registrationPort text array,
+tonnage text array,
+primary key (general_id),
+foreign key (general_id) references sanctions.entities(id)
+);
+create table sanctions.publicBody
+(general_id text,
+directorshipOrganization text array,
+membershipOrganization text array,
+primary key (general_id),
+foreign key (general_id) references sanctions.entities(id)
+);
+create table sanctions.country 
+(code varchar,
+label varchar,
+primary key (code));
+create table sanctions.topics 
+(code varchar,
+label varchar,
+primary key (code));
+create table sanctions.entities_referents
+(entities varchar,
+referents varchar,
+primary key(entities,referents),
+foreign key (entities) references sanctions.entities(id),
+foreign key (referents) references sanctions.entities(id));
+create table sanctions.legalEntity_agencyClient
+(legalEntity_id varchar,
+agencyClient_representation_id varchar,
+primary key(legalEntity_id,agencyClient_representation_id),
+foreign key (legalEntity_id) references sanctions.legal_entity(general_id),
+foreign key (agencyClient_representation_id) references sanctions.entities(id));
+create table sanctions.legalEntity_agentRepresentation
+(legalEntity_id varchar,
+agentRepresentation_representation_id varchar,
+primary key(legalEntity_id,agentRepresentation_representation_id),
+foreign key (legalEntity_id) references sanctions.legal_entity(general_id),
+foreign key (agentRepresentation_representation_id) references sanctions.entities(id));
+create table sanctions.legalEntity_cryptoWallets
+(legalEntity_id varchar,
+crypto_wallet_id varchar,
+primary key(legalEntity_id,crypto_wallet_id),
+foreign key (legalEntity_id) references sanctions.legal_entity(general_id),
+foreign key (crypto_wallet_id) references sanctions.entities(id));
+create table sanctions.legalEntity_directorships
+(legalEntity_id varchar,
+directorships_id varchar,
+primary key(legalEntity_id,directorships_id),
+foreign key (legalEntity_id) references sanctions.legal_entity(general_id),
+foreign key (directorships_id) references sanctions.entities(id));
+create table sanctions.legalEntity_identification
+(legalEntity_id varchar,
+identification_id varchar,
+primary key(legalEntity_id,identification_id),
+foreign key (legalEntity_id) references sanctions.legal_entity(general_id),
+foreign key (identification_id) references sanctions.entities(id));
+create table sanctions.legalEntity_jurisdiction
+(legalEntity_id varchar,
+jurisdiction_country varchar,
+primary key(legalEntity_id,jurisdiction_country),
+foreign key (legalEntity_id) references sanctions.legal_entity(general_id),
+foreign key (jurisdiction_country) references sanctions.country(code));
+create table sanctions.legalEntity_mainCountry
+(legalEntity_id varchar,
+mainCountry_country varchar,
+primary key(legalEntity_id,mainCountry_country),
+foreign key (legalEntity_id) references sanctions.legal_entity(general_id),
+foreign key (mainCountry_country) references sanctions.country(code));
+create table sanctions.legalEntity_membershipMember
+(legalEntity_id varchar,
+membershipMember varchar,
+primary key(legalEntity_id,membershipMember),
+foreign key (legalEntity_id) references sanctions.legal_entity(general_id),
+foreign key (membershipMember) references sanctions.entities(id));
+create table sanctions.legalEntity_operatedVehicles
+(legalEntity_id varchar,
+operatedVehicles varchar,
+primary key(legalEntity_id,operatedVehicles),
+foreign key (legalEntity_id) references sanctions.legal_entity(general_id),
+foreign key (operatedVehicles) references sanctions.entities(id));
+create table sanctions.legalEntity_ownedVehicles
+(legalEntity_id varchar,
+ownedVehicles varchar,
+primary key(legalEntity_id,ownedVehicles),
+foreign key (legalEntity_id) references sanctions.legal_entity(general_id),
+foreign key (ownedVehicles) references sanctions.entities(id));
+create table sanctions.legalEntity_ownershipOwner
+(legalEntity_id varchar,
+ownershipOwner varchar,
+primary key(legalEntity_id,ownershipOwner),
+foreign key (legalEntity_id) references sanctions.legal_entity(general_id),
+foreign key (ownershipOwner) references sanctions.entities(id));
+create table sanctions.legalEntity_parent
+(legalEntity_id varchar,
+parent varchar,
+primary key(legalEntity_id,parent),
+foreign key (legalEntity_id) references sanctions.legal_entity(general_id),
+foreign key (parent) references sanctions.entities(id));
+create table sanctions.legalEntity_securities
+(legalEntity_id varchar,
+securities varchar,
+primary key(legalEntity_id,securities),
+foreign key (legalEntity_id) references sanctions.legal_entity(general_id),
+foreign key (securities) references sanctions.entities(id));
+create table sanctions.legalEntity_subsidiaries
+(legalEntity_id varchar,
+subsidiaries varchar,
+primary key(legalEntity_id,subsidiaries),
+foreign key (legalEntity_id) references sanctions.legal_entity(general_id),
+foreign key (subsidiaries) references sanctions.entities(id));
+create table sanctions.person_associates
+(person_id varchar,
+associates varchar,
+primary key(person_id,associates),
+foreign key (person_id) references sanctions.person(general_id),
+foreign key (associates) references sanctions.entities(id));
+create table sanctions.person_associations
+(person_id varchar,
+associations varchar,
+primary key(person_id,associations),
+foreign key (person_id) references sanctions.person(general_id),
+foreign key (associations) references sanctions.entities(id));
+create table sanctions.person_nationality_country
+(person_id varchar,
+nationality_country varchar,
+primary key(person_id,nationality_country),
+foreign key (person_id) references sanctions.person(general_id),
+foreign key (nationality_country) references sanctions.country(code));
+create table sanctions.person_familyPerson
+(person_id varchar,
+familyPerson varchar,
+primary key(person_id,familyPerson),
+foreign key (person_id) references sanctions.person(general_id),
+foreign key (familyPerson) references sanctions.entities(id));
+create table sanctions.person_familyRelative
+(person_id varchar,
+familyRelative varchar,
+primary key(person_id,familyRelative),
+foreign key (person_id) references sanctions.person(general_id),
+foreign key (familyRelative) references sanctions.entities(id));
+create table sanctions.thing_addressEntity
+(thing_id varchar,
+address_id varchar,
+primary key(thing_id,address_id),
+foreign key (thing_id) references sanctions.thing(general_id),
+foreign key (address_id) references sanctions.entities(id));
+create table sanctions.thing_sanction
+(thing_id varchar,
+sanction_id varchar,
+primary key(thing_id,sanction_id),
+foreign key (thing_id) references sanctions.thing(general_id),
+foreign key (sanction_id) references sanctions.entities(id));
+create table sanctions.thing_unknownLinkFrom
+(thing_id varchar,
+unknownLinkFrom_id varchar,
+primary key(thing_id,unknownLinkFrom_id),
+foreign key (thing_id) references sanctions.thing(general_id),
+foreign key (unknownLinkFrom_id) references sanctions.entities(id));
+create table sanctions.thing_unknownLinkTo
+(thing_id varchar,
+unknownLinkTo_id varchar,
+primary key(thing_id,unknownLinkTo_id),
+foreign key (thing_id) references sanctions.thing(general_id),
+foreign key (unknownLinkTo_id) references sanctions.entities(id));
+create table sanctions.thing_country
+(thing_id varchar,
+country_code varchar,
+primary key(thing_id,country_code),
+foreign key (thing_id) references sanctions.thing(general_id),
+foreign key (country_code) references sanctions.country(code));
+create table sanctions.address_country
+(address_id varchar,
+country_code varchar,
+primary key(address_id,country_code),
+foreign key (address_id) references sanctions.address(general_id),
+foreign key (country_code) references sanctions.country(code));
+create table sanctions.address_things
+(address_id varchar,
+things varchar,
+primary key(address_id,things),
+foreign key (address_id) references sanctions.address(general_id),
+foreign key (things) references sanctions.entities(id));
+create table sanctions.asset_ownershipAsset
+(asset_id varchar,
+ownershipAsset varchar,
+primary key(asset_id,ownershipAsset),
+foreign key (asset_id) references sanctions.asset(general_id),
+foreign key (ownershipAsset) references sanctions.entities(id));
+create table sanctions.vehicle_operator
+(vehicle_id varchar,
+operator varchar,
+primary key(vehicle_id,operator),
+foreign key (vehicle_id) references sanctions.vehicle(general_id),
+foreign key (operator) references sanctions.entities(id));
+create table sanctions.vehicle_owner
+(vehicle_id varchar,
+owner varchar,
+primary key(vehicle_id,owner),
+foreign key (vehicle_id) references sanctions.vehicle(general_id),
+foreign key (owner) references sanctions.entities(id));
+create table sanctions.associate_associate
+(associate_id varchar,
+associate varchar,
+primary key(associate_id,associate),
+foreign key (associate_id) references sanctions.associate(general_id),
+foreign key (associate) references sanctions.entities(id));
+create table sanctions.associate_person
+(associate_id varchar,
+person varchar,
+primary key(associate_id,person),
+foreign key (associate_id) references sanctions.associate(general_id),
+foreign key (person) references sanctions.entities(id));
+create table sanctions.organization_directorshipOrganization
+(organization_id varchar,
+directorshipOrganization varchar,
+primary key(organization_id,directorshipOrganization),
+foreign key (organization_id) references sanctions.organization(general_id),
+foreign key (directorshipOrganization) references sanctions.entities(id));
+create table sanctions.organization_membershipOrganization
+(organization_id varchar,
+membershipOrganization varchar,
+primary key(organization_id,membershipOrganization),
+foreign key (organization_id) references sanctions.organization(general_id),
+foreign key (membershipOrganization) references sanctions.entities(id));
+create table sanctions.crypto_wallet_holder
+(crypto_wallet_id varchar,
+holder varchar,
+primary key(crypto_wallet_id,holder),
+foreign key (crypto_wallet_id) references sanctions.crypto_wallet(general_id),
+foreign key (holder) references sanctions.entities(id));
+create table sanctions.directorships_director
+(directorships_id varchar,
+director varchar,
+primary key(directorships_id,director),
+foreign key (directorships_id) references sanctions.directorships(general_id),
+foreign key (director) references sanctions.entities(id));
+create table sanctions.directorships_organization
+(directorships_id varchar,
+organization varchar,
+primary key(directorships_id,organization),
+foreign key (directorships_id) references sanctions.directorships(general_id),
+foreign key (organization) references sanctions.entities(id));
+create table sanctions.family_person
+(family_id varchar,
+person varchar,
+primary key(family_id,person),
+foreign key (family_id) references sanctions.family(general_id),
+foreign key (person) references sanctions.entities(id));
+create table sanctions.family_relative
+(family_id varchar,
+relative varchar,
+primary key(family_id,relative),
+foreign key (family_id) references sanctions.family(general_id),
+foreign key (relative) references sanctions.entities(id));
+create table sanctions.identification_holder
+(identification_id varchar,
+holder varchar,
+primary key(identification_id,holder),
+foreign key (identification_id) references sanctions.identification(general_id),
+foreign key (holder) references sanctions.entities(id));
+create table sanctions.identification_country
+(identification_id varchar,
+country_code varchar,
+primary key(identification_id,country_code),
+foreign key (identification_id) references sanctions.identification(general_id),
+foreign key (country_code) references sanctions.country(code));
+create table sanctions.membership_member
+(membership_id varchar,
+member varchar,
+primary key(membership_id,member),
+foreign key (membership_id) references sanctions.membership(general_id),
+foreign key (member) references sanctions.entities(id));
+create table sanctions.membership_organization
+(membership_id varchar,
+organization varchar,
+primary key(membership_id,organization),
+foreign key (membership_id) references sanctions.membership(general_id),
+foreign key (organization) references sanctions.entities(id));
+create table sanctions.ownership_asset
+(ownership_id varchar,
+asset varchar,
+primary key(ownership_id,asset),
+foreign key (ownership_id) references sanctions.ownership(general_id),
+foreign key (asset) references sanctions.entities(id));
+create table sanctions.ownership_owner
+(ownership_id varchar,
+owner varchar,
+primary key(ownership_id,owner),
+foreign key (ownership_id) references sanctions.ownership(general_id),
+foreign key (owner) references sanctions.entities(id));
+create table sanctions.publicBody_directorshipOrganization
+(publicBody_id varchar,
+directorshipOrganization varchar,
+primary key(publicBody_id,directorshipOrganization),
+foreign key (publicBody_id) references sanctions.publicBody(general_id),
+foreign key (directorshipOrganization) references sanctions.entities(id));
+create table sanctions.publicBody_membershipOrganization
+(publicBody_id varchar,
+membershipOrganization varchar,
+primary key(publicBody_id,membershipOrganization),
+foreign key (publicBody_id) references sanctions.publicBody(general_id),
+foreign key (membershipOrganization) references sanctions.entities(id));
+create table sanctions.representation_agent
+(representation_id varchar,
+agent varchar,
+primary key(representation_id,agent),
+foreign key (representation_id) references sanctions.representation(general_id),
+foreign key (agent) references sanctions.entities(id));
+create table sanctions.representation_client
+(representation_id varchar,
+client varchar,
+primary key(representation_id,client),
+foreign key (representation_id) references sanctions.representation(general_id),
+foreign key (client) references sanctions.entities(id));
+create table sanctions.sanction_entity
+(sanction_id varchar,
+entity varchar,
+primary key(sanction_id,entity),
+foreign key (sanction_id) references sanctions.sanction(general_id),
+foreign key (entity) references sanctions.entities(id));
+create table sanctions.sanction_country
+(sanction_id varchar,
+country_code varchar,
+primary key(sanction_id,country_code),
+foreign key (sanction_id) references sanctions.sanction(general_id),
+foreign key (country_code) references sanctions.country(code));
+create table sanctions.security_issuer
+(security_id varchar,
+issuer varchar,
+primary key(security_id,issuer),
+foreign key (security_id) references sanctions.security(general_id),
+foreign key (issuer) references sanctions.entities(id));
+create table sanctions.other_link_object
+(other_link_id varchar,
+object varchar,
+primary key(other_link_id,object),
+foreign key (other_link_id) references sanctions.other_link(general_id),
+foreign key (object) references sanctions.entities(id));
+create table sanctions.other_link_subject
+(other_link_id varchar,
+subject varchar,
+primary key(other_link_id,subject),
+foreign key (other_link_id) references sanctions.other_link(general_id),
+foreign key (subject) references sanctions.entities(id));
+create table sanctions.vessel_flag_country
+(vessel_id varchar,
+flag varchar,
+primary key(vessel_id,flag),
+foreign key (vessel_id) references sanctions.vessel(general_id),
+foreign key (flag) references sanctions.country(code));
+end;
+$$;
+
+
+ALTER PROCEDURE public.create_schema_sanctions() OWNER TO postgres;
+
+SET default_tablespace = '';
+
+SET default_table_access_method = heap;
+
+--
+-- Name: address; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.address (
+    general_id text NOT NULL,
+    city text[],
+    country text[],
+    "full" text[],
+    latitude text[],
+    longitude text[],
+    postofficebox text[],
+    postalcode text[],
+    region text[],
+    remarks text[],
+    state text[],
+    street text[],
+    street2 text[],
+    things text[]
+);
+
+
+ALTER TABLE sanctions.address OWNER TO postgres;
+
+--
+-- Name: address_country; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.address_country (
+    address_id character varying NOT NULL,
+    country_code character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.address_country OWNER TO postgres;
+
+--
+-- Name: address_things; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.address_things (
+    address_id character varying NOT NULL,
+    things character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.address_things OWNER TO postgres;
+
+--
+-- Name: airplane; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.airplane (
+    general_id text NOT NULL,
+    icaocode text[],
+    manufacturer text[],
+    serialnumber text[]
+);
+
+
+ALTER TABLE sanctions.airplane OWNER TO postgres;
+
+--
+-- Name: asset; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.asset (
+    general_id text NOT NULL,
+    ownershipasset text[]
+);
+
+
+ALTER TABLE sanctions.asset OWNER TO postgres;
+
+--
+-- Name: asset_ownershipasset; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.asset_ownershipasset (
+    asset_id character varying NOT NULL,
+    ownershipasset character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.asset_ownershipasset OWNER TO postgres;
+
+--
+-- Name: associate; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.associate (
+    general_id text NOT NULL,
+    associate text[],
+    person text[],
+    relationship text[]
+);
+
+
+ALTER TABLE sanctions.associate OWNER TO postgres;
+
+--
+-- Name: associate_associate; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.associate_associate (
+    associate_id character varying NOT NULL,
+    associate character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.associate_associate OWNER TO postgres;
+
+--
+-- Name: associate_person; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.associate_person (
+    associate_id character varying NOT NULL,
+    person character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.associate_person OWNER TO postgres;
+
+--
+-- Name: company; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.company (
+    general_id text NOT NULL,
+    bikcode text[],
+    caemcode text[],
+    capital text[],
+    cikcode text[],
+    coatocode text[],
+    fnscode text[],
+    fsscode text[],
+    ibcruc text[],
+    ipocode text[],
+    irscode text[],
+    jibcode text[],
+    kppcode text[],
+    mbscode text[],
+    ogrncode text[],
+    okopfcode text[],
+    oksmcode text[],
+    okvedcode text[],
+    pfrnumber text[],
+    voencode text[]
+);
+
+
+ALTER TABLE sanctions.company OWNER TO postgres;
+
+--
+-- Name: country; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.country (
+    code character varying NOT NULL,
+    label character varying
+);
+
+
+ALTER TABLE sanctions.country OWNER TO postgres;
+
+--
+-- Name: crypto_wallet; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.crypto_wallet (
+    general_id text NOT NULL,
+    balance text[],
+    balancedate text[],
+    creationdate text[],
+    currencysymbol text[],
+    holder text[],
+    mangingexchange text[],
+    privatekey text[],
+    publickey text[]
+);
+
+
+ALTER TABLE sanctions.crypto_wallet OWNER TO postgres;
+
+--
+-- Name: crypto_wallet_holder; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.crypto_wallet_holder (
+    crypto_wallet_id character varying NOT NULL,
+    holder character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.crypto_wallet_holder OWNER TO postgres;
+
+--
+-- Name: directorships; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.directorships (
+    general_id text NOT NULL,
+    director text[],
+    organization text[],
+    secretary text[]
+);
+
+
+ALTER TABLE sanctions.directorships OWNER TO postgres;
+
+--
+-- Name: directorships_director; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.directorships_director (
+    directorships_id character varying NOT NULL,
+    director character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.directorships_director OWNER TO postgres;
+
+--
+-- Name: directorships_organization; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.directorships_organization (
+    directorships_id character varying NOT NULL,
+    organization character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.directorships_organization OWNER TO postgres;
+
+--
+-- Name: entities; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.entities (
+    id_int integer NOT NULL,
+    caption text,
+    datasets text[],
+    first_seen text,
+    id text NOT NULL,
+    last_seen text,
+    referents text[],
+    schema text,
+    target boolean
+);
+
+
+ALTER TABLE sanctions.entities OWNER TO postgres;
+
+--
+-- Name: entities_id_int_seq; Type: SEQUENCE; Schema: sanctions; Owner: postgres
+--
+
+CREATE SEQUENCE sanctions.entities_id_int_seq
+    AS integer
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER TABLE sanctions.entities_id_int_seq OWNER TO postgres;
+
+--
+-- Name: entities_id_int_seq; Type: SEQUENCE OWNED BY; Schema: sanctions; Owner: postgres
+--
+
+ALTER SEQUENCE sanctions.entities_id_int_seq OWNED BY sanctions.entities.id_int;
+
+
+--
+-- Name: entities_referents; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.entities_referents (
+    entities character varying NOT NULL,
+    referents character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.entities_referents OWNER TO postgres;
+
+--
+-- Name: family; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.family (
+    general_id text NOT NULL,
+    person text[],
+    relationship text[],
+    relative text[]
+);
+
+
+ALTER TABLE sanctions.family OWNER TO postgres;
+
+--
+-- Name: family_person; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.family_person (
+    family_id character varying NOT NULL,
+    person character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.family_person OWNER TO postgres;
+
+--
+-- Name: family_relative; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.family_relative (
+    family_id character varying NOT NULL,
+    relative character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.family_relative OWNER TO postgres;
+
+--
+-- Name: identification; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.identification (
+    general_id text NOT NULL,
+    authority text[],
+    country text[],
+    holder text[],
+    number text[],
+    type text[]
+);
+
+
+ALTER TABLE sanctions.identification OWNER TO postgres;
+
+--
+-- Name: identification_country; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.identification_country (
+    identification_id character varying NOT NULL,
+    country_code character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.identification_country OWNER TO postgres;
+
+--
+-- Name: identification_holder; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.identification_holder (
+    identification_id character varying NOT NULL,
+    holder character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.identification_holder OWNER TO postgres;
+
+--
+-- Name: interest; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.interest (
+    general_id text NOT NULL,
+    role text[],
+    status text[]
+);
+
+
+ALTER TABLE sanctions.interest OWNER TO postgres;
+
+--
+-- Name: interval; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions."interval" (
+    general_id text NOT NULL,
+    date text[],
+    description text[],
+    enddate text[],
+    modifiedat text[],
+    publisher text[],
+    publisherurl text[],
+    recordid text[],
+    retrievedat text[],
+    sourceurl text[],
+    startdate text[],
+    summary text[]
+);
+
+
+ALTER TABLE sanctions."interval" OWNER TO postgres;
+
+--
+-- Name: legal_entity; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.legal_entity (
+    general_id text NOT NULL,
+    agencyclient text[],
+    agentrepresentation text[],
+    bvdid text[],
+    classification text[],
+    cryptowallets text[],
+    directorshipdirector text[],
+    dissolutiondate text[],
+    dunscode text[],
+    email text[],
+    icijid text[],
+    idnumber text[],
+    identificiation text[],
+    incorporationdate text[],
+    inncode text[],
+    jurisdiction text[],
+    legalform text[],
+    maincountry text[],
+    membershipmember text[],
+    okpocode text[],
+    opencorporatesurl text[],
+    operatedvehicles text[],
+    ownedvehicles text[],
+    ownershipowner text[],
+    parent text[],
+    phone text[],
+    registrationnumber text[],
+    sector text[],
+    securities text[],
+    status text[],
+    subsidiaries text[],
+    swiftbic text[],
+    taxnumber text[],
+    taxstatus text[],
+    vatcode text[],
+    website text[]
+);
+
+
+ALTER TABLE sanctions.legal_entity OWNER TO postgres;
+
+--
+-- Name: legalentity_agencyclient; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.legalentity_agencyclient (
+    legalentity_id character varying NOT NULL,
+    agencyclient_representation_id character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.legalentity_agencyclient OWNER TO postgres;
+
+--
+-- Name: legalentity_agentrepresentation; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.legalentity_agentrepresentation (
+    legalentity_id character varying NOT NULL,
+    agentrepresentation_representation_id character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.legalentity_agentrepresentation OWNER TO postgres;
+
+--
+-- Name: legalentity_cryptowallets; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.legalentity_cryptowallets (
+    legalentity_id character varying NOT NULL,
+    crypto_wallet_id character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.legalentity_cryptowallets OWNER TO postgres;
+
+--
+-- Name: legalentity_directorships; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.legalentity_directorships (
+    legalentity_id character varying NOT NULL,
+    directorships_id character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.legalentity_directorships OWNER TO postgres;
+
+--
+-- Name: legalentity_identification; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.legalentity_identification (
+    legalentity_id character varying NOT NULL,
+    identification_id character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.legalentity_identification OWNER TO postgres;
+
+--
+-- Name: legalentity_jurisdiction; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.legalentity_jurisdiction (
+    legalentity_id character varying NOT NULL,
+    jurisdiction_country character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.legalentity_jurisdiction OWNER TO postgres;
+
+--
+-- Name: legalentity_maincountry; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.legalentity_maincountry (
+    legalentity_id character varying NOT NULL,
+    maincountry_country character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.legalentity_maincountry OWNER TO postgres;
+
+--
+-- Name: legalentity_membershipmember; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.legalentity_membershipmember (
+    legalentity_id character varying NOT NULL,
+    membershipmember character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.legalentity_membershipmember OWNER TO postgres;
+
+--
+-- Name: legalentity_operatedvehicles; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.legalentity_operatedvehicles (
+    legalentity_id character varying NOT NULL,
+    operatedvehicles character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.legalentity_operatedvehicles OWNER TO postgres;
+
+--
+-- Name: legalentity_ownedvehicles; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.legalentity_ownedvehicles (
+    legalentity_id character varying NOT NULL,
+    ownedvehicles character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.legalentity_ownedvehicles OWNER TO postgres;
+
+--
+-- Name: legalentity_ownershipowner; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.legalentity_ownershipowner (
+    legalentity_id character varying NOT NULL,
+    ownershipowner character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.legalentity_ownershipowner OWNER TO postgres;
+
+--
+-- Name: legalentity_parent; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.legalentity_parent (
+    legalentity_id character varying NOT NULL,
+    parent character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.legalentity_parent OWNER TO postgres;
+
+--
+-- Name: legalentity_securities; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.legalentity_securities (
+    legalentity_id character varying NOT NULL,
+    securities character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.legalentity_securities OWNER TO postgres;
+
+--
+-- Name: legalentity_subsidiaries; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.legalentity_subsidiaries (
+    legalentity_id character varying NOT NULL,
+    subsidiaries character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.legalentity_subsidiaries OWNER TO postgres;
+
+--
+-- Name: membership; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.membership (
+    general_id text NOT NULL,
+    member text[],
+    organization text[]
+);
+
+
+ALTER TABLE sanctions.membership OWNER TO postgres;
+
+--
+-- Name: membership_member; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.membership_member (
+    membership_id character varying NOT NULL,
+    member character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.membership_member OWNER TO postgres;
+
+--
+-- Name: membership_organization; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.membership_organization (
+    membership_id character varying NOT NULL,
+    organization character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.membership_organization OWNER TO postgres;
+
+--
+-- Name: organization; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.organization (
+    general_id text NOT NULL,
+    directorshiporganization text[],
+    membershiporganization text[]
+);
+
+
+ALTER TABLE sanctions.organization OWNER TO postgres;
+
+--
+-- Name: organization_directorshiporganization; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.organization_directorshiporganization (
+    organization_id character varying NOT NULL,
+    directorshiporganization character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.organization_directorshiporganization OWNER TO postgres;
+
+--
+-- Name: organization_membershiporganization; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.organization_membershiporganization (
+    organization_id character varying NOT NULL,
+    membershiporganization character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.organization_membershiporganization OWNER TO postgres;
+
+--
+-- Name: other_link; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.other_link (
+    general_id text NOT NULL,
+    object text[],
+    subject text[]
+);
+
+
+ALTER TABLE sanctions.other_link OWNER TO postgres;
+
+--
+-- Name: other_link_object; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.other_link_object (
+    other_link_id character varying NOT NULL,
+    object character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.other_link_object OWNER TO postgres;
+
+--
+-- Name: other_link_subject; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.other_link_subject (
+    other_link_id character varying NOT NULL,
+    subject character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.other_link_subject OWNER TO postgres;
+
+--
+-- Name: ownership; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.ownership (
+    general_id text NOT NULL,
+    asset text[],
+    legalbasis text[],
+    owner text[],
+    ownershiptype text[],
+    percentage text[],
+    sharescount text[],
+    sharescurrency text[],
+    sharestype text[],
+    sharesvalue text[]
+);
+
+
+ALTER TABLE sanctions.ownership OWNER TO postgres;
+
+--
+-- Name: ownership_asset; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.ownership_asset (
+    ownership_id character varying NOT NULL,
+    asset character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.ownership_asset OWNER TO postgres;
+
+--
+-- Name: ownership_owner; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.ownership_owner (
+    ownership_id character varying NOT NULL,
+    owner character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.ownership_owner OWNER TO postgres;
+
+--
+-- Name: passport; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.passport (
+    general_id text NOT NULL,
+    birthdate text[],
+    birthplace text[],
+    gender text[],
+    givenname text[],
+    passportnumber text[],
+    personalnumber text[],
+    surname text[]
+);
+
+
+ALTER TABLE sanctions.passport OWNER TO postgres;
+
+--
+-- Name: person; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.person (
+    general_id text NOT NULL,
+    associates text[],
+    associations text[],
+    birthdate text[],
+    birthplace text[],
+    deathdate text[],
+    education text[],
+    ethnicity text[],
+    familyperson text[],
+    familyrelative text[],
+    fathername text[],
+    firstname text[],
+    gender text[],
+    lastname text[],
+    middlename text[],
+    mothername text[],
+    nationality text[],
+    passportnumber text[],
+    political text[],
+    "position" text[],
+    religion text[],
+    secondname text[],
+    title text[]
+);
+
+
+ALTER TABLE sanctions.person OWNER TO postgres;
+
+--
+-- Name: person_associates; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.person_associates (
+    person_id character varying NOT NULL,
+    associates character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.person_associates OWNER TO postgres;
+
+--
+-- Name: person_associations; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.person_associations (
+    person_id character varying NOT NULL,
+    associations character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.person_associations OWNER TO postgres;
+
+--
+-- Name: person_familyperson; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.person_familyperson (
+    person_id character varying NOT NULL,
+    familyperson character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.person_familyperson OWNER TO postgres;
+
+--
+-- Name: person_familyrelative; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.person_familyrelative (
+    person_id character varying NOT NULL,
+    familyrelative character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.person_familyrelative OWNER TO postgres;
+
+--
+-- Name: person_nationality_country; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.person_nationality_country (
+    person_id character varying NOT NULL,
+    nationality_country character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.person_nationality_country OWNER TO postgres;
+
+--
+-- Name: publicbody; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.publicbody (
+    general_id text NOT NULL,
+    directorshiporganization text[],
+    membershiporganization text[]
+);
+
+
+ALTER TABLE sanctions.publicbody OWNER TO postgres;
+
+--
+-- Name: publicbody_directorshiporganization; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.publicbody_directorshiporganization (
+    publicbody_id character varying NOT NULL,
+    directorshiporganization character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.publicbody_directorshiporganization OWNER TO postgres;
+
+--
+-- Name: publicbody_membershiporganization; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.publicbody_membershiporganization (
+    publicbody_id character varying NOT NULL,
+    membershiporganization character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.publicbody_membershiporganization OWNER TO postgres;
+
+--
+-- Name: representation; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.representation (
+    general_id text NOT NULL,
+    agent text[],
+    client text[]
+);
+
+
+ALTER TABLE sanctions.representation OWNER TO postgres;
+
+--
+-- Name: representation_agent; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.representation_agent (
+    representation_id character varying NOT NULL,
+    agent character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.representation_agent OWNER TO postgres;
+
+--
+-- Name: representation_client; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.representation_client (
+    representation_id character varying NOT NULL,
+    client character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.representation_client OWNER TO postgres;
+
+--
+-- Name: sanction; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.sanction (
+    general_id text NOT NULL,
+    authority text[],
+    authorityid text[],
+    country text[],
+    duration text[],
+    entity text[],
+    listingdate text[],
+    program text[],
+    provisions text[],
+    reason text[],
+    status text[],
+    unscid text[]
+);
+
+
+ALTER TABLE sanctions.sanction OWNER TO postgres;
+
+--
+-- Name: sanction_country; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.sanction_country (
+    sanction_id character varying NOT NULL,
+    country_code character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.sanction_country OWNER TO postgres;
+
+--
+-- Name: sanction_entity; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.sanction_entity (
+    sanction_id character varying NOT NULL,
+    entity character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.sanction_entity OWNER TO postgres;
+
+--
+-- Name: security; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.security (
+    general_id text NOT NULL,
+    classification text[],
+    collateral text[],
+    isin text[],
+    issuedate text[],
+    issuer text[],
+    ticker text[],
+    type text[]
+);
+
+
+ALTER TABLE sanctions.security OWNER TO postgres;
+
+--
+-- Name: security_issuer; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.security_issuer (
+    security_id character varying NOT NULL,
+    issuer character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.security_issuer OWNER TO postgres;
+
+--
+-- Name: thing; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.thing (
+    general_id text NOT NULL,
+    address text[],
+    addressentity text[],
+    alias text[],
+    country text[],
+    description text[],
+    keywords text[],
+    modifiedat text[],
+    name text[],
+    notes text[],
+    previousname text[],
+    program text[],
+    publisher text[],
+    publisherurl text[],
+    retrievedat text[],
+    sanctions text[],
+    sourceurl text[],
+    summary text[],
+    topics text[],
+    unknownlinkfrom text[],
+    unknownlinkto text[],
+    weakalias text[],
+    wikidataid text[],
+    wikipediaurl text[]
+);
+
+
+ALTER TABLE sanctions.thing OWNER TO postgres;
+
+--
+-- Name: thing_addressentity; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.thing_addressentity (
+    thing_id character varying NOT NULL,
+    address_id character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.thing_addressentity OWNER TO postgres;
+
+--
+-- Name: thing_country; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.thing_country (
+    thing_id character varying NOT NULL,
+    country_code character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.thing_country OWNER TO postgres;
+
+--
+-- Name: thing_sanction; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.thing_sanction (
+    thing_id character varying NOT NULL,
+    sanction_id character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.thing_sanction OWNER TO postgres;
+
+--
+-- Name: thing_unknownlinkfrom; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.thing_unknownlinkfrom (
+    thing_id character varying NOT NULL,
+    unknownlinkfrom_id character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.thing_unknownlinkfrom OWNER TO postgres;
+
+--
+-- Name: thing_unknownlinkto; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.thing_unknownlinkto (
+    thing_id character varying NOT NULL,
+    unknownlinkto_id character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.thing_unknownlinkto OWNER TO postgres;
+
+--
+-- Name: topics; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.topics (
+    code character varying NOT NULL,
+    label character varying
+);
+
+
+ALTER TABLE sanctions.topics OWNER TO postgres;
+
+--
+-- Name: value; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.value (
+    general_id text NOT NULL,
+    amount text,
+    amounteur text,
+    amountusd text,
+    currency text[]
+);
+
+
+ALTER TABLE sanctions.value OWNER TO postgres;
+
+--
+-- Name: vehicle; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.vehicle (
+    general_id text NOT NULL,
+    builddate text[],
+    model text[],
+    operator text[],
+    owner text[],
+    registrationdate text[],
+    registrationnumber text[],
+    type text[]
+);
+
+
+ALTER TABLE sanctions.vehicle OWNER TO postgres;
+
+--
+-- Name: vehicle_operator; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.vehicle_operator (
+    vehicle_id character varying NOT NULL,
+    operator character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.vehicle_operator OWNER TO postgres;
+
+--
+-- Name: vehicle_owner; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.vehicle_owner (
+    vehicle_id character varying NOT NULL,
+    owner character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.vehicle_owner OWNER TO postgres;
+
+--
+-- Name: vessel; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.vessel (
+    general_id text NOT NULL,
+    callsign text[],
+    crsnumber text[],
+    flag text[],
+    grossregisteredtonnage text[],
+    imonumber text[],
+    mmsi text[],
+    namechangedate text[],
+    navigationarea text[],
+    pastflags text[],
+    pastnames text[],
+    pasttypes text[],
+    registrationport text[],
+    tonnage text[]
+);
+
+
+ALTER TABLE sanctions.vessel OWNER TO postgres;
+
+--
+-- Name: vessel_flag_country; Type: TABLE; Schema: sanctions; Owner: postgres
+--
+
+CREATE TABLE sanctions.vessel_flag_country (
+    vessel_id character varying NOT NULL,
+    flag character varying NOT NULL
+);
+
+
+ALTER TABLE sanctions.vessel_flag_country OWNER TO postgres;
+
+--
+-- Name: entities id_int; Type: DEFAULT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.entities ALTER COLUMN id_int SET DEFAULT nextval('sanctions.entities_id_int_seq'::regclass);
+
+
+--
+-- Data for Name: address; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.address (general_id, city, country, "full", latitude, longitude, postofficebox, postalcode, region, remarks, state, street, street2, things) FROM stdin;
+\.
+
+
+--
+-- Data for Name: address_country; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.address_country (address_id, country_code) FROM stdin;
+\.
+
+
+--
+-- Data for Name: address_things; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.address_things (address_id, things) FROM stdin;
+\.
+
+
+--
+-- Data for Name: airplane; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.airplane (general_id, icaocode, manufacturer, serialnumber) FROM stdin;
+\.
+
+
+--
+-- Data for Name: asset; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.asset (general_id, ownershipasset) FROM stdin;
+\.
+
+
+--
+-- Data for Name: asset_ownershipasset; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.asset_ownershipasset (asset_id, ownershipasset) FROM stdin;
+\.
+
+
+--
+-- Data for Name: associate; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.associate (general_id, associate, person, relationship) FROM stdin;
+\.
+
+
+--
+-- Data for Name: associate_associate; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.associate_associate (associate_id, associate) FROM stdin;
+\.
+
+
+--
+-- Data for Name: associate_person; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.associate_person (associate_id, person) FROM stdin;
+\.
+
+
+--
+-- Data for Name: company; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.company (general_id, bikcode, caemcode, capital, cikcode, coatocode, fnscode, fsscode, ibcruc, ipocode, irscode, jibcode, kppcode, mbscode, ogrncode, okopfcode, oksmcode, okvedcode, pfrnumber, voencode) FROM stdin;
+\.
+
+
+--
+-- Data for Name: country; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.country (code, label) FROM stdin;
+\.
+
+
+--
+-- Data for Name: crypto_wallet; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.crypto_wallet (general_id, balance, balancedate, creationdate, currencysymbol, holder, mangingexchange, privatekey, publickey) FROM stdin;
+\.
+
+
+--
+-- Data for Name: crypto_wallet_holder; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.crypto_wallet_holder (crypto_wallet_id, holder) FROM stdin;
+\.
+
+
+--
+-- Data for Name: directorships; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.directorships (general_id, director, organization, secretary) FROM stdin;
+\.
+
+
+--
+-- Data for Name: directorships_director; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.directorships_director (directorships_id, director) FROM stdin;
+\.
+
+
+--
+-- Data for Name: directorships_organization; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.directorships_organization (directorships_id, organization) FROM stdin;
+\.
+
+
+--
+-- Data for Name: entities; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.entities (id_int, caption, datasets, first_seen, id, last_seen, referents, schema, target) FROM stdin;
+\.
+
+
+--
+-- Data for Name: entities_referents; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.entities_referents (entities, referents) FROM stdin;
+\.
+
+
+--
+-- Data for Name: family; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.family (general_id, person, relationship, relative) FROM stdin;
+\.
+
+
+--
+-- Data for Name: family_person; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.family_person (family_id, person) FROM stdin;
+\.
+
+
+--
+-- Data for Name: family_relative; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.family_relative (family_id, relative) FROM stdin;
+\.
+
+
+--
+-- Data for Name: identification; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.identification (general_id, authority, country, holder, number, type) FROM stdin;
+\.
+
+
+--
+-- Data for Name: identification_country; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.identification_country (identification_id, country_code) FROM stdin;
+\.
+
+
+--
+-- Data for Name: identification_holder; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.identification_holder (identification_id, holder) FROM stdin;
+\.
+
+
+--
+-- Data for Name: interest; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.interest (general_id, role, status) FROM stdin;
+\.
+
+
+--
+-- Data for Name: interval; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions."interval" (general_id, date, description, enddate, modifiedat, publisher, publisherurl, recordid, retrievedat, sourceurl, startdate, summary) FROM stdin;
+\.
+
+
+--
+-- Data for Name: legal_entity; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.legal_entity (general_id, agencyclient, agentrepresentation, bvdid, classification, cryptowallets, directorshipdirector, dissolutiondate, dunscode, email, icijid, idnumber, identificiation, incorporationdate, inncode, jurisdiction, legalform, maincountry, membershipmember, okpocode, opencorporatesurl, operatedvehicles, ownedvehicles, ownershipowner, parent, phone, registrationnumber, sector, securities, status, subsidiaries, swiftbic, taxnumber, taxstatus, vatcode, website) FROM stdin;
+\.
+
+
+--
+-- Data for Name: legalentity_agencyclient; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.legalentity_agencyclient (legalentity_id, agencyclient_representation_id) FROM stdin;
+\.
+
+
+--
+-- Data for Name: legalentity_agentrepresentation; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.legalentity_agentrepresentation (legalentity_id, agentrepresentation_representation_id) FROM stdin;
+\.
+
+
+--
+-- Data for Name: legalentity_cryptowallets; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.legalentity_cryptowallets (legalentity_id, crypto_wallet_id) FROM stdin;
+\.
+
+
+--
+-- Data for Name: legalentity_directorships; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.legalentity_directorships (legalentity_id, directorships_id) FROM stdin;
+\.
+
+
+--
+-- Data for Name: legalentity_identification; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.legalentity_identification (legalentity_id, identification_id) FROM stdin;
+\.
+
+
+--
+-- Data for Name: legalentity_jurisdiction; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.legalentity_jurisdiction (legalentity_id, jurisdiction_country) FROM stdin;
+\.
+
+
+--
+-- Data for Name: legalentity_maincountry; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.legalentity_maincountry (legalentity_id, maincountry_country) FROM stdin;
+\.
+
+
+--
+-- Data for Name: legalentity_membershipmember; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.legalentity_membershipmember (legalentity_id, membershipmember) FROM stdin;
+\.
+
+
+--
+-- Data for Name: legalentity_operatedvehicles; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.legalentity_operatedvehicles (legalentity_id, operatedvehicles) FROM stdin;
+\.
+
+
+--
+-- Data for Name: legalentity_ownedvehicles; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.legalentity_ownedvehicles (legalentity_id, ownedvehicles) FROM stdin;
+\.
+
+
+--
+-- Data for Name: legalentity_ownershipowner; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.legalentity_ownershipowner (legalentity_id, ownershipowner) FROM stdin;
+\.
+
+
+--
+-- Data for Name: legalentity_parent; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.legalentity_parent (legalentity_id, parent) FROM stdin;
+\.
+
+
+--
+-- Data for Name: legalentity_securities; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.legalentity_securities (legalentity_id, securities) FROM stdin;
+\.
+
+
+--
+-- Data for Name: legalentity_subsidiaries; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.legalentity_subsidiaries (legalentity_id, subsidiaries) FROM stdin;
+\.
+
+
+--
+-- Data for Name: membership; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.membership (general_id, member, organization) FROM stdin;
+\.
+
+
+--
+-- Data for Name: membership_member; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.membership_member (membership_id, member) FROM stdin;
+\.
+
+
+--
+-- Data for Name: membership_organization; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.membership_organization (membership_id, organization) FROM stdin;
+\.
+
+
+--
+-- Data for Name: organization; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.organization (general_id, directorshiporganization, membershiporganization) FROM stdin;
+\.
+
+
+--
+-- Data for Name: organization_directorshiporganization; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.organization_directorshiporganization (organization_id, directorshiporganization) FROM stdin;
+\.
+
+
+--
+-- Data for Name: organization_membershiporganization; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.organization_membershiporganization (organization_id, membershiporganization) FROM stdin;
+\.
+
+
+--
+-- Data for Name: other_link; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.other_link (general_id, object, subject) FROM stdin;
+\.
+
+
+--
+-- Data for Name: other_link_object; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.other_link_object (other_link_id, object) FROM stdin;
+\.
+
+
+--
+-- Data for Name: other_link_subject; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.other_link_subject (other_link_id, subject) FROM stdin;
+\.
+
+
+--
+-- Data for Name: ownership; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.ownership (general_id, asset, legalbasis, owner, ownershiptype, percentage, sharescount, sharescurrency, sharestype, sharesvalue) FROM stdin;
+\.
+
+
+--
+-- Data for Name: ownership_asset; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.ownership_asset (ownership_id, asset) FROM stdin;
+\.
+
+
+--
+-- Data for Name: ownership_owner; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.ownership_owner (ownership_id, owner) FROM stdin;
+\.
+
+
+--
+-- Data for Name: passport; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.passport (general_id, birthdate, birthplace, gender, givenname, passportnumber, personalnumber, surname) FROM stdin;
+\.
+
+
+--
+-- Data for Name: person; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.person (general_id, associates, associations, birthdate, birthplace, deathdate, education, ethnicity, familyperson, familyrelative, fathername, firstname, gender, lastname, middlename, mothername, nationality, passportnumber, political, "position", religion, secondname, title) FROM stdin;
+\.
+
+
+--
+-- Data for Name: person_associates; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.person_associates (person_id, associates) FROM stdin;
+\.
+
+
+--
+-- Data for Name: person_associations; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.person_associations (person_id, associations) FROM stdin;
+\.
+
+
+--
+-- Data for Name: person_familyperson; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.person_familyperson (person_id, familyperson) FROM stdin;
+\.
+
+
+--
+-- Data for Name: person_familyrelative; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.person_familyrelative (person_id, familyrelative) FROM stdin;
+\.
+
+
+--
+-- Data for Name: person_nationality_country; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.person_nationality_country (person_id, nationality_country) FROM stdin;
+\.
+
+
+--
+-- Data for Name: publicbody; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.publicbody (general_id, directorshiporganization, membershiporganization) FROM stdin;
+\.
+
+
+--
+-- Data for Name: publicbody_directorshiporganization; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.publicbody_directorshiporganization (publicbody_id, directorshiporganization) FROM stdin;
+\.
+
+
+--
+-- Data for Name: publicbody_membershiporganization; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.publicbody_membershiporganization (publicbody_id, membershiporganization) FROM stdin;
+\.
+
+
+--
+-- Data for Name: representation; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.representation (general_id, agent, client) FROM stdin;
+\.
+
+
+--
+-- Data for Name: representation_agent; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.representation_agent (representation_id, agent) FROM stdin;
+\.
+
+
+--
+-- Data for Name: representation_client; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.representation_client (representation_id, client) FROM stdin;
+\.
+
+
+--
+-- Data for Name: sanction; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.sanction (general_id, authority, authorityid, country, duration, entity, listingdate, program, provisions, reason, status, unscid) FROM stdin;
+\.
+
+
+--
+-- Data for Name: sanction_country; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.sanction_country (sanction_id, country_code) FROM stdin;
+\.
+
+
+--
+-- Data for Name: sanction_entity; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.sanction_entity (sanction_id, entity) FROM stdin;
+\.
+
+
+--
+-- Data for Name: security; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.security (general_id, classification, collateral, isin, issuedate, issuer, ticker, type) FROM stdin;
+\.
+
+
+--
+-- Data for Name: security_issuer; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.security_issuer (security_id, issuer) FROM stdin;
+\.
+
+
+--
+-- Data for Name: thing; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.thing (general_id, address, addressentity, alias, country, description, keywords, modifiedat, name, notes, previousname, program, publisher, publisherurl, retrievedat, sanctions, sourceurl, summary, topics, unknownlinkfrom, unknownlinkto, weakalias, wikidataid, wikipediaurl) FROM stdin;
+\.
+
+
+--
+-- Data for Name: thing_addressentity; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.thing_addressentity (thing_id, address_id) FROM stdin;
+\.
+
+
+--
+-- Data for Name: thing_country; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.thing_country (thing_id, country_code) FROM stdin;
+\.
+
+
+--
+-- Data for Name: thing_sanction; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.thing_sanction (thing_id, sanction_id) FROM stdin;
+\.
+
+
+--
+-- Data for Name: thing_unknownlinkfrom; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.thing_unknownlinkfrom (thing_id, unknownlinkfrom_id) FROM stdin;
+\.
+
+
+--
+-- Data for Name: thing_unknownlinkto; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.thing_unknownlinkto (thing_id, unknownlinkto_id) FROM stdin;
+\.
+
+
+--
+-- Data for Name: topics; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.topics (code, label) FROM stdin;
+\.
+
+
+--
+-- Data for Name: value; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.value (general_id, amount, amounteur, amountusd, currency) FROM stdin;
+\.
+
+
+--
+-- Data for Name: vehicle; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.vehicle (general_id, builddate, model, operator, owner, registrationdate, registrationnumber, type) FROM stdin;
+\.
+
+
+--
+-- Data for Name: vehicle_operator; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.vehicle_operator (vehicle_id, operator) FROM stdin;
+\.
+
+
+--
+-- Data for Name: vehicle_owner; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.vehicle_owner (vehicle_id, owner) FROM stdin;
+\.
+
+
+--
+-- Data for Name: vessel; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.vessel (general_id, callsign, crsnumber, flag, grossregisteredtonnage, imonumber, mmsi, namechangedate, navigationarea, pastflags, pastnames, pasttypes, registrationport, tonnage) FROM stdin;
+\.
+
+
+--
+-- Data for Name: vessel_flag_country; Type: TABLE DATA; Schema: sanctions; Owner: postgres
+--
+
+COPY sanctions.vessel_flag_country (vessel_id, flag) FROM stdin;
+\.
+
+
+--
+-- Name: entities_id_int_seq; Type: SEQUENCE SET; Schema: sanctions; Owner: postgres
+--
+
+SELECT pg_catalog.setval('sanctions.entities_id_int_seq', 1, false);
+
+
+--
+-- Name: address_country address_country_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.address_country
+    ADD CONSTRAINT address_country_pkey PRIMARY KEY (address_id, country_code);
+
+
+--
+-- Name: address address_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.address
+    ADD CONSTRAINT address_pkey PRIMARY KEY (general_id);
+
+
+--
+-- Name: address_things address_things_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.address_things
+    ADD CONSTRAINT address_things_pkey PRIMARY KEY (address_id, things);
+
+
+--
+-- Name: airplane airplane_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.airplane
+    ADD CONSTRAINT airplane_pkey PRIMARY KEY (general_id);
+
+
+--
+-- Name: asset_ownershipasset asset_ownershipasset_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.asset_ownershipasset
+    ADD CONSTRAINT asset_ownershipasset_pkey PRIMARY KEY (asset_id, ownershipasset);
+
+
+--
+-- Name: asset asset_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.asset
+    ADD CONSTRAINT asset_pkey PRIMARY KEY (general_id);
+
+
+--
+-- Name: associate_associate associate_associate_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.associate_associate
+    ADD CONSTRAINT associate_associate_pkey PRIMARY KEY (associate_id, associate);
+
+
+--
+-- Name: associate_person associate_person_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.associate_person
+    ADD CONSTRAINT associate_person_pkey PRIMARY KEY (associate_id, person);
+
+
+--
+-- Name: associate associate_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.associate
+    ADD CONSTRAINT associate_pkey PRIMARY KEY (general_id);
+
+
+--
+-- Name: company company_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.company
+    ADD CONSTRAINT company_pkey PRIMARY KEY (general_id);
+
+
+--
+-- Name: country country_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.country
+    ADD CONSTRAINT country_pkey PRIMARY KEY (code);
+
+
+--
+-- Name: crypto_wallet_holder crypto_wallet_holder_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.crypto_wallet_holder
+    ADD CONSTRAINT crypto_wallet_holder_pkey PRIMARY KEY (crypto_wallet_id, holder);
+
+
+--
+-- Name: crypto_wallet crypto_wallet_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.crypto_wallet
+    ADD CONSTRAINT crypto_wallet_pkey PRIMARY KEY (general_id);
+
+
+--
+-- Name: directorships_director directorships_director_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.directorships_director
+    ADD CONSTRAINT directorships_director_pkey PRIMARY KEY (directorships_id, director);
+
+
+--
+-- Name: directorships_organization directorships_organization_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.directorships_organization
+    ADD CONSTRAINT directorships_organization_pkey PRIMARY KEY (directorships_id, organization);
+
+
+--
+-- Name: directorships directorships_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.directorships
+    ADD CONSTRAINT directorships_pkey PRIMARY KEY (general_id);
+
+
+--
+-- Name: entities entities_id_int_key; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.entities
+    ADD CONSTRAINT entities_id_int_key UNIQUE (id_int);
+
+
+--
+-- Name: entities entities_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.entities
+    ADD CONSTRAINT entities_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: entities_referents entities_referents_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.entities_referents
+    ADD CONSTRAINT entities_referents_pkey PRIMARY KEY (entities, referents);
+
+
+--
+-- Name: family_person family_person_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.family_person
+    ADD CONSTRAINT family_person_pkey PRIMARY KEY (family_id, person);
+
+
+--
+-- Name: family family_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.family
+    ADD CONSTRAINT family_pkey PRIMARY KEY (general_id);
+
+
+--
+-- Name: family_relative family_relative_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.family_relative
+    ADD CONSTRAINT family_relative_pkey PRIMARY KEY (family_id, relative);
+
+
+--
+-- Name: identification_country identification_country_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.identification_country
+    ADD CONSTRAINT identification_country_pkey PRIMARY KEY (identification_id, country_code);
+
+
+--
+-- Name: identification_holder identification_holder_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.identification_holder
+    ADD CONSTRAINT identification_holder_pkey PRIMARY KEY (identification_id, holder);
+
+
+--
+-- Name: identification identification_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.identification
+    ADD CONSTRAINT identification_pkey PRIMARY KEY (general_id);
+
+
+--
+-- Name: interest interest_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.interest
+    ADD CONSTRAINT interest_pkey PRIMARY KEY (general_id);
+
+
+--
+-- Name: interval interval_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions."interval"
+    ADD CONSTRAINT interval_pkey PRIMARY KEY (general_id);
+
+
+--
+-- Name: legal_entity legal_entity_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legal_entity
+    ADD CONSTRAINT legal_entity_pkey PRIMARY KEY (general_id);
+
+
+--
+-- Name: legalentity_agencyclient legalentity_agencyclient_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_agencyclient
+    ADD CONSTRAINT legalentity_agencyclient_pkey PRIMARY KEY (legalentity_id, agencyclient_representation_id);
+
+
+--
+-- Name: legalentity_agentrepresentation legalentity_agentrepresentation_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_agentrepresentation
+    ADD CONSTRAINT legalentity_agentrepresentation_pkey PRIMARY KEY (legalentity_id, agentrepresentation_representation_id);
+
+
+--
+-- Name: legalentity_cryptowallets legalentity_cryptowallets_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_cryptowallets
+    ADD CONSTRAINT legalentity_cryptowallets_pkey PRIMARY KEY (legalentity_id, crypto_wallet_id);
+
+
+--
+-- Name: legalentity_directorships legalentity_directorships_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_directorships
+    ADD CONSTRAINT legalentity_directorships_pkey PRIMARY KEY (legalentity_id, directorships_id);
+
+
+--
+-- Name: legalentity_identification legalentity_identification_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_identification
+    ADD CONSTRAINT legalentity_identification_pkey PRIMARY KEY (legalentity_id, identification_id);
+
+
+--
+-- Name: legalentity_jurisdiction legalentity_jurisdiction_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_jurisdiction
+    ADD CONSTRAINT legalentity_jurisdiction_pkey PRIMARY KEY (legalentity_id, jurisdiction_country);
+
+
+--
+-- Name: legalentity_maincountry legalentity_maincountry_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_maincountry
+    ADD CONSTRAINT legalentity_maincountry_pkey PRIMARY KEY (legalentity_id, maincountry_country);
+
+
+--
+-- Name: legalentity_membershipmember legalentity_membershipmember_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_membershipmember
+    ADD CONSTRAINT legalentity_membershipmember_pkey PRIMARY KEY (legalentity_id, membershipmember);
+
+
+--
+-- Name: legalentity_operatedvehicles legalentity_operatedvehicles_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_operatedvehicles
+    ADD CONSTRAINT legalentity_operatedvehicles_pkey PRIMARY KEY (legalentity_id, operatedvehicles);
+
+
+--
+-- Name: legalentity_ownedvehicles legalentity_ownedvehicles_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_ownedvehicles
+    ADD CONSTRAINT legalentity_ownedvehicles_pkey PRIMARY KEY (legalentity_id, ownedvehicles);
+
+
+--
+-- Name: legalentity_ownershipowner legalentity_ownershipowner_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_ownershipowner
+    ADD CONSTRAINT legalentity_ownershipowner_pkey PRIMARY KEY (legalentity_id, ownershipowner);
+
+
+--
+-- Name: legalentity_parent legalentity_parent_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_parent
+    ADD CONSTRAINT legalentity_parent_pkey PRIMARY KEY (legalentity_id, parent);
+
+
+--
+-- Name: legalentity_securities legalentity_securities_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_securities
+    ADD CONSTRAINT legalentity_securities_pkey PRIMARY KEY (legalentity_id, securities);
+
+
+--
+-- Name: legalentity_subsidiaries legalentity_subsidiaries_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_subsidiaries
+    ADD CONSTRAINT legalentity_subsidiaries_pkey PRIMARY KEY (legalentity_id, subsidiaries);
+
+
+--
+-- Name: membership_member membership_member_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.membership_member
+    ADD CONSTRAINT membership_member_pkey PRIMARY KEY (membership_id, member);
+
+
+--
+-- Name: membership_organization membership_organization_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.membership_organization
+    ADD CONSTRAINT membership_organization_pkey PRIMARY KEY (membership_id, organization);
+
+
+--
+-- Name: membership membership_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.membership
+    ADD CONSTRAINT membership_pkey PRIMARY KEY (general_id);
+
+
+--
+-- Name: organization_directorshiporganization organization_directorshiporganization_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.organization_directorshiporganization
+    ADD CONSTRAINT organization_directorshiporganization_pkey PRIMARY KEY (organization_id, directorshiporganization);
+
+
+--
+-- Name: organization_membershiporganization organization_membershiporganization_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.organization_membershiporganization
+    ADD CONSTRAINT organization_membershiporganization_pkey PRIMARY KEY (organization_id, membershiporganization);
+
+
+--
+-- Name: organization organization_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.organization
+    ADD CONSTRAINT organization_pkey PRIMARY KEY (general_id);
+
+
+--
+-- Name: other_link_object other_link_object_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.other_link_object
+    ADD CONSTRAINT other_link_object_pkey PRIMARY KEY (other_link_id, object);
+
+
+--
+-- Name: other_link other_link_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.other_link
+    ADD CONSTRAINT other_link_pkey PRIMARY KEY (general_id);
+
+
+--
+-- Name: other_link_subject other_link_subject_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.other_link_subject
+    ADD CONSTRAINT other_link_subject_pkey PRIMARY KEY (other_link_id, subject);
+
+
+--
+-- Name: ownership_asset ownership_asset_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.ownership_asset
+    ADD CONSTRAINT ownership_asset_pkey PRIMARY KEY (ownership_id, asset);
+
+
+--
+-- Name: ownership_owner ownership_owner_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.ownership_owner
+    ADD CONSTRAINT ownership_owner_pkey PRIMARY KEY (ownership_id, owner);
+
+
+--
+-- Name: ownership ownership_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.ownership
+    ADD CONSTRAINT ownership_pkey PRIMARY KEY (general_id);
+
+
+--
+-- Name: passport passport_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.passport
+    ADD CONSTRAINT passport_pkey PRIMARY KEY (general_id);
+
+
+--
+-- Name: person_associates person_associates_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.person_associates
+    ADD CONSTRAINT person_associates_pkey PRIMARY KEY (person_id, associates);
+
+
+--
+-- Name: person_associations person_associations_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.person_associations
+    ADD CONSTRAINT person_associations_pkey PRIMARY KEY (person_id, associations);
+
+
+--
+-- Name: person_familyperson person_familyperson_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.person_familyperson
+    ADD CONSTRAINT person_familyperson_pkey PRIMARY KEY (person_id, familyperson);
+
+
+--
+-- Name: person_familyrelative person_familyrelative_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.person_familyrelative
+    ADD CONSTRAINT person_familyrelative_pkey PRIMARY KEY (person_id, familyrelative);
+
+
+--
+-- Name: person_nationality_country person_nationality_country_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.person_nationality_country
+    ADD CONSTRAINT person_nationality_country_pkey PRIMARY KEY (person_id, nationality_country);
+
+
+--
+-- Name: person person_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.person
+    ADD CONSTRAINT person_pkey PRIMARY KEY (general_id);
+
+
+--
+-- Name: publicbody_directorshiporganization publicbody_directorshiporganization_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.publicbody_directorshiporganization
+    ADD CONSTRAINT publicbody_directorshiporganization_pkey PRIMARY KEY (publicbody_id, directorshiporganization);
+
+
+--
+-- Name: publicbody_membershiporganization publicbody_membershiporganization_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.publicbody_membershiporganization
+    ADD CONSTRAINT publicbody_membershiporganization_pkey PRIMARY KEY (publicbody_id, membershiporganization);
+
+
+--
+-- Name: publicbody publicbody_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.publicbody
+    ADD CONSTRAINT publicbody_pkey PRIMARY KEY (general_id);
+
+
+--
+-- Name: representation_agent representation_agent_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.representation_agent
+    ADD CONSTRAINT representation_agent_pkey PRIMARY KEY (representation_id, agent);
+
+
+--
+-- Name: representation_client representation_client_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.representation_client
+    ADD CONSTRAINT representation_client_pkey PRIMARY KEY (representation_id, client);
+
+
+--
+-- Name: representation representation_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.representation
+    ADD CONSTRAINT representation_pkey PRIMARY KEY (general_id);
+
+
+--
+-- Name: sanction_country sanction_country_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.sanction_country
+    ADD CONSTRAINT sanction_country_pkey PRIMARY KEY (sanction_id, country_code);
+
+
+--
+-- Name: sanction_entity sanction_entity_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.sanction_entity
+    ADD CONSTRAINT sanction_entity_pkey PRIMARY KEY (sanction_id, entity);
+
+
+--
+-- Name: sanction sanction_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.sanction
+    ADD CONSTRAINT sanction_pkey PRIMARY KEY (general_id);
+
+
+--
+-- Name: security_issuer security_issuer_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.security_issuer
+    ADD CONSTRAINT security_issuer_pkey PRIMARY KEY (security_id, issuer);
+
+
+--
+-- Name: security security_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.security
+    ADD CONSTRAINT security_pkey PRIMARY KEY (general_id);
+
+
+--
+-- Name: thing_addressentity thing_addressentity_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.thing_addressentity
+    ADD CONSTRAINT thing_addressentity_pkey PRIMARY KEY (thing_id, address_id);
+
+
+--
+-- Name: thing_country thing_country_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.thing_country
+    ADD CONSTRAINT thing_country_pkey PRIMARY KEY (thing_id, country_code);
+
+
+--
+-- Name: thing thing_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.thing
+    ADD CONSTRAINT thing_pkey PRIMARY KEY (general_id);
+
+
+--
+-- Name: thing_sanction thing_sanction_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.thing_sanction
+    ADD CONSTRAINT thing_sanction_pkey PRIMARY KEY (thing_id, sanction_id);
+
+
+--
+-- Name: thing_unknownlinkfrom thing_unknownlinkfrom_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.thing_unknownlinkfrom
+    ADD CONSTRAINT thing_unknownlinkfrom_pkey PRIMARY KEY (thing_id, unknownlinkfrom_id);
+
+
+--
+-- Name: thing_unknownlinkto thing_unknownlinkto_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.thing_unknownlinkto
+    ADD CONSTRAINT thing_unknownlinkto_pkey PRIMARY KEY (thing_id, unknownlinkto_id);
+
+
+--
+-- Name: topics topics_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.topics
+    ADD CONSTRAINT topics_pkey PRIMARY KEY (code);
+
+
+--
+-- Name: value value_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.value
+    ADD CONSTRAINT value_pkey PRIMARY KEY (general_id);
+
+
+--
+-- Name: vehicle_operator vehicle_operator_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.vehicle_operator
+    ADD CONSTRAINT vehicle_operator_pkey PRIMARY KEY (vehicle_id, operator);
+
+
+--
+-- Name: vehicle_owner vehicle_owner_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.vehicle_owner
+    ADD CONSTRAINT vehicle_owner_pkey PRIMARY KEY (vehicle_id, owner);
+
+
+--
+-- Name: vehicle vehicle_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.vehicle
+    ADD CONSTRAINT vehicle_pkey PRIMARY KEY (general_id);
+
+
+--
+-- Name: vessel_flag_country vessel_flag_country_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.vessel_flag_country
+    ADD CONSTRAINT vessel_flag_country_pkey PRIMARY KEY (vessel_id, flag);
+
+
+--
+-- Name: vessel vessel_pkey; Type: CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.vessel
+    ADD CONSTRAINT vessel_pkey PRIMARY KEY (general_id);
+
+
+--
+-- Name: address_country address_country_address_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.address_country
+    ADD CONSTRAINT address_country_address_id_fkey FOREIGN KEY (address_id) REFERENCES sanctions.address(general_id);
+
+
+--
+-- Name: address_country address_country_country_code_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.address_country
+    ADD CONSTRAINT address_country_country_code_fkey FOREIGN KEY (country_code) REFERENCES sanctions.country(code);
+
+
+--
+-- Name: address address_general_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.address
+    ADD CONSTRAINT address_general_id_fkey FOREIGN KEY (general_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: address_things address_things_address_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.address_things
+    ADD CONSTRAINT address_things_address_id_fkey FOREIGN KEY (address_id) REFERENCES sanctions.address(general_id);
+
+
+--
+-- Name: address_things address_things_things_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.address_things
+    ADD CONSTRAINT address_things_things_fkey FOREIGN KEY (things) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: airplane airplane_general_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.airplane
+    ADD CONSTRAINT airplane_general_id_fkey FOREIGN KEY (general_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: asset asset_general_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.asset
+    ADD CONSTRAINT asset_general_id_fkey FOREIGN KEY (general_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: asset_ownershipasset asset_ownershipasset_asset_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.asset_ownershipasset
+    ADD CONSTRAINT asset_ownershipasset_asset_id_fkey FOREIGN KEY (asset_id) REFERENCES sanctions.asset(general_id);
+
+
+--
+-- Name: asset_ownershipasset asset_ownershipasset_ownershipasset_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.asset_ownershipasset
+    ADD CONSTRAINT asset_ownershipasset_ownershipasset_fkey FOREIGN KEY (ownershipasset) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: associate_associate associate_associate_associate_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.associate_associate
+    ADD CONSTRAINT associate_associate_associate_fkey FOREIGN KEY (associate) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: associate_associate associate_associate_associate_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.associate_associate
+    ADD CONSTRAINT associate_associate_associate_id_fkey FOREIGN KEY (associate_id) REFERENCES sanctions.associate(general_id);
+
+
+--
+-- Name: associate associate_general_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.associate
+    ADD CONSTRAINT associate_general_id_fkey FOREIGN KEY (general_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: associate_person associate_person_associate_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.associate_person
+    ADD CONSTRAINT associate_person_associate_id_fkey FOREIGN KEY (associate_id) REFERENCES sanctions.associate(general_id);
+
+
+--
+-- Name: associate_person associate_person_person_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.associate_person
+    ADD CONSTRAINT associate_person_person_fkey FOREIGN KEY (person) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: company company_general_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.company
+    ADD CONSTRAINT company_general_id_fkey FOREIGN KEY (general_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: crypto_wallet crypto_wallet_general_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.crypto_wallet
+    ADD CONSTRAINT crypto_wallet_general_id_fkey FOREIGN KEY (general_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: crypto_wallet_holder crypto_wallet_holder_crypto_wallet_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.crypto_wallet_holder
+    ADD CONSTRAINT crypto_wallet_holder_crypto_wallet_id_fkey FOREIGN KEY (crypto_wallet_id) REFERENCES sanctions.crypto_wallet(general_id);
+
+
+--
+-- Name: crypto_wallet_holder crypto_wallet_holder_holder_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.crypto_wallet_holder
+    ADD CONSTRAINT crypto_wallet_holder_holder_fkey FOREIGN KEY (holder) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: directorships_director directorships_director_director_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.directorships_director
+    ADD CONSTRAINT directorships_director_director_fkey FOREIGN KEY (director) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: directorships_director directorships_director_directorships_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.directorships_director
+    ADD CONSTRAINT directorships_director_directorships_id_fkey FOREIGN KEY (directorships_id) REFERENCES sanctions.directorships(general_id);
+
+
+--
+-- Name: directorships directorships_general_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.directorships
+    ADD CONSTRAINT directorships_general_id_fkey FOREIGN KEY (general_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: directorships_organization directorships_organization_directorships_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.directorships_organization
+    ADD CONSTRAINT directorships_organization_directorships_id_fkey FOREIGN KEY (directorships_id) REFERENCES sanctions.directorships(general_id);
+
+
+--
+-- Name: directorships_organization directorships_organization_organization_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.directorships_organization
+    ADD CONSTRAINT directorships_organization_organization_fkey FOREIGN KEY (organization) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: entities_referents entities_referents_entities_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.entities_referents
+    ADD CONSTRAINT entities_referents_entities_fkey FOREIGN KEY (entities) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: entities_referents entities_referents_referents_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.entities_referents
+    ADD CONSTRAINT entities_referents_referents_fkey FOREIGN KEY (referents) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: family family_general_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.family
+    ADD CONSTRAINT family_general_id_fkey FOREIGN KEY (general_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: family_person family_person_family_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.family_person
+    ADD CONSTRAINT family_person_family_id_fkey FOREIGN KEY (family_id) REFERENCES sanctions.family(general_id);
+
+
+--
+-- Name: family_person family_person_person_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.family_person
+    ADD CONSTRAINT family_person_person_fkey FOREIGN KEY (person) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: family_relative family_relative_family_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.family_relative
+    ADD CONSTRAINT family_relative_family_id_fkey FOREIGN KEY (family_id) REFERENCES sanctions.family(general_id);
+
+
+--
+-- Name: family_relative family_relative_relative_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.family_relative
+    ADD CONSTRAINT family_relative_relative_fkey FOREIGN KEY (relative) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: identification_country identification_country_country_code_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.identification_country
+    ADD CONSTRAINT identification_country_country_code_fkey FOREIGN KEY (country_code) REFERENCES sanctions.country(code);
+
+
+--
+-- Name: identification_country identification_country_identification_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.identification_country
+    ADD CONSTRAINT identification_country_identification_id_fkey FOREIGN KEY (identification_id) REFERENCES sanctions.identification(general_id);
+
+
+--
+-- Name: identification identification_general_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.identification
+    ADD CONSTRAINT identification_general_id_fkey FOREIGN KEY (general_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: identification_holder identification_holder_holder_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.identification_holder
+    ADD CONSTRAINT identification_holder_holder_fkey FOREIGN KEY (holder) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: identification_holder identification_holder_identification_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.identification_holder
+    ADD CONSTRAINT identification_holder_identification_id_fkey FOREIGN KEY (identification_id) REFERENCES sanctions.identification(general_id);
+
+
+--
+-- Name: interest interest_general_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.interest
+    ADD CONSTRAINT interest_general_id_fkey FOREIGN KEY (general_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: interval interval_general_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions."interval"
+    ADD CONSTRAINT interval_general_id_fkey FOREIGN KEY (general_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: legal_entity legal_entity_general_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legal_entity
+    ADD CONSTRAINT legal_entity_general_id_fkey FOREIGN KEY (general_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: legalentity_agencyclient legalentity_agencyclient_agencyclient_representation_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_agencyclient
+    ADD CONSTRAINT legalentity_agencyclient_agencyclient_representation_id_fkey FOREIGN KEY (agencyclient_representation_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: legalentity_agencyclient legalentity_agencyclient_legalentity_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_agencyclient
+    ADD CONSTRAINT legalentity_agencyclient_legalentity_id_fkey FOREIGN KEY (legalentity_id) REFERENCES sanctions.legal_entity(general_id);
+
+
+--
+-- Name: legalentity_agentrepresentation legalentity_agentrepresentati_agentrepresentation_represen_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_agentrepresentation
+    ADD CONSTRAINT legalentity_agentrepresentati_agentrepresentation_represen_fkey FOREIGN KEY (agentrepresentation_representation_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: legalentity_agentrepresentation legalentity_agentrepresentation_legalentity_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_agentrepresentation
+    ADD CONSTRAINT legalentity_agentrepresentation_legalentity_id_fkey FOREIGN KEY (legalentity_id) REFERENCES sanctions.legal_entity(general_id);
+
+
+--
+-- Name: legalentity_cryptowallets legalentity_cryptowallets_crypto_wallet_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_cryptowallets
+    ADD CONSTRAINT legalentity_cryptowallets_crypto_wallet_id_fkey FOREIGN KEY (crypto_wallet_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: legalentity_cryptowallets legalentity_cryptowallets_legalentity_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_cryptowallets
+    ADD CONSTRAINT legalentity_cryptowallets_legalentity_id_fkey FOREIGN KEY (legalentity_id) REFERENCES sanctions.legal_entity(general_id);
+
+
+--
+-- Name: legalentity_directorships legalentity_directorships_directorships_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_directorships
+    ADD CONSTRAINT legalentity_directorships_directorships_id_fkey FOREIGN KEY (directorships_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: legalentity_directorships legalentity_directorships_legalentity_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_directorships
+    ADD CONSTRAINT legalentity_directorships_legalentity_id_fkey FOREIGN KEY (legalentity_id) REFERENCES sanctions.legal_entity(general_id);
+
+
+--
+-- Name: legalentity_identification legalentity_identification_identification_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_identification
+    ADD CONSTRAINT legalentity_identification_identification_id_fkey FOREIGN KEY (identification_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: legalentity_identification legalentity_identification_legalentity_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_identification
+    ADD CONSTRAINT legalentity_identification_legalentity_id_fkey FOREIGN KEY (legalentity_id) REFERENCES sanctions.legal_entity(general_id);
+
+
+--
+-- Name: legalentity_jurisdiction legalentity_jurisdiction_jurisdiction_country_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_jurisdiction
+    ADD CONSTRAINT legalentity_jurisdiction_jurisdiction_country_fkey FOREIGN KEY (jurisdiction_country) REFERENCES sanctions.country(code);
+
+
+--
+-- Name: legalentity_jurisdiction legalentity_jurisdiction_legalentity_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_jurisdiction
+    ADD CONSTRAINT legalentity_jurisdiction_legalentity_id_fkey FOREIGN KEY (legalentity_id) REFERENCES sanctions.legal_entity(general_id);
+
+
+--
+-- Name: legalentity_maincountry legalentity_maincountry_legalentity_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_maincountry
+    ADD CONSTRAINT legalentity_maincountry_legalentity_id_fkey FOREIGN KEY (legalentity_id) REFERENCES sanctions.legal_entity(general_id);
+
+
+--
+-- Name: legalentity_maincountry legalentity_maincountry_maincountry_country_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_maincountry
+    ADD CONSTRAINT legalentity_maincountry_maincountry_country_fkey FOREIGN KEY (maincountry_country) REFERENCES sanctions.country(code);
+
+
+--
+-- Name: legalentity_membershipmember legalentity_membershipmember_legalentity_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_membershipmember
+    ADD CONSTRAINT legalentity_membershipmember_legalentity_id_fkey FOREIGN KEY (legalentity_id) REFERENCES sanctions.legal_entity(general_id);
+
+
+--
+-- Name: legalentity_membershipmember legalentity_membershipmember_membershipmember_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_membershipmember
+    ADD CONSTRAINT legalentity_membershipmember_membershipmember_fkey FOREIGN KEY (membershipmember) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: legalentity_operatedvehicles legalentity_operatedvehicles_legalentity_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_operatedvehicles
+    ADD CONSTRAINT legalentity_operatedvehicles_legalentity_id_fkey FOREIGN KEY (legalentity_id) REFERENCES sanctions.legal_entity(general_id);
+
+
+--
+-- Name: legalentity_operatedvehicles legalentity_operatedvehicles_operatedvehicles_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_operatedvehicles
+    ADD CONSTRAINT legalentity_operatedvehicles_operatedvehicles_fkey FOREIGN KEY (operatedvehicles) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: legalentity_ownedvehicles legalentity_ownedvehicles_legalentity_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_ownedvehicles
+    ADD CONSTRAINT legalentity_ownedvehicles_legalentity_id_fkey FOREIGN KEY (legalentity_id) REFERENCES sanctions.legal_entity(general_id);
+
+
+--
+-- Name: legalentity_ownedvehicles legalentity_ownedvehicles_ownedvehicles_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_ownedvehicles
+    ADD CONSTRAINT legalentity_ownedvehicles_ownedvehicles_fkey FOREIGN KEY (ownedvehicles) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: legalentity_ownershipowner legalentity_ownershipowner_legalentity_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_ownershipowner
+    ADD CONSTRAINT legalentity_ownershipowner_legalentity_id_fkey FOREIGN KEY (legalentity_id) REFERENCES sanctions.legal_entity(general_id);
+
+
+--
+-- Name: legalentity_ownershipowner legalentity_ownershipowner_ownershipowner_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_ownershipowner
+    ADD CONSTRAINT legalentity_ownershipowner_ownershipowner_fkey FOREIGN KEY (ownershipowner) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: legalentity_parent legalentity_parent_legalentity_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_parent
+    ADD CONSTRAINT legalentity_parent_legalentity_id_fkey FOREIGN KEY (legalentity_id) REFERENCES sanctions.legal_entity(general_id);
+
+
+--
+-- Name: legalentity_parent legalentity_parent_parent_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_parent
+    ADD CONSTRAINT legalentity_parent_parent_fkey FOREIGN KEY (parent) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: legalentity_securities legalentity_securities_legalentity_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_securities
+    ADD CONSTRAINT legalentity_securities_legalentity_id_fkey FOREIGN KEY (legalentity_id) REFERENCES sanctions.legal_entity(general_id);
+
+
+--
+-- Name: legalentity_securities legalentity_securities_securities_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_securities
+    ADD CONSTRAINT legalentity_securities_securities_fkey FOREIGN KEY (securities) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: legalentity_subsidiaries legalentity_subsidiaries_legalentity_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_subsidiaries
+    ADD CONSTRAINT legalentity_subsidiaries_legalentity_id_fkey FOREIGN KEY (legalentity_id) REFERENCES sanctions.legal_entity(general_id);
+
+
+--
+-- Name: legalentity_subsidiaries legalentity_subsidiaries_subsidiaries_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.legalentity_subsidiaries
+    ADD CONSTRAINT legalentity_subsidiaries_subsidiaries_fkey FOREIGN KEY (subsidiaries) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: membership membership_general_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.membership
+    ADD CONSTRAINT membership_general_id_fkey FOREIGN KEY (general_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: membership_member membership_member_member_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.membership_member
+    ADD CONSTRAINT membership_member_member_fkey FOREIGN KEY (member) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: membership_member membership_member_membership_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.membership_member
+    ADD CONSTRAINT membership_member_membership_id_fkey FOREIGN KEY (membership_id) REFERENCES sanctions.membership(general_id);
+
+
+--
+-- Name: membership_organization membership_organization_membership_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.membership_organization
+    ADD CONSTRAINT membership_organization_membership_id_fkey FOREIGN KEY (membership_id) REFERENCES sanctions.membership(general_id);
+
+
+--
+-- Name: membership_organization membership_organization_organization_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.membership_organization
+    ADD CONSTRAINT membership_organization_organization_fkey FOREIGN KEY (organization) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: organization_directorshiporganization organization_directorshiporganiza_directorshiporganization_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.organization_directorshiporganization
+    ADD CONSTRAINT organization_directorshiporganiza_directorshiporganization_fkey FOREIGN KEY (directorshiporganization) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: organization_directorshiporganization organization_directorshiporganization_organization_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.organization_directorshiporganization
+    ADD CONSTRAINT organization_directorshiporganization_organization_id_fkey FOREIGN KEY (organization_id) REFERENCES sanctions.organization(general_id);
+
+
+--
+-- Name: organization organization_general_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.organization
+    ADD CONSTRAINT organization_general_id_fkey FOREIGN KEY (general_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: organization_membershiporganization organization_membershiporganization_membershiporganization_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.organization_membershiporganization
+    ADD CONSTRAINT organization_membershiporganization_membershiporganization_fkey FOREIGN KEY (membershiporganization) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: organization_membershiporganization organization_membershiporganization_organization_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.organization_membershiporganization
+    ADD CONSTRAINT organization_membershiporganization_organization_id_fkey FOREIGN KEY (organization_id) REFERENCES sanctions.organization(general_id);
+
+
+--
+-- Name: other_link other_link_general_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.other_link
+    ADD CONSTRAINT other_link_general_id_fkey FOREIGN KEY (general_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: other_link_object other_link_object_object_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.other_link_object
+    ADD CONSTRAINT other_link_object_object_fkey FOREIGN KEY (object) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: other_link_object other_link_object_other_link_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.other_link_object
+    ADD CONSTRAINT other_link_object_other_link_id_fkey FOREIGN KEY (other_link_id) REFERENCES sanctions.other_link(general_id);
+
+
+--
+-- Name: other_link_subject other_link_subject_other_link_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.other_link_subject
+    ADD CONSTRAINT other_link_subject_other_link_id_fkey FOREIGN KEY (other_link_id) REFERENCES sanctions.other_link(general_id);
+
+
+--
+-- Name: other_link_subject other_link_subject_subject_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.other_link_subject
+    ADD CONSTRAINT other_link_subject_subject_fkey FOREIGN KEY (subject) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: ownership_asset ownership_asset_asset_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.ownership_asset
+    ADD CONSTRAINT ownership_asset_asset_fkey FOREIGN KEY (asset) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: ownership_asset ownership_asset_ownership_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.ownership_asset
+    ADD CONSTRAINT ownership_asset_ownership_id_fkey FOREIGN KEY (ownership_id) REFERENCES sanctions.ownership(general_id);
+
+
+--
+-- Name: ownership ownership_general_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.ownership
+    ADD CONSTRAINT ownership_general_id_fkey FOREIGN KEY (general_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: ownership_owner ownership_owner_owner_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.ownership_owner
+    ADD CONSTRAINT ownership_owner_owner_fkey FOREIGN KEY (owner) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: ownership_owner ownership_owner_ownership_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.ownership_owner
+    ADD CONSTRAINT ownership_owner_ownership_id_fkey FOREIGN KEY (ownership_id) REFERENCES sanctions.ownership(general_id);
+
+
+--
+-- Name: passport passport_general_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.passport
+    ADD CONSTRAINT passport_general_id_fkey FOREIGN KEY (general_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: person_associates person_associates_associates_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.person_associates
+    ADD CONSTRAINT person_associates_associates_fkey FOREIGN KEY (associates) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: person_associates person_associates_person_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.person_associates
+    ADD CONSTRAINT person_associates_person_id_fkey FOREIGN KEY (person_id) REFERENCES sanctions.person(general_id);
+
+
+--
+-- Name: person_associations person_associations_associations_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.person_associations
+    ADD CONSTRAINT person_associations_associations_fkey FOREIGN KEY (associations) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: person_associations person_associations_person_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.person_associations
+    ADD CONSTRAINT person_associations_person_id_fkey FOREIGN KEY (person_id) REFERENCES sanctions.person(general_id);
+
+
+--
+-- Name: person_familyperson person_familyperson_familyperson_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.person_familyperson
+    ADD CONSTRAINT person_familyperson_familyperson_fkey FOREIGN KEY (familyperson) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: person_familyperson person_familyperson_person_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.person_familyperson
+    ADD CONSTRAINT person_familyperson_person_id_fkey FOREIGN KEY (person_id) REFERENCES sanctions.person(general_id);
+
+
+--
+-- Name: person_familyrelative person_familyrelative_familyrelative_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.person_familyrelative
+    ADD CONSTRAINT person_familyrelative_familyrelative_fkey FOREIGN KEY (familyrelative) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: person_familyrelative person_familyrelative_person_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.person_familyrelative
+    ADD CONSTRAINT person_familyrelative_person_id_fkey FOREIGN KEY (person_id) REFERENCES sanctions.person(general_id);
+
+
+--
+-- Name: person person_general_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.person
+    ADD CONSTRAINT person_general_id_fkey FOREIGN KEY (general_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: person_nationality_country person_nationality_country_nationality_country_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.person_nationality_country
+    ADD CONSTRAINT person_nationality_country_nationality_country_fkey FOREIGN KEY (nationality_country) REFERENCES sanctions.country(code);
+
+
+--
+-- Name: person_nationality_country person_nationality_country_person_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.person_nationality_country
+    ADD CONSTRAINT person_nationality_country_person_id_fkey FOREIGN KEY (person_id) REFERENCES sanctions.person(general_id);
+
+
+--
+-- Name: publicbody_directorshiporganization publicbody_directorshiporganizati_directorshiporganization_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.publicbody_directorshiporganization
+    ADD CONSTRAINT publicbody_directorshiporganizati_directorshiporganization_fkey FOREIGN KEY (directorshiporganization) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: publicbody_directorshiporganization publicbody_directorshiporganization_publicbody_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.publicbody_directorshiporganization
+    ADD CONSTRAINT publicbody_directorshiporganization_publicbody_id_fkey FOREIGN KEY (publicbody_id) REFERENCES sanctions.publicbody(general_id);
+
+
+--
+-- Name: publicbody publicbody_general_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.publicbody
+    ADD CONSTRAINT publicbody_general_id_fkey FOREIGN KEY (general_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: publicbody_membershiporganization publicbody_membershiporganization_membershiporganization_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.publicbody_membershiporganization
+    ADD CONSTRAINT publicbody_membershiporganization_membershiporganization_fkey FOREIGN KEY (membershiporganization) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: publicbody_membershiporganization publicbody_membershiporganization_publicbody_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.publicbody_membershiporganization
+    ADD CONSTRAINT publicbody_membershiporganization_publicbody_id_fkey FOREIGN KEY (publicbody_id) REFERENCES sanctions.publicbody(general_id);
+
+
+--
+-- Name: representation_agent representation_agent_agent_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.representation_agent
+    ADD CONSTRAINT representation_agent_agent_fkey FOREIGN KEY (agent) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: representation_agent representation_agent_representation_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.representation_agent
+    ADD CONSTRAINT representation_agent_representation_id_fkey FOREIGN KEY (representation_id) REFERENCES sanctions.representation(general_id);
+
+
+--
+-- Name: representation_client representation_client_client_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.representation_client
+    ADD CONSTRAINT representation_client_client_fkey FOREIGN KEY (client) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: representation_client representation_client_representation_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.representation_client
+    ADD CONSTRAINT representation_client_representation_id_fkey FOREIGN KEY (representation_id) REFERENCES sanctions.representation(general_id);
+
+
+--
+-- Name: representation representation_general_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.representation
+    ADD CONSTRAINT representation_general_id_fkey FOREIGN KEY (general_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: sanction_country sanction_country_country_code_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.sanction_country
+    ADD CONSTRAINT sanction_country_country_code_fkey FOREIGN KEY (country_code) REFERENCES sanctions.country(code);
+
+
+--
+-- Name: sanction_country sanction_country_sanction_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.sanction_country
+    ADD CONSTRAINT sanction_country_sanction_id_fkey FOREIGN KEY (sanction_id) REFERENCES sanctions.sanction(general_id);
+
+
+--
+-- Name: sanction_entity sanction_entity_entity_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.sanction_entity
+    ADD CONSTRAINT sanction_entity_entity_fkey FOREIGN KEY (entity) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: sanction_entity sanction_entity_sanction_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.sanction_entity
+    ADD CONSTRAINT sanction_entity_sanction_id_fkey FOREIGN KEY (sanction_id) REFERENCES sanctions.sanction(general_id);
+
+
+--
+-- Name: sanction sanction_general_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.sanction
+    ADD CONSTRAINT sanction_general_id_fkey FOREIGN KEY (general_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: security security_general_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.security
+    ADD CONSTRAINT security_general_id_fkey FOREIGN KEY (general_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: security_issuer security_issuer_issuer_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.security_issuer
+    ADD CONSTRAINT security_issuer_issuer_fkey FOREIGN KEY (issuer) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: security_issuer security_issuer_security_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.security_issuer
+    ADD CONSTRAINT security_issuer_security_id_fkey FOREIGN KEY (security_id) REFERENCES sanctions.security(general_id);
+
+
+--
+-- Name: thing_addressentity thing_addressentity_address_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.thing_addressentity
+    ADD CONSTRAINT thing_addressentity_address_id_fkey FOREIGN KEY (address_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: thing_addressentity thing_addressentity_thing_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.thing_addressentity
+    ADD CONSTRAINT thing_addressentity_thing_id_fkey FOREIGN KEY (thing_id) REFERENCES sanctions.thing(general_id);
+
+
+--
+-- Name: thing_country thing_country_country_code_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.thing_country
+    ADD CONSTRAINT thing_country_country_code_fkey FOREIGN KEY (country_code) REFERENCES sanctions.country(code);
+
+
+--
+-- Name: thing_country thing_country_thing_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.thing_country
+    ADD CONSTRAINT thing_country_thing_id_fkey FOREIGN KEY (thing_id) REFERENCES sanctions.thing(general_id);
+
+
+--
+-- Name: thing thing_general_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.thing
+    ADD CONSTRAINT thing_general_id_fkey FOREIGN KEY (general_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: thing_sanction thing_sanction_sanction_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.thing_sanction
+    ADD CONSTRAINT thing_sanction_sanction_id_fkey FOREIGN KEY (sanction_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: thing_sanction thing_sanction_thing_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.thing_sanction
+    ADD CONSTRAINT thing_sanction_thing_id_fkey FOREIGN KEY (thing_id) REFERENCES sanctions.thing(general_id);
+
+
+--
+-- Name: thing_unknownlinkfrom thing_unknownlinkfrom_thing_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.thing_unknownlinkfrom
+    ADD CONSTRAINT thing_unknownlinkfrom_thing_id_fkey FOREIGN KEY (thing_id) REFERENCES sanctions.thing(general_id);
+
+
+--
+-- Name: thing_unknownlinkfrom thing_unknownlinkfrom_unknownlinkfrom_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.thing_unknownlinkfrom
+    ADD CONSTRAINT thing_unknownlinkfrom_unknownlinkfrom_id_fkey FOREIGN KEY (unknownlinkfrom_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: thing_unknownlinkto thing_unknownlinkto_thing_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.thing_unknownlinkto
+    ADD CONSTRAINT thing_unknownlinkto_thing_id_fkey FOREIGN KEY (thing_id) REFERENCES sanctions.thing(general_id);
+
+
+--
+-- Name: thing_unknownlinkto thing_unknownlinkto_unknownlinkto_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.thing_unknownlinkto
+    ADD CONSTRAINT thing_unknownlinkto_unknownlinkto_id_fkey FOREIGN KEY (unknownlinkto_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: value value_general_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.value
+    ADD CONSTRAINT value_general_id_fkey FOREIGN KEY (general_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: vehicle vehicle_general_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.vehicle
+    ADD CONSTRAINT vehicle_general_id_fkey FOREIGN KEY (general_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: vehicle_operator vehicle_operator_operator_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.vehicle_operator
+    ADD CONSTRAINT vehicle_operator_operator_fkey FOREIGN KEY (operator) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: vehicle_operator vehicle_operator_vehicle_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.vehicle_operator
+    ADD CONSTRAINT vehicle_operator_vehicle_id_fkey FOREIGN KEY (vehicle_id) REFERENCES sanctions.vehicle(general_id);
+
+
+--
+-- Name: vehicle_owner vehicle_owner_owner_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.vehicle_owner
+    ADD CONSTRAINT vehicle_owner_owner_fkey FOREIGN KEY (owner) REFERENCES sanctions.entities(id);
+
+
+--
+-- Name: vehicle_owner vehicle_owner_vehicle_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.vehicle_owner
+    ADD CONSTRAINT vehicle_owner_vehicle_id_fkey FOREIGN KEY (vehicle_id) REFERENCES sanctions.vehicle(general_id);
+
+
+--
+-- Name: vessel_flag_country vessel_flag_country_flag_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.vessel_flag_country
+    ADD CONSTRAINT vessel_flag_country_flag_fkey FOREIGN KEY (flag) REFERENCES sanctions.country(code);
+
+
+--
+-- Name: vessel_flag_country vessel_flag_country_vessel_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.vessel_flag_country
+    ADD CONSTRAINT vessel_flag_country_vessel_id_fkey FOREIGN KEY (vessel_id) REFERENCES sanctions.vessel(general_id);
+
+
+--
+-- Name: vessel vessel_general_id_fkey; Type: FK CONSTRAINT; Schema: sanctions; Owner: postgres
+--
+
+ALTER TABLE ONLY sanctions.vessel
+    ADD CONSTRAINT vessel_general_id_fkey FOREIGN KEY (general_id) REFERENCES sanctions.entities(id);
+
+
+--
+-- PostgreSQL database dump complete
+--
+
