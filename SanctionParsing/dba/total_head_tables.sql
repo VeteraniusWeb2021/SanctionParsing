@@ -385,6 +385,14 @@ primary key (general_id),
 foreign key (general_id) references sanctions.entities(id)
 );
 
+create table sanctions.publicBody
+(general_id text,
+directorshipOrganization text array,
+membershipOrganization text array,
+primary key (general_id),
+foreign key (general_id) references sanctions.entities(id)
+);
+
 create table sanctions.country 
 (code varchar,
 label varchar,

@@ -36,9 +36,16 @@ group by p.caption ,p.first_seen ,p.general_id ,p.country ) as t)
 to 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\test\ok_json.json';
 
 
-select p.general_id ,unnest (p.country) from public.person p ;
+create table public.test_entities_referents
+(entities varchar,
+referents varchar,
+primary key(entities,referents));
 
+insert into public.test_entities_referents (select p.id ,unnest (p.referents) from sanctions.entities p) on conflict do nothing;
 
+select *, from public.test_entities_referents t ;
+
+select p.general_id ,unnest (p.referents) from sanctions.entities p ;
 
 
 
