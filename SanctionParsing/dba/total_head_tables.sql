@@ -46,7 +46,7 @@ primary key (general_id),
 foreign key (general_id) references sanctions.entities(id)
 );
 
-create table sanctions.legal_entity
+create table sanctions.legalentity
 (general_id text,
 agencyClient text array,
 agentRepresentation text array,
