@@ -100,13 +100,13 @@ select * from sanctions.thing t ;
 
 --/////////////////////////////////////////////////////////////////
 
-create or replace procedure sanctions.sp_fill_legal_entity_with_json()
+create or replace procedure sanctions.sp_fill_legalentity_with_json()
 language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
 		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\LegalEntity.txt';
-		insert into sanctions.legal_entity(
+		insert into sanctions.legalentity(
 				general_id,
 				agencyClient,
 				agentRepresentation,
@@ -184,9 +184,9 @@ begin
 end;				 					
 $$;
 
-call sanctions.sp_fill_legal_entity_with_json();
-delete from sanctions.legal_entity ;
-select * from sanctions.legal_entity t ;
+call sanctions.sp_fill_legalentity_with_json();
+delete from sanctions.legalentity ;
+select * from sanctions.legalentity t ;
 
 --////////////////////////////////////////////////////////////////////////////////////////
 
