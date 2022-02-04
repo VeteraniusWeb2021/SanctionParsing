@@ -5,7 +5,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\usa\entities.txt';
+		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\entities.txt';
 		insert into sanctions.entities(
 				caption ,
 				datasets  ,
@@ -39,7 +39,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\usa\thing.txt';
+		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\thing.txt';
 		insert into sanctions.thing(
 				general_id ,
 				address,
@@ -105,7 +105,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\usa\LegalEntity.txt';
+		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\LegalEntity.txt';
 		insert into sanctions.legal_entity(
 				general_id,
 				agencyClient,
@@ -195,7 +195,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\usa\person.txt';
+		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\person.txt';
 		insert into sanctions.person(
 				general_id ,
 				associates,
@@ -259,7 +259,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\usa\address.txt';
+		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\address.txt';
 		insert into sanctions.address(
 				general_id ,
 				city,
@@ -305,7 +305,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\usa\interval.txt';
+		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\interval.txt';
 		insert into sanctions.interval(
 				general_id ,
 				date,
@@ -347,7 +347,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\usa\value.txt';
+		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\value.txt';
 		insert into sanctions.value(
 				general_id ,
 				amount,
@@ -375,7 +375,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\usa\organization.txt';
+		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\organization.txt';
 		insert into sanctions.organization(
 				general_id ,
 				directorshipOrganization,
@@ -399,7 +399,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\usa\identification.txt';
+		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\identification.txt';
 		insert into sanctions.identification(
 				general_id ,
 				authority,
@@ -429,7 +429,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\usa\sanction.txt';
+		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\sanction.txt';
 		insert into sanctions.sanction(
 				general_id ,
 				authority,
@@ -471,7 +471,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\usa\security.txt';
+		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\security.txt';
 		insert into sanctions.security(
 				general_id ,
 				classification,
@@ -505,7 +505,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\usa\UnknownLink.txt';
+		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\UnknownLink.txt';
 		insert into sanctions.other_link(
 				general_id ,
 				object,
@@ -529,7 +529,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\usa\vessel.txt';
+		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\vessel.txt';
 		insert into sanctions.vessel(
 				general_id ,
 				callSign,

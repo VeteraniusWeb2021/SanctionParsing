@@ -1,0 +1,874 @@
+{"general_id":"addr-c6c78a73e8e91e6fcab847356d4536f42043fb6b","city":["Tirana"],"country":["al"],"full":["Irfan Tomini Street, 58, Tirana"],"street":["Irfan Tomini Street, 58"]}
+{"general_id":"NK-iesSZjZZh88GNPE993NEoM","city":["Tehran"],"country":["ir"],"full":["Tehran, Pasdaran Av., PO Box 19585/777"],"street":["Pasdaran Av., PO Box 19585/777"]}
+{"general_id":"addr-f14c5fcbaa795930fc9c48e66b5060f7ba75a15f","country":["ir"],"full":["Sepah Islam Road, Karaj Special Road Km 10"],"street":["Sepah Islam Road, Karaj Special Road Km 10"]}
+{"general_id":"NK-oP3gvd5ECFcySDZU5TgCpL","city":["Tehran","Teheran"],"country":["ir"],"full":["Tehran","Teheran","Tehran, Damavand Tehran Highway"],"street":["Damavand Tehran Highway"]}
+{"general_id":"addr-ad1c13187df39150afcb1a11005291c65f372d26","city":["Tehran"],"country":["ir"],"full":["Tehran, 3 Shafagh St. [Sadra Building], Poonak Khavari Blvd., Shahrak Ghods, P.O. Box 14669- 56491"],"street":["3 Shafagh St. [Sadra Building],  Poonak Khavari Blvd., Shahrak Ghods, P.O. Box 14669- 56491"]}
+{"general_id":"addr-b5ebfa5f68d9e7035f8375e0e7cd5e846e22bd6d","city":["Pskov"],"country":["ru"],"full":["Pskov"]}
+{"general_id":"NK-hL9xT39aUWhD5YP25NqvVa","city":["Tunis - El Manar 2"],"country":["tn"],"full":["4 avenue Tahar SFAR, Tunis - El Manar 2"],"street":["4 avenue Tahar SFAR"]}
+{"general_id":"NK-hvrSfQiJirfUjFFs4i8Fmh","city":["Tehran"],"country":["ir"],"full":["13445-885, Tehran, Mehrabad Airport","Tehran, Mehrabad Airport"],"postOfficeBox":["13445-885"],"street":["Mehrabad Airport"]}
+{"general_id":"NK-ScktSda7oaGyr8q9dbvHio","city":["Tunis"],"country":["tn"],"full":["21 Rue d'Aristote - Carthage Salammbô, Tunis"],"street":["21 Rue d'Aristote - Carthage Salammbô"]}
+{"general_id":"addr-a21c95d1323ae52f2cfd3c5ba22f34d836920932","city":["Managua"],"country":["ni"],"full":["Pista Juan Pablo II, Managua"],"postalCode":["14005"],"street":["Pista Juan Pablo  II"]}
+{"general_id":"NK-M6mpQ8AcQSZQDworbHnaQY","city":["London"],"country":["gb"],"full":["London"]}
+{"general_id":"NK-8497KSAhuUgECh5CkiH9vX","city":["Minsk"],"country":["by"],"full":["Minsk, Vogel 1K St., apt. 17"],"street":["Vogel 1K St., apt. 17"]}
+{"general_id":"NK-oP3gvd5ECFcySDZU5TgCpL","city":["Tehran","Teheran"],"country":["ir"],"full":["Tehran","Teheran","Tehran, Damavand Tehran Highway"],"street":["Damavand Tehran Highway"]}
+{"general_id":"NK-T3KCczpHiApwbKA6D8GXaW","city":["Pyongyang","Pyongyang,"],"country":["kp"],"full":["Pyongyang"]}
+{"general_id":"NK-c3YcyLsvxLBzH3kKctncha","city":["Damascus"],"country":["sy"],"full":["Merjeh Square, Damascus"],"street":["Merjeh Square"]}
+{"general_id":"NK-W385ZfHEznxuhpQSNGyNT9","city":["Tehran"],"country":["ir"],"full":["Tehran, 90 Fathi Shaghaghi Street"],"street":["90 Fathi Shaghaghi Street"]}
+{"general_id":"addr-92b45399123f94faf12469dba46939e2b28210ed","city":["Tianjin"],"country":["cn"],"full":["Hedong, Yuyang Road No 121, Tianjin"],"street":["Hedong, Yuyang Road No 121"]}
+{"general_id":"addr-c84414becf6072ada18eee3b427647ae85d5d3b0","country":["tn"],"full":["124 Avenue Habib Bourguiba - Carthage presidence"],"street":["124 Avenue Habib Bourguiba - Carthage presidence"]}
+{"general_id":"NK-c4ku3WKcNaKd2RToZmzrWu","city":["Nungrado, Pyongyang","Pyongyang"],"country":["kp"],"full":["Nungrado, Pyongyang"],"street":["Nungrado"]}
+{"general_id":"addr-6476eae2d7cdf530d190ee9e41699e0b78b7d8c1","city":["Hyongjesan-Guyok, Pyongyang"],"country":["kp"],"full":["Hyongjesan-Guyok, Pyongyang"]}
+{"general_id":"addr-e59eaa8822a7347a00578b70acaef34d37707ddb","city":["Teheran"],"full":["Norouzi Alley, No 2, Larestan Street, Motahar i Avenue, Teheran"],"street":["Norouzi  Alley,  No 2, Larestan  Street,  Motahar i Avenue"]}
+{"general_id":"addr-76cbf46c3fa9bf97a5c9206aa993c67282802535","city":["Damascus"],"country":["sy"],"full":["P.O. Box 250, Al Oumaween Square, Damascus"],"postOfficeBox":["P.O. Box 250"],"street":["Al Oumaween Square"]}
+{"general_id":"NK-B9CSJF2T2bQmqaSPsHKw6h","city":["Minsk"],"country":["by"],"full":["220114 Minsk, Nezavisimosti ave. 115"],"postalCode":["220114"],"street":["Nezavisimosti ave. 115"]}
+{"general_id":"addr-a8b839ff64e8bec908c2a39f2bda22b052e156b6","city":["Damascus"],"country":["sy"],"full":["P.O. Box 11037, Damascus"],"postOfficeBox":["P.O. Box 11037"]}
+{"general_id":"addr-a48331515406cadacc234ee96acc691ec800d391","city":["Damascus"],"country":["sy"],"full":["P.O. Box 3361, Damascus"],"postOfficeBox":["P.O. Box 3361"]}
+{"general_id":"NK-DaiUWJjVy2m6mBcubtUH4q","city":["Carthage"],"country":["tn"],"full":["49 avenue Habib Bourguiba, Carthage"],"street":["49 avenue Habib Bourguiba"]}
+{"general_id":"NK-nbLCZLyPymjFrQNT3BjSaN","city":["Tunis"],"country":["tn"],"full":["housing estate Erriadh.2-Gammarth, Tunis"],"street":["housing estate Erriadh.2-Gammarth"]}
+{"general_id":"NK-GQAp2nypk5Vj7ipnEHdGdn","city":["Tehran"],"full":["17665/153 6 19389, Gheytariyeh Avenue - no 153 - 3rd Floor - PO BOX 17665/153 6 19389, Tehran"],"postOfficeBox":["17665/153 6 19389"],"street":["Gheytariyeh Avenue - no  153 - 3rd Floor - PO BOX  17665/153 6 19389"]}
+{"general_id":"addr-a825129a83bee0144ac6ededf8162f51afde80ab","city":["Damascus"],"country":["sy"],"full":["Hamsho Building 31 Baghdad Street, Damascus","Hamsho Building, 31 Baghdad Street, Damascus"],"street":["Hamsho Building 31 Baghdad Street","Hamsho Building, 31 Baghdad Street"]}
+{"general_id":"addr-71dd333de7c79cf42c376afc397d960a0f5ee62d","city":["Moscow"],"country":["ru"],"full":["Komsomol’skiy Prospekt, 20, Moscow, 119146"],"postalCode":["119146"],"street":["Komsomol’skiy Prospekt, 20"]}
+{"general_id":"NK-PoEy5qg6yhrBVBywT26JeC","city":["Nana-Grebizi"],"country":["cf"],"full":["Nana-Grebizi"],"region":["Nana-Grebizi"]}
+{"general_id":"NK-SWfmANzxefVhTwtoFFHnsA","city":["Bangui"],"country":["cf"],"full":["KM5, Bangui","Bangui"],"street":["KM5"]}
+{"general_id":"NK-iGgberyJ34xgTsNq7V9drp","city":["Ndélé, Bamingui-Bangoran"],"country":["cf"],"full":["Ndélé, Bamingui-Bangoran"]}
+{"general_id":"NK-NQAsYqcMjLcVmx9XMCcXWN","city":["Ndjamena"],"country":["td"],"full":["Ndjari, Ndjamena"],"street":["Ndjari"]}
+{"general_id":"NK-ggJut2rHnaWa6br98Eos8Q","city":["Kandahar City"],"country":["af"],"full":["Kandahar City","Kandahar Province"],"region":["Kandahar Province"]}
+{"general_id":"NK-CHfQxJApSbqeziEFWLLzkv","city":["Quetta"],"country":["pk"],"full":["Quetta"]}
+{"general_id":"NK-6H9W2a55t944Qb9rWp7ZRE","city":["Oslo"],"country":["no"],"full":["36-V Heimdalsgate, 0578 Oslo"],"postalCode":["0578"],"street":["36-V Heimdalsgate"]}
+{"general_id":"addr-a639fc381c57ae1e5acdf4bdfab5b58a887b2f3b","city":["Krasnogorsk"],"country":["ru"],"full":["Ulitsa Bratev Gozozankinykh, Dom 2B, Pomeshchenie 3.1., Krasnogorsk, 143409"],"postalCode":["143409"],"street":["Ulitsa Bratev  Gozozankinykh, Dom 2B,  Pomeshchenie 3.1."]}
+{"general_id":"NK-TwoYiDZVqbw4Ats3Sbxvcv","full":["422/426(Rm 2), 2nd Flr, Strand Rd., Corner of Botahtaung Pagoda St., FJVC Center, Ward (4), BTHG"],"street":["422/426(Rm 2), 2nd  Flr, Strand Rd.,  Corner of  Botahtaung Pagoda  St., FJVC Center,  Ward (4), BTHG"]}
+{"general_id":"addr-46454079f5f2cf7ad2a9ae3ab2e31fd8844a1c05","city":["Damascus"],"country":["sy"],"full":["Prime Minister Building, 17 Street Nissan, Damascus"],"street":["Prime Minister Building, 17 Street Nissan"]}
+{"general_id":"NK-oP3gvd5ECFcySDZU5TgCpL","city":["Tehran","Teheran"],"country":["ir"],"full":["Tehran","Teheran","Tehran, Damavand Tehran Highway"],"street":["Damavand Tehran Highway"]}
+{"general_id":"addr-9aab66d2454524b05f0d80123e70fd193d56fc35","city":["Goma, North Kivu"],"country":["cd"],"full":["Goma, North Kivu"],"street":["Goma, North Kivu"]}
+{"general_id":"NK-7LarCnjDs4PJtYHK34iYim","city":["Pyongyang"],"country":["kp"],"full":["Segori-dong, Gyongheung St., Potonggang District, Pyongyang"],"street":["Segori-dong, Gyongheung St., Potonggang District"]}
+{"general_id":"NK-LwpzWAvgZDVGRUjjAzMd8W","city":["Asas Village, Abu Ghurayb"],"country":["iq"],"full":["Asas Village, Abu Ghurayb"]}
+{"general_id":"addr-1a889c644bdf7eb95bfe5a5a3d2808c5751e6b80","city":["Amman"],"country":["jo"],"full":["Amman"]}
+{"general_id":"NK-DXe3BHsa7kfGgPwVeYFbVs","city":["Khan Dari"],"country":["iq"],"full":["Khan Dari"]}
+{"general_id":"NK-SB9HpfbgKFWYVsydQSECDH","city":["Minsk"],"country":["by"],"full":["220030 Minsk, 39 Myasnikova St."],"postalCode":["220030"],"street":["39 Myasnikova St."]}
+{"general_id":"NK-3Pm5msKVXB5FgtpNhnRjeT","city":["Damascus"],"country":["sy"],"full":["P.O. Box 2900, Syriatel Mobile Telecom Building, Amman Road, Daraa Highway, Ashrafiyat Sahnaya Area, Damascus"],"postOfficeBox":["P.O. Box 2900"],"street":["Syriatel Mobile Telecom Building, Amman Road, Daraa Highway, Ashrafiyat Sahnaya Area"]}
+{"general_id":"addr-4429c0ce596c453a533e05e6b07cda60c0f040ce","city":["Kunduz"],"country":["af"],"full":["Kunduz"]}
+{"general_id":"addr-0efae5493758cf1c196b15d7865939668fb27369","city":["Beirut"],"country":["lb"],"full":["Dunant Street, Snoubra Sector, Beirut"],"street":["Dunant Street, Snoubra Sector"]}
+{"general_id":"NK-cjgnvSedCkWPMNpdnmMMaR","city":["Cemani, Grogol, Sukoharjo, Jawa Tengah"],"country":["id"],"full":["58 Jl. Semenromo, 04/XV Ngruki, Cemani, Grogol, Sukoharjo, Jawa Tengah"],"street":["58 Jl. Semenromo, 04/XV Ngruki"]}
+{"general_id":"NK-ndKYDRW5GrGjsmq3h2WVQb","city":["Rakrang District, Pyongyang"],"country":["kp"],"full":["Rakrang No. 1, Rakrang District, Pyongyang"],"street":["Rakrang No. 1"]}
+{"general_id":"NK-c4ku3WKcNaKd2RToZmzrWu","city":["Nungrado, Pyongyang","Pyongyang"],"country":["kp"],"full":["Nungrado, Pyongyang"],"street":["Nungrado"]}
+{"general_id":"NK-Tr83TLeXmyFdDnSRKsvUcm","city":["Pyongyang"],"country":["kp"],"full":["c/o Reconnaissance General Bureau Headquarters, Hyongjesan-Guyok, Pyongyang"],"street":["c/o Reconnaissance General Bureau Headquarters, Hyongjesan-Guyok"]}
+{"general_id":"NK-KFqhBbZGSntFMi2gNfjYGf","city":["Mangyongdae District, Pyongyang"],"country":["kp"],"full":["Chilgol-1 dong, Mangyongdae District, Pyongyang"],"street":["Chilgol-1 dong"]}
+{"general_id":"addr-a71b61ea19d9a47637ea5015fbc4bb73e02b2f03","city":["Pyongyang"],"country":["kp"],"full":["1 Saemul - Dong Pyongchon District, Pyongyang"],"street":["1 Saemul - Dong Pyongchon District"]}
+{"general_id":"NK-PxWyx7xLvin8oAuUb7yXbL","city":["Monastir"],"full":["avenue Hédi Nouira, Monastir"],"street":["avenue Hédi Nouira"]}
+{"general_id":"NK-GW9T33zFdwCXtt5jpRKFpb","city":["Minsk"],"country":["by"],"full":["Minsk, 31 Pobediteley Ave."],"street":["31 Pobediteley Ave."]}
+{"general_id":"addr-d3f001ccda5681a64617105f38cc4e40142baf96","country":["ae"],"full":["P.O. Box 8177, Sharjah Airport International Free Zone"],"street":["P.O. Box  8177, Sharjah Airport International Free Zone"]}
+{"general_id":"NK-oP3gvd5ECFcySDZU5TgCpL","city":["Tehran","Teheran"],"country":["ir"],"full":["Tehran","Teheran","Tehran, Damavand Tehran Highway"],"street":["Damavand Tehran Highway"]}
+{"general_id":"addr-a8b839ff64e8bec908c2a39f2bda22b052e156b6","city":["Damascus"],"country":["sy"],"full":["P.O. Box 11037, Damascus"],"postOfficeBox":["P.O. Box 11037"]}
+{"general_id":"NK-cmnUN8HY4b7GQLYQHPSYSX","city":["Haut-Mbomou"],"country":["cf"],"full":["Haut-Mbomou"]}
+{"general_id":"NK-kTCgNtoZmXLdCjGWCMbw5X","city":["Vakaga"],"country":["cf"],"full":["Vakaga"]}
+{"general_id":"addr-18a83b7e9359767644b5829a71214d166446f8aa","city":["Kafia Kingi"],"full":["Kafia Kingi"]}
+{"general_id":"addr-f4ec5d6b9bf254946318abcdac6849bc019d9e66","city":["Haut-Uolo"],"country":["cd"],"full":["Haut-Uolo"]}
+{"general_id":"NK-2BFQNEp2FNVu28dbM9Ji8F","city":["Mbomou"],"country":["cf"],"full":["Mbomou"]}
+{"general_id":"NK-exfLNrFzCpXycVMPxKoMJY","city":["Basse-Kotto"],"country":["cf"],"full":["Basse-Kotto"]}
+{"general_id":"addr-03de4cdab7a5e21050df02469e161a90b6ac212a","city":["Bas-Uolo"],"country":["cd"],"full":["Bas-Uolo"]}
+{"general_id":"NK-NHwy6MuUhWShvHFzmshjJh","city":["Haute-Kotto"],"country":["cf"],"full":["Haute-Kotto"]}
+{"general_id":"NK-Y2mpuxgANBnkfjobE4unGR","city":["Sevastopol"],"full":["пл. Нахимова, 5, г. Севастополь, 299011","Nakhimov Square 5, 299011 Sevastopol"],"postalCode":["299011"],"street":["пл. Нахимова, 5, г. Севастополь","Nakhimov Square 5"]}
+{"general_id":"NK-AxdKBUf9K6y6yXVLzNiRnJ","city":["l'Ariana"],"country":["tn"],"full":["Résidence les Jardins, apt. 8C Block b — El Menzah 8, l'Ariana"],"street":["Résidence les Jardins, apt. 8C Block b — El Menzah 8"]}
+{"general_id":"NK-Y5NhvvzJa9HVXrjzbdM4s7","city":["Moscow"],"country":["ru"],"full":["Barklaya street 6, building 7, Moscow, 121087"],"postalCode":["121087"],"street":["Barklaya street 6, building 7"]}
+{"general_id":"addr-b44c2827a7267d6af51d8cb0e070a7b81b460baf","city":["Baghdad"],"country":["iq"],"full":["Sadoon St, Al-Ani Building, first floor, Baghdad"],"street":["Sadoon St, Al-Ani Building, first floor"]}
+{"general_id":"NK-NjmiGBfTtiWH5s8LF4SdEf","city":["Sevastopol"],"country":["ua"],"full":["Butakova Ln, 4, Sevastopol"],"street":["Butakova Ln, 4"]}
+{"general_id":"addr-22dcca70f49a46edf216cf04185254b25b1307d3","city":["Simferopol"],"country":["ua"],"full":["13 I. Franko blvd., Simferopol, 295034"],"postalCode":["295034"],"region":["Crimea"],"street":["13 I.  Franko blvd."]}
+{"general_id":"NK-oJUyMhry8RHC4iAiQrAX6F","city":["Kerch"],"full":["4 Tankistov street, 298310 Kerch"],"postalCode":["298310"],"region":["Crimea"],"street":["4 Tankistov street"]}
+{"general_id":"NK-C6TzUdddTcn3NNaYBw59Kp","city":["Monastir"],"full":["83 Cap Marina, Monastir"],"street":["83 Cap Marina"]}
+{"general_id":"NK-ikT2cYe95yqphhLVzcqFRM","city":["Al-Waab"],"country":["qa"],"full":["Al-Waab"]}
+{"general_id":"addr-1baa0e0ebc6ddebd899cf3886cb3c8e8e6058e28","city":["Teheran"],"country":["ir"],"full":["Teheran, Unit 7, No. 40, Yazdanpanah, Afriqa Blvd."],"street":["Unit 7, No. 40, Yazdanpanah, Afriqa Blvd."]}
+{"general_id":"NK-FnLFKXwRfehUiR76TYrMSP","city":["Road Town, Tortola"],"country":["vg"],"full":["3162, Woodbourne Hall, Road Town, Tortola"],"postOfficeBox":["3162"],"street":["Woodbourne Hall"]}
+{"general_id":"NK-T3KCczpHiApwbKA6D8GXaW","city":["Pyongyang","Pyongyang,"],"country":["kp"],"full":["Pyongyang"]}
+{"general_id":"NK-QtQed7Xde9YUgW27uep6Am","city":["Rubavu/Mudende"],"country":["rw"],"full":["Rubavu/Mudende"]}
+{"general_id":"NK-D5dFh9PVeXNcw45NdYXkQW","city":["Genf","Ginevra","Geneva","Genève"],"country":["ch"],"full":["Genf","Ginevra","Geneva","Genève"]}
+{"general_id":"addr-929506dad26171dbcb02f507b8f14266f3709918","city":["Beirut"],"country":["lb"],"full":["Shaheen Building, 2nd floor, Sami el Solh, Beirut"],"street":["Shaheen Building,  2nd floor, Sami el Solh"]}
+{"general_id":"addr-39de21c9beb5790d8ed6ba3c86145f4fb07805b3","city":["Amman"],"country":["jo"],"full":["P.O. Box 910606, 11191 Amman"],"postalCode":["11191"],"street":["P.O. Box 910606"]}
+{"general_id":"addr-b4fd174dba06354b39aa39ca2a27f7fbc3d4f607","city":["Ashrafiyat Sahnaya  Rif Dimashq"],"country":["sy"],"full":["9525, Cham Holding Building, Daraa Highway, Ashrafiyat Sahnaya Rif Dimashq"],"postOfficeBox":["9525"],"street":["Cham Holding Building, Daraa Highway"]}
+{"general_id":"NK-JiXQ4eYbTc3Q3kjgd7Zq6P","city":["Damascus"],"country":["sy"],"full":["P.O. Box: 2337, Insurance Building, Yousef al-Azmeh Square, Damascus"],"postOfficeBox":["P.O. Box: 2337"],"street":["Insurance Building, Yousef al-Azmeh Square"]}
+{"general_id":"NK-C8Jb2cjMFUhAfTRVMdxXWh","city":["Kinshasa/Gombe"],"country":["cd"],"full":["56, avenue Usika, Kinshasa/Gombe"],"street":["56, avenue Usika"]}
+{"general_id":"addr-0f7ba87c19b87cc02bac862e30c353ba240f6260","city":["Tianjin"],"country":["cn-xz","cn"],"full":["Tianjin"]}
+{"general_id":"NK-WcTCdUYBsYvJA4eiZ4eLic","city":["Pyongyang"],"country":["kp"],"full":["PO Box 32, BEL Building, Jonseung-Dung, Moranbong District, Pyongyang"],"street":["PO Box 32, BEL Building, Jonseung-Dung, Moranbong District"]}
+{"general_id":"NK-n7jrGQZAp3RaZ3MdTb5MMn","city":["Kabul"],"country":["af"],"full":["Street 13 Wazir Akbar Khan, Kabul","Street 13, Wazir Akbar Khan, Kabul"],"street":["Street 13, Wazir Akbar Khan","Street 13 Wazir Akbar Khan"]}
+{"general_id":"NK-VhiKDk7VKhYeCkifZPntxd","city":["Tehran"],"country":["ir"],"full":["Tehran, P.O. Box 8140, No. 107 Sepahbod Gharany Ave."],"street":["P.O. Box 8140, No. 107 Sepahbod Gharany Ave."]}
+{"general_id":"NK-J4B3bWNo9j478uBjjE5dLB","city":["Isfahan"],"country":["ir"],"full":["Isfahan, Shahih Shar Industrial Zone"],"street":["Shahih Shar Industrial Zone"]}
+{"general_id":"NK-RhoHe3MtxiQ7Y4oseiKNgW","city":["Tehran"],"country":["ir"],"full":["Tehran, P.O. Box 14155-5568, No. 27 Ahahamat Aave., Vallie Asr Square, 15946"],"postalCode":["15946"],"street":["P.O. Box 14155-5568, No. 27 Ahahamat Aave., Vallie Asr Square"]}
+{"general_id":"NK-TrNkmC7g4x8PBUcs5KDWEV","city":["Esfahan"],"country":["ir"],"full":["Esfahan, P.O. Box 81465-935"],"street":["P.O. Box 81465-935"]}
+{"general_id":"NK-6LGgEngJWgEgt3TsNmi9Tf","city":["Esfahan"],"country":["ir"],"full":["Esfahan, P.O. Box 83145-311, 28 km Esfahan – Tehran Freeway, Shahin Shahr"],"street":["P.O. Box 83145-311, 28 km Esfahan – Tehran Freeway, Shahin Shahr"]}
+{"general_id":"NK-R2dZWSJjivFoUNeqFo8hkF","city":["Gomel"],"country":["by"],"full":["246003 Gomel, 9 Rogachevskaya St."],"postalCode":["246003"],"street":["9 Rogachevskaya St."]}
+{"general_id":"NK-ZuhBPoxNEqQDF6xWzFBAx6","city":["Boda"],"country":["cf"],"full":["Boda"]}
+{"general_id":"NK-2cEoiJXU6XSxoGM7uaqBf3","city":["Sousse"],"country":["tn"],"full":["rue Ibn Maja - Khezama est, Sousse"],"street":["rue Ibn Maja - Khezama est"]}
+{"general_id":"NK-AucbLBF2KemBk7mhLqbU4u","city":["Duba"],"country":["ae"],"full":["Platinum Tower, office no. 2405, Jumeirah Lake Towers, Duba"],"street":["Platinum Tower, office no. 2405, Jumeirah Lake Towers"]}
+{"general_id":"NK-XPMs24nzwAmiMwEPDfpyXt","city":["city of Aldan"],"country":["ru"],"full":["Mayakovskogo St. 14, city of Aldan, Aldansky District, 678 900"],"postalCode":["678 900"],"region":["Aldansky District"],"street":["Mayakovskogo St. 14"]}
+{"general_id":"NK-nPZW6RcqaBREReTmLTyCES","city":["Tehran"],"country":["ir"],"full":["Tehran, Iran Composites Institute, Iranian University of Science and Technology, 16845-188"],"postalCode":["16845-188"],"street":["Iran Composites Institute, Iranian University of Science and Technology"]}
+{"general_id":"NK-5VKMFdoidprLRBeVk93WP7","city":["Pyongyang"],"country":["kp"],"full":["416, Ryonhwa-2Dong, Central District, Pyongyang"],"postOfficeBox":["416"],"street":["Ryonhwa-2Dong, Central District"]}
+{"general_id":"NK-oXF3QrRDaaeAeRWfByWCk8","city":["Moscow"],"full":["Novyi Arbat str., 15, building 2, 119019 Moscow"],"postalCode":["119019"],"street":["Novyi Arbat str., 15, building 2"]}
+{"general_id":"NK-HepWcWwUxmfn4Fe4Jbep7u","city":["Oreanda, House 12, Yalta"],"country":["ua"],"full":["Resort “Nizhnyaya Oreanda”, Oreanda, House 12, Yalta, 298658"],"postalCode":["298658"],"street":["Resort “Nizhnyaya Oreanda”"]}
+{"general_id":"addr-0fb1a25852d82c1fed55cbcf6a1140bec7de6638","city":["Tehran"],"full":["44 180th Street West, 16539-75751 Tehran"],"postalCode":["16539-75751"],"street":["44 180th Street West"]}
+{"general_id":"NK-oP3gvd5ECFcySDZU5TgCpL","city":["Tehran","Teheran"],"country":["ir"],"full":["Tehran","Teheran","Tehran, Damavand Tehran Highway"],"street":["Damavand Tehran Highway"]}
+{"general_id":"NK-n7jrGQZAp3RaZ3MdTb5MMn","city":["Kabul"],"country":["af"],"full":["Street 13 Wazir Akbar Khan, Kabul","Street 13, Wazir Akbar Khan, Kabul"],"street":["Street 13, Wazir Akbar Khan","Street 13 Wazir Akbar Khan"]}
+{"general_id":"NK-3Kw6ZCXo8SddN8PJ58uuvE","city":["Moscow"],"country":["ru"],"full":["Moscow"]}
+{"general_id":"addr-19b38dabfd448e3bc6e4ab4a28b92e7d9e412bd0","city":["Moscow"],"country":["ru"],"full":["Leninsky Prospekt, Dom 137, Building 1, Local 2, Room 5, Moscow"],"street":["Leninsky Prospekt,  Dom 137, Building 1, Local 2,  Room 5"]}
+{"general_id":"NK-oTa5GRrJNiLc7evWuntPSE","city":["Az Zabadani"],"country":["sy"],"full":["Al-Shahid Street, Al-Mahata Neighbourhood, Az Zabadani"],"street":["Al-Shahid Street, Al-Mahata Neighbourhood"]}
+{"general_id":"NK-i4bbUFW8vRGdUT6jNtjHqx","city":["Miralzei Village, Chaman, Baluchistan Province"],"country":["pk"],"full":["Boghra Road, Miralzei Village, Chaman, Baluchistan Province"],"street":["Boghra Road"]}
+{"general_id":"NK-gEbwUUL6m7gryxLEhqDqAY","city":["Kalay Rangin, Spin Boldak District, Kandahar Province"],"country":["af"],"full":["Kalay Rangin, Spin Boldak District, Kandahar Province"]}
+{"general_id":"NK-W6zoodL9mrU23RAQyK3erH","city":["Kinshasa/Ngaliema"],"country":["cd"],"full":["1, avenue Bumba, Kinshasa/Ngaliema"],"street":["1, avenue Bumba"]}
+{"general_id":"NK-cT6Dkm5h5f65cwNu7SPQJW","city":["Uccle"],"country":["be"],"full":["Messidorlaan 217/25, 1180 Uccle"],"postalCode":["1180"],"street":["Messidorlaan 217/25"]}
+{"general_id":"NK-SNSH6F244u8Ls4zcbDRBEB","city":["Datkhina Thiri Tsp, Naypyitaw Division"],"country":["mm"],"full":["Thukhuma Road, Datkhina Thiri Tsp, Naypyitaw Division"],"street":["Thukhuma Road"]}
+{"general_id":"NK-hvh7QhqExqKWwBh3RXFBNH","city":["Le Paquier-Montbarry"],"country":["ch"],"full":["Chemin du Carmel, 1661 Le Paquier-Montbarry"],"postalCode":["1661"],"street":["Chemin du Carmel"]}
+{"general_id":"addr-f48af95a0b45bdd1880edb5dafb621618bc12a89","city":["Tehran"],"country":["ir"],"full":["Tehran, Postal address: Haftom Tir Square, South Mofte Avenue, Tour Line No; 3/1 P.O. Box 1584864813"],"street":["Postal address: Haftom Tir Square, South Mofte Avenue, Tour Line No; 3/1 P.O. Box 1584864813"]}
+{"general_id":"NK-UX5DEyTdKtFYwXW8aYeysk","city":["Panama City"],"country":["pa"],"full":["Panama City"]}
+{"general_id":"NK-T3KCczpHiApwbKA6D8GXaW","city":["Pyongyang","Pyongyang,"],"country":["kp"],"full":["Pyongyang"]}
+{"general_id":"NK-G6vSYTroyJvEEokSKLGQ5u","city":["Kabul"],"country":["af"],"full":["Khairkhana Section Number 3, Kabul"],"street":["Khairkhana Section Number 3"]}
+{"general_id":"NK-KjNcUs8e6kY7ziFNCkF73k","city":["Gammarth"],"country":["tn"],"full":["3 Rue de la Colombe - Gammarth Supérieur, Gammarth"],"street":["3 Rue de la Colombe - Gammarth Supérieur"]}
+{"general_id":"NK-2RaJN6CsqP2PKnm47pt5cM","city":["Kamwokya, Kampala"],"country":["ug"],"full":["Plot 22, Kanjokya Street, Kamwokya, Kampala"],"street":["Plot 22, Kanjokya Street"]}
+{"general_id":"NK-cfwkCotdnPtw5uCbMDuARd","city":["Kampala"],"country":["ug"],"full":["PO BOX 22 709, Kampala"],"postOfficeBox":["PO BOX 22 709"]}
+{"general_id":"addr-798d8c0cab4d08096d3b3ec3e2a37f09565a64f4","city":["Kinshasa"],"country":["cd"],"full":["28, avenue Ntela, Mont Ngafula, Kinshasa"],"street":["28, avenue Ntela, Mont Ngafula"]}
+{"general_id":"NK-KH7csqgVLKRkFa5GUEoNiu","city":["Zawiya"],"country":["ly"],"full":["Zawiya"]}
+{"general_id":"NK-j5aFhvEKHBVUyqB7AjJSLR","city":["Urumqi"],"country":["cn"],"full":["106 Guangming Road, Xinjiang Uyghur Autonomous Region (XUAR)"],"region":["Xinjiang Uyghur Autonomous Region (XUAR)"],"street":["106 Guangming Road"]}
+{"general_id":"addr-0927d565492ce7db5b76d1e4467644e9053ebaa0","city":["Kuala Lumpur"],"country":["my"],"full":["Kuala Lumpur"]}
+{"general_id":"NK-GaQSYTYydTnTWTzrmttgyE","city":["Kinshasa/Gombe"],"country":["cd"],"full":["2, avenue des Orangers, Kinshasa/Gombe"],"street":["2, avenue des Orangers"]}
+{"general_id":"NK-KH7csqgVLKRkFa5GUEoNiu","city":["Zawiya"],"country":["ly"],"full":["Zawiya"]}
+{"general_id":"NK-T3KCczpHiApwbKA6D8GXaW","city":["Pyongyang","Pyongyang,"],"country":["kp"],"full":["Pyongyang"]}
+{"general_id":"addr-e4b0baf18851a9fdd43a7ddd709b619a9e1e00f5","city":["Tunis"],"country":["tn"],"full":["41 Rue Garibaldi, Tunis"],"street":["41 Rue Garibaldi"]}
+{"general_id":"addr-677071cf617f5ce717facaa0dd577fe2d7979514","city":["Kafia Kingi"],"country":["sd"],"full":["Kafia Kingi"]}
+{"general_id":"addr-4f95998543d1bccb24038a19e369638b75d72c06","city":["Moscow"],"country":["ru"],"full":["International Highway, House 31, building 1, Moscow, 141411"],"postalCode":["141411"],"street":["International Highway, House 31, building 1"]}
+{"general_id":"NK-oX4Dvt2z99yR8Y4UvXdKvg","city":["Hammam-Sousse"],"full":["17 avenue de la République, Hammam-Sousse"],"street":["17 avenue de la République"]}
+{"general_id":"NK-CwaiydYGxetEKH2chUP8xZ","city":["Kuwait City, Al-Riqqa area"],"country":["kw"],"full":["Block Four, Street 13, House No 179, Kuwait City, Al-Riqqa area"],"street":["Block Four, Street 13, House No 179"]}
+{"general_id":"addr-adf34a41819841eb881b9bcd43bd261c258dca25","city":["North Kivu Province"],"country":["cd"],"full":["North Kivu Province"],"region":["North Kivu Province"]}
+{"general_id":"addr-b5c64ce5a882a2029681dedd8cee258c2e83e02a","city":["Pyongyang"],"country":["kp"],"full":["Pulgan Gori Dong 1, Potonggang District, Pyongyang"],"street":["Pulgan Gori Dong 1, Potonggang District"]}
+{"general_id":"addr-d733f8224a153b2c8bef59b30eec5cc89de20c6b","city":["Lahore"],"country":["pk"],"full":["Wares Colony, Lahore"],"street":["Wares Colony"]}
+{"general_id":"addr-751891ea77d6baa7733d47d51445ee131e45c1e7","city":["Lahore"],"country":["pk"],"full":["Room 9A, Second Floor, Wahdat Road, Education Town, Lahore"],"street":["Room 9A, Second Floor, Wahdat Road, Education Town"]}
+{"general_id":"NK-oBzsJfBxHwqzHxdSw5jtPE","country":["lb"],"full":["Ground Floor, Orient Queen Homes Building, John Kennedy, Ras Beirut"],"street":["Ground Floor, Orient Queen Homes Building, John Kennedy, Ras Beirut"]}
+{"general_id":"NK-kTnxKucTnhE8SdtC3K4Eab","city":["Amman"],"country":["jo"],"full":["850880, Adel Al-Hojrat building n°3, 1st Floor, opposite Swefieh, Mall-Swefieh, 11185 Amman"],"postOfficeBox":["850880"],"postalCode":["11185"],"street":["Adel Al-Hojrat building n°3, 1st Floor, opposite Swefieh, Mall-Swefieh"]}
+{"general_id":"NK-SSAasABwsi3azhFrXtXKgm","country":["jo"],"full":["Office 511, 5th Floor, Baraka Building, Dauwar Al-Waha"],"street":["Office 511, 5th Floor, Baraka Building, Dauwar Al-Waha"]}
+{"general_id":"addr-d02a057b1ecf140e4d017402e6ff9485a3165d25","city":["Radès Ben Arous"],"country":["tn"],"full":["11 Rue de France, Radès Ben Arous"],"street":["11 Rue de France"]}
+{"general_id":"addr-bbd0f37242c2cc6d2812670c2c1f6149512fc486","city":["Miram Shah, North Waziristan, Federally Administered Tribal Areas"],"country":["pk"],"full":["Miram Shah, North Waziristan, Federally Administered Tribal Areas"]}
+{"general_id":"NK-iesSZjZZh88GNPE993NEoM","city":["Tehran"],"country":["ir"],"full":["Tehran, Pasdaran Av., PO Box 19585/777"],"street":["Pasdaran Av., PO Box 19585/777"]}
+{"general_id":"NK-Edb3UBXcxJzus68yruffUo","city":["Ménaka"],"country":["ml"],"full":["Ménaka"],"region":["Gao Region"]}
+{"general_id":"addr-47b869f8dad7cad9663d5f7121a79832556354fe","city":["Tripoli"],"full":["Tarig sure no. 51, Tripoli"],"street":["Tarig sure no. 51"]}
+{"general_id":"NK-ABVhFCmkuWKNGUVBMZZTgJ","city":["Kinshasa"],"country":["cd"],"full":["24, avenue Ma Campagne, Kinshasa"],"street":["24, avenue  Ma Campagne"]}
+{"general_id":"NK-3dapnPtzcFdkTBbhJVnErF","city":["Safaar Bazaar, Garmser District, Helmand Province"],"country":["af"],"full":["Safaar Bazaar, Garmser District, Helmand Province"]}
+{"general_id":"NK-C6NigfstWNz4VWr4hdJ2rD","city":["Kandahar City, Kandahar Province"],"country":["af"],"full":["Room number 33, 5th Floor Sarafi Market, Kandahar City, Kandahar Province"],"street":["Room number 33, 5th Floor Sarafi Market"]}
+{"general_id":"NK-iXESN6b3Sd3N6zvXRyhjhT","city":["Wesh, Spin Boldak District, Kandahar Province"],"country":["af"],"full":["Wesh, Spin Boldak District, Kandahar Province"]}
+{"general_id":"addr-2b0bce936298815d607f24448d0e87d742b0a510","city":["Damascus"],"country":["sy"],"full":["P.O. Box 7155, Maysat Square, Al Rasafi Street Bldg. 9, Damascus"],"postOfficeBox":["P.O. Box 7155"],"street":["Maysat Square, Al Rasafi Street Bldg. 9"]}
+{"general_id":"NK-h333EgD6xaLnrzhwuGLFs8","city":["Tunis"],"country":["tn"],"full":["23 50th Street, Zehrouni, Tunis"],"street":["23 50th Street, Zehrouni"]}
+{"general_id":"addr-94c3eae4971767a6212cda27b4d686ee6003e949","city":["Managua"],"country":["ni"],"full":["Avenida Bolívar, Esquina diagonal al edifico de la Cancillería, Aptdo 2664, Managua"],"postalCode":["10000"],"street":["Avenida Bolívar, Esquina diagonal al edifico de la Cancillería, Aptdo 2664"]}
+{"general_id":"NK-T3KCczpHiApwbKA6D8GXaW","city":["Pyongyang","Pyongyang,"],"country":["kp"],"full":["Pyongyang"]}
+{"general_id":"NK-UNbk2M45kuqGoXS52JgcaG","city":["Baghdad"],"country":["iq"],"full":["Baghdad"]}
+{"general_id":"NK-4eD8iM8Zw6RcKKMDz9yQ2o","city":["Tehran"],"country":["ir"],"full":["Tehran, 3 Second Street [Flat 2], Asad Abadi Avenue, 14316"],"postalCode":["14316"],"street":["3 Second Street [Flat 2], Asad Abadi Avenue"]}
+{"general_id":"NK-WErjAW6ZGa4f32Brr9WaqJ","city":["Dahyan, Sa'dah Governorate"],"country":["ye"],"full":["Dahyan, Sa'dah Governorate"]}
+{"general_id":"addr-7c49abec413f7537d19b55811f7a1d8dd4783b8d","city":["Zhodino, Minsk region"],"country":["by"],"full":["222161 Zhodino, Minsk region, 40 let Octyabrya street 4"],"postalCode":["222161"],"street":["40 let  Octyabrya street 4,"]}
+{"general_id":"NK-SjPvamLDH8sLVqeNmNAea5","city":["Chung-guyok, Pyongyang"],"country":["kp"],"full":["Sochang-dong, Chung-guyok, Pyongyang"],"street":["Sochang-dong"]}
+{"general_id":"NK-3gSDV8WRLuK96NZCxKPLnR","city":["Minsk"],"country":["by"],"full":["Minsk, 54 Angarskaya St., apt. 48"],"street":["54 Angarskaya St., apt. 48"]}
+{"general_id":"addr-8e2b67a511287c77d1771ef0f8172698ac7163aa","country":["ir"],"full":["Postal Box 89195/878, Yazd"],"postalCode":["Yazd"],"street":["Postal Box 89195/878"]}
+{"general_id":"addr-6341d871e150262626346ed50e51b55a7a83ee8b","country":["ir"],"full":["Km 5 of Taft Road, Yazd"],"postalCode":["Yazd"],"street":["Km 5 of Taft Road"]}
+{"general_id":"addr-724fc5333ae3ff42606846a2a967be3091fb9753","full":["P.O. Box 89195-678, Yazd"],"postalCode":["Yazd"],"street":["P.O. Box 89195-678"]}
+{"general_id":"addr-cb833d8f3c60c34baff90dee122e4c0bb739acbc","city":["Tehran"],"country":["ir"],"full":["Tehran, Pasdaran Avenue, Next to Telecommunication Industry, 16588"],"postalCode":["16588"],"street":["Pasdaran Avenue, Next to Telecommunication Industry"]}
+{"general_id":"NK-3hSFeyfy4YcaAxRTfZZB8c","city":["Cremona"],"country":["it"],"full":["Via Plebiscito 3, Cremona"],"street":["Via Plebiscito 3"]}
+{"general_id":"addr-33fed1686f9a625ef9da3684398d4e8336baf0e6","city":["Tehran"],"country":["ir"],"full":["Tehran, Postal address: Shishesh Mina Street, Karaj Special Road"],"street":["Postal address: Shishesh Mina Street, Karaj Special Road"]}
+{"general_id":"addr-3eb3c9ced0d6bf46edf8c17d68471597a58a1cc5","city":["Tunis"],"country":["tn"],"full":["5 Rue El Montazah - Sidi Bousaid, Tunis"],"street":["5 Rue El Montazah - Sidi Bousaid"]}
+{"general_id":"NK-UWZmEnZfRaXpyUDQRpBGMz","city":["Damascus"],"country":["sy"],"full":["P.O. Box 7572, Dar Al Muhanisen Building, 7th Floor, Maysa­loun Street, Damascus"],"postOfficeBox":["P.O. Box 7572"],"street":["Dar Al Muhanisen Building, 7th Floor,  Maysa­loun Street"]}
+{"general_id":"NK-i4bbUFW8vRGdUT6jNtjHqx","city":["Miralzei Village, Chaman, Baluchistan Province"],"country":["pk"],"full":["Boghra Road, Miralzei Village, Chaman, Baluchistan Province"],"street":["Boghra Road"]}
+{"general_id":"NK-gEbwUUL6m7gryxLEhqDqAY","city":["Kalay Rangin, Spin Boldak District, Kandahar Province"],"country":["af"],"full":["Kalay Rangin, Spin Boldak District, Kandahar Province"]}
+{"general_id":"addr-64cd5eb9c671c314bd5d3d140bf03c104b0773cb","city":["Tunis"],"country":["tn"],"full":["20 Rue El Achfat - Carthage, Tunis"],"street":["20 Rue El Achfat - Carthage"]}
+{"general_id":"addr-b74a2577cb058a03aa16a91cfc90687dba8acb91","city":["Dhaka"],"country":["bd"],"full":["House 1, Road 1, S-6, Uttara, Dhaka -"],"street":["House 1, Road 1, S-6, Uttara"]}
+{"general_id":"NK-NVhmzF3aXk6r7DydkuP99H","city":["Hongkou Qu, Shanghai"],"country":["cn"],"full":["Room 601, 433, Chifeng Lu, 200083 Hongkou Qu, Shanghai"],"postalCode":["200083"],"street":["Room 601, 433, Chifeng Lu"]}
+{"general_id":"NK-BfEN7uSz2pgaaUkMKoQLC4","city":["Simferopol"],"full":["Naberezhnaja str named after 60th anniversary of USSR, 34, 295000 Simferopol"],"postalCode":["295000"],"street":["Naberezhnaja str named after 60th anniversary of USSR, 34"]}
+{"general_id":"NK-oP3gvd5ECFcySDZU5TgCpL","city":["Tehran","Teheran"],"country":["ir"],"full":["Tehran","Teheran","Tehran, Damavand Tehran Highway"],"street":["Damavand Tehran Highway"]}
+{"general_id":"addr-0da7385e8f89ecd04cbc98757cad56d2b27f17df","city":["Amsterdam"],"country":["nl"],"full":["Jan Hanzenstraat, 114, 1053 SV Amsterdam"],"postalCode":["1053 SV"],"street":["Jan Hanzenstraat, 114"]}
+{"general_id":"addr-3d7d0c198e0e14c628d2c54a4729d5ab12f74dc1","city":["Damascus"],"country":["sy"],"full":["P.O. Box 4470, Barzeh Street, Damascus"],"postOfficeBox":["P.O. Box 4470"],"street":["Barzeh Street"]}
+{"general_id":"NK-aRogSToL75PNm64KrpLmAB","city":["Moscow"],"country":["ru"],"full":["41 ul.Vereiskaya, Moscow, 121471"],"postalCode":["121471"],"street":["41 ul.Vereiskaya"]}
+{"general_id":"addr-5f63a00acaade591d8e597816d8b9ce973c96685","city":["Kikoma forest, Bogoyi, Walikale"],"country":["cd"],"full":["Kikoma forest, Bogoyi, Walikale"],"region":["North Kivu"]}
+{"general_id":"NK-AsJ29hKCcJr6Vyjs4EGtD2","city":["Tripoli"],"country":["ly"],"full":["1101, Hay Alandalus – Jian St., Tripoli"],"postOfficeBox":["1101"],"street":["Hay Alandalus – Jian St."]}
+{"general_id":"NK-2keNx5nMFHdBqXYPKuqmDf","country":["sy"],"full":["Lattakia Governorate"],"region":["Lattakia Governorate"]}
+{"general_id":"NK-9KKDxe6mDVhdh2GT93hpb2","city":["Az Zabadani"],"country":["iq"],"full":["Az Zabadani"]}
+{"general_id":"NK-MJxqXt6dpS92ezSennHtXb","city":["Mosul"],"country":["iq"],"full":["Mosul"]}
+{"general_id":"NK-oP3gvd5ECFcySDZU5TgCpL","city":["Tehran","Teheran"],"country":["ir"],"full":["Tehran","Teheran","Tehran, Damavand Tehran Highway"],"street":["Damavand Tehran Highway"]}
+{"general_id":"NK-bmYYowG3BoFtsspdMzbPQR","city":["Priluki"],"country":["by"],"full":["Minsk Region, Priluki, 22 Mira St., apt. 88"],"region":["Minsk Region"],"street":["22 Mira St., apt. 88"]}
+{"general_id":"NK-oRQCMGX7CxBcAyTxbR2ozf","city":["Tunis"],"country":["tn"],"full":["rue du Jardin - Sidi Bousaid, Tunis"],"street":["rue du Jardin - Sidi Bousaid"]}
+{"general_id":"addr-df7fc21ab48f1871db1654adc47bdd6276a157fa","city":["Astrakhan,  Kirovskiy rayon"],"country":["ru"],"full":["Raskolnikova 11 app. 5, Astrakhan, Kirovskiy rayon"],"street":["Raskolnikova 11  app. 5"]}
+{"general_id":"NK-T3KCczpHiApwbKA6D8GXaW","city":["Pyongyang","Pyongyang,"],"country":["kp"],"full":["Pyongyang"]}
+{"general_id":"addr-8b42056acdd9cce04619d1c0f762c5cf318ce172","city":["Damascus"],"full":["4470, Barzeh Street, Damascus"],"postOfficeBox":["4470"],"street":["Barzeh Street"]}
+{"general_id":"addr-3d7d0c198e0e14c628d2c54a4729d5ab12f74dc1","city":["Damascus"],"country":["sy"],"full":["P.O. Box 4470, Barzeh Street, Damascus"],"postOfficeBox":["P.O. Box 4470"],"street":["Barzeh Street"]}
+{"general_id":"addr-86300f4428993d7edc90a2397c85b3b71654353a","city":["Simferopol"],"country":["ua"],"full":["82 Peremohy Ave, App. 343, Simferopol"],"region":["Crimea"],"street":["82  Peremohy Ave,  App. 343"]}
+{"general_id":"NK-RhP8TFYMzsgXBRpj9UEkBq","city":["Minsk"],"country":["by"],"full":["Minsk, 24 Kommunisticheskaya Str., office 2"],"street":["24  Kommunisticheskaya Str., office 2"]}
+{"general_id":"NK-94dpRNsfK4KNeyFk3fMmjL","city":["Minsk"],"country":["by"],"full":["Minsk, Nemiga 40/301"],"street":["Nemiga 40/301"]}
+{"general_id":"NK-UxxmAPQ89VAGFBd63j8v4N","city":["Gammarth Supérieur"],"full":["4 Rue de la Mouette, Gammarth Supérieur"],"street":["4 Rue de la Mouette"]}
+{"general_id":"addr-1b9594bac97ecdd2a77ddc9d3106efe8eaec106e","country":["af"],"full":["Afghanistan/Pakistan border region"],"region":["Afghanistan/Pakistan border region"]}
+{"general_id":"addr-3ec497a14dcdc6bc81021ee3335a5a476d104cdd","country":["pk"],"full":["Afghanistan/Pakistan border region"],"region":["Afghanistan/Pakistan border region"]}
+{"general_id":"addr-0c75911d8996fe2d34c748a25acab46abc94b470","city":["Bimbo, Ombella-Mpoko province"],"country":["cf"],"full":["Bimbo, Ombella-Mpoko province"]}
+{"general_id":"NK-D82RPvppBdyHUgaTx4g3fU","city":["Mbaiki, Lobaye Province"],"country":["cf"],"full":["Mbaiki, Lobaye Province"]}
+{"general_id":"NK-iKrejkdwLeHS3b8iRwQvxc","city":["The Hague"],"country":["nl"],"full":["The Hague"]}
+{"general_id":"NK-69KpsnHCeM2rv95NJn4FiS","city":["Minsk"],"country":["by"],"full":["Minsk, Nezavisimosti ave. 86-B"],"street":["Nezavisimosti ave. 86-B"]}
+{"general_id":"NK-83pH9EgQQuepLquvUgYL2L","city":["Zamboanga City","Zamboanga"],"country":["ph"],"full":["Zamboanga City","Zamboanga"]}
+{"general_id":"NK-T3KCczpHiApwbKA6D8GXaW","city":["Pyongyang","Pyongyang,"],"country":["kp"],"full":["Pyongyang"]}
+{"general_id":"NK-cit9nMdbwkWbPk2qaHPXh5","city":["Raqqa"],"country":["sy"],"full":["Raqqa"]}
+{"general_id":"NK-hym4mrbiwpM9Qmhj6XtQwL","city":["Gaziantep"],"country":["tr"],"full":["Gaziantep"]}
+{"general_id":"addr-8d198c688bb2f632d55ecc9f1f726b76dfdcd07b","city":["Istanbul"],"country":["tr"],"full":["79/2 Tuzla, 34940 Istanbul"],"postalCode":["34940"],"street":["79/2 Tuzla"]}
+{"general_id":"addr-3d7d0c198e0e14c628d2c54a4729d5ab12f74dc1","city":["Damascus"],"country":["sy"],"full":["P.O. Box 4470, Barzeh Street, Damascus"],"postOfficeBox":["P.O. Box 4470"],"street":["Barzeh Street"]}
+{"general_id":"NK-gMkcYHni8XBFzhR3iJQ8js","city":["Tartous"],"country":["sy"],"full":["P.O. Box 26, Banias Refinery Building, 26 Latkia Main Road, Tartous"],"postOfficeBox":["P.O. Box 26"],"street":["Banias Refinery Building, 26 Latkia Main Road"]}
+{"general_id":"NK-PUwWsW7FfXwVB8mCSeVCeq","city":["Damascus"],"country":["sy"],"full":["30588, Damascus","Damascus"],"postOfficeBox":["30588"]}
+{"general_id":"addr-269ac469a273f125458c66489fabc7f52ef07f29","city":["Pyongyang"],"country":["kp"],"full":["Haeun-2-dong, Pyongyang"],"region":["Pyongchon District"],"street":["Haeun-2-dong"]}
+{"general_id":"addr-c90f333985cd2354fddafcf408ec2486c2590b11","city":["Al Mukalla, Hadramawt province"],"country":["ye"],"full":["Al Mukalla, Hadramawt province"]}
+{"general_id":"addr-93c327b1735f6b8914f7e66a8b1e10c2696b6334","city":["Rakwon-dong, Pothonggang District, Pyongyang","Pyongyang","Rakwon-dong, Pothonggang District, Pyongyang,"],"country":["kp"],"full":["Rakwon-dong, Pothonggang District, Pyongyang"],"street":["Rakwon-dong, Pothonggang District"]}
+{"general_id":"NK-GQqWMijbkhDMyEkn7JaMia","city":["Bobruisk"],"country":["by"],"full":["213824 Bobruisk, 4 Minskoe Shosse St."],"postalCode":["213824"],"street":["4 Minskoe Shosse St."]}
+{"general_id":"addr-8236ff35130facbb7e9d03563d67bf2d6749dfc3","city":["Shiraz"],"country":["ir"],"full":["Shiraz, Mirzaie Shirazi, P.O. Box 71365-1589"],"street":["Mirzaie Shirazi, P.O. Box 71365-1589"]}
+{"general_id":"addr-a660f3e964411b7d94fdf30b088a52ce2fee5098","city":["Chung-guyok, Pyongyang"],"country":["kp"],"full":["Otan-dong, Chung-guyok, Pyongyang"],"street":["Otan-dong"]}
+{"general_id":"addr-51da63a94e3a6201736d3df6282ce7d966fcc703","city":["Tehran"],"country":["ir"],"full":["Tehran, P.O. Box 16785-195"],"street":["P.O. Box 16785-195"]}
+{"general_id":"NK-ju8AEFy6CgTFmUtXtTT2MU","city":["Bria"],"country":["cf"],"full":["Bria"]}
+{"general_id":"NK-akgYbGiqnnpLHqQ9QCPL4b","city":["Birao"],"country":["cf"],"full":["Birao"]}
+{"general_id":"NK-MgrERK6pURjf8taoeMX4wu","city":["Tullus, southern Darfur"],"country":["sd"],"full":["Tullus, southern Darfur"]}
+{"general_id":"NK-8SM6sWio79Ryk8Foy9NnyL","city":["Esfahan"],"country":["ir"],"full":["Esfahan, 22 Bahman St., Bozorgmehr Ave, 84155666"],"postalCode":["84155666"],"street":["22 Bahman St., Bozorgmehr Ave"]}
+{"general_id":"addr-fb9fa46b2e43cb7d1ef5851bea480bdbd979a7ce","city":["Rubavu"],"country":["rw"],"full":["Rubavu"],"region":["Mudende"]}
+{"general_id":"NK-T3KCczpHiApwbKA6D8GXaW","city":["Pyongyang","Pyongyang,"],"country":["kp"],"full":["Pyongyang"]}
+{"general_id":"NK-Qy576tschpyvfffcQiGxbx","city":["Mbujimayi, Kasai Province"],"country":["cd"],"full":["Mbujimayi, Kasai Province"]}
+{"general_id":"addr-77065b7cd68b601000da6804c633750e84f4ba47","city":["Ouagadougou"],"country":["bf"],"full":["Ouagadougou"]}
+{"general_id":"NK-FAXQu7M2kSDef7fRKq4pfY","city":["Paderno Ponchielli (Cremona)"],"country":["it"],"full":["Number 4 via Europa, Paderno Ponchielli (Cremona)"],"street":["Number 4 via Europa"]}
+{"general_id":"NK-9ai7FLcgJyERz3D37jeiTW","city":["Gao"],"country":["ml"],"full":["Gao"]}
+{"general_id":"NK-apZmkY4DstKVPF4KYV3LqR","city":["Minsk"],"country":["by"],"full":["Minsk, 25 Karl Marx St., room 1n"],"street":["25 Karl Marx St., room 1n"]}
+{"general_id":"addr-98d3507c611c7ccadaa77ffbca6f2d085b124026","city":["Damascus"],"country":["sy"],"full":["P.O. Box 9120, Head Office Mazzeh Villat Ghabia Dar Es Saa­da 16, Damascus"],"postOfficeBox":["P.O. Box 9120"],"street":["Head Office Mazzeh Villat Ghabia Dar Es Saa­da 16"]}
+{"general_id":"NK-Vha7dWJcHE9i55km8mrqS4","city":["Tripoli","TRIPOLI"],"country":["ly"],"full":["Tripoli","TRIPOLI"],"postalCode":["81370"]}
+{"general_id":"NK-KBPK7WndGFss8xDteXH7Yd","city":["Janzour"],"country":["ly"],"full":["Janzour"],"postalCode":["76351"]}
+{"general_id":"NK-Vha7dWJcHE9i55km8mrqS4","city":["Tripoli","TRIPOLI"],"country":["ly"],"full":["Tripoli","TRIPOLI"],"postalCode":["81370"]}
+{"general_id":"addr-baf16a1279232e028a5c404f748b7ca66a83bf2b","city":["Tunis"],"country":["tn"],"full":["4 Rue Mohamed Makhlouf - El Manar.2, Tunis"],"street":["4 Rue Mohamed Makhlouf - El Manar.2"]}
+{"general_id":"NK-Pdosk5qM4zEPHfTkb9VZQT","city":["Lahore, Tehsil, Lahore City, Lahore District"],"country":["pk"],"full":["116E Mohalla Johar, Lahore, Tehsil, Lahore City, Lahore District"],"street":["116E Mohalla Johar"]}
+{"general_id":"NK-HFipQufqFjq2p6WtoMjhgX","city":["Al-Anbar Province, Al-Qaim","Al Anbar Province, Al-Qaim"],"country":["iq"],"full":["Al-Anbar Province, Al-Qaim","Al Anbar Province, Al-Qaim"]}
+{"general_id":"NK-oX4Dvt2z99yR8Y4UvXdKvg","city":["Hammam-Sousse"],"full":["17 avenue de la République, Hammam-Sousse"],"street":["17 avenue de la République"]}
+{"general_id":"NK-2nWpLYh2zwYkKuN8jjBoSE","city":["Segori-dong, Pothonggang District, Pyongyang"],"country":["kp"],"full":["Segori-dong, Pothonggang District, Pyongyang"]}
+{"general_id":"NK-VStQyJ3upgfyX6uB37WcLs","city":["Tunis"],"country":["tn"],"full":["Résidence de l'Étoile du Nord - suite B- 7th floor - apt. No 25 - Centre urbain du nord - Cité El Khadra, Tunis"],"street":["Résidence de l'Étoile du Nord - suite B- 7th floor - apt. No 25 - Centre urbain du nord - Cité El Khadra"]}
+{"general_id":"NK-VHKPdvMiF3aXbES9GeCqaV","city":["Tehran"],"country":["ir"],"full":["Tehran, 11 Tawhid 6 Street, Moj Street, Darya Blvd, Shahrak Gharb"],"street":["11 Tawhid 6 Street, Moj Street, Darya Blvd, Shahrak Gharb"]}
+{"general_id":"addr-814e8f68cd3fce888c2f53f1c7c882d1547d7f22","city":["Man gyongdae- kuyok, Pyongyang"],"country":["kp"],"full":["Man gyongdae- kuyok, Pyongyang"]}
+{"general_id":"addr-cbbb201e7648ec782ca153e74aed67107ee91c3e","city":["Hamhung, South Hamgyong Province"],"country":["kp"],"full":["Hamhung, South Hamgyong Province"]}
+{"general_id":"addr-b0244186b8c0b9701ba10f27110fd74e3fa27b23","city":["Mangyungdae-gu, Pyongyang"],"country":["kp"],"full":["Mangyungdae-gu, Pyongyang"]}
+{"general_id":"NK-CW7VtmfnPQpQtaAmTa3a3e","city":["Kinshasa/Ngaliema"],"country":["cd"],"full":["22, avenue Mbenseke, Ma Campagne, Kinshasa/Ngaliema"],"street":["22, avenue Mbenseke, Ma Campagne"]}
+{"general_id":"addr-8d055b63914f440df2e34c7655098dc1d886abc7","city":["Idleb"],"country":["iq"],"full":["P.O. Box 9, Idleb"],"street":["P.O. Box 9"]}
+{"general_id":"NK-T3KCczpHiApwbKA6D8GXaW","city":["Pyongyang","Pyongyang,"],"country":["kp"],"full":["Pyongyang"]}
+{"general_id":"NK-MJxqXt6dpS92ezSennHtXb","city":["Mosul"],"country":["iq"],"full":["Mosul"]}
+{"general_id":"NK-mBAT3ZGNNkbHSa4SV3Vbq8","country":["sy"],"full":["Sehanya Dara'a Highway, PO Box 9525","Sehanya Daraa Highway, PO Box 9525","PO Box 9525, Cham Holding Building - Daraa Highway - Ashrafiyat Sahnaya Rif Dimashq"],"postOfficeBox":["PO Box 9525"],"street":["Sehanya Daraa Highway, PO Box 9525","Cham Holding Building - Daraa Highway - Ashrafiyat Sahnaya Rif Dimashq","Sehanya Dara'a Highway, PO Box 9525"]}
+{"general_id":"NK-PUwWsW7FfXwVB8mCSeVCeq","city":["Damascus"],"country":["sy"],"full":["30588, Damascus","Damascus"],"postOfficeBox":["30588"]}
+{"general_id":"addr-0de91effc3117cd794bd9ad7590ce64cd59a23b9","city":["Tehran"],"country":["ir"],"full":["Tehran, 28 Shian 5, Lavizan"],"street":["28 Shian 5, Lavizan"]}
+{"general_id":"addr-1585d30b9e28e9169b55c8ba1eab3b0fa31f63ac","city":["Tehran"],"country":["ir"],"full":["Tehran, Langare Street, Nobonyad Square"],"street":["Langare Street, Nobonyad Square"]}
+{"general_id":"NK-T3KCczpHiApwbKA6D8GXaW","city":["Pyongyang","Pyongyang,"],"country":["kp"],"full":["Pyongyang"]}
+{"general_id":"NK-8jNK5XHXDLpSo84iCWWw3f","city":["El Waha, Omdurman"],"country":["sd"],"full":["El Waha, Omdurman"]}
+{"general_id":"NK-LMkp7Ce4fRjUQobKX3E3QU","city":["Cremona"],"country":["it"],"full":["Number 5/B viale Cambonino, Cremona"],"street":["Number 5/B viale Cambonino"]}
+{"general_id":"addr-eabe5505d9dde3f6fd6813d3bbb5b19804b676ae","city":["Benghazi"],"country":["ly"],"full":["Benghazi"]}
+{"general_id":"addr-e4ee4a7196938cd8078781ec6a08218da7a0a383","city":["Conakry"],"country":["gn"],"full":["Conakry"]}
+{"general_id":"NK-ZhAG7JXY6tkVr8Wq2mHkzq","city":["Sousse"],"full":["avenue de l'Imam Muslim - Khezama ouest, Sousse"],"street":["avenue de l'Imam Muslim - Khezama ouest"]}
+{"general_id":"addr-6d403e7f82ae368e10101041d3bb567577183d2c","city":["Basilan"],"country":["ph"],"full":["Basilan"]}
+{"general_id":"addr-208497861ebfbda99e7a870e22d33c2e65a9408e","city":["Lanao del Sur"],"country":["ph"],"full":["Lanao del Sur"]}
+{"general_id":"NK-ffCuvyPNkd7VyScDnQge6G","city":["Hammam - Sousse"],"full":["rue El Moez, Hammam - Sousse"],"street":["rue El Moez"]}
+{"general_id":"addr-93c327b1735f6b8914f7e66a8b1e10c2696b6334","city":["Rakwon-dong, Pothonggang District, Pyongyang","Pyongyang","Rakwon-dong, Pothonggang District, Pyongyang,"],"country":["kp"],"full":["Rakwon-dong, Pothonggang District, Pyongyang"],"street":["Rakwon-dong, Pothonggang District"]}
+{"general_id":"addr-21750a9445ab3a825b0b7df7ce0fbfb0fe19b4d0","city":["Mombasa"],"country":["ke"],"full":["Mombasa"]}
+{"general_id":"addr-88e15d12644e7d4ec0917287a1df08bbdda7702c","city":["Tripoli"],"country":["ly"],"full":["Jamahiriya Street, LAP Building, PO Box 91330, Tripoli"],"street":["Jamahiriya Street, LAP Building, PO Box 91330"]}
+{"general_id":"NK-nVDEH4Y8XGWvcdgBt82Yzc","city":["Damascus"],"country":["sy"],"full":["Al Qudsi building, 2nd Floor, Baramkeh, Damascus"],"street":["Al Qudsi building, 2nd Floor, Baramkeh"]}
+{"general_id":"NK-C3dusssvkAnyrCTBGwep8p","city":["Sultanate of Oman"],"country":["om"],"full":["Sultanate of Oman"]}
+{"general_id":"NK-mGHM5XzF3j6WicazeorKzJ","city":["Minsk"],"country":["by"],"full":["Minsk, 16 Lidskaya St., apt. 165"],"street":["16 Lidskaya St., apt. 165"]}
+{"general_id":"NK-hieB6JGCsYNwPzZUNdwnVT","country":["ve"],"full":["Arnoldo Gabaldón, Candelaria, Edo. Trujillo"],"street":["Arnoldo Gabaldón, Candelaria, Edo. Trujillo"]}
+{"general_id":"addr-b143f052e3e6bb963be7f766bf09b8dab6c11242","city":["Tunis"],"country":["tn"],"full":["Ibn Al-Haythman Street, Manubah, Tunis"],"street":["Ibn Al-Haythman Street, Manubah"]}
+{"general_id":"NK-WtLAMgMAgbnSEp4Hao7vwR","city":["Minsk"],"country":["by"],"full":["Minsk, 11 Nezavisimosti Ave."],"street":["11 Nezavisimosti Ave."]}
+{"general_id":"NK-SZByn5hf3fyokQjx9mXmJE","city":["Kiel"],"country":["de"],"full":["58 Iltisstrasse, 24143 Kiel"],"postalCode":["24143"],"street":["58 Iltisstrasse"]}
+{"general_id":"addr-b1538d74a4155b21baa4725b03a0b9a4ff8432ed","city":["Tehran"],"full":["11 12th Street [Entry 3], Miremad Alley, Abbas Abad, Tehran"],"street":["11 12th Street [Entry 3], Miremad Alley, Abbas Abad"]}
+{"general_id":"NK-A2BRa6ganEUQb7b7M2nPyu","city":["Moscow"],"country":["ru"],"full":["6 Barklaya street, Bld. 5, Moscow, 121087"],"postalCode":["121087"],"street":["6 Barklaya street, Bld. 5"]}
+{"general_id":"NK-hFFmPiDKsQqCqxiFGZkqxK","city":["Damascus","Az Zabadani, Damascus"],"country":["sy"],"full":["Fuad Dawod Farm, Az Zabadani, Damascus"],"street":["Fuad Dawod Farm, Az Zabadani","Fuad Dawod Farm"]}
+{"general_id":"NK-oTa5GRrJNiLc7evWuntPSE","city":["Az Zabadani"],"country":["sy"],"full":["Al-Shahid Street, Al-Mahata Neighbourhood, Az Zabadani"],"street":["Al-Shahid Street, Al-Mahata Neighbourhood"]}
+{"general_id":"NK-C82FWhxmQ8spveYNGjaZWQ","city":["Minsk"],"country":["by"],"full":["Minsk, 43A Franciska St., apt. 41"],"street":["43A Franciska St., apt. 41"]}
+{"general_id":"NK-cUQCyTG2tSSctbz8kj6KQY","city":["Minsk"],"country":["by"],"full":["Minsk, 15 Shchukina St."],"street":["15 Shchukina St."]}
+{"general_id":"addr-6cec7683557ac7336ce454d096669244f590c6bc","city":["Punta, Santa Ana, Manila"],"country":["ph"],"full":["3111 Ma. Bautista, Punta, Santa Ana, Manila"],"street":["3111 Ma. Bautista"]}
+{"general_id":"addr-8c345e30758f13516158857e97039af512b3ae65","city":["A Haqqani Madrassa in the Afghanistan/Pakistan Border Area"],"country":["af"],"full":["A Haqqani Madrassa in the Afghanistan/Pakistan Border Area"]}
+{"general_id":"NK-6PjiSbbHgQJEU75jChExXg","city":["Sana’a"],"country":["ye"],"full":["Sana’a"]}
+{"general_id":"NK-g4rLNDZ2Y9oaYqDDrWRMXd","city":["Deir ez-Zor Governorate"],"country":["sy"],"full":["Deir ez-Zor Governorate"]}
+{"general_id":"NK-SWfmANzxefVhTwtoFFHnsA","city":["Bangui"],"country":["cf"],"full":["KM5, Bangui","Bangui"],"street":["KM5"]}
+{"general_id":"addr-a825129a83bee0144ac6ededf8162f51afde80ab","city":["Damascus"],"country":["sy"],"full":["Hamsho Building 31 Baghdad Street, Damascus","Hamsho Building, 31 Baghdad Street, Damascus"],"street":["Hamsho Building 31 Baghdad Street","Hamsho Building, 31 Baghdad Street"]}
+{"general_id":"NK-YLybMvxJXh3N7pGD2FkQUi","city":["Kidal"],"country":["ml"],"full":["Quartier Aliou, Kidal"],"street":["Quartier Aliou"]}
+{"general_id":"NK-Vdyqvg2HHyksmNMC8WJa2J","city":["Damascus"],"country":["sy"],"full":["P.O. Box 4325, Agricultural Cooperative Bank Building, Damascus Tajhez, Damascus"],"postOfficeBox":["P.O. Box 4325"],"street":["Agricultural Cooperative Bank Building, Damascus Tajhez"]}
+{"general_id":"NK-4vPty4VSZvx2r8CzNcn6qB","city":["Islamabad (Tehsil and District)"],"country":["pk"],"full":["Barahkoh, P.O. DO, Islamabad (Tehsil and District)"],"street":["Barahkoh, P.O. DO"]}
+{"general_id":"NK-PaPduBtNUcJNH2pyy6rrr9","city":["Rinala Khurd, Tehsil Rinala Khurd, District Okara"],"country":["pk"],"full":["Chak No. 18/IL, Rinala Khurd, Tehsil Rinala Khurd, District Okara"],"street":["Chak No. 18/IL"]}
+{"general_id":"addr-c4a35114b8f8846d95a120665159807b2da163b2","city":["Milan"],"country":["it"],"full":["Via Cilea, 40 (domicile), Milan"],"street":["Via Cilea, 40 (domicile)"]}
+{"general_id":"NK-PjdLoz9kG3sYadBGpESaGQ","city":["Grenoble"],"country":["fr"],"full":["Grenoble"]}
+{"general_id":"NK-83pH9EgQQuepLquvUgYL2L","city":["Zamboanga City","Zamboanga"],"country":["ph"],"full":["Zamboanga City","Zamboanga"]}
+{"general_id":"NK-HbAvXakyDaRvHQ48TaFTb4","country":["ph"],"full":["Basilan Province"],"region":["Basilan Province"]}
+{"general_id":"NK-DT8eZ74QnWcMn5eyvGN9UU","city":["Jeddah"],"country":["sa"],"full":["Jeddah"]}
+{"general_id":"NK-YMnYWshPmGt5wUK7B3fwNv","city":["Daina"],"country":["sa"],"full":["Daina"]}
+{"general_id":"addr-f589b973e3c9611e504de07707d0eea572ee0bea","city":["Kinshasa"],"country":["cd"],"full":["Kinshasa"]}
+{"general_id":"addr-090f7564dde20783de52398b18132eb3e662439d","city":["Barzeh"],"country":["sy"],"full":["P.O. Box 31983, Barzeh"],"postOfficeBox":["P.O. Box 31983"]}
+{"general_id":"NK-CALUAttRLnfHbqPPK7u5TT","city":["Gisenyi"],"country":["rw"],"full":["Gisenyi"]}
+{"general_id":"addr-5191ed33c02f504c6d11f4038490702a0108ec57","city":["Goma"],"country":["cd"],"full":["Avenue President Mobutu, Goma"],"street":["Avenue President Mobutu"]}
+{"general_id":"addr-7f3286af04bf27d8847d974ae7a2a76446ac7f49","city":["Goma"],"country":["cd"],"full":["PO Box 315, Goma"],"street":["PO Box 315"]}
+{"general_id":"NK-RSYcUsWPDWooDgWaZWJUFd","city":["Moscow"],"country":["ru"],"full":["Shosse Entuziastov 23, Moscow, Moscow Oblast, 11 124"],"postalCode":["11 124"],"region":["Moscow Oblast"],"street":["Shosse Entuziastov 23"]}
+{"general_id":"NK-Q5pDazbmZSRmR8pcGEVmME","city":["Damascus"],"country":["sy"],"full":["P.O. Box 35202, Industrial Zone, Al-Qadam Road, Damascus"],"street":["P.O. Box 35202, Industrial Zone, Al-Qadam Road"]}
+{"general_id":"NK-KPWPfNNRcvRFDPetST8PGU","city":["Mosul"],"country":["iq"],"full":["17 Tamoz, Mosul"],"street":["17 Tamoz"]}
+{"general_id":"NK-83FKZcZpuNbNvttTPgEXyN","city":["Tel Afar – Al-Saad, Mosul"],"country":["iq"],"full":["Tel Afar – Al-Saad, Mosul"]}
+{"general_id":"NK-aLgkqVnFLnpE2tayCvxSVW","city":["Simferopol"],"country":["ua"],"full":["34 Pavlenko St., Simferopol, 95 006"],"postalCode":["95 006"],"street":["34 Pavlenko St."]}
+{"general_id":"addr-85209974767de37060a998c522f08ef805e9afba","city":["Tehran"],"country":["ir"],"full":["Tehran, Moqan St., Pasdaran St., Pasdaran Cross Rd."],"street":["Moqan St., Pasdaran St., Pasdaran Cross Rd."]}
+{"general_id":"NK-3edeJQKEeLJ5v5DXaFH96R","city":["Mashad","Mashhad"],"country":["ir"],"full":["Mashad, P.O. Box 91735-549","91735-549, 91735, Mashhad, 2nd km of Khalaj Road End of Seyyedi St"],"postOfficeBox":["91735-549, 91735"],"street":["2nd km of Khalaj Road End of Seyyedi St","P.O. Box 91735-549"]}
+{"general_id":"addr-12b86cc87b9bb570860d580682ef6d01f67cd0e1","city":["Mashad"],"country":["ir"],"full":["Mashad, Khalaj Rd., End of Seyyedi Alley"],"street":["Khalaj Rd., End of Seyyedi Alley"]}
+{"general_id":"addr-ecac3af45bf2feb2ce77781431e0c76183e9fd21","city":["Mashad"],"country":["ir"],"full":["Mashad, End of Seyedi Street, Km 4 of Khalaj Road"],"street":["End of Seyedi Street, Km 4 of Khalaj Road"]}
+{"general_id":"addr-8f28d3f137b6b4a18fa3d6b4170fea82a7b3fc7d","city":["Mashad"],"country":["ir"],"full":["Mashad, Seyyedi Street, 3rd Km of Khalaj Road, 91638"],"postalCode":["91638"],"street":["Seyyedi Street, 3rd Km of Khalaj Road"]}
+{"general_id":"NK-3nokyyrzUiPe6WKhc5XUJb","city":["Umm Salal"],"country":["qa"],"full":["Umm Salal"]}
+{"general_id":"addr-c78c2dd9463fd70243d4252709a6e78b538b330b","city":["Republic of Chechnya, Katyr-Yurt"],"country":["ru"],"full":["Akharkho Street, 11, Republic of Chechnya, Katyr-Yurt, Achkhoy- Martanovskiy District"],"region":["Achkhoy- Martanovskiy District"],"street":["Akharkho Street, 11"]}
+{"general_id":"NK-DaiUWJjVy2m6mBcubtUH4q","city":["Carthage"],"country":["tn"],"full":["49 avenue Habib Bourguiba, Carthage"],"street":["49 avenue Habib Bourguiba"]}
+{"general_id":"addr-6525f3fd3c0ecc0b351fe292af922e215db3a6ca","city":["Dubai"],"country":["ae"],"full":["Lootah Building, Airport Road, near Aviation Club, Rashidya, Dubai"],"street":["Lootah Building, Airport Road, near Aviation Club, Rashidya"]}
+{"general_id":"addr-262ddecd3768178fffbc93b8c2b544b70252f3fe","city":["Baghdad"],"country":["iq"],"full":["Villa in the Harasiyah area, Baghdad"],"street":["Villa in the Harasiyah area"]}
+{"general_id":"NK-578WEtmgD5VoD5HaNLDm6j","city":["Dubai"],"country":["ae"],"full":["Rashidiya, 638, Dubai"],"street":["Rashidiya, 638"]}
+{"general_id":"addr-055296de77e653e7bcd3a90e3869e2d8862779a2","city":["Dubai"],"country":["ae"],"full":["Ibrahim Saeed Lootah Building, Al Ramool Street, P.O. Box 10631, Dubai"],"street":["Ibrahim Saeed Lootah Building, Al Ramool Street, P.O. Box 10631"]}
+{"general_id":"addr-87722e3e60d90fb091cd5b7fc7a6748657629c75","city":["Tehran"],"country":["ir"],"full":["Tehran, 3 Shahid Hamid Sadigh Alley [Building 3], Shariati Street"],"street":["3 Shahid Hamid Sadigh Alley [Building 3], Shariati Street"]}
+{"general_id":"NK-hiPEE9H5Nri49SEXPqkBYm","city":["Peshawar"],"country":["pk"],"full":["Peshawar"]}
+{"general_id":"addr-23296b6c5fdbd44c1918e9c6d4286d62415ac18e","city":["Chaman"],"country":["pk"],"full":["Branch Office 1 Sanatan (variant Sanatin) Bazaar, Sanatan Bazaar Street, near Trench (variant Tranch) Road, Chaman"],"region":["Baluchistan Province"],"street":["Branch Office 1 Sanatan (variant Sanatin) Bazaar, Sanatan Bazaar Street, near Trench (variant Tranch) Road"]}
+{"general_id":"NK-bN7H9Daxvw3Q7zGcaYYe7n","city":["Dubai"],"country":["ae"],"full":["Dubai"]}
+{"general_id":"NK-4qDu5CMJGR6djs2Ek8Vmjb","country":["af"],"full":["Herat Province"],"region":["Herat Province"]}
+{"general_id":"addr-cb415713179a331500d508989a7b4101faaf029f","country":["af"],"full":["Helmand Province"],"region":["Helmand Province"]}
+{"general_id":"NK-J5dC6xoYs8BKY6u3ymvajv","city":["Lahore"],"country":["pk"],"full":["Lahore"]}
+{"general_id":"NK-ggJut2rHnaWa6br98Eos8Q","city":["Kandahar City"],"country":["af"],"full":["Kandahar City","Kandahar Province"],"region":["Kandahar Province"]}
+{"general_id":"addr-8519640a1cdab64142c19df7a413600263bececa","city":["Karachi"],"country":["pk"],"full":["Karachi"]}
+{"general_id":"NK-CHfQxJApSbqeziEFWLLzkv","city":["Quetta"],"country":["pk"],"full":["Quetta"]}
+{"general_id":"NK-Ck62T5io8wM6SamgwEtcmp","city":["Islamabad"],"country":["pk"],"full":["Islamabad"]}
+{"general_id":"NK-f5tDHCNZQb8VEXgcnczP9g","city":["Tehran"],"full":["Unit 5, 2nd Floor, No75, Mehran Afrand St, Sattarkhan St, Tehran"],"street":["Unit 5, 2nd Floor, No75, Mehran Afrand St, Sattarkhan St"]}
+{"general_id":"NK-3edeJQKEeLJ5v5DXaFH96R","city":["Mashad","Mashhad"],"country":["ir"],"full":["Mashad, P.O. Box 91735-549","91735-549, 91735, Mashhad, 2nd km of Khalaj Road End of Seyyedi St"],"postOfficeBox":["91735-549, 91735"],"street":["2nd km of Khalaj Road End of Seyyedi St","P.O. Box 91735-549"]}
+{"general_id":"NK-m5JW8jsBMAjQQLriS3iTVr","city":["Mangyongdae-guyok, Pyongyang"],"country":["kp"],"full":["Chilgol 2-dong, Mangyongdae-guyok, Pyongyang"],"street":["Chilgol 2-dong"]}
+{"general_id":"NK-cpgCy3j8QJzSUVe5ek2DVC","city":["Minsk"],"country":["by"],"full":["Minsk, 38 Timoshenko St., apt. 198"],"street":["38 Timoshenko St., apt. 198"]}
+{"general_id":"NK-hbMAYpFn6ehXWf9A3j4CLG","city":["Minsk"],"country":["by"],"full":["Minsk, 14 Kedyshko St., apt. 11"],"street":["14 Kedyshko St., apt. 11"]}
+{"general_id":"NK-2rnGHEAVUaTDsTnnLT64Ls","city":["Vileika"],"country":["by"],"full":["Vileika, 59 L.Tolstoy St., apt. 80"],"street":["59 L.Tolstoy St., apt. 80"]}
+{"general_id":"addr-38235a5cf51a10f9bbcc0130a336347168adf16b","city":["Tehran"],"full":["Ashtian Tablo - No 67, Ghods mirheydari St, Yoosefabad, Tehran"],"street":["Ashtian  Tablo - No 67,  Ghods  mirheydari St,  Yoosefabad"]}
+{"general_id":"addr-f589b973e3c9611e504de07707d0eea572ee0bea","city":["Kinshasa"],"country":["cd"],"full":["Kinshasa"]}
+{"general_id":"NK-QLoxwy8wCovAcboNGoJjQX","city":["Pashtunabad, Quetta, Baluchistan Province"],"country":["pk"],"full":["Kachray Road, Pashtunabad, Quetta, Baluchistan Province"],"street":["Kachray Road"]}
+{"general_id":"NK-asJKPz5dw7rjPFvdcS3ZzB","city":["Chaman, Baluchistan Province","Chaman"],"country":["pk"],"full":["Chaman, Baluchistan Province","Chaman"],"region":["Baluchistan Province"]}
+{"general_id":"NK-bLnjmU2cpdSobyev4Vs2DM","city":["Nasrullah Khan Chowk, Pashtunabad Area, Baluchistan Province"],"country":["pk"],"full":["Nasrullah Khan Chowk, Pashtunabad Area, Baluchistan Province"]}
+{"general_id":"NK-D4wrxXKfxduSHeCLCkStFE","city":["Kandahar Province"],"country":["pk"],"full":["Abdul Satar Food Shop, Ayno Mina 0093, Kandahar Province"],"street":["Abdul Satar Food Shop, Ayno Mina 0093"]}
+{"general_id":"NK-HFipQufqFjq2p6WtoMjhgX","city":["Al-Anbar Province, Al-Qaim","Al Anbar Province, Al-Qaim"],"country":["iq"],"full":["Al-Anbar Province, Al-Qaim","Al Anbar Province, Al-Qaim"]}
+{"general_id":"NK-T3KCczpHiApwbKA6D8GXaW","city":["Pyongyang","Pyongyang,"],"country":["kp"],"full":["Pyongyang"]}
+{"general_id":"NK-eTM4KjfEEygC3ZoWCYhNyg","city":["Oak Lawn - Illinois"],"country":["us"],"full":["8820 Mobile Avenue, 1A, Oak Lawn - Illinois, 60453"],"postalCode":["60453"],"street":["8820 Mobile Avenue, 1A"]}
+{"general_id":"NK-Zr7n2keMzuBuWnUK7z7EKN","city":["Khartoum"],"country":["us"],"full":["PO box 1937, Khartoum"],"street":["PO box 1937"]}
+{"general_id":"NK-VUsom5WEjgWFe7wnYpHxgB","city":["Gaza Strip"],"country":["ps"],"full":["Gaza Strip"]}
+{"general_id":"NK-YLazLs942W6uKynXq8Sq6D","city":["Worth, Illinois"],"country":["us"],"full":["PO box 548, Worth, Illinois, 60482"],"postalCode":["60482"],"street":["PO box 548"]}
+{"general_id":"NK-MWELLfG2YUUbKGdbbizuky","city":["Newark, New Jersey"],"country":["us"],"full":["20-24 Branford Place, Suite 705, Newark, New Jersey, 07102"],"postalCode":["07102"],"street":["20-24 Branford Place, Suite 705"]}
+{"general_id":"NK-M6rJAhyhWRJyamctMrWpCV","city":["Palos Hills, Illinois"],"country":["us"],"full":["S. Roberts Road, Suite 1W, Palos Hills, Illinois, 60465"],"postalCode":["60465"],"street":["S. Roberts Road, Suite 1W"]}
+{"general_id":"addr-a9042202b65d39ddc1716d3aa2d0972d2a2d4148","city":["Damascus Province, Yabroud, Al Jalaa St"],"country":["sy"],"full":["Damascus Province, Yabroud, Al Jalaa St"]}
+{"general_id":"NK-B7riXAAQBZ2tNHzL7UqjLN","country":["lb"],"full":["Ein el-Hilweh camp"],"street":["Ein el-Hilweh camp"]}
+{"general_id":"addr-b206efa541b51bd33a02b425d7738d0df9e0dac0","city":["Damascus"],"country":["sy"],"full":["P.O. Box 4470, Damascus"],"street":["P.O. Box 4470"]}
+{"general_id":"NK-7ZbdjE35MwYEp92CZhPWJj","city":["Gao"],"country":["ml"],"full":["Golf Rue 708 Door 345, Gao"],"street":["Golf Rue 708 Door 345"]}
+{"general_id":"NK-iLDLAeEGmxXfPzUGEsmHRN","city":["Wallerfield, County of St. George East"],"country":["tt"],"full":["LP# 41 Ballisier Road, Smith Field Lands, Wallerfield, County of St. George East"],"street":["LP# 41 Ballisier Road, Smith Field Lands"]}
+{"general_id":"NK-a7FUE3ZzPgRXzpfLCRTALm","city":["Enterprise Chaguanas"],"country":["tt"],"full":["349 Dass Branch Trace, Dass Trace, Enterprise Chaguanas"],"street":["349 Dass Branch Trace, Dass Trace"]}
+{"general_id":"NK-7SfiU3ES48Pdbt9t2sEn8v","city":["Hatay"],"country":["tr"],"full":["Reyhanli, Hatay"],"street":["Reyhanli"]}
+{"general_id":"NK-D7aJyM67ocm4iWJuMdSPp3","city":["Rawalpindi"],"country":["pk"],"full":["Office Dha’rbi-M’unin, Rm No. 3, Moti Plaza, Near Liaquat Bagh, Muree Road, Rawalpindi"],"street":["Office Dha’rbi-M’unin, Rm No. 3, Moti Plaza, Near Liaquat Bagh, Muree Road"]}
+{"general_id":"NK-LEcZ3FnQXfnicekryUkAu8","city":["Lahore"],"country":["pk"],"full":["Jamia Maajid, Sulalman Park, Melgium Pura, Lahore","Jamia Masjid Sulaiman Park Begum Pura, Lahore"],"street":["Jamia Maajid, Sulalman Park, Melgium Pura","Jamia Masjid Sulaiman Park Begum Pura"]}
+{"general_id":"NK-ktMLNTPbdKMrXvp3yvXCpU","city":["Karachi"],"country":["pk"],"full":["605 Landmark Plaza, 11 Chundrigar Road, Opposite Jang Building, Karachi"],"street":["605 Landmark Plaza, 11 Chundrigar Road, Opposite Jang Building"]}
+{"general_id":"NK-TKeTmiNk46XCD6y8trPBsM","city":["Peshawar"],"country":["pk"],"full":["Office Dha’rbi-M’unin ZR Brothers, Katcherry Road, Chowk Yadgaar, Peshawar"],"street":["Office Dha’rbi-M’unin ZR Brothers, Katcherry Road, Chowk Yadgaar"]}
+{"general_id":"NK-HN7KPffAYfNDMzRsVstXmN","city":["Karachi"],"country":["pk"],"full":["302b-40 Good Earth Court, Opposite Pia Planitarium, Block 13a, Gushan-I Iqbal, Karachi"],"street":["302b-40 Good Earth Court, Opposite Pia Planitarium, Block 13a, Gushan-I Iqbal"]}
+{"general_id":"NK-nDf2ma4aF7sPfwwrasyb2X","city":["Karachi"],"country":["pk"],"full":["Kitab Ghar, Darul Ifta Wal Irshad, Nazimbad No 4, Karachi","Kitas Ghar, Nazimabad 4, Dahgel-Iftah, Karachi"],"street":["Kitab Ghar, Darul Ifta Wal Irshad, Nazimbad No 4","Kitas Ghar, Nazimabad 4, Dahgel-Iftah"]}
+{"general_id":"NK-ZbDNApopuKBtixkNLEXYp5","city":["Mansehra"],"country":["pk"],"full":["Office Dha’rbi-M’unin, Opposite Khyber Bank, Abbottabad Road, Mansehra"],"street":["Office Dha’rbi-M’unin, Opposite Khyber Bank, Abbottabad Road"]}
+{"general_id":"NK-cqDfPgbFMD5qeynwYxvciw","city":["Swat"],"country":["pk"],"full":["Office Dha’rbi-M’unin, Top Floor, Dr. Dawa Khan Dental Clinic Surgeon, Main Baxae,Mingora, Swat"],"street":["Office Dha’rbi-M’unin, Top Floor, Dr. Dawa Khan Dental Clinic Surgeon, Main Baxae,Mingora"]}
+{"general_id":"NK-RVBJCmQVTe9UE7LKb4PDjd","city":["Karachi"],"country":["pk"],"full":["Clifton Center, Block 5, 6th floor, Clifton, 617, Karachi"],"street":["Clifton Center, Block 5, 6th floor, Clifton, 617"]}
+{"general_id":"NK-V59GzzBL8WD5HY5VGwgTQy","city":["Ariana"],"country":["tn"],"full":["18 Mediterranean Street, Ariana"],"street":["18 Mediterranean Street"]}
+{"general_id":"NK-WdSZ8FqBsiy5rSBd4hYCha","city":["Damascus"],"country":["sy"],"full":["P.O. Box 9120, Dar Al Saadi Building 1st, 5th, and 6th Floor Zillat Street Mazza Area, Damascus"],"postOfficeBox":["P.O. Box 9120"],"street":["Dar Al Saadi Building 1st, 5th, and 6th Floor Zillat Street Mazza Area"]}
+{"general_id":"NK-DwPfLNgCXFYKAv5cHHjgmx","city":["Ust-Dzheguta"],"country":["ru"],"full":["Moscovskiy Microrayon 6, App. 96, Ust-Dzheguta, Republic of Karachayevo-Cherkessia"],"region":["Republic of Karachayevo-Cherkessia"],"street":["Moscovskiy Microrayon 6, App. 96"]}
+{"general_id":"NK-4vPTmzWxmW3M2tm65p7E9Q","city":["Tehran"],"country":["ir"],"full":["Tehran, 221 North Falamak-Zarafshan Intersection, 4th Phase, Shahkrak-E-Ghods, 14678"],"postalCode":["14678"],"street":["221 North Falamak-Zarafshan Intersection, 4th Phase, Shahkrak-E-Ghods"]}
+{"general_id":"NK-SYYXKTVXy7pz7hcm5WcXWK","city":["Village  of Ilyinka"],"country":["ru"],"full":["Village of Ilyinka, Astrakhan Oblast"],"region":["Astrakhan Oblast"]}
+{"general_id":"NK-Kzhq7ARH8Ukfk6CPd65DQy","city":["Minsk"],"country":["by"],"full":["220004 Minsk, Niamiha 40"],"postalCode":["220004"],"street":["Niamiha 40"]}
+{"general_id":"NK-gvt3UFCqNJXatsdnAaWLuA","city":["Orsha region, Bolbasovo village, Zavodskaya 1k"],"country":["by"],"full":["Orsha region, Bolbasovo village, Zavodskaya 1k"]}
+{"general_id":"NK-mYATRBoTg45Gqudihg9CcP","city":["Yalta"],"country":["ua"],"full":["Kirov Street 31, Yalta, 298600"],"postalCode":["298600"],"region":["Crimea"],"street":["Kirov Street 31"]}
+{"general_id":"NK-HuXfy7z6kUBSWa4HMcr53x","city":["Moscow"],"full":["Avtozavodskaya st., 14, 115280 Moscow"],"postalCode":["115280"],"street":["Avtozavodskaya st., 14"]}
+{"general_id":"addr-6d74b2b1a9f626b679e703049a84cdcc3adb53e8","city":["Harare"],"country":["zw"],"full":["6597, 10th Floor, Trustee House, 55 Samora Machel Avenue, Harare"],"postOfficeBox":["6597"],"street":["10th Floor, Trustee House, 55 Samora Machel Avenue"]}
+{"general_id":"addr-dd30a8edb38d222f127d55580b2ee75a505de6fd","city":["Atimonana, Quezon Province"],"country":["ph"],"full":["Atimonana, Quezon Province"]}
+{"general_id":"NK-cit9nMdbwkWbPk2qaHPXh5","city":["Raqqa"],"country":["sy"],"full":["Raqqa"]}
+{"general_id":"addr-bc0b94101a36cf766eec2c05103c2f38537b1396","city":["Aleppo"],"country":["sy"],"full":["Aleppo"]}
+{"general_id":"addr-b47c897f698fd54c1e99955fa0189a46fe1aae89","city":["Jungson-dong, Sungri Street, Central District, Pyongyang"],"country":["kp"],"full":["Jungson-dong, Sungri Street, Central District, Pyongyang"]}
+{"general_id":"addr-172ffbb69247d3ffe457f572ec3f55d0d6bb5593","city":["Kampala"],"country":["ug"],"full":["Plot 55A, Upper Kololo Terrace, Kampala"],"street":["Plot 55A, Upper Kololo Terrace"]}
+{"general_id":"NK-NHbkxZtgtg8F5MteJG2hAy","city":["İlkadım, Samsun"],"country":["tr"],"full":["Liman Mh. Gezi Cd. No:22/3, İlkadım, Samsun"],"street":["Liman Mh. Gezi Cd. No:22/3"]}
+{"general_id":"NK-kkJkACEqx3dECkehKdmfUB","city":["St. Petersburg"],"country":["ru"],"full":["195267, 122, Grazhdanskiy Prospect, St. Petersburg"],"postOfficeBox":["195267"],"street":["122, Grazhdanskiy Prospect"]}
+{"general_id":"NK-2S4dJ7wNG9THfk2zG2UWFf","city":["Vologda"],"country":["ru"],"full":["160019, 133 Chernyshevskogo street, Vologda, Vologodskaya Oblast"],"postOfficeBox":["160019"],"region":["Vologodskaya Oblast"],"street":["133 Chernyshevskogo street"]}
+{"general_id":"addr-c1b96e369385cc2bde3c262c827901430750208e","city":["Chai Wan"],"country":["cn"],"full":["29- 31 Cheung Lee Street, Chai Wan"],"street":["29- 31 Cheung Lee Street"]}
+{"general_id":"addr-d34ea94ef40b6d4538c4ad09d5131aae937429e3","city":["Pyongyang"],"country":["kp"],"full":["Dongheung-dong Changgwang Street, Chung-Ku, PO Box 125, Pyongyang"],"street":["Dongheung-dong Changgwang Street, Chung-Ku, PO Box 125"]}
+{"general_id":"addr-9be53a6afa14f489e0cb076271c82fba4ffc950a","city":["Pyongyang"],"country":["kp"],"full":["Donghung Dong, Central District, PO Box 120, Pyongyang"],"street":["Donghung Dong, Central District, PO Box 120"]}
+{"general_id":"addr-31b7d8dfb902bdd94768018fa1c667d3c3290084","city":["Isfahan"],"country":["ir"],"full":["Isfahan, P.O. Box 81465-117"],"street":["P.O. Box 81465-117,"]}
+{"general_id":"addr-fb33024bf659247d4b22e6d95a90a70f17964b3b","city":["Isfahan"],"country":["ir"],"full":["Isfahan, P.O. Box 81465-313 Kaveh Ave."],"street":["P.O. Box 81465-313 Kaveh Ave."]}
+{"general_id":"NK-D5dFh9PVeXNcw45NdYXkQW","city":["Genf","Ginevra","Geneva","Genève"],"country":["ch"],"full":["Genf","Ginevra","Geneva","Genève"]}
+{"general_id":"NK-cFvqimBugsiYvc9XqmWoTc","city":["Pyongchon-guyok, Pyongyang"],"country":["kp"],"full":["Puksong 2-dong, Pyongchon-guyok, Pyongyang"],"street":["Puksong 2-dong"]}
+{"general_id":"NK-D5dFh9PVeXNcw45NdYXkQW","city":["Genf","Ginevra","Geneva","Genève"],"country":["ch"],"full":["Genf","Ginevra","Geneva","Genève"]}
+{"general_id":"addr-3249baccf363a3815198b67b0c99a84c59e6fd7d","city":["Baghdad"],"country":["iq"],"full":["Al Masarif Street, Baghdad"],"street":["Al Masarif Street"]}
+{"general_id":"addr-068f144b51f04dc969702315a48947ce55b5c8cd","city":["Baghdad"],"country":["iq"],"full":["Haifa Street, Baghdad, PO Box 7177"],"postalCode":["PO Box 7177"],"street":["Haifa Street"]}
+{"general_id":"addr-8a10d211783dc246396146b13d12b91725cc0399","city":["Islamabad"],"country":["pk"],"full":["House No 279, Nazimuddin Road, F-10/1, Islamabad"],"street":["House No 279, Nazimuddin Road, F-10/1"]}
+{"general_id":"addr-e2601600ea94daa18b95565fd595ae9e50365dd8","city":["Nangarhar Province"],"country":["af"],"full":["Kamkai Village, Achin District, Nangarhar Province"],"street":["Kamkai Village, Achin District"]}
+{"general_id":"addr-d24943b937b759089a0de55d37229bc1006a9199","city":["Batan village, Achin District, Nangarhar Province"],"country":["af"],"full":["Batan village, Achin District, Nangarhar Province"]}
+{"general_id":"addr-9f33aa46c933f99c779617ffd04578fba0c6b0f9","city":["Surkhel village, Achin district, Nangarhar Province"],"country":["af"],"full":["Surkhel village, Achin district, Nangarhar Province"]}
+{"general_id":"NK-YaSPyiXvRnjzy9KztL2qQE","city":["Homs"],"country":["sy"],"full":["P.O. Box 352, General Company for Homs Refinery Building, 352 Tripoli Street, Homs"],"postOfficeBox":["P.O. Box 352"],"street":["General Company for Homs Refinery Building, 352 Tripoli Street"]}
+{"general_id":"addr-26bef2f3179d900a725254b1ff207a645ec7d69b","city":["Kish Island"],"country":["ir"],"full":["Kish Island, Sanaee St."],"street":["Sanaee St."]}
+{"general_id":"NK-e74Co3vDaJVkEFnKcqsw9r","city":["Donetsk"],"country":["ua"],"full":["13 Prospect Zasyadko, Donetsk"],"street":["13 Prospect Zasyadko"]}
+{"general_id":"NK-3Kw6ZCXo8SddN8PJ58uuvE","city":["Moscow"],"country":["ru"],"full":["Moscow"]}
+{"general_id":"NK-STaPQr88eTHrKJt6NUEYkU","city":["Naypyitaw"],"country":["mm"],"full":["NO.70- 072, Yarza, Thingaha Road, Thapyaygone Ward, Zabuthiri Township, Naypyitaw"],"street":["NO.70- 072, Yarza,  Thingaha Road,  Thapyaygone Ward,  Zabuthiri Township"]}
+{"general_id":"addr-b40c7984ee62b81ec6e13ecab4a7c28962392245","city":["Yangon"],"country":["mm"],"full":["No. 150, Yadanar Street, Yadanar Housing (near Tine Yin Thar Village), Yangon"],"region":["Tharkayta  Towhship"],"street":["No. 150,  Yadanar Street,  Yadanar Housing  (near Tine Yin  Thar Village)"]}
+{"general_id":"NK-T3KCczpHiApwbKA6D8GXaW","city":["Pyongyang","Pyongyang,"],"country":["kp"],"full":["Pyongyang"]}
+{"general_id":"NK-3feoYytpqoM6wEBFdJXN3f","city":["Kabul"],"country":["af"],"full":["Kushal Khan Mena, District Number 5, Kabul"],"street":["Kushal Khan Mena, District Number 5"]}
+{"general_id":"addr-131cdf3c6e9a767328ed95669ced475853386545","city":["Sulaymaniya"],"country":["iq"],"full":["Sulaymaniya"]}
+{"general_id":"NK-iuzXKvwUbaqrCHZzbAMoya","city":["St. Petersburg"],"country":["ru"],"full":["Kondrat’yevskiy Prospekt, 15, building 5/1, 223, St. Petersburg, 195 197"],"postalCode":["195 197"],"street":["Kondrat’yevskiy Prospekt, 15, building 5/1, 223"]}
+{"general_id":"NK-KR9iQmf3EAkPstaiWHzFPJ","city":["Milan"],"country":["it"],"full":["Corso XXII Marzo 39, Milan"],"street":["Corso XXII Marzo 39"]}
+{"general_id":"NK-n9Px7ghJivKM7C8uiaJMFX","city":["Azovskoye, Jankoysky district"],"country":["ua"],"full":["40 Zeleznodorozhnaya str., Azovskoye, Jankoysky district, 296178"],"postalCode":["296178"],"street":["40 Zeleznodorozhnaya str."]}
+{"general_id":"NK-hvrSfQiJirfUjFFs4i8Fmh","city":["Tehran"],"country":["ir"],"full":["13445-885, Tehran, Mehrabad Airport","Tehran, Mehrabad Airport"],"postOfficeBox":["13445-885"],"street":["Mehrabad Airport"]}
+{"general_id":"NK-ASiKNMcnDmrMvFFtaipope","city":["Sumber Agung Magetan, East Java"],"country":["id"],"full":["Podok Pesantren AL Wayain Ngrandu, Sumber Agung Magetan, East Java"],"street":["Podok Pesantren AL Wayain Ngrandu"]}
+{"general_id":"NK-4FsQgfyZFJRW34vfBuj9UG","full":["District 50 Year of the USSR, 18; c. of Kirovsk"],"street":["District 50 Year of the USSR, 18; c. of Kirovsk"]}
+{"general_id":"NK-asJKPz5dw7rjPFvdcS3ZzB","city":["Chaman, Baluchistan Province","Chaman"],"country":["pk"],"full":["Chaman, Baluchistan Province","Chaman"],"region":["Baluchistan Province"]}
+{"general_id":"addr-7c1da58e6bc8ed3117890009e65beee3be8e8c25","city":["Tehran"],"country":["ir"],"full":["Tehran, 539 North Pasdaran Avenue, Tehran"],"street":["539 North Pasdaran Avenue, Tehran"]}
+{"general_id":"addr-ec5a21ea917692329d0e0b75fe6aeec1fde2dfc0","city":["Tehran"],"country":["ir"],"full":["Tehran, North Khaje Nasir Street [Ansar Building]"],"street":["North Khaje Nasir Street [Ansar Building]"]}
+{"general_id":"NK-T3KCczpHiApwbKA6D8GXaW","city":["Pyongyang","Pyongyang,"],"country":["kp"],"full":["Pyongyang"]}
+{"general_id":"NK-QDw2L2s6V2PSaJPejNKVtj","city":["Damascus"],"country":["sy"],"full":["2231, Moawiya St., Damascus"],"postOfficeBox":["2231"],"street":["Moawiya St."]}
+{"general_id":"NK-Jj7wbD8Xv4Vdt2KvzV2uAD","city":["Aleppo"],"country":["sy"],"full":["2, Kastel Hajjarin St. (Aleppo Branch), Aleppo"],"postOfficeBox":["2"],"street":["Kastel Hajjarin St. (Aleppo Branch)"]}
+{"general_id":"NK-RzAQmA5uX7EdrnNGye9SkN","city":["Damascus"],"country":["sy"],"full":["933, Yousef Azmeh Square (Damascus Branch), Damascus"],"postOfficeBox":["933"],"street":["Yousef Azmeh Square (Damascus Branch)"]}
+{"general_id":"NK-Bv6xwopSC7y6DPkFA29ozu","city":["Yangin"],"country":["mm"],"full":["Gyogone Forest Compound, Bayint Naung Road, Insein Township, Yangin"],"street":["Gyogone Forest  Compound, Bayint  Naung Road, Insein  Township"]}
+{"general_id":"NK-kobQ9NLDPNVMd2eWbekBGY","city":["Yangon"],"country":["mm"],"full":["No 72/74 Shawe Dagon Pagoda Road, Dagon Township, Yangon"],"street":["No  72/74 Shawe Dagon  Pagoda Road,  Dagon Township"]}
+{"general_id":"addr-4b7b48eb0efe174dbf7f34b2b098f4fbac7db439","city":["Tehran"],"country":["ir"],"full":["Tehran, 33 Hormozan Building, Pirozan St., Sharaj Ghods"],"street":["33 Hormozan Building, Pirozan St., Sharaj Ghods,"]}
+{"general_id":"NK-MJxqXt6dpS92ezSennHtXb","city":["Mosul"],"country":["iq"],"full":["Mosul"]}
+{"general_id":"addr-70f2c2a957cc900bf8e32ee69b1e370cfad80ac3","city":["Tehran"],"country":["ir"],"full":["Tehran, Tehran Province, Hasanabad, Bijin Industrial Zone, Tehran, Qom Old Road, Tehran Province"],"region":["Tehran Province"],"street":["Tehran Province, Hasanabad, Bijin Industrial Zone, Tehran, Qom Old Road"]}
+{"general_id":"NK-RrDgGZvVL5uEbZNQJcjbX5","city":["Hammam - Sousse"],"full":["11 rue Sidi el Gharbi, Hammam - Sousse"],"street":["11 rue Sidi el Gharbi"]}
+{"general_id":"NK-3sqqetDTLkKf6JKbVPRnCg","city":["Minsk"],"country":["by"],"full":["220039 Minsk, 19 Korotkevich Str."],"postalCode":["220039"],"street":["19 Korotkevich Str."]}
+{"general_id":"NK-9bJTTg7C43wh7K2yM2L43e","city":["East London"],"country":["gb"],"full":["East London"]}
+{"general_id":"NK-dwGyV8iBqLfrQS5ZDX5fXj","city":["Tunis"],"country":["tn"],"full":["Rue du Lac Turkana-Les Berges du Lac - Apartment block Amine El Bouhaira, Tunis"],"street":["Rue du Lac Turkana-Les Berges du Lac - Apartment block Amine El Bouhaira"]}
+{"general_id":"NK-Y7B9BigyrrXgYL5MZ6E5QV","city":["Tehran"],"full":["101 West Zardosht Street, 3rd Floor, 14157 Tehran"],"postalCode":["14157"],"street":["101 West Zardosht Street, 3rd Floor"]}
+{"general_id":"NK-Waxyaxo7W9TNwaFt237C5R","city":["Tehran"],"full":["139 Hoveyzeh Street, 15337 Tehran"],"postalCode":["15337"],"street":["139 Hoveyzeh Street"]}
+{"general_id":"NK-asJKPz5dw7rjPFvdcS3ZzB","city":["Chaman, Baluchistan Province","Chaman"],"country":["pk"],"full":["Chaman, Baluchistan Province","Chaman"],"region":["Baluchistan Province"]}
+{"general_id":"NK-jpLfUaHceqwg3DT5jYkGpD","city":["Крым, г. Судак, пгт. Новый Свет","Sudak, Novy Svet"],"full":["ул. Шаляпина, д. 1, 298032 Крым, г. Судак, пгт. Новый Свет","str. Shalapina 1, 298032 Sudak, Novy Svet"],"postalCode":["298032"],"region":["Crimea"],"street":["str. Shalapina 1","ул. Шаляпина, д. 1"]}
+{"general_id":"NK-7X6vC9QMFhyTWGpmL2cpeP","city":["Al Kharaitiyat"],"country":["qa"],"full":["Al Kharaitiyat"]}
+{"general_id":"addr-29197b02c8d01bcbded1f0c58b8f2cc3b2cf2539","city":["Tianjin"],"country":["cn"],"full":["Room 1102, Guanfu Mansion, 46 Xinkai Road, Hedong District, Tianjin"],"street":["Room 1102, Guanfu Mansion, 46 Xinkai Road, Hedong District"]}
+{"general_id":"NK-kWtazRouzYrMVAXZr3WR9e","city":["Крым, г. Симферополь","Crimea, Simferopol"],"country":["ua"],"full":["пр.Кирова 52, Крым, г. Симферополь, 295000","Prospekt Kirov 52, Crimea, Simferopol, 295000"],"postalCode":["295000"],"street":["Prospekt Kirov 52","пр.Кирова 52"]}
+{"general_id":"NK-FqWKeXBV3TyFZqo52VCDdd","city":["Kangdong"],"country":["kp"],"full":["Kangdong"]}
+{"general_id":"NK-hHJDsmqNPJvMavFoH7XWxY","city":["Minsk"],"country":["by"],"full":["Minsk, P. Mstislavtsa 9 (1st floor)"],"street":["P. Mstislavtsa 9 (1st floor)"]}
+{"general_id":"addr-7850715a42ae1dfb9511eff8673f7f32f9d87462","city":["Tehran"],"country":["ir"],"full":["Tehran, Shahid Langary Street, Nobonyad Square Ave, Pasdaran"],"street":["Shahid Langary Street, Nobonyad Square Ave, Pasdaran"]}
+{"general_id":"addr-a418e24305be37eadad0980311d57615fafe8593","city":["Tehran"],"country":["ir"],"full":["Tehran, PO Box 19295-4731, Pasdaran Avenue"],"street":["PO Box 19295-4731, Pasdaran Avenue"]}
+{"general_id":"NK-koXqVbviqUJyJdHFgfPg7E","city":["Tehran"],"country":["ir"],"full":["Tehran, PO Box 19575-131, 34 Apadana Avenue"],"street":["PO Box 19575-131, 34 Apadana Avenue"]}
+{"general_id":"NK-JcBz4bgNEc5byhQXiuHDBu","city":["Monastir"],"full":["avenue Mohamed Salah Sayadi - Skanes, Monastir"],"street":["avenue Mohamed Salah Sayadi - Skanes"]}
+{"general_id":"NK-Gp3BTpTXZ9b4igFYpzYgqP","country":["ly"],"full":["Hasan al-Mashay Street (off al- Zawiyah Street)"],"street":["Hasan al-Mashay Street (off al- Zawiyah Street)"]}
+{"general_id":"addr-7f0f85bba6cced6629dd6b9fd4494e698856e727","city":["Amman"],"country":["jo"],"full":["Al-Razi Medical Complex, Jabal Al-Hussein, Amman"],"street":["Al-Razi Medical Complex, Jabal Al-Hussein"]}
+{"general_id":"addr-39de21c9beb5790d8ed6ba3c86145f4fb07805b3","city":["Amman"],"country":["jo"],"full":["P.O. Box 910606, 11191 Amman"],"postalCode":["11191"],"street":["P.O. Box 910606"]}
+{"general_id":"addr-1e3c3d7efe9f9be6b8450c67ad3b32d62cb9822d","city":["Amman"],"country":["jo"],"full":["P.O. Box 212953, 11121 Amman"],"postalCode":["11121"],"street":["P.O. Box 212953"]}
+{"general_id":"NK-8HpiPfjRHeMB8TfhWUrsRi","country":["mm"],"full":["51 Mahabandoola road, 189/191 Botataung, Yangon region, 11 161"],"postalCode":["11 161"],"region":["Yangon region"],"street":["51  Mahabandoola  road, 189/191 Botataung"]}
+{"general_id":"addr-2b12265e6a13d0e03b0fbdba2e284b0bb55b33b6","city":["Singida"],"country":["tz"],"full":["Singida"]}
+{"general_id":"NK-Xo3mepSsydiJ6FYstNbvuZ","city":["Tanga"],"country":["tz","to"],"full":["Tanga"]}
+{"general_id":"addr-d128457ffa80bacfc152a6a214fb8dc808547592","city":["Dar es Salaam"],"country":["tz"],"full":["PO box 3616, Dar es Salaam"],"street":["PO box 3616"]}
+{"general_id":"NK-n62o2GaMmstPkQeHRfikmY","city":["Langen"],"country":["de"],"full":["133 Südliche Ringstrasse, 63225 Langen"],"postalCode":["63225"],"street":["133 Südliche Ringstrasse"]}
+{"general_id":"addr-59d9f76ff65835fbae0102af44d44d13328297a9","city":["Minsk"],"country":["by"],"full":["220028 Minsk, Belarusian Association of Veterans of Special Forces of the Ministry of Internal Affairs ‘Honour’, 111 Mayakovskogo St."],"postalCode":["220028"],"street":["Belarusian Association of Veterans of Special Forces of the Ministry of Internal Affairs ‘Honour’, 111 Mayakovskogo St."]}
+{"general_id":"NK-hPR65FjsxnvirUZsxd6bVD","city":["Am Dafock, Vakaga prefecture"],"country":["cf"],"full":["Am Dafock, Vakaga prefecture"]}
+{"general_id":"NK-4nb6jMTYrD3cLdeKfjQgR4","city":["Ndjamena"],"country":["td"],"full":["Ndjamena"]}
+{"general_id":"addr-d1f0b4a52574585958bd5f65ac2dffd6ddf89cde","city":["Istanbul"],"country":["tr"],"full":["Büyükdere Cad., No:201, Istanbul"],"street":["Büyükdere Cad.,  No:201"]}
+{"general_id":"NK-a64ShywKTRFfGtzzKEkYtY","city":["Sana’a"],"country":["ye"],"full":["Shari Tunis, Sana’a"],"street":["Shari Tunis"]}
+{"general_id":"addr-06498413e23bd8d4119519f68f303aef376785eb","city":["Damascus"],"country":["sy"],"full":["PO BOX 2849, Al-Moutanabi Street, Damascus"],"street":["PO BOX 2849, Al-Moutanabi Street"]}
+{"general_id":"NK-TtNu58d625vEqXavuFnsD9","city":["Damascus"],"country":["sy"],"full":["P.O. Box 5966, Abou Bakr Al‐Seddeq St., Damascus"],"street":["P.O. Box 5966, Abou Bakr Al‐Seddeq St."]}
+{"general_id":"NK-3mk8FQSrVXTXeq6YTmAeDx","city":["Damascus"],"country":["sy"],"full":["PO BOX 21120, Baramkeh, Damascus"],"street":["PO BOX 21120, Baramkeh"]}
+{"general_id":"addr-c8865d78a29a21cf03fb4905572882e056e88f59","country":["ph"],"full":["Sulu region"],"region":["Sulu region"]}
+{"general_id":"NK-Vha7dWJcHE9i55km8mrqS4","city":["Tripoli","TRIPOLI"],"country":["ly"],"full":["Tripoli","TRIPOLI"],"postalCode":["81370"]}
+{"general_id":"addr-ebc9d1a1b1f80d9abe29f486113bd50489493074","city":["Homs"],"country":["sy"],"full":["Homs"]}
+{"general_id":"addr-512100a0420b0157f4f976d52e1de28b20727b7d","city":["Pyongyang"],"country":["kp"],"full":["Room 818, Pothonggang Hotel, Ansan-Dong, Pyongchon district, Pyongyang"],"street":["Room 818, Pothonggang Hotel, Ansan-Dong, Pyongchon district"]}
+{"general_id":"NK-BHQrGiS83bDXSwZYu6t84s","city":["Majuro, Ajeltake Island"],"country":["mh"],"full":["Trust Company Complex, Ajeltake Road, Majuro, Ajeltake Island, MH 96960"],"postalCode":["MH 96960"],"street":["Trust Company Complex, Ajeltake Road"]}
+{"general_id":"NK-YoQEtfkKLGfGowejRZyjJD","city":["Damascus"],"country":["sy"],"full":["P.O. Box 5966, Kaboon Street, Damascus"],"postOfficeBox":["P.O. Box 5966"],"street":["Kaboon Street"]}
+{"general_id":"addr-aae1642abe086b3a118db2b2c699b72cd9558ee2","country":["sd"],"full":["Jonglei State"],"region":["Jonglei State"]}
+{"general_id":"NK-iTNYBRmmfLxNuMdKW5qMXp","city":["Quetta, Baluchistan Province"],"country":["pk"],"full":["Abdul Manan Chowk, Pashtunabad, Quetta, Baluchistan Province"],"street":["Abdul Manan Chowk, Pashtunabad"]}
+{"general_id":"NK-mSpAzxmVgpfWBeoM6Den4j","city":["Milano"],"country":["it"],"full":["Via Masina, 7, Milano"],"street":["Via Masina, 7"]}
+{"general_id":"NK-7iYfmW8mQQAi4q9ygfATLD","city":["Huancui Qu, Weihai"],"country":["cn"],"full":["419-201, Tongyi Lu, 264200 Shandong"],"postalCode":["264200"],"region":["Shandong"],"street":["419-201, Tongyi Lu"]}
+{"general_id":"NK-X7EfFqN3LGHgKJ5duu8raX","city":["Caloocan City"],"country":["ph"],"full":["10th Avenue, Caloocan City"],"street":["10th Avenue"]}
+{"general_id":"NK-Q2tpi5BXRbssdyUF34iwP4","city":["Damascus"],"country":["sy"],"full":["Adra Free Zone Area, Damascus"],"street":["Adra Free Zone Area"]}
+{"general_id":"addr-d16b9f33f69b012a835065ee03790cb7b6dee50d","city":["Moscow"],"country":["ru"],"full":["Ochakovskoye Shosse, Dom 28, Building 2, Local 3, Room 8, Moscow, 119530"],"postalCode":["119530"],"street":["Ochakovskoye  Shosse, Dom 28, Building 2,  Local 3, Room 8"]}
+{"general_id":"addr-db93eed7986ec60bdaa60cf30fd441f728c18632","city":["Managua"],"country":["ni"],"full":["Managua"]}
+{"general_id":"NK-R8ZhzYhBWDe5xmYkLwnX6b","city":["Arsal, Bekaa"],"country":["lb"],"full":["Arsal, Bekaa"]}
+{"general_id":"addr-ce1d72143219ff61f18081253841bafa841b640a","city":["Damascus"],"country":["sy"],"full":["P.O. Box 6394, Baghdad Street 5, Damascus"],"postOfficeBox":["P.O. Box 6394"],"street":["Baghdad Street 5"]}
+{"general_id":"addr-7f7ebbc6e7bf41346ca3f414e3e578fcb56d2e4a","city":["La Marsa"],"country":["tn"],"full":["4 Rue Taoufik EI Hakim, La Marsa"],"street":["4 Rue Taoufik EI Hakim"]}
+{"general_id":"addr-588c0bd53f72e644f0d4295850e8afdcbfe055cc","city":["Damascus"],"country":["sy"],"full":["Al Thawraa Street, P.O. Box 2330, Damascus"],"street":["Al Thawraa Street, P.O. Box 2330"]}
+{"general_id":"addr-8e3ab8f566da9855eb33207cd82f7357b9ffe756","city":["Damascus"],"country":["sy"],"full":["Al-Hameh, Damascus Countryside, P.O. Box 2230, Damascus"],"street":["Al-Hameh, Damascus Countryside, P.O. Box 2230"]}
+{"general_id":"addr-54c7d151b0e3aff0a0a8b16fc52b39b0be0de416","city":["Al Monsur, Baghdad","Baghdad"],"country":["iq"],"full":["Mutanabi Area, Al Monsur, Baghdad"],"street":["Mutanabi Area","Mutanabi Area, Al Monsur"]}
+{"general_id":"NK-X9xeCvQ6xcZLtPM2GjerPY","city":["Bludan"],"country":["sy"],"full":["Bludan"]}
+{"general_id":"NK-Ukv3mUosN3A26iKPUW35Va","city":["London"],"country":["gb"],"full":["53/64 Chancery Lane, London WC2A 1QU"],"postalCode":["WC2A 1QU"],"street":["53/64 Chancery Lane"]}
+{"general_id":"NK-FnLFKXwRfehUiR76TYrMSP","city":["Road Town, Tortola"],"country":["vg"],"full":["3162, Woodbourne Hall, Road Town, Tortola"],"postOfficeBox":["3162"],"street":["Woodbourne Hall"]}
+{"general_id":"addr-6bf6c54354951b237edcdeddc5965e67fb7ee67a","city":["Esfahan"],"country":["ir"],"full":["Esfahan, P.O. Box 83145-311, Kilometer 28, Esfahan-Tehran Freeway, Shahin Shahr"],"street":["P.O. Box 83145-311, Kilometer 28, Esfahan-Tehran Freeway, Shahin Shahr"]}
+{"general_id":"addr-9aab66d2454524b05f0d80123e70fd193d56fc35","city":["Goma, North Kivu"],"country":["cd"],"full":["Goma, North Kivu"],"street":["Goma, North Kivu"]}
+{"general_id":"NK-VfDb3H2PUazcu4FqQBHuMC","city":["Rakrang-guyok, Pyongyang"],"country":["kp"],"full":["Jongbaek 1-dong, Rakrang-guyok, Pyongyang"],"street":["Jongbaek 1-dong"]}
+{"general_id":"NK-gd62ynGzj448HHFuEmrNof","city":["Pré Saint Gervais"],"country":["fr"],"full":["41-45, Rue Estienne d’Orves, Pré Saint Gervais"],"street":["41-45,  Rue Estienne d’Orves"]}
+{"general_id":"NK-3Kw6ZCXo8SddN8PJ58uuvE","city":["Moscow"],"country":["ru"],"full":["Moscow"]}
+{"general_id":"addr-2f027371906b2b816a157600573e6968d735105f","city":["Kermanshah"],"country":["ir"],"full":["Kermanshah"]}
+{"general_id":"addr-6b165a644fe957be07a485d5db799b31ed96f1d2","city":["Mehran Military Base, Ilam Province"],"country":["ir"],"full":["Mehran Military Base, Ilam Province"]}
+{"general_id":"NK-k5UtunQKehPNAVnA6GQ8A9","city":["Tehran"],"country":["ir"],"full":["Tehran, 204 Taleghani Ave"],"street":["204 Taleghani Ave"]}
+{"general_id":"NK-iesSZjZZh88GNPE993NEoM","city":["Tehran"],"country":["ir"],"full":["Tehran, Pasdaran Av., PO Box 19585/777"],"street":["Pasdaran Av., PO Box 19585/777"]}
+{"general_id":"NK-8U7WrWtzZ4FF7KKN6ruKwf","city":["Damascus"],"country":["sy"],"full":["P.O. Box 60694, New Sham - Building of Syrian Oil Company, Damascus"],"postOfficeBox":["P.O. Box 60694"],"street":["New Sham - Building of Syrian Oil Company"]}
+{"general_id":"NK-JkHvwePHNbd5hCfCG8ZLJx","city":["Hamburg"],"country":["de"],"full":["Bunatwiete, 23, D-21073 Hamburg"],"postalCode":["D-21073"],"street":["Bunatwiete, 23"]}
+{"general_id":"addr-397bcddbefec86a102abb0ae86cb9917edf06fa3","city":["Simferopol"],"country":["ua"],"full":["117 Balaklavs'ka St, App 48, Simferopol"],"region":["Crimea"],"street":["117  Balaklavs'ka St,  App 48"]}
+{"general_id":"addr-5c8ed284c1518b96ce9e2b9bc8f8599ab72631f4","city":["Mir Ali, North Waziristan Agency, Federal Administered Tribal Areas"],"country":["pk"],"full":["Mir Ali, North Waziristan Agency, Federal Administered Tribal Areas"]}
+{"general_id":"addr-a9ddf56daae962872a17c0ed259e2d4876c167b2","city":["Barangay Mal-Ong, Anda, Pangasinan Province"],"country":["ph"],"full":["Barangay Mal-Ong, Anda, Pangasinan Province"]}
+{"general_id":"addr-0d7f8cc65e926cf14fce461f82ddd159a2f910a8","city":["Sitio Dueg, Barangay Maasin, San Clemente, Tarlac Province"],"country":["ph"],"full":["Sitio Dueg, Barangay Maasin, San Clemente, Tarlac Province"]}
+{"general_id":"NK-TYPGapkbcDZawQikLqAb38","city":["Cubao, Quezon City"],"country":["ph"],"full":["50 Purdue Street, Cubao, Quezon City"],"street":["50 Purdue Street"]}
+{"general_id":"addr-f0e8503e9fc34e34a64b38a0af08a66830960e17","city":["Baghdad"],"country":["iq"],"full":["Hai Babil, Lane 11, District 929, Baghdad"],"street":["Hai Babil, Lane 11, District 929"]}
+{"general_id":"addr-05fa58176c94fea95eda5b89e2a6296da9e4eebf","city":["Baghdad"],"country":["iq"],"full":["Hai Al-Wahda, Lane 15, Area 902, Office 10, Baghdad"],"street":["Hai Al-Wahda, Lane 15, Area 902, Office 10"]}
+{"general_id":"addr-74a357fe969f1c047d19ab87001b5b01452c206a","city":["Baghdad"],"country":["iq"],"full":["P.O. Box 2337, Alwiyah, Baghdad"],"street":["P.O. Box 2337, Alwiyah"]}
+{"general_id":"addr-b04adff0a6834aba87917c1d49f86bb68b34e9b3","city":["Minsk"],"country":["by"],"full":["220016 Minsk, Belarus President Property Management Directorate, 38 K. Marx St."],"postalCode":["220016"],"street":["Belarus President Property Management Directorate, 38 K. Marx St."]}
+{"general_id":"addr-04914f2d50a5d72db3554c7603580e4b9bf92ad3","city":["Minsk"],"country":["by"],"full":["220050 Minsk, State Border Committee of the Republic of Belarus, 24 Volodarsky St."],"postalCode":["220050"],"street":["State Border Committee of the Republic of Belarus, 24 Volodarsky St."]}
+{"general_id":"NK-6XJLD4adMeYM2GeieV3VeL","city":["Ahlone, Yangon"],"country":["mm"],"full":["Corner of Ahlone road & Kannar road, Ahlone, Yangon"],"street":["Corner  of Ahlone road &  Kannar road"]}
+{"general_id":"NK-PUwWsW7FfXwVB8mCSeVCeq","city":["Damascus"],"country":["sy"],"full":["30588, Damascus","Damascus"],"postOfficeBox":["30588"]}
+{"general_id":"addr-16d72d4025e365b61cc54f0bb6821153e6ef97d6","city":["Tunis"],"country":["tn"],"full":["the Presidential Palace, Tunis"],"street":["the Presidential Palace"]}
+{"general_id":"NK-eJsqgGY8CP6vX6ST3JETuc","city":["Almaty"],"country":["kz"],"full":["050013 Almaty, Markov Str. 11"],"postalCode":["050013"],"street":["Markov Str. 11"]}
+{"general_id":"NK-bcUdqjQ76ACqavwN5oGWMD","city":["Moscow"],"country":["ru"],"full":["Prospect Vernadskogo 53, Moscow, 119415"],"postalCode":["119415"],"street":["Prospect Vernadskogo 53"]}
+{"general_id":"addr-b429d91609bce0482bb9a091ee0bd327774e7c3a","city":["Kinshasa/Gombe"],"country":["cd"],"full":["3, avenue du Rail, Kinshasa/Gombe"],"street":["3, avenue du Rail"]}
+{"general_id":"addr-dd369c4523c407702e2e31771349280448e74c43","city":["Parma"],"country":["it"],"full":["Via della Martinella, 132, Parma"],"street":["Via della Martinella, 132"]}
+{"general_id":"NK-A3mgGhGhYE8fvqkc6YDezr","city":["Tehran"],"country":["ir"],"full":["Tehran, Pasadaran Av."],"street":["Pasadaran Av."]}
+{"general_id":"NK-3edeJQKEeLJ5v5DXaFH96R","city":["Mashad","Mashhad"],"country":["ir"],"full":["Mashad, P.O. Box 91735-549","91735-549, 91735, Mashhad, 2nd km of Khalaj Road End of Seyyedi St"],"postOfficeBox":["91735-549, 91735"],"street":["2nd km of Khalaj Road End of Seyyedi St","P.O. Box 91735-549"]}
+{"general_id":"addr-8d85969f4697d09544f0fcbb1cb4c96f3df9e8e5","city":["Mashad"],"country":["ir"],"full":["Mashad, Khalaj Rd. (Kaveh Complex), Seyedi St."],"street":["Khalaj Rd. (Kaveh Complex), Seyedi St."]}
+{"general_id":"addr-43b885f6294835ae93d7fd3f189f5d707dc49c2f","city":["Mashad"],"country":["ir"],"full":["Mashad, Khalage Rd. (Amin Industrial Estate), Seyedi District"],"street":["Khalage Rd. (Amin Industrial Estate), Seyedi District"]}
+{"general_id":"NK-bDHNvkYWSz3B85R3VAyyYB","city":["Tehran"],"full":["3 Qarqavol Close, 20th Street, Tehran"],"street":["3 Qarqavol Close, 20th Street"]}
+{"general_id":"addr-759bdbf697487405d95c534a55775315b2e7e3c3","city":["Tehran"],"country":["ir"],"full":["Tehran, Babaei Highway — Next to Niru M.F.G"],"street":["Babaei Highway — Next to Niru M.F.G"]}
+{"general_id":"addr-01759bf323bad9e43e45706563671441de5eade9","city":["Tehran"],"country":["ir"],"full":["Tehran, Pasdaran St., P.O. Box 16765, 1835"],"postalCode":["1835"],"street":["Pasdaran St., P.O. Box 16765"]}
+{"general_id":"addr-85587bdc003cb51b0d07113ded11eda704af129e","city":["Tehran"],"country":["ir"],"full":["Tehran, Next to Nirou Battery Mfg. Co, Shahid Babaii Expressway, Nobonyad Square"],"street":["Next to Nirou Battery Mfg. Co, Shahid Babaii Expressway, Nobonyad Square"]}
+{"general_id":"NK-D5dFh9PVeXNcw45NdYXkQW","city":["Genf","Ginevra","Geneva","Genève"],"country":["ch"],"full":["Genf","Ginevra","Geneva","Genève"]}
+{"general_id":"NK-JRCGPSFkqsnTcDRKRGgRvT","city":["Singapore"],"country":["sg"],"full":["80 Raffles Place, #17-22 UOB Plaza, Singapore 048624"],"postalCode":["048624"],"street":["80 Raffles Place, #17-22 UOB Plaza"]}
+{"general_id":"NK-gkihjjVgW5BPHEzW7gMkfB","city":["Zawiyah"],"country":["ly"],"full":["Zawiyah"]}
+{"general_id":"NK-6gDrKzLLDzfQTMoMr5emoV","city":["Peshawar"],"country":["pk"],"full":["Ganj District, Peshawar"],"street":["Ganj District"]}
+{"general_id":"NK-f9nyxGSJGwrTzfPcerJLt7","city":["Kinshasa/Ngaliema"],"country":["cd"],"full":["69, avenue Nyangwile, Kinsuka Mimosas, Kinshasa/Ngaliema"],"street":["69, avenue Nyangwile, Kinsuka Mimosas"]}
+{"general_id":"addr-0d26fb5e7dfa15d5b8db0f6a256467c827dc4e90","city":["Addis Abeba"],"country":["et"],"full":["Woreda District 24 Kebele Section 13, Addis Abeba"],"street":["Woreda District 24 Kebele Section 13"]}
+{"general_id":"addr-891ef3e8c3445d31efd1e692e0e1fd9114aa3a8f","city":["Tehran"],"country":["ir"],"full":["Tehran, located on the west side of Dabestan Street, Abbas Abad District"],"street":["located on the west side of Dabestan Street, Abbas Abad District"]}
+{"general_id":"addr-7c39502a415dc23d191dfead8a3a325942f07e91","city":["Tehran"],"country":["ir"],"full":["Tehran, P.O. Box 16315-189"],"street":["P.O. Box 16315-189"]}
+{"general_id":"addr-6114be8bdfe2511686b0253155311a3e500c8910","city":["Abbas Abad District, Tehran"],"country":["ir"],"full":["Abbas Abad District, Tehran, West side of Dabestan Street"],"street":["West side of Dabestan Street"]}
+{"general_id":"addr-8519640a1cdab64142c19df7a413600263bececa","city":["Karachi"],"country":["pk"],"full":["Karachi"]}
+{"general_id":"NK-jgLWqxiF5LUyVNiWNcqQAr","city":["Milton Keynes"],"country":["gb"],"full":["530-532 Elder Gate, Elder House, Milton Keynes"],"street":["530-532 Elder Gate, Elder House"]}
+{"general_id":"NK-iKrejkdwLeHS3b8iRwQvxc","city":["The Hague"],"country":["nl"],"full":["The Hague"]}
+{"general_id":"addr-9de21acf88029d34a0f77734df790f7bb3f096d1","city":["North and South Kivu"],"country":["cd"],"full":["North and South Kivu"]}
+{"general_id":"NK-M9DcfENh6dnnx6R6WUmHRZ","city":["Sharjah"],"country":["ae"],"full":["PO Box 8032, Sharjah"],"street":["PO Box 8032"]}
+{"general_id":"NK-ed5Y3ShuQLGCqzUzmowwh5","city":["Tangerang"],"country":["id"],"full":["Jalan Nakula, Komplek Witana Harja III Blok C 106-107, Tangerang"],"street":["Jalan Nakula, Komplek Witana Harja III Blok C 106-107"]}
+{"general_id":"NK-SWfmANzxefVhTwtoFFHnsA","city":["Bangui"],"country":["cf"],"full":["KM5, Bangui","Bangui"],"street":["KM5"]}
+{"general_id":"NK-iGgberyJ34xgTsNq7V9drp","city":["Ndélé, Bamingui-Bangoran"],"country":["cf"],"full":["Ndélé, Bamingui-Bangoran"]}
+{"general_id":"addr-013161d6339ba92bd2271efcd2f7a6e112c423eb","city":["Road Town, Tortola,"],"country":["vg"],"full":["Akara Building, 24 de Castro Street, Wickhams Cay I, Road Town, Tortola, Road Town, Tortola"],"street":["Akara Building, 24 de Castro Street, Wickhams Cay I, Road Town, Tortola,"]}
+{"general_id":"NK-RbATzLj9tmYducoUn7Xywg","city":["Dalian"],"country":["cn"],"full":["Dalian"]}
+{"general_id":"NK-V59GzzBL8WD5HY5VGwgTQy","city":["Ariana"],"country":["tn"],"full":["18 Mediterranean Street, Ariana"],"street":["18 Mediterranean Street"]}
+{"general_id":"addr-595bbabddbe24d1512372405bb6c6fc4de85240e","city":["Nusa Kambangan Island"],"country":["id"],"full":["Nusa Kambangan Island"]}
+{"general_id":"addr-fbb54b2ee11758bcbd47ca40a8c2224a15295fc9","city":["Esfahan"],"country":["ir"],"full":["Esfahan, Kahorz Blvd [Unit 7, 3rd Floor Mehdi Building]"],"street":["Kahorz Blvd [Unit 7, 3rd Floor Mehdi Building]"]}
+{"general_id":"NK-3hSFeyfy4YcaAxRTfZZB8c","city":["Cremona"],"country":["it"],"full":["Via Plebiscito 3, Cremona"],"street":["Via Plebiscito 3"]}
+{"general_id":"NK-knxCHp75v7yFVSnayKCyyd","city":["Cremona"],"country":["it"],"full":["Via Bertesi 27, Cremona"],"street":["Via Bertesi 27"]}
+{"general_id":"NK-D5dFh9PVeXNcw45NdYXkQW","city":["Genf","Ginevra","Geneva","Genève"],"country":["ch"],"full":["Genf","Ginevra","Geneva","Genève"]}
+{"general_id":"NK-iLsFLgzjj2CqqznSLPSiJY","city":["Douglas, Isle of Man"],"country":["gb"],"full":["c/o ILS Fiduciaries (IOM) Ltd, First Floor, Millennium House, Victoria Road, Douglas, Isle of Man"],"street":["c/o ILS Fiduciaries (IOM) Ltd, First Floor, Millennium House, Victoria Road"]}
+{"general_id":"NK-3Bu8ZGkPEbLxBaEmvhL2R3","city":["Mangyongdae-guyok, Pyongyang"],"country":["kp"],"full":["Kumsong 3-dong, Mangyongdae-guyok, Pyongyang"],"street":["Kumsong 3-dong"]}
+{"general_id":"addr-8e1874c18c7bedaeac6fc9fe828e3ee668a36316","city":["Tehran"],"country":["ir"],"full":["Tehran, Haftom Tir Square, South Mofte Avenue, Tour Line No; 3/1, Tehran, Iran P.O. Box 1584864813"],"street":["Haftom Tir Square, South Mofte Avenue, Tour Line No; 3/1, Tehran, Iran P.O. Box 1584864813"]}
+{"general_id":"NK-kpjzVugGLxP4gsqGp6irZm","city":["Hammam-Sousse"],"country":["tn"],"full":["13 Ennakhil housing estate - Kantaoui, Hammam-Sousse"],"street":["13 Ennakhil housing estate - Kantaoui"]}
+{"general_id":"addr-93c327b1735f6b8914f7e66a8b1e10c2696b6334","city":["Rakwon-dong, Pothonggang District, Pyongyang","Pyongyang","Rakwon-dong, Pothonggang District, Pyongyang,"],"country":["kp"],"full":["Rakwon-dong, Pothonggang District, Pyongyang"],"street":["Rakwon-dong, Pothonggang District"]}
+{"general_id":"NK-oLY2FkXMzyEcudrttJdeTH","city":["Butembo, North Kivu","Butembo"],"country":["cd"],"full":["Butembo, North Kivu","Butembo"]}
+{"general_id":"addr-677071cf617f5ce717facaa0dd577fe2d7979514","city":["Kafia Kingi"],"country":["sd"],"full":["Kafia Kingi"]}
+{"general_id":"NK-DT8eZ74QnWcMn5eyvGN9UU","city":["Jeddah"],"country":["sa"],"full":["Jeddah"]}
+{"general_id":"NK-YMnYWshPmGt5wUK7B3fwNv","city":["Daina"],"country":["sa"],"full":["Daina"]}
+{"general_id":"NK-HasdTsgpqaafPmXRzPezoJ","city":["Tehran"],"country":["ir"],"full":["Tehran, 80 Tidewater Building, Vozara Street, Next to Saie Park"],"street":["80 Tidewater Building, Vozara Street, Next to Saie Park"]}
+{"general_id":"NK-29qKCuGkrjgrF6tEDnpbPH","city":["Jodipan, Blimbing, Malang"],"country":["id"],"full":["42285 Jalan Ir. H. Juanda 8/10, Jodipan, Blimbing, Malang RT/RW 002/001"],"postalCode":["RT/RW 002/001"],"street":["42285 Jalan Ir. H. Juanda 8/10"]}
+{"general_id":"NK-3rzq6Pmn88XTfXuEvypXzU","city":["Damascus, Duty Free Zone"],"full":["Al Watan Newspaper, Damascus, Duty Free Zone"],"street":["Al Watan Newspaper"]}
+{"general_id":"addr-2d5e9ab14a085ace7a839881810bd4b909cd9d9c","city":["Myananyadanar,  Naypyitaw"],"country":["mm"],"full":["Myananyadanar, Naypyitaw"]}
+{"general_id":"addr-adf34a41819841eb881b9bcd43bd261c258dca25","city":["North Kivu Province"],"country":["cd"],"full":["North Kivu Province"],"region":["North Kivu Province"]}
+{"general_id":"addr-d78eab150d251b2517501174a73f3e954adcb252","city":["Al-Bukamal"],"country":["sy"],"full":["Al-Bukamal"]}
+{"general_id":"addr-e9cf91b2327aba6bf4746845d6d631a0fcd2e444","city":["Albu Kamal"],"country":["sy"],"full":["Albu Kamal"]}
+{"general_id":"NK-kAS3vsvYEfqSxcmNVibiw9","city":["Damascus"],"country":["sy"],"full":["P.O. Box 13052, Dair Ali Jordan Highway, Damascus"],"postOfficeBox":["P.O. Box 13052"],"street":["Dair Ali Jordan Highway"]}
+{"general_id":"NK-M26zJG3nJdAnJEtMJ6cFjU","city":["Pashtunabad, Quetta"],"country":["pk"],"full":["Pashtunabad, Quetta"],"region":["Baluchistan Province"]}
+{"general_id":"addr-344941dbfd752cc2bfceed4eefddd0d8f591d400","city":["Visoko"],"country":["ba"],"full":["Tabhanska Street, 26, Visoko"],"street":["Tabhanska Street, 26"]}
+{"general_id":"addr-18afec2564517d267c45ad001199f2207d528869","city":["Novo Sarajevo"],"country":["ba"],"full":["Avde Smajlovic Street, 6, Novo Sarajevo"],"street":["Avde Smajlovic Street, 6"]}
+{"general_id":"addr-6c292c009b427b1cc9a492a0ec4a6f00c7c56e54","city":["Visoko"],"country":["ba"],"full":["Velika Cilna Ulica, 3, Visoko"],"street":["Velika Cilna Ulica, 3"]}
+{"general_id":"addr-9465d4c42dd6b14f96c19133ad8d9c1151ac199a","city":["Khan-Shaykhun"],"country":["sy"],"full":["Khan-Shaykhun"]}
+{"general_id":"addr-bc0b94101a36cf766eec2c05103c2f38537b1396","city":["Aleppo"],"country":["sy"],"full":["Aleppo"]}
+{"general_id":"NK-Mi8a2c6c7Nx29EaypwNm7e","city":["Khama"],"country":["sy"],"full":["Khama","Hama Governorate"],"region":["Hama Governorate"]}
+{"general_id":"NK-CYLpzi765XGAknRmiAJqkA","city":["Idlib"],"country":["sy"],"full":["Idlib","Idlib Governorate"],"region":["Idlib Governorate"]}
+{"general_id":"addr-236e02df027a946d90eaad2c7aebba84afcbfba3","city":["Kajuju camp of Medina II, Beni territory"],"country":["cd"],"full":["Kajuju camp of Medina II, Beni territory"],"region":["North Kivu"]}
+{"general_id":"NK-oP3gvd5ECFcySDZU5TgCpL","city":["Tehran","Teheran"],"country":["ir"],"full":["Tehran","Teheran","Tehran, Damavand Tehran Highway"],"street":["Damavand Tehran Highway"]}
+{"general_id":"NK-oXF3QrRDaaeAeRWfByWCk8","city":["Moscow"],"full":["Novyi Arbat str., 15, building 2, 119019 Moscow"],"postalCode":["119019"],"street":["Novyi Arbat str., 15, building 2"]}
+{"general_id":"NK-Ukv3mUosN3A26iKPUW35Va","city":["London"],"country":["gb"],"full":["53/64 Chancery Lane, London WC2A 1QU"],"postalCode":["WC2A 1QU"],"street":["53/64 Chancery Lane"]}
+{"general_id":"NK-ZkKXDKRiXvHtBAmn9UdAc9","city":["Tine"],"country":["sd"],"full":["Tine"]}
+{"general_id":"addr-47a4364986eca800c76a8839361d586206d9c3fd","city":["Damascus"],"country":["sy"],"full":["P.O. Box 417, Al-Mohafazeh Square, Damascus"],"postOfficeBox":["P.O. Box 417"],"street":["Al-Mohafazeh Square"]}
+{"general_id":"NK-NYiJgvfGT73U5xu8ZZvgt5","city":["Istanbul"],"full":["79/2 Istasyon MH, Sehitler cad, Guldeniz Sit, Tuzla, 34930 Istanbul"],"postalCode":["34930"],"street":["79/2 Istasyon MH, Sehitler cad, Guldeniz Sit, Tuzla"]}
+{"general_id":"NK-A3Ypk4D4NfMQdHYtn6VYAu","city":["Sidi Mesoud"],"country":["tn"],"full":["Salam Marnaq Ben Arous district, Sidi Mesoud"],"street":["Salam Marnaq Ben Arous district"]}
+{"general_id":"addr-c0bb2a8dfa9c0bc6527c945498cd79654851cb69","city":["FTB Building, Jungsong-dong, Central District, Pyongyang"],"country":["kp"],"full":["FTB Building, Jungsong-dong, Central District, Pyongyang"]}
+{"general_id":"NK-EfR5dzXqgwpuFmUydt4xyd","city":["Iltifat village, Iltifat village, Shakardara District,"],"country":["af"],"full":["Iltifat village, Iltifat village, Shakardara District"],"region":["Kabul Province"]}
+{"general_id":"NK-jSrccJvmm34UY8JnZwVc8C","city":["Kabul City, Kabul Province"],"country":["af"],"full":["Puli Charkhi Area, District Number 9, Kabul City, Kabul Province"],"street":["Puli Charkhi Area, District Number 9"]}
+{"general_id":"addr-ea40ae3fece2cd3ed03bf711745d472e1dc1291b","city":["Hammam-Sousse"],"country":["tn"],"full":["Chouket El Arressa, Hammam-Sousse"],"street":["Chouket El Arressa"]}
+{"general_id":"NK-JMdEy3WMbbTigy4ZvuFadt","city":["Damascus"],"country":["sy"],"full":["P.O. Box 5467, Syria‐Damascus – Merjah – Al‐Furat St., Damascus"],"postOfficeBox":["P.O. Box 5467"],"street":["Syria‐Damascus – Merjah – Al‐Furat St."]}
+{"general_id":"NK-CALUAttRLnfHbqPPK7u5TT","city":["Gisenyi"],"country":["rw"],"full":["Gisenyi"]}
+{"general_id":"NK-FUUQiGcH9ZoLQpj5UUn4rG","city":["Tehran"],"country":["ir"],"full":["Tehran, 1 37th Avenue, Asadabadi Street"],"street":["1 37th Avenue, Asadabadi Street"]}
+{"general_id":"NK-35z9TpTNgBV6X3nVAJY7g4","city":["Brest"],"country":["by"],"full":["224018 Brest, 90 Heroes of Defense of the Brest Fortress St."],"postalCode":["224018"],"street":["90 Heroes of Defense of the Brest Fortress St."]}
+{"general_id":"addr-c6758d55f9624846d9089ab8552fa265e9073595","city":["Sarajevo"],"country":["ba"],"full":["Bihacka St., 14, Sarajevo"],"street":["Bihacka St., 14"]}
+{"general_id":"addr-42baf2a2ca0d52254a370b353069ebc68a43f0e2","city":["Travnik"],"country":["ba"],"full":["Potur mahala St., 64, Travnik"],"street":["Potur mahala St., 64"]}
+{"general_id":"NK-dT8zbkNHUnhq5bVL83ZoLw","city":["Zenica"],"country":["ba"],"full":["Zenica"]}
+{"general_id":"addr-5527c0e338269842c1a8b93be6c2804698c987b8","city":["Tehran"],"country":["ir"],"full":["Tehran, 107 Sepahbod Gharani Avenue"],"street":["107 Sepahbod Gharani Avenue"]}
+{"general_id":"addr-7eca697e8b9b629a05ead440d6ec43fad0d2d6ca","city":["Tehran"],"country":["ir"],"full":["Tehran, Ave. Sepahbod Gharani P.O. Box 15815/3446"],"street":["Ave. Sepahbod Gharani P.O. Box 15815/3446"]}
+{"general_id":"addr-6845b889ea8f2119bb7e95c04a970df3c26daa20","city":["Tehran"],"country":["ir"],"full":["Tehran, Ave. Sepahbod Gharani P.O. Box 15815/1775"],"street":["Ave. Sepahbod Gharani P.O. Box 15815/1775"]}
+{"general_id":"addr-d8d8a8957e611afb3defb53501e5b8f515bfeaa0","city":["Concepcion, Zaragosa, Nueva Ecija"],"country":["ph"],"full":["Concepcion, Zaragosa, Nueva Ecija"]}
+{"general_id":"NK-T3KCczpHiApwbKA6D8GXaW","city":["Pyongyang","Pyongyang,"],"country":["kp"],"full":["Pyongyang"]}
+{"general_id":"addr-e32857253e95d8d8c18cce5f595038984d140736","city":["Barangay Tigib, Ayungon, Negros Oriental"],"country":["ph"],"full":["Barangay Tigib, Ayungon, Negros Oriental"]}
+{"general_id":"addr-c6b79897e3b4eb83ceaaa9769735219bc6f195d1","city":["Barangay Mangayao, Tagkawayan, Quezon"],"country":["ph"],"full":["Barangay Mangayao, Tagkawayan, Quezon"]}
+{"general_id":"NK-ToM68b9j6CMhnsppm798or","city":["Tehran"],"country":["ir"],"full":["11365-11155, Tehran, Azadi Ave/Street"],"postOfficeBox":["11365-11155"],"street":["Azadi Ave/Street"]}
+{"general_id":"addr-bb9f87ce6e62170c87fc02ebc4d59c7243e00c4e","city":["office locations Afghanistan"],"country":["af"],"full":["office locations Afghanistan"]}
+{"general_id":"addr-0745213c1783f83840f46ad3b9a0a4577f1212af","city":["office locations: Pakistan"],"country":["pk"],"full":["office locations: Pakistan"]}
+{"general_id":"addr-e3f8e26c6bbfceefb8573c8ee9523177a3ac966e","city":["Peshawar"],"country":["pk"],"full":["office locations: Headquarters — G. T. Road (probably Grand Trunk Road), near Pushtoon Garhi Pabbi, Peshawar"],"street":["office locations: Headquarters — G. T. Road (probably Grand Trunk Road), near Pushtoon Garhi Pabbi"]}
+{"general_id":"addr-eef5356cdc327d9143f0ed7038802167869dc3fb","city":["Jalabad"],"country":["af"],"full":["Cheprahar Hadda, Mia Omar Sabaqah School, Jalabad"],"street":["Cheprahar Hadda, Mia Omar Sabaqah School"]}
+{"general_id":"addr-161780725916c49174d78e89824bda749aa256a5","city":["Damascus"],"country":["sy"],"full":["P.O. Box 7006, Rukn Addin, Saladin Street, Building 5, Damascus"],"postOfficeBox":["P.O. Box 7006"],"street":["Rukn Addin, Saladin Street, Building 5"]}
+{"general_id":"addr-89664683f881e6297ebe1a27d3bc84f5de85740e","full":["Kenya/Somalia border"],"region":["Kenya/Somalia border"]}
+{"general_id":"addr-45b964411a63cf002a6b73b6d6585fc01c7b4d12","country":["so"],"full":["Badamadow, Lower Juba Region"],"region":["Badamadow, Lower Juba Region"]}
+{"general_id":"NK-iesSZjZZh88GNPE993NEoM","city":["Tehran"],"country":["ir"],"full":["Tehran, Pasdaran Av., PO Box 19585/777"],"street":["Pasdaran Av., PO Box 19585/777"]}
+{"general_id":"addr-2159540b5ed912b92b07db040eedcaa879a4a279","city":["Peshawar"],"country":["pk"],"full":["Jordan house No 125, Street 54, Phase II Hayatabad, Peshawar"],"street":["Jordan house No 125, Street 54, Phase II Hayatabad"]}
+{"general_id":"NK-AprmWwo5ivJdxKg3KPHAdT","city":["Unity State,South Sudan"],"country":["ss"],"full":["Unity State,South Sudan"]}
+{"general_id":"NK-PC6wBDUd83zucSWiP6oRuS","city":["Wau, Western Bahr El Ghazal, South Sudan"],"country":["ss"],"full":["Wau, Western Bahr El Ghazal, South Sudan"]}
+{"general_id":"NK-jniH49wJtgZMFY44xeD4BC","city":["Tehran"],"country":["ir"],"full":["Tehran, 1281 Valiasr Ave., Next to 14th St, 15178"],"postalCode":["15178"],"street":["1281 Valiasr Ave., Next to 14th St"]}
+{"general_id":"NK-eDMxT6cpdgTeXBRFzK4dkF","city":["Grodno"],"country":["by"],"full":["230026 Grodno, 4 Slavinskogo, St."],"postalCode":["230026"],"street":["4 Slavinskogo, St."]}
+{"general_id":"NK-A8CZVmUvkWKz88LcYxMwao","city":["Grodno"],"country":["by"],"full":["Grodno, 100 Kosmonavtov Ave."],"street":["100 Kosmonavtov Ave."]}
+{"general_id":"NK-fAqsHUhq6bZyeMGQVBCr8c","city":["Tehran"],"full":["1139/1 Unit 104 Gol Building, Gol Alley, North Side of Sae, Vali Asr Avenue. PO Box 19395-6439, Tehran"],"street":["1139/1 Unit 104 Gol  Building, Gol Alley,  North Side of Sae, Vali  Asr Avenue. PO Box  19395-6439"]}
+{"general_id":"NK-T3KCczpHiApwbKA6D8GXaW","city":["Pyongyang","Pyongyang,"],"country":["kp"],"full":["Pyongyang"]}
+{"general_id":"NK-Ye2QFVnWPHmAYFTjDqcVkS","city":["Mangyongdae District, Pyongyang"],"country":["kp"],"full":["Sengujadong 11-2/(or Kwangbok-dong), Mangyongdae District, Pyongyang"],"street":["Sengujadong 11-2/(or Kwangbok-dong)"]}
+{"general_id":"NK-Y6TdKFwAcSHL2c7qoyhsnj","city":["Minsk"],"country":["by"],"full":["220030 Minsk, Revolucyonnaya 17/19, office no. 22"],"postalCode":["220030"],"street":["Revolucyonnaya 17/19,  office no. 22"]}
+{"general_id":"NK-MUQj36ZVu4TRMbR4c7nXRf","city":["Damascus"],"country":["sy"],"full":["Headquarters: Al Adawi St., Petroleum building, Damascus"],"street":["Headquarters: Al Adawi St., Petroleum building"]}
+{"general_id":"addr-59d9f76ff65835fbae0102af44d44d13328297a9","city":["Minsk"],"country":["by"],"full":["220028 Minsk, Belarusian Association of Veterans of Special Forces of the Ministry of Internal Affairs ‘Honour’, 111 Mayakovskogo St."],"postalCode":["220028"],"street":["Belarusian Association of Veterans of Special Forces of the Ministry of Internal Affairs ‘Honour’, 111 Mayakovskogo St."]}
+{"general_id":"NK-dVxaCtB3QNHKaeQSAQbP4h","city":["Bridgeview, Illinois"],"country":["us"],"full":["Bridgeview, Illinois, PO Box 1406 - 60455"],"postalCode":["PO Box 1406 - 60455"]}
+{"general_id":"NK-kKWh2Eeo3igCvcujSghtz7","city":["Bridgeview, Illinois"],"country":["us"],"full":["9935 South 76th Avenue, Unit 1, Bridgeview, Illinois, 60455"],"postalCode":["60455"],"street":["9935 South 76th Avenue, Unit 1"]}
+{"general_id":"addr-93c327b1735f6b8914f7e66a8b1e10c2696b6334","city":["Rakwon-dong, Pothonggang District, Pyongyang","Pyongyang","Rakwon-dong, Pothonggang District, Pyongyang,"],"country":["kp"],"full":["Rakwon-dong, Pothonggang District, Pyongyang"],"street":["Rakwon-dong, Pothonggang District"]}
+{"general_id":"NK-hmPndQtZe88FVyNcPx8U32","city":["Sana'a"],"country":["ye"],"full":["P.O. Box 8096, Sana'a"],"street":["P.O. Box 8096"]}
+{"general_id":"NK-k7bjTziVEXN669JvKsE6SM","city":["Al-Hudaydah"],"country":["ye"],"full":["Jamal Street, Al-Dahima alley, Al-Hudaydah"],"street":["Jamal Street, Al-Dahima alley"]}
+{"general_id":"NK-QHUtweqA9W4cBRun8AJmN3","city":["Pyongchon-guyok, Pyongyang"],"country":["kp"],"full":["Pyongchon 1-dong, Pyongchon-guyok, Pyongyang"],"street":["Pyongchon 1-dong"]}
+{"general_id":"NK-cmnUN8HY4b7GQLYQHPSYSX","city":["Haut-Mbomou"],"country":["cf"],"full":["Haut-Mbomou"]}
+{"general_id":"NK-kTCgNtoZmXLdCjGWCMbw5X","city":["Vakaga"],"country":["cf"],"full":["Vakaga"]}
+{"general_id":"addr-18a83b7e9359767644b5829a71214d166446f8aa","city":["Kafia Kingi"],"full":["Kafia Kingi"]}
+{"general_id":"addr-f171934dd121e48c856463afdaece463ee629c48","city":["HautUolo"],"country":["cd"],"full":["HautUolo"]}
+{"general_id":"NK-2BFQNEp2FNVu28dbM9Ji8F","city":["Mbomou"],"country":["cf"],"full":["Mbomou"]}
+{"general_id":"NK-exfLNrFzCpXycVMPxKoMJY","city":["Basse-Kotto"],"country":["cf"],"full":["Basse-Kotto"]}
+{"general_id":"addr-03de4cdab7a5e21050df02469e161a90b6ac212a","city":["Bas-Uolo"],"country":["cd"],"full":["Bas-Uolo"]}
+{"general_id":"NK-NHwy6MuUhWShvHFzmshjJh","city":["Haute-Kotto"],"country":["cf"],"full":["Haute-Kotto"]}
+{"general_id":"NK-jmQky2eSeUidhWa4gqgLbN","city":["Tehran"],"country":["ir"],"full":["Tehran, P.O. Box 18575-365"],"street":["P.O. Box 18575-365"]}
+{"general_id":"addr-d9442e6a2899668fa057457031fb50ab8315ed6c","city":["Managua"],"country":["ni"],"full":["Planes De Puntaldia Casa #16, Managua"],"street":["Planes De Puntaldia Casa #16"]}
+{"general_id":"NK-isZ2qmCwULQxVks3MTDrgd","country":["cd"],"full":["South Kivu"],"region":["South Kivu"]}
+{"general_id":"NK-LDMFhmmAjsA43NoPoaREU6","city":["Zavidovici"],"country":["ba"],"full":["Zlatnih Ljiljana Street, Zavidovici"],"street":["Zlatnih Ljiljana Street"]}
+{"general_id":"addr-4798f55e15d02bf5ee467eea3a35edcb7b889638","city":["Sarajevo"],"country":["ba"],"full":["Put Mladih Muslimana, 30a (former name ul. Palva Lukaca / Palva Lukaca Street), 71 000 Sarajevo"],"postalCode":["71 000"],"street":["Put Mladih Muslimana, 30a (former name ul. Palva Lukaca / Palva Lukaca Street)"]}
+{"general_id":"NK-6hQZ439oSJ8YTzqoJxE9Yx","city":["Sarajevo"],"country":["ba"],"full":["Muhameda Hadzijahica, 42, Sarajevo","42 Muhameda Hadžijahića, Sarajevo"],"street":["42 Muhameda Hadžijahića","Muhameda Hadzijahica, 42"]}
+{"general_id":"addr-1d38f692020d05629ece3cd3eacf8ef2c244d08f","city":["Zenica"],"country":["ba"],"full":["ul. Strossmajerova, 72, Zenica"],"street":["ul. Strossmajerova, 72"]}
+{"general_id":"addr-79744c82b1d819f2126c58e24afe6ac22763a95f","city":["Zenica"],"country":["ba"],"full":["70 and 53 Strosmajerova Street, Zenica"],"street":["70 and 53 Strosmajerova Street"]}
+{"general_id":"NK-2TeJJVV4iRBKGM3X4BHYjh","city":["Kabul"],"country":["af"],"full":["Apt. 45, block 21 Microrayan 3rd, Kabul"],"street":["Apt. 45, block 21 Microrayan 3rd"]}
+{"general_id":"NK-6E2AsivJpDUsNW7NQGfTan","city":["Kabul"],"country":["af"],"full":["A2 City Computer Plaza, Shar- e-Now, Kabul"],"street":["A2 City Computer Plaza, Shar- e-Now"]}
+{"general_id":"NK-PUwWsW7FfXwVB8mCSeVCeq","city":["Damascus"],"country":["sy"],"full":["30588, Damascus","Damascus"],"postOfficeBox":["30588"]}
+{"general_id":"addr-a9292e0d9431dad5b4821e44897e7b0f8dcda0db","city":["Quetta City, Baluchistan Province"],"country":["pk"],"full":["Chalo Bawari area, Quetta City, Baluchistan Province"],"street":["Chalo Bawari area"]}
+{"general_id":"NK-oP3gvd5ECFcySDZU5TgCpL","city":["Tehran","Teheran"],"country":["ir"],"full":["Tehran","Teheran","Tehran, Damavand Tehran Highway"],"street":["Damavand Tehran Highway"]}
+{"general_id":"NK-hPjjRWaevoqrpi38Y8nTx8","city":["Zehrouni, Tunis,"],"country":["tn"],"full":["No 2 89th Street, Zehrouni, Tunis"],"street":["No 2 89th Street"]}
+{"general_id":"NK-T3KCczpHiApwbKA6D8GXaW","city":["Pyongyang","Pyongyang,"],"country":["kp"],"full":["Pyongyang"]}
+{"general_id":"addr-c0d38ce30133e70a923ee30b3dc78d67c5419567","city":["Jebel Akhdar"],"country":["ly"],"full":["Jebel Akhdar"]}
+{"general_id":"NK-hD9oxfJ7GRmSaWv5PtGcKR","city":["Derna"],"country":["ly"],"full":["Derna"]}
+{"general_id":"addr-b962e098e53e88aacc079aee46a6b3381e02622a","city":["Simferopol"],"country":["ua"],"full":["Anhars'ka St, 8, Simferopol"],"region":["Crimea"],"street":["Anhars'ka St, 8"]}
+{"general_id":"addr-31c821d4ec005d6e3cf8a610e9f7fa84e8867fe3","city":["Simferopol"],"country":["ua"],"full":["35 Marshala Zhukova St, App. 53, Simferopol"],"region":["Crimea"],"street":["35  Marshala Zhukova  St, App. 53"]}
+{"general_id":"NK-iHSD4L6bqSbiLbJaKgKZoH","city":["Kerch"],"full":["гор. Керчь, ул. Кирова, дом 28, 298312 Крым","28 Kirova Street, 298312 Kerch"],"postalCode":["298312"],"region":["Крым","Crimea"],"street":["28 Kirova Street","гор. Керчь, ул. Кирова, дом 28"]}
+{"general_id":"NK-RpwM8fgTKFYTZhGEebuCUc","city":["Rio Claro"],"country":["tt"],"full":["#12 Rio Claro Mayaro Road, Rio Claro"],"street":["#12 Rio Claro Mayaro Road"]}
+{"general_id":"NK-irzRkUpzUNCoMWpHAAYLxg","city":["Rio Claro"],"country":["tt"],"full":["#7 Guayaguayare Road, Rio Claro"],"street":["#7 Guayaguayare Road"]}
+{"general_id":"addr-96f44534a84a9b7cdc852b425032c600db38277b","city":["District 2, Dasht-e Behesht, Tehran"],"country":["ir"],"full":["District 2, Dasht-e Behesht, Tehran, Tehran Province"],"region":["Tehran Province"]}
+{"general_id":"NK-oP3gvd5ECFcySDZU5TgCpL","city":["Tehran","Teheran"],"country":["ir"],"full":["Tehran","Teheran","Tehran, Damavand Tehran Highway"],"street":["Damavand Tehran Highway"]}
+{"general_id":"NK-T3KCczpHiApwbKA6D8GXaW","city":["Pyongyang","Pyongyang,"],"country":["kp"],"full":["Pyongyang"]}
+{"general_id":"addr-3d7d0c198e0e14c628d2c54a4729d5ab12f74dc1","city":["Damascus"],"country":["sy"],"full":["P.O. Box 4470, Barzeh Street, Damascus"],"postOfficeBox":["P.O. Box 4470"],"street":["Barzeh Street"]}
+{"general_id":"addr-6e46a3f76503318a5da4477bc1b1baface5abd52","city":["Tehran"],"country":["ir"],"full":["Tehran, Niayes Highway, Seoul Street"],"street":["Niayes Highway, Seoul Street"]}
+{"general_id":"addr-20c2a3f5141dae115f7e902beefa5b1c0a710d5c","city":["Saradr-e Jangal, Tehran"],"country":["ir"],"full":["Saradr-e Jangal, Tehran, 156 Golestan Street"],"street":["156 Golestan Street"]}
+{"general_id":"addr-2de26676642537456af127975ef01ac07a2d0d97","city":["Tehran"],"full":["12 Ferdowsi, Avenue Sakhaee, avenue 30 Tir (sud), nr 66, Tehran"],"street":["12 Ferdowsi, Avenue  Sakhaee, avenue 30 Tir  (sud), nr 66"]}
+{"general_id":"NK-oLY2FkXMzyEcudrttJdeTH","city":["Butembo, North Kivu","Butembo"],"country":["cd"],"full":["Butembo, North Kivu","Butembo"]}
+{"general_id":"addr-64890ad9c2ff13cc1cb97a6c93eca67b1146d4fe","city":["Tunis"],"country":["tn"],"full":["32 Rue Hédi Karray - El Menzah, Tunis"],"street":["32 Rue Hédi Karray - El Menzah"]}
+{"general_id":"NK-VrKeHVXguh5A6MALLQsDfG","city":["Tripoli"],"country":["ly"],"full":["Ghout El Shamal, Tripoli"],"street":["Ghout El Shamal"]}
+{"general_id":"NK-2xmkF4QzGaTGJhYxCc2ZkE","city":["Hay Anas Safi"],"country":["ma"],"full":["7 7th Street, Hay Anas Safi"],"street":["7 7th Street"]}
+{"general_id":"NK-Mi8a2c6c7Nx29EaypwNm7e","city":["Khama"],"country":["sy"],"full":["Khama","Hama Governorate"],"region":["Hama Governorate"]}
+{"general_id":"NK-CYLpzi765XGAknRmiAJqkA","city":["Idlib"],"country":["sy"],"full":["Idlib","Idlib Governorate"],"region":["Idlib Governorate"]}
+{"general_id":"addr-b95584ddf930f128143cfa8b96668b619f87160f","city":["Lakri City, Helmand Province"],"country":["af"],"full":["Branch Office 8, Lakri City, Helmand Province"],"street":["Branch Office 8"]}
+{"general_id":"addr-84ae006ed09b480b0b417cfd845ef1a42a2e8a2a","city":["Quetta, Baluchistan Provinc"],"country":["pk"],"full":["Branch Office 1 Munsafi Road, Quetta, Baluchistan Provinc"],"street":["Branch Office 1 Munsafi Road"]}
+{"general_id":"addr-9f0e346b1e83c41b8c2ad97aa8f107430e89327f","city":["Quetta, Baluchistan Province"],"country":["pk"],"full":["Branch Office 1 Cholmon Road, Quetta, Baluchistan Province"],"street":["Branch Office 1 Cholmon Road"]}
+{"general_id":"addr-874bcd1d96feb65f1527388f8b14266e1ab0cefe","city":["Gerd-e-Jangal, Chaghi District, Baluchistan Province"],"country":["pk"],"full":["Branch Office 9, Gerd-e-Jangal, Chaghi District, Baluchistan Province"],"street":["Branch Office 9"]}
+{"general_id":"addr-7efab7a2bd77bd11c05214d57af303e61645f5ce","city":["Garmser District, Helmand Province"],"country":["af"],"full":["Branch Office 4 Hazar Joft, Garmser District, Helmand Province"],"street":["Branch Office 4 Hazar Joft"]}
+{"general_id":"addr-39a9279759080b2e7847e4377896a53774df8643","city":["Chaghi, Chaghi District, Baluchistan Province"],"country":["pk"],"full":["Branch Office 10, Chaghi, Chaghi District, Baluchistan Province"],"street":["Branch Office 10"]}
+{"general_id":"addr-f291e8a1bd97a3256ead99429842b2fc145ffdeb","city":["Garmser District, Helmand Province"],"country":["af"],"full":["Branch Office 2 Safar Bazaar, Garmser District, Helmand Province"],"street":["Branch Office 2 Safar Bazaar"]}
+{"general_id":"addr-1a7a7169b97f1aa0655fe024026f58c020634eff","city":["District number 1, Kandahar City, Kandahar Province"],"country":["af"],"full":["Branch Office 7, Suite number 8, 4th Floor Sarafi Market, District number 1, Kandahar City, Kandahar Province"],"street":["Branch Office 7, Suite number 8, 4th Floor Sarafi Market"]}
+{"general_id":"addr-3c7c94060192ad637c3d730dc8812a2ed7e422fb","city":["Helmand Province"],"country":["af"],"full":["Branch Office 3 Lashkar Gah Bazaar, Helmand Province"],"street":["Branch Office 3 Lashkar Gah Bazaar"]}
+{"general_id":"addr-e955543f5a4dbb265b61d2d882fcb111c6f30ccf","city":["Marjah District, Helmand Province"],"country":["af"],"full":["Branch Office 5 Ismat Bazaar, Marjah District, Helmand Province"],"street":["Branch Office 5 Ismat Bazaar"]}
+{"general_id":"addr-f85bddbba3ceaad758dcf798516d6f761a870946","city":["Safar, Helmand Province"],"country":["af"],"full":["Branch Office 2 Main Bazaar, Safar, Helmand Province"],"street":["Branch Office 2 Main Bazaar"]}
+{"general_id":"addr-99223bcebddd472e73cae758b274e39fd184c0c4","city":["Lashkar Gah, Helmand Province"],"country":["af"],"full":["Branch Office 3 Haji Ghulam Nabi Market, Lashkar Gah, Helmand Province"],"street":["Branch Office 3 Haji Ghulam Nabi Market"]}
+{"general_id":"addr-e7d5ed6a7682b8b30a76085678489c31c6920c6f","city":["Quetta, Baluchistan Province"],"country":["pk"],"full":["Branch Office 1, Office number 4, 2nd Floor Muslim Plaza Building, Doctor Banu Road, Quetta, Baluchistan Province"],"street":["Branch Office 1, Office number 4, 2nd Floor Muslim Plaza Building, Doctor Banu Road"]}
+{"general_id":"addr-eb26eadaf4ac867224968b815cdd36911c472739","city":["Quetta, Baluchistan Province"],"country":["pk"],"full":["Branch Office 1, Flat number 4 Furqan Center, Jamaluddin Afghani Road, Quetta, Baluchistan Province"],"street":["Branch Office 1, Flat number 4 Furqan Center, Jamaluddin Afghani Road"]}
+{"general_id":"addr-fbb3d51f5886e84f2b3f0dc94865eb5ff083bb65","city":["Kandahar City, Kandahar District, Kandahar Province"],"country":["af"],"full":["Branch Office 7, Shop number 25, 5th Floor Sarafi Market, Kandahar City, Kandahar District, Kandahar Province"],"street":["Branch Office 7, Shop number 25, 5th Floor Sarafi Market"]}
+{"general_id":"addr-f8803adf36c760966e7f3eceb989b529a0d61565","city":["Lashkar Gah, Helmand Province"],"country":["af"],"full":["Branch Office 3 Money Exchange Market, Lashkar Gah, Helmand Province"],"street":["Branch Office 3 Money Exchange Market"]}
+{"general_id":"addr-3ac9f037cfc7af474dcf1cae7d341c77f5ba98a7","city":["Quetta, Baluchistan Province"],"country":["pk"],"full":["Branch Office 1, Shop number 1, 1st Floor Kadari Place, Abdul Samad Khan Street (next to Fatima Jena Road), Quetta, Baluchistan Province"],"street":["Branch Office 1, Shop number 1, 1st Floor Kadari Place, Abdul Samad Khan Street (next to Fatima Jena Road)"]}
+{"general_id":"addr-0205eb75ef15b9ef2c9deabb58a734edfc720d27","city":["Waish Border, Spin Boldak District, Kandahar Province"],"country":["af"],"full":["Branch Office 11 Aziz Market, in front of Azizi Bank, Waish Border, Spin Boldak District, Kandahar Province"],"street":["Branch Office 11 Aziz Market, in front of Azizi Bank"]}
+{"general_id":"addr-a8a9bd695a0939835514e28ee16b98db3ff75eee","city":["Quetta, Baluchistan Province"],"country":["pk"],"full":["Branch Office 1, Shop number 1584 Furqan (variant Fahr Khan) Center, Chalhor Mal Road, Quetta, Baluchistan Province"],"street":["Branch Office 1, Shop number 1584 Furqan (variant Fahr Khan) Center, Chalhor Mal Road"]}
+{"general_id":"addr-3621f4ed255c2836873fd3409d94b17783f4b680","city":["Zaranj, Nimruz Province"],"country":["af"],"full":["Branch Office 6, Zaranj, Nimruz Province"],"street":["Branch Office 6"]}
+{"general_id":"NK-T3KCczpHiApwbKA6D8GXaW","city":["Pyongyang","Pyongyang,"],"country":["kp"],"full":["Pyongyang"]}
+{"general_id":"addr-93c327b1735f6b8914f7e66a8b1e10c2696b6334","city":["Rakwon-dong, Pothonggang District, Pyongyang","Pyongyang","Rakwon-dong, Pothonggang District, Pyongyang,"],"country":["kp"],"full":["Rakwon-dong, Pothonggang District, Pyongyang"],"street":["Rakwon-dong, Pothonggang District"]}
+{"general_id":"NK-QtQed7Xde9YUgW27uep6Am","city":["Rubavu/Mudende"],"country":["rw"],"full":["Rubavu/Mudende"]}
+{"general_id":"NK-M6mpQ8AcQSZQDworbHnaQY","city":["London"],"country":["gb"],"full":["London"]}
+{"general_id":"NK-cy3Lx98T54BYaQk4ij56T8","city":["Minsk"],"country":["by"],"full":["Minsk, Rakovska str. 14W room 7, 5th floor"],"street":["Rakovska str.  14W room 7, 5th floor"]}
+{"general_id":"NK-Q4PeLPovtHKZcbTDdfBJA9","city":["Beirut"],"country":["lb"],"full":["P.O. Box 11-8701, Syrian Lebanese Commercial Bank Building, 6th Floor, Makdessi Street, Hamra, Beirut"],"postOfficeBox":["P.O. Box 11-8701"],"street":["Syrian Lebanese Commercial Bank Building, 6th Floor,   Makdessi Street, Hamra"]}
+{"general_id":"NK-T3KCczpHiApwbKA6D8GXaW","city":["Pyongyang","Pyongyang,"],"country":["kp"],"full":["Pyongyang"]}
+{"general_id":"NK-k7pcrgCYEsnENKfifgtaNz","country":["kw"],"full":["327 Street, Area 3, Building 41, Al-Uqaylah"],"street":["327 Street, Area 3, Building 41, Al-Uqaylah"]}
+{"general_id":"NK-T3KCczpHiApwbKA6D8GXaW","city":["Pyongyang","Pyongyang,"],"country":["kp"],"full":["Pyongyang"]}
+{"general_id":"NK-9Aep9VhvktiGi7YdRRB4sZ","city":["Luhansk"],"country":["ua"],"full":["Karl Marx Street 7, Luhansk"],"street":["Karl Marx Street 7"]}
+{"general_id":"NK-6YNBnGsffwXMor4rsRSvRD","city":["Chung-guyok, Pyongyang"],"country":["kp"],"full":["Tonghung-dong, Chung-guyok, Pyongyang"],"street":["Tonghung-dong"]}
+{"general_id":"NK-9CUxQbB4e6yVW2U8AzF3Rr","city":["Minsk"],"country":["by"],"full":["Minsk, Miasnikova str. 37"],"street":["Miasnikova str. 37"]}
+{"general_id":"NK-YdKZaJ3gyEMbb4dD9dacyN","city":["Sousse"],"full":["rue Abu Dhar El Ghafari - Khezama est, Sousse"],"street":["rue Abu Dhar El Ghafari - Khezama est"]}
+{"general_id":"addr-eadd8d4e095a85ad12a2dcaf1a8b22738e1a8aaa","city":["Tehran"],"country":["ir"],"full":["Tehran, P.O. Box 19839-63113"],"street":["P.O. Box 19839-63113"]}
+{"general_id":"addr-59ad66e4f4783799ef4657ad782ff7454eb9876f","city":["Tehran"],"country":["ir"],"full":["Tehran, Daneshju Blvd., Yaman St., Chamran Blvd."],"street":["Daneshju Blvd., Yaman St., Chamran Blvd."]}
+{"general_id":"NK-hD6To7ymPXFDKXcmDd6ETF","city":["Moscow"],"country":["ru"],"full":["Mantulinskaya 24, Moscow, 123100"],"postalCode":["123100"],"street":["Mantulinskaya 24"]}
+{"general_id":"NK-XeaS9GPbuQx4AyAoruBs3s","city":["Minsk"],"country":["by"],"full":["220005 Minsk, Platonova 20B"],"postalCode":["220005"],"street":["Platonova 20B"]}
+{"general_id":"NK-6VCY85rrTGWju2qgDgG2Dq","city":["Hammam Lif, Ben Arous"],"country":["tn"],"full":["60 Rue de la Libye, Hammam Lif, Ben Arous"],"street":["60 Rue de la Libye"]}
+{"general_id":"NK-JH8aR6BDofy8NYcmw2aYUi","city":["Pyongyang"],"country":["kp"],"full":["817, Haeum, Pyongyang"],"region":["Tonghun-dong, Chung-gu"],"street":["817, Haeum"]}
+{"general_id":"NK-TrH7etBdvdVu2PUgAoUA5m","city":["Pyongyang"],"country":["kp"],"full":["817 Haeun, Pyongyang"],"region":["Donghung-dong, Central District"],"street":["817 Haeun,"]}
+{"general_id":"NK-gY3BFBn326ZqRCTZgQxrRR","city":["Damascus"],"country":["sy"],"full":["P.O. Box 5966, Aleppo Street, Damascus"],"postOfficeBox":["P.O. Box 5966"],"street":["Aleppo Street"]}
+{"general_id":"NK-FcLdYybXJrPwd3EmhSzbny","city":["Koui, Ouham-Pendé prefecture"],"country":["cf"],"full":["Koui, Ouham-Pendé prefecture"]}
+{"general_id":"addr-0414a34286936624fafbc7c760a61ec16c2390a1","country":["dz"],"full":["Kabylie region"],"region":["Kabylie region"]}
+{"general_id":"NK-VUsom5WEjgWFe7wnYpHxgB","city":["Gaza Strip"],"country":["ps"],"full":["Gaza Strip"]}
+{"general_id":"NK-oP3gvd5ECFcySDZU5TgCpL","city":["Tehran","Teheran"],"country":["ir"],"full":["Tehran","Teheran","Tehran, Damavand Tehran Highway"],"street":["Damavand Tehran Highway"]}
+{"general_id":"NK-npwQ5v2RwW3NGjsWb9CGt8","city":["Tehran"],"country":["ir"],"full":["Tehran, 9 Zohre Street [Ground Floor], Mofateh Street"],"street":["9 Zohre Street [Ground Floor], Mofateh Street"]}
+{"general_id":"NK-8m85p8ZibS5TXYm3kgjZtK","city":["Tripoli"],"country":["ly"],"full":["Al Jumhouria Street, East Junzour, Al Gheran, Tripoli"],"street":["Al Jumhouria Street, East Junzour, Al Gheran"]}
+{"general_id":"NK-mE4cRHbPYxW9dJJ8Nz6vuQ","city":["Tripoli"],"country":["ly"],"full":["1100, El Ghayran Area, Ganzor El Sharqya, Tripoli"],"postOfficeBox":["1100"],"street":["El Ghayran Area, Ganzor El Sharqya"]}
+{"general_id":"NK-PwzJPU3ouUyeFTiDB9JQUH","city":["Chai Wan, Chai Wan, Hong Kong"],"country":["cn"],"full":["Room 2105, DL1849, Trend Centre, 29-31 Cheung Lee Street, Chai Wan, Chai Wan, Hong Kong"],"street":["Room 2105, DL1849, Trend Centre, 29-31 Cheung Lee Street"]}
+{"general_id":"NK-7ZbdjE35MwYEp92CZhPWJj","city":["Gao"],"country":["ml"],"full":["Golf Rue 708 Door 345, Gao"],"street":["Golf Rue 708 Door 345"]}
+{"general_id":"NK-jGZHUg3AeXNXeLkPqQz2tM","country":["sy"],"full":["P.O. Box: 2849 or 3378, Dummar Province, Expansion Square, Island 19‐ Building 32"],"postOfficeBox":["P.O. Box: 2849 or 3378"],"street":["Dummar Province, Expansion Square, Island 19‐ Building 32"]}
+{"general_id":"NK-Jqia4KRMikdDyZpcYD9Ygi","city":["Palatial bungalow in the hilly area of Noorabad in Karachi"],"country":["pk"],"full":["Palatial bungalow in the hilly area of Noorabad in Karachi"]}
+{"general_id":"NK-GYfMqHEebybFXA4HmieWff","city":["Karachi"],"country":["pk"],"full":["House No 37 – 30th Street – defence, Housing Authority, Karachi"],"street":["House No 37 – 30th Street – defence, Housing Authority"]}
+{"general_id":"NK-cQtq2BigKyTTvZrXyD7Nsy","city":["Karachi"],"country":["pk"],"full":["White House, Near Saudi Mosque, Clifton, Karachi"],"street":["White House, Near Saudi Mosque, Clifton"]}
+{"general_id":"addr-d40469d48ab55cbb513f4cb8ae8f011a7649eaab","city":["Majengo area, Mombasa"],"country":["ke"],"full":["Majengo area, Mombasa"]}
+{"general_id":"addr-31d2b9d3ce2e95268a24572576dafa6a257618d0","city":["Karbala"],"country":["iq"],"full":["Al-Abbas Street, Karbala"],"street":["Al-Abbas Street"]}
+{"general_id":"addr-93e96961f621d42de2be64895f32c0c4f0d2fd94","city":["Baghdad"],"country":["iq"],"full":["Al-Kadhumi Complex, Al-Harthia, Baghdad"],"street":["Al-Kadhumi Complex, Al-Harthia"]}
+{"general_id":"NK-hdpknPyMfuU5Em2wXkJoDP","city":["Simferopol"],"country":["ua"],"full":["str. Kiev, 4 (area bus station ‘Central’)., Simferopol"],"region":["Crimea"],"street":["str. Kiev, 4 (area bus station ‘Central’)."]}
+{"general_id":"NK-jg5dWduRhv3y6m9U2M3qmb","city":["Beirut"],"country":["lb"],"full":["Beirut"]}
+{"general_id":"NK-hFFmPiDKsQqCqxiFGZkqxK","city":["Damascus","Az Zabadani, Damascus"],"country":["sy"],"full":["Fuad Dawod Farm, Az Zabadani, Damascus"],"street":["Fuad Dawod Farm, Az Zabadani","Fuad Dawod Farm"]}
+{"general_id":"addr-d00658656eaa4f3d6705563ff183038a8518275f","city":["Tehran"],"country":["ir"],"full":["Tehran, P.O. Box 16595-365"],"street":["P.O. Box 16595-365"]}
+{"general_id":"NK-g8zRC8JDMNp8vVcQjvAHJ7","full":["Donetsk, Universitetskaya 19"],"street":["Donetsk,  Universitetskaya  19"]}
+{"general_id":"NK-DipdMKnWvtCcmnrZjRjMAP","city":["Kabkabiya"],"country":["sd"],"full":["Kabkabiya"]}
+{"general_id":"NK-PhugXCP3B9hzt6pZj5o97E","city":["Kutum"],"country":["sd"],"full":["Kutum"]}
+{"general_id":"NK-ayjqSaRa8c42GsYuHLqtWt","city":["Damascus"],"country":["sy"],"full":["Dar Al Muhanisen Building, 6th Floor, Maysa­loun Street, Damascus"],"street":["Dar Al Muhanisen Building, 6th Floor,  Maysa­loun Street"]}
+{"general_id":"NK-SWfmANzxefVhTwtoFFHnsA","city":["Bangui"],"country":["cf"],"full":["KM5, Bangui","Bangui"],"street":["KM5"]}
+{"general_id":"NK-TYPGapkbcDZawQikLqAb38","city":["Cubao, Quezon City"],"country":["ph"],"full":["50 Purdue Street, Cubao, Quezon City"],"street":["50 Purdue Street"]}
+{"general_id":"NK-oNtw6FmEorXb3JQnCAUSmi","city":["Tehran"],"country":["ir"],"full":["Tehran, Unit 1, No 35, Bouali Sina Sharghi, Chehel Sotoun Street, Fatemi Square"],"street":["Unit 1, No 35, Bouali  Sina Sharghi, Chehel  Sotoun Street, Fatemi  Square"]}
+{"general_id":"addr-1f1588642e722e029cd1caadd989559f6ad6c9f8","city":["Tehran"],"country":["ir"],"full":["Tehran, Corner of Imam Ali Highway and Babaei Highway"],"street":["Corner of Imam Ali Highway and Babaei Highway"]}
+{"general_id":"addr-c9ed8714449376b5d0271c8918426871771c6967","city":["Tunis"],"country":["tn"],"full":["20 Rue Ibn Chabat - Salammbô - Carthage, Tunis"],"street":["20 Rue Ibn Chabat - Salammbô - Carthage"]}
+{"general_id":"NK-QjxjmArWX6UCwhyRxf9etU","city":["Aleppo"],"country":["sy"],"full":["P.O. Box 729, Bab Al-Faraj, Aleppo"],"postOfficeBox":["P.O. Box 729"],"street":["Bab Al-Faraj"]}
+{"general_id":"addr-4bc559582199612b1ed086fbe4d0f71aac6ce140","city":["Damascus"],"country":["sy"],"full":["P.O. Box 108, Damascus"],"street":["P.O. Box 108"]}
+{"general_id":"addr-04a17d22124400ad9222dd03a9c8175ae1815669","city":["Tehran"],"country":["ir"],"full":["Tehran, 35 Kooshesh Street, Unit 12"],"street":["35 Kooshesh Street, Unit 12"]}
+{"general_id":"addr-664a0fdf143f49d4406846578aa2cd530c8771fc","city":["Garissa"],"country":["ke"],"full":["Garissa"]}
+{"general_id":"NK-Za5bvtEDBDXrb3jgx6WcEJ","city":["Dadaab"],"country":["ke"],"full":["Dadaab"]}
+{"general_id":"NK-iZ7vE5zgK9BsyPaiYTFYfj","city":["Nairobi"],"country":["ke"],"full":["Nairobi"]}
+{"general_id":"NK-akgYbGiqnnpLHqQ9QCPL4b","city":["Birao"],"country":["cf"],"full":["Birao"]}
+{"general_id":"NK-bVsL85ztbxT2BpRniDQkX4","city":["Tripoli"],"country":["ly"],"full":["Bab Ben Ghasheer, Tripoli"],"street":["Bab Ben Ghasheer"]}
+{"general_id":"NK-3qyo7bKB6jXkFFCmGnBDa6","country":["ru"],"full":["Voroshilovskiy Prospekt 12/85-87/13, Rostov- on-Don"],"street":["Voroshilovskiy Prospekt 12/85-87/13, Rostov- on-Don"]}
+{"general_id":"NK-oWAioqHhL4gAg63EQettSr","country":["ru"],"full":["346465 Russia, Rostov Region, October District, St Zaplavskaya, Str Shosseynaya 1"],"street":["346465 Russia, Rostov Region, October District, St Zaplavskaya, Str Shosseynaya 1"]}
+{"general_id":"NK-2GKEo898ZkVPTYCETbQb2f","city":["Tsim Sha Tsui, Kowloon, Hong Kong"],"country":["cn"],"full":["Unit 503, 5th Floor, Silvercord Tower 2, 30, Canton Road, Tsim Sha Tsui, Kowloon, Hong Kong"],"street":["Unit 503, 5th Floor, Silvercord Tower 2, 30, Canton Road"]}
+{"general_id":"NK-j7J4XFRVYL2z6qQYE4EqVT","city":["Bamako"],"country":["ml"],"full":["Bamako"]}
+{"general_id":"NK-GQrevnYu55A25T3wie46Xa","city":["Yalta"],"full":["Massandra, str. Vinodela Egorova 9, 298650 Yalta"],"postalCode":["298650"],"region":["Crimea"],"street":["Massandra, str. Vinodela Egorova 9"]}
+{"general_id":"addr-ed3ca58c333703703e2ad82a533b6c65f94934ec","city":["Lalpura"],"country":["af"],"full":["Lalpura"],"region":["Nangarhar Province"]}
+{"general_id":"addr-7d75b545ee750ca7a503e32c844f0c3d142a9186","city":["Mohmand Agency"],"country":["pk"],"full":["Mohmand Agency"]}
+{"general_id":"NK-gcPmkTAKaLTYgvYL2pjrtd","city":["Jette, Brussel","Jette, Bruxelles","Jette, Brussels"],"country":["be"],"full":["107/1 Léon Theodorestraat, 1090 Jette, Brussel","107/1 rue Léon Théodore, 1090 Jette, Bruxelles","107/1 rue Léon Théodore, 1090 Jette, Brussels"],"postalCode":["1090"],"street":["107/1 Léon Theodorestraat","107/1 rue Léon Théodore"]}
+{"general_id":"NK-XD5RdLxExSitHojZaRCxuv","city":["Minsk"],"country":["by"],"full":["220004 Minsk, 14A Nemiga St."],"postalCode":["220004"],"street":["14A Nemiga St."]}
+{"general_id":"addr-53bf20d62ec25cca539cab8bb6ccffc8af3c27a8","city":["Tehran"],"country":["ir"],"full":["Tehran, P.O. Box 16535-76, 16548"],"postalCode":["16548"],"street":["P.O. Box 16535-76"]}
+{"general_id":"NK-WjiyHXRBB9ka43nPpsayhT","city":["Mangyongdae-guyok, Pyongyang","Pyongchon-guyok, Pyongyang"],"country":["kp"],"full":["Saemaul 2-dong, Pyongchon-guyok, Pyongyang","Kalrimgil 2-dong, Mangyongdae-guyok, Pyongyang"],"street":["Kalrimgil 2-dong","Saemaul 2-dong"]}
+{"general_id":"NK-3Kw6ZCXo8SddN8PJ58uuvE","city":["Moscow"],"country":["ru"],"full":["Moscow"]}
+{"general_id":"NK-T3KCczpHiApwbKA6D8GXaW","city":["Pyongyang","Pyongyang,"],"country":["kp"],"full":["Pyongyang"]}
+{"general_id":"NK-Tfi2w7ofFc8nhEmaPRrGXL","city":["Damascus"],"country":["sy"],"full":["P.O. Box 8254, Baghdad Street, Damascus"],"postOfficeBox":["P.O. Box 8254"],"street":["Baghdad Street"]}
+{"general_id":"NK-535ZfA8VwvXwAsSuf9Fodn","city":["Dbabsha-Sabratah"],"country":["ly"],"full":["Dbabsha-Sabratah"]}
+{"general_id":"NK-T3B3Z2FgcyZUB8QZYV5dAA","city":["Garabulli"],"country":["ly"],"full":["Garabulli"]}
+{"general_id":"NK-KH7csqgVLKRkFa5GUEoNiu","city":["Zawiya"],"country":["ly"],"full":["Zawiya"]}
+{"general_id":"addr-1ae97456edfbff49ddcc42b82055cb1bc0c323aa","city":["Rutshuru Territory, North Kivu"],"country":["cd"],"full":["Rutshuru Territory, North Kivu"]}
+{"general_id":"addr-a3ea33c31e748554d17623d5f07579c01ce09b1d","city":["Pyongyang"],"country":["kp"],"full":["Haeudong, Pyongchen District, Pyongyang"],"street":["Haeudong, Pyongchen District"]}
+{"general_id":"NK-jjE6FXaLr28VSZnhpG3wCC","city":["Arbil — Qushtuba"],"country":["iq"],"full":["house no. SH 11, alley 5380, Arbil — Qushtuba"],"street":["house no. SH 11, alley 5380"]}
+{"general_id":"NK-VwyYwFEnPCCNcsNwaNHz8i","city":["Damascus"],"country":["sy"],"full":["Sabah Bahrat Square, Damascus","P.O. Box 2254, Altjreda al Maghrebeh Square, Damascus"],"postOfficeBox":["P.O. Box 2254"],"street":["Sabah Bahrat Square","Altjreda al Maghrebeh Square"]}
+{"general_id":"NK-3Bu8ZGkPEbLxBaEmvhL2R3","city":["Mangyongdae-guyok, Pyongyang"],"country":["kp"],"full":["Kumsong 3-dong, Mangyongdae-guyok, Pyongyang"],"street":["Kumsong 3-dong"]}
+{"general_id":"NK-baxaqoXSGFZgqXKFodQtrM","city":["Kuwait"],"country":["kw"],"full":["Al-Salibekhat area, Kuwait"],"street":["Al-Salibekhat area"]}
+{"general_id":"NK-o5Ua4MoeWKBiRHtdowmz8f","city":["Simferopol"],"full":["Aeroflotskaya street 5, 295021 Simferopol"],"postalCode":["295021"],"street":["Aeroflotskaya street 5"]}
+{"general_id":"NK-D3ARCtj7xWsxnJeUbNDLkj","country":["ir"],"full":["Alborz Province, Karaj, Gohardasht, Moazzen Blvd"],"street":["Alborz Province, Karaj, Gohardasht, Moazzen Blvd"]}
+{"general_id":"addr-f7c46c03d0a2efa053ed4b10cd3bb22fc83648d7","city":["Tabankort"],"country":["ml"],"full":["Tabankort"]}
+{"general_id":"addr-419a08f1b4a4469f5bab421dc0b462497d61fdb3","city":["In Khalil"],"country":["ml"],"full":["In Khalil"]}
+{"general_id":"addr-d5459eb4ec21ca1410b1f8d3a0b6d1c54cf1bc29","city":["Al Moustarat"],"country":["ml"],"full":["Al Moustarat"]}
+{"general_id":"NK-9ai7FLcgJyERz3D37jeiTW","city":["Gao"],"country":["ml"],"full":["Gao"]}
+{"general_id":"addr-ce8bec0e2f65eff6db7d4a25967b478e745d6fc8","city":["Tripoli"],"country":["ly"],"full":["1 Fateh Tower Office No.99 22nd Floor, Borgaida Street, Tripoli"],"postalCode":["1103"],"street":["1 Fateh Tower Office No.99 22nd Floor, Borgaida Street"]}
+{"general_id":"addr-404f5bf4f4dcb2beff63cfe556732f6066758dd2","city":["Ruggell"],"country":["li"],"full":["Ruggell"]}
+{"general_id":"addr-44bdcef256f6fe4627e58aecd3728133a0fe2177","city":["Kuwait (residence as at March 2009)"],"country":["kw"],"full":["Kuwait (residence as at March 2009)"]}
+{"general_id":"addr-6cec7683557ac7336ce454d096669244f590c6bc","city":["Punta, Santa Ana, Manila"],"country":["ph"],"full":["3111 Ma. Bautista, Punta, Santa Ana, Manila"],"street":["3111 Ma. Bautista"]}
+{"general_id":"addr-e4b0baf18851a9fdd43a7ddd709b619a9e1e00f5","city":["Tunis"],"country":["tn"],"full":["41 Rue Garibaldi, Tunis"],"street":["41 Rue Garibaldi"]}
+{"general_id":"addr-e533f3f1d095efa9536d73e6eda8a21c3179e806","city":["Damascus"],"country":["sy"],"full":["Salhieh Street 616, Damascus"],"street":["Salhieh Street 616"]}
+{"general_id":"NK-NvLy3DsmDKg8uWoi6CnqMW","city":["Moscow"],"country":["ru"],"full":["22 Kirova Street, Moscow"],"street":["22 Kirova Street"]}
+{"general_id":"addr-ffedf043b8f6ff5ef592f797aaa46ca2039c781c","city":["Damascus"],"country":["sy"],"full":["CERS, Centre d'Etude et de Recherche Scientifique; a.k.a. SSRC, Scientific Studies and Research Center; Centre de Recherche de Kaboun Barzeh Street, P.O.Box 4470, Damascus"],"street":["CERS, Centre d'Etude et de Recherche Scientifique; a.k.a. SSRC, Scientific Studies and Research Center; Centre de Recherche de Kaboun Barzeh Street, P.O.Box 4470"]}
+{"general_id":"NK-b5K6S4JNoBoMLQ58uP8WBc","city":["Rakrang-guyok, Pyongyang"],"country":["kp"],"full":["Rakrang 3-dong, Rakrang-guyok, Pyongyang"],"street":["Rakrang 3-dong"]}
+{"general_id":"NK-d2XREj4tfKxTCn4x5jXZee","city":["Tehran"],"country":["ir"],"full":["Tehran, Unit 38,5th Fl, Bldg, No 60 Golfam St, Jordan, 19395-5716"],"postalCode":["19395-5716"],"street":["Unit 38,5th Fl, Bldg, No 60 Golfam St, Jordan"]}
+{"general_id":"NK-JFqAoAs4tDaLnThyfkDipo","city":["Arak"],"country":["ir"],"full":["Arak, Factory: Parcham St, 13th Km of Qom Rd, 38135"],"postalCode":["38135"],"street":["Factory: Parcham St, 13th Km of Qom Rd"]}
+{"general_id":"NK-4D5AcDL982SEEVdgidkTXm","city":["Damascus"],"country":["sy"],"full":["Umayyad Square, Damascus"],"street":["Umayyad Square"]}
+{"general_id":"NK-PETANFTbTRmYPBo52d6myj","city":["Monastir"],"full":["255 cité El Bassatine, Monastir"],"street":["255 cité El Bassatine"]}
+{"general_id":"NK-C3dusssvkAnyrCTBGwep8p","city":["Sultanate of Oman"],"country":["om"],"full":["Sultanate of Oman"]}
+{"general_id":"addr-f519e15e4cc4364bb599050df0dacf656894cbfc","city":["Southeast Tehran"],"country":["ir"],"full":["Southeast Tehran"]}
+{"general_id":"NK-37tcUu97yWyCWMn9zbpdtB","city":["Gammarth Supérieur"],"full":["4 Rue Ennawras, Gammarth Supérieur"],"street":["4 Rue Ennawras"]}
+{"general_id":"NK-fM3AaGtS8c37VPmAFrkNHB","city":["Tunis - El Manar 2"],"country":["tn"],"full":["23 rue Ali Zlitni, Tunis - El Manar 2"],"street":["23 rue Ali Zlitni"]}
+{"general_id":"addr-8519640a1cdab64142c19df7a413600263bececa","city":["Karachi"],"country":["pk"],"full":["Karachi"]}
+{"general_id":"addr-553e5cc18b77d94145f219df6b54b69e82cca87b","city":["Damascus"],"country":["sy"],"full":["P.O. Box 31983, Damascus"],"postOfficeBox":["P.O. Box 31983"]}
+{"general_id":"NK-PUwWsW7FfXwVB8mCSeVCeq","city":["Damascus"],"country":["sy"],"full":["30588, Damascus","Damascus"],"postOfficeBox":["30588"]}
+{"general_id":"NK-oTa5GRrJNiLc7evWuntPSE","city":["Az Zabadani"],"country":["sy"],"full":["Al-Shahid Street, Al-Mahata Neighbourhood, Az Zabadani"],"street":["Al-Shahid Street, Al-Mahata Neighbourhood"]}
+{"general_id":"NK-UnHCpz3ysQ7sr79JpXATeJ","city":["Kandahar Province"],"country":["af"],"full":["Daman District, Kandahar Province"],"street":["Daman District"]}
+{"general_id":"addr-b6cef6dcd9d86f0d2a1db750cf42a497ee7a4b31","city":["Dubai"],"country":["ae"],"full":["Branch Office 14, Dubai"],"street":["Branch Office 14"]}
+{"general_id":"addr-736ccaf5c30dd274c8cbafc3010545ce7457f64d","city":["Lashkar Gah District, Helmand Province"],"country":["af"],"full":["Branch Office 9, Haji Ghulam Nabi Market, 2nd Floor, Lashkar Gah District, Helmand Province"],"street":["Branch Office 9, Haji Ghulam Nabi Market, 2nd Floor"]}
+{"general_id":"addr-711b9ac51f0649868b128988d19be47ccf80da9e","city":["Wesh, Spin Boldak District"],"country":["af"],"full":["Branch Office 12 Sarafi Market, Wesh, Spin Boldak District"],"street":["Branch Office 12 Sarafi Market"]}
+{"general_id":"addr-c60cb9982da16603e7cfa77c67977f6885de597a","city":["Lashkar Gah, Lashkar Gah District, Helmand Province"],"country":["af"],"full":["Branch Office 9 Lashkar Gah Bazaar, Lashkar Gah, Lashkar Gah District, Helmand Province"],"street":["Branch Office 9 Lashkar Gah Bazaar"]}
+{"general_id":"addr-a8eacbdc022538c19f44bcd91f487ab6e700f3c4","city":["Peshawar, Khyber Paktunkhwa Province"],"country":["pk"],"full":["Branch Office 2, Peshawar, Khyber Paktunkhwa Province"],"street":["Branch Office 2"]}
+{"general_id":"addr-e200b395746b0ecf1fe8c462b54f7075636564ab","city":["Kandahari Bazaar, Quetta City, Baluchistan Province"],"country":["pk"],"full":["Branch Office 1 Chohar Mir Road, Kandahari Bazaar, Quetta City, Baluchistan Province"],"street":["Branch Office 1 Chohar Mir Road"]}
+{"general_id":"addr-a4335ea4d972a17a166ec2a14be25d0eb9f0edb9","city":["Quetta, Baluchistan Province"],"country":["pk"],"full":["Branch Office 1, Shop number 3 Dr Bano Road, Quetta, Baluchistan Province"],"street":["Branch Office 1, Shop number 3 Dr Bano Road"]}
+{"general_id":"addr-eaaff282f8df83f43871b42424464638421b2c06","city":["Nimroz Province"],"country":["af"],"full":["Branch Office 11 Ansari Market, 2nd Floor, Nimroz Province"],"street":["Branch Office 11 Ansari Market, 2nd Floor"]}
+{"general_id":"addr-124bec3d1bdfe95df1a109fd3972aeb3c2b645c2","city":["Kabul"],"country":["af"],"full":["Branch Office 6, Shop number 237 Shah Zada Market (also known as Sarai Shahzada), Puli Khishti area, Police District 1, Kabul"],"street":["Branch Office 6, Shop number 237 Shah Zada Market (also known as Sarai Shahzada), Puli Khishti area, Police District 1"]}
+{"general_id":"addr-87e5c36ee31ca3653f082e4b7931922452211ac0","city":["Kandahar City, Kandahar Province"],"country":["af"],"full":["Branch Office 7 Safi Market, Kandahar City, Kandahar Province"],"street":["Branch Office 7 Safi Market"]}
+{"general_id":"addr-56de32973c84a45e1dad9d25414535c66e898513","city":["Quetta, Baluchistan Province"],"country":["pk"],"full":["Branch Office 1, Office number 3 Near Fatima Jinnah Road, Dr Bano Road, Quetta, Baluchistan Province"],"street":["Branch Office 1, Office number 3 Near Fatima Jinnah Road, Dr Bano Road"]}
+{"general_id":"addr-498898d51e3b33ded0137b13b868d7049bc60f22","city":["Herat City, Herat Province"],"country":["af"],"full":["Branch Office 10, Suite numbers 196-197, 3rd Floor Khorasan Market, Herat City, Herat Province"],"street":["Branch Office 10, Suite numbers 196-197, 3rd Floor Khorasan Market"]}
+{"general_id":"addr-38130df84dddd9afa0021af804f326f7ab1285b8","city":["Quetta, Baluchistan Province"],"country":["pk"],"full":["Branch Office 1 Wazir Mohammad Road, Quetta, Baluchistan Province"],"street":["Branch Office 1 Wazir Mohammad Road"]}
+{"general_id":"addr-6751a10911ee534af30647347929aaa63c5d0d4a","city":["Zahedan"],"country":["ir"],"full":["Zahedan, Branch Office 15"],"street":["Branch Office 15"]}
+{"general_id":"addr-58d84e6097aa7b52a532e8633e293da89a347305","city":["Quetta, Baluchistan Province"],"country":["pk"],"full":["Branch Office 1 Kachara Road, Nasrullah Khan Chowk, Quetta, Baluchistan Province"],"street":["Branch Office 1 Kachara Road, Nasrullah Khan Chowk"]}
+{"general_id":"addr-5c5e0ffe10e9d65f2a2b6cf05fb91e5a683fada4","city":["Lahore, Punjab Province"],"country":["pk"],"full":["Branch Office 3 Moishah Chowk Road, Lahore, Punjab Province"],"street":["Branch Office 3 Moishah Chowk Road"]}
+{"general_id":"addr-a024db6d585516fcf822922927794a5d066ec051","city":["Kandahar City, Kandahar Province"],"country":["af"],"full":["Branch Office 7, Shops number 21 and 22, 2nd Floor Kandahar City Sarafi Market, Kandahar City, Kandahar Province"],"street":["Branch Office 7, Shops number 21 and 22, 2nd Floor Kandahar City Sarafi Market"]}
+{"general_id":"addr-97b46d6c27973481c1fe0dd4cb5bed6b225a9577","city":["Quetta, Baluchistan Province"],"country":["pk"],"full":["Branch Office 1, Room number 1 Abdul Sattar Plaza, Hafiz Saleem Street, Munsafi Road, Quetta, Baluchistan Province"],"street":["Branch Office 1,  Room number 1 Abdul Sattar Plaza, Hafiz Saleem Street, Munsafi Road"]}
+{"general_id":"addr-03c5466ca26c70f4a040523ec07ccc7f40d61e0e","city":["Kandahar City, Kandahar Province"],"country":["af"],"full":["Branch Office 7, New Sarafi Market, 2nd Floor, Kandahar City, Kandahar Province"],"street":["Branch Office 7, New Sarafi Market, 2nd Floor"]}
+{"general_id":"addr-33dc1f26b2ad059f88676faf3f61a9ac97efcf68","city":["Farah"],"country":["af"],"full":["Branch Office 13 Sarafi Market, Farah"],"street":["Branch Office 13 Sarafi Market"]}
+{"general_id":"addr-a99bed173628cfea65c76f3595cf2b6cc98263fe","city":["Zaranj District, Nimroz Province"],"country":["af"],"full":["Branch Office 11 Sarafi Market, Zaranj District, Nimroz Province"],"street":["Branch Office 11 Sarafi Market"]}
+{"general_id":"addr-8fefdfa37e1f7b510369c14b6166721c9ecd893d","city":["Chaman, Baluchistan Province"],"country":["pk"],"full":["Branch Office 5, 2 Larran Road, Chaman, Baluchistan Province"],"street":["Branch Office 5, 2 Larran Road"]}
+{"general_id":"addr-92e170e4ca10de829ce6188e624331bf209124a6","city":["Karachi, Sindh Province"],"country":["pk"],"full":["Branch Office 4, Karachi, Sindh Province"],"street":["Branch Office 4"]}
+{"general_id":"addr-6015f143e03320833d376eb5ad3365e6c1b7c375","city":["Gereshk City, Nahr-e Saraj District, Helmand Province"],"country":["af"],"full":["Branch Office 8, Gereshk City, Nahr-e Saraj District, Helmand Province"],"street":["Branch Office 8"]}
+{"general_id":"addr-30538e21220e07404a1e30e7fee89621b04bd398","city":["District 5, Herat City, Herat Province"],"country":["af"],"full":["Branch Office 10 Khorasan Market, Shahre Naw, District 5, Herat City, Herat Province"],"street":["Branch Office 10 Khorasan Market, Shahre Naw"]}
+{"general_id":"addr-eadcdb2860eff84dc8cb43fa1e2a3b981c2a38b1","city":["Zabul"],"country":["ir"],"full":["Zabul, Branch Office 16"],"street":["Branch Office 16"]}
+{"general_id":"addr-2ef4bf45e449162f055db6cba9466bce213a242f","city":["Chaman, Baluchistan Province"],"country":["pk"],"full":["Branch Office 5 Chaman Central Bazaar, Chaman, Baluchistan Province"],"street":["Branch Office 5 Chaman Central Bazaar"]}
+{"general_id":"NK-VcLNiJCLyuxfujKmdei39y","city":["Banias"],"country":["sy"],"full":["P.O. Box 13, Banias Industrial Area, Latakia Entrance Way, Banias"],"postOfficeBox":["P.O. Box 13"],"street":["Banias Industrial Area, Latakia Entrance Way"]}
+{"general_id":"NK-KriWwTpeSueeXGEPThbHGa","city":["Damascus"],"country":["sy"],"full":["P.O. Box 7660, Dummar - New Sham - Western Dummer 1st. Island - Property 2299 - AFPC Building, Damascus"],"postOfficeBox":["P.O. Box 7660"],"street":["Dummar - New Sham - Western Dummer 1st. Island -  Property 2299  - AFPC Building"]}
+{"general_id":"NK-VfDb3H2PUazcu4FqQBHuMC","city":["Rakrang-guyok, Pyongyang"],"country":["kp"],"full":["Jongbaek 1-dong, Rakrang-guyok, Pyongyang"],"street":["Jongbaek 1-dong"]}
+{"general_id":"addr-0f393e9078c381b4b75d6aa27cd29eea3de3b0c9","city":["Moroni"],"country":["km"],"full":["B/P: 1652, Moroni"],"street":["B/P: 1652"]}
+{"general_id":"addr-f2702244ac0ba7103f36450282a89288ee7c2f27","city":["Karachi"],"country":["pk"],"full":["House Number 136, KDA Scheme No. 1, Tipu Sultan Road, Karachi"],"street":["House Number 136, KDA Scheme No. 1, Tipu Sultan Road,"]}
+{"general_id":"addr-d2f2e9de72416fb170f4e3da858a9a1b6f16e184","city":["Damascus"],"country":["sy"],"full":["P.O. Box 81, Building No. 653 – 1st Floor, Daraa Highway, Damascus"],"postOfficeBox":["P.O. Box 81"],"street":["Building No. 653 – 1st Floor, Daraa Highway"]}
+{"general_id":"addr-cbc025f60c7ce63bc245968f5649d968907fa9ae","city":["Shiraz"],"country":["ir"],"full":["Shiraz, Hossain Abad Avenue"],"street":["Hossain Abad Avenue"]}
+{"general_id":"NK-CRVdwEvbESdoD9XoAiv34e","city":["Minsk"],"country":["by"],"full":["Minsk, 22 Surhanava St., apt. 1"],"street":["22 Surhanava St., apt. 1"]}
+{"general_id":"NK-9GupFL3h6ZQHyhim2Xxhoj","city":["Selangor"],"country":["my"],"full":["Taman Bukit Ampang, Selangor"],"street":["Taman Bukit Ampang"]}
+{"general_id":"addr-a8b839ff64e8bec908c2a39f2bda22b052e156b6","city":["Damascus"],"country":["sy"],"full":["P.O. Box 11037, Damascus"],"postOfficeBox":["P.O. Box 11037"]}
+{"general_id":"addr-68e8d54a52c7e33a9ef8dc83925c7a609eb0668e","city":["Hong Kong"],"country":["cn"],"full":["383 Hennessy Road, LM-873, RM B, 14/F, Wah Hen Commercial Centre, Wanchai, Hong Kong"],"street":["383 Hennessy Road, LM-873, RM B, 14/F, Wah Hen Commercial Centre, Wanchai"]}
+{"general_id":"addr-93c327b1735f6b8914f7e66a8b1e10c2696b6334","city":["Rakwon-dong, Pothonggang District, Pyongyang","Pyongyang","Rakwon-dong, Pothonggang District, Pyongyang,"],"country":["kp"],"full":["Rakwon-dong, Pothonggang District, Pyongyang"],"street":["Rakwon-dong, Pothonggang District"]}
+{"general_id":"addr-4b53c3b166abe670734ab7b2ede2680c55b95e67","city":["Pyongyang"],"country":["kp"],"full":["Pot’onggang District, Pyongyang"],"street":["Pot’onggang District"]}
+{"general_id":"addr-3b2c00bb2a75ba35f5a6ed990002e884c8071e51","city":["Damascus"],"country":["sy"],"full":["Dara'a Highway, Damascus"],"street":["Dara'a Highway"]}
+{"general_id":"NK-hiPEE9H5Nri49SEXPqkBYm","city":["Peshawar"],"country":["pk"],"full":["Peshawar"]}
+{"general_id":"addr-fbaa2992c31df6806cc88235f53109bce2039a42","city":["Dergey Manday Village, near Miram Shah, North Waziristan Agency (NWA), Federally Administered Tribal Areas (FATA)"],"country":["pk"],"full":["Near Dergey Manday Madrasa, Dergey Manday Village, near Miram Shah, North Waziristan Agency (NWA), Federally Administered Tribal Areas (FATA)"],"street":["Near Dergey Manday Madrasa"]}
+{"general_id":"addr-fdb12961a7a782df7b3433660f9a359be53b91d6","city":["Sarana Zadran Village, Paktia Province,"],"country":["af"],"full":["Sarana Zadran Village, Paktia Province"]}
+{"general_id":"addr-9e6b57e1361afa7e72c0ace85ebad04a7edfc98d","city":["Sarana Zadran Village, Paktia Province"],"country":["pk"],"full":["Sarana Zadran Village, Paktia Province"]}
+{"general_id":"addr-bfffe6cfa9c47f31c80b57d65bb6c188e5d149e6","city":["Kayla Village near Miram Shah, North Waziristan Agency (NWA), Federally Administered Tribal Areas (FATA)"],"country":["pk"],"full":["Kayla Village near Miram Shah, North Waziristan Agency (NWA), Federally Administered Tribal Areas (FATA)"]}
+{"general_id":"addr-478632fc90b11d8e67bdcfff10bdc129b5fc9865","city":["La Marsa"],"country":["tn"],"full":["4 Rue Taoufik El Hakim, La Marsa"],"street":["4 Rue Taoufik El Hakim"]}
+{"general_id":"NK-DJHvQahw4Gs7rTzWLCcnsJ","city":["St. Petersburg"],"country":["ru"],"full":["7 Yablochkova street, St. Petersburg, 197198"],"postalCode":["197198"],"street":["7 Yablochkova street"]}
+{"general_id":"NK-KpmibMqExCSBRTAACrEtBK","city":["Tongan-dong, Pyongyang"],"country":["kp"],"full":["Tongan-dong, Pyongyang"]}
+{"general_id":"addr-30d40ba3ad405cbc5afd3bb23c281efd1e9b6be2","city":["Chaghi, Baluchistan Province"],"country":["af"],"full":["Branch Office 9: Chaghi Bazaar, Chaghi, Baluchistan Province"],"street":["Branch Office 9: Chaghi Bazaar"]}
+{"general_id":"addr-af41095f2a570993b6387091bd83ce729803b57c","city":["Helmand Province"],"country":["af"],"full":["Branch Office 3: Safaar Bazaar, Garmser District, Helmand Province"],"street":["Branch Office 3: Safaar Bazaar, Garmser District"]}
+{"general_id":"addr-5eac4cfc9bd42372ae4677993298d6555cf685c6","city":["Quetta"],"country":["pk"],"full":["Branch Office 7: Dr Barno Road, Quetta"],"street":["Branch Office 7: Dr Barno Road,"]}
+{"general_id":"addr-ecaf7db11f4917d5ac8194cb536df6a77c6e0d4d","city":["Zahedan, Zabol Province"],"country":["ir"],"full":["Zahedan, Zabol Province, Branch Office 10"],"street":["Branch Office 10"]}
+{"general_id":"addr-6ce904c1eea75f2249b060ed07699acf66dfeb85","city":["Kandahar city, Kandahar Province"],"country":["af"],"full":["Branch Office 1: Room number 33, 5th Floor, Sarafi Market, Kandahar city, Kandahar Province"],"street":["Branch Office 1: Room number 33, 5th Floor, Sarafi Market"]}
+{"general_id":"addr-2c63446d40b9ebf0a963e6f38f6c8a9e4077cac4","city":["Baluchistan Province"],"country":["pk"],"full":["Branch Office 8: Chaman, Baluchistan Province"],"street":["Branch Office 8: Chaman"]}
+{"general_id":"addr-624dfbdd4853913809ccc34584d667189dac27c4","city":["Nimroz Province"],"country":["af"],"full":["Branch Office 6: Zaranj District, Nimroz Province"],"street":["Branch Office 6: Zaranj District"]}
+{"general_id":"addr-5a18726f6b9f82b515495b27ea0798c223fce909","city":["Kandahar Province"],"country":["af"],"full":["Branch Office 2: Shop number 4, Azizi Bank, Haji Muhammad Isa Market, Wesh, Spin Boldak, Kandahar Province"],"street":["Branch Office 2: Shop number 4, Azizi Bank, Haji Muhammad Isa Market, Wesh, Spin Boldak"]}
+{"general_id":"addr-d537dc002d6042c29173de4cdb8604bf8930d0f5","city":["Helmand Province"],"country":["af"],"full":["Branch Office 4: Lashkar Gah, Helmand Province"],"street":["Branch Office 4: Lashkar Gah"]}
+{"general_id":"addr-97a6eaee0e27912d92ab83a55cb1cd4e329bf9c9","city":["Quetta"],"country":["pk"],"full":["Branch Office 7: Kandahari Bazaar, Quetta"],"street":["Branch Office 7: Kandahari Bazaar"]}
+{"general_id":"addr-ee87a6e035efe097a8b75c8186f26080f32c846a","city":["Helmand Province"],"country":["af"],"full":["Branch Office 5: Gereshk District, Helmand Province"],"street":["Branch Office 5: Gereshk District"]}
+{"general_id":"addr-1786db6430b33b3e31435b3472d8a3dabe131779","city":["Quetta"],"country":["pk"],"full":["Branch Office 7: Haji Mohammed Plaza, Tol Aram Road, near Jamaluddin Afghani Road, Quetta"],"street":["Branch Office 7: Haji Mohammed Plaza, Tol Aram Road, near Jamaluddin Afghani Road"]}
+{"general_id":"NK-iwCpAziFuCqNHicD2tkyTn","city":["Mazzah, Damascus"],"country":["sy"],"full":["Mazzah, Damascus"]}
+{"general_id":"NK-fe7mrGNS4f2sKXQvMNHM6b","city":["Banten"],"country":["id"],"full":["Jalan Nakula of Witana Harja Complex Block C, Pamulang, Banten"],"street":["Jalan Nakula of Witana Harja Complex Block C, Pamulang"]}
+{"general_id":"NK-ECCUVxonpmhM2bPfmgVeeH","city":["South Jakarta"],"country":["id"],"full":["Jalan M. Saidi RT 010 RW 001 Pesanggrahan, South Petukangan, South Jakarta"],"street":["Jalan M. Saidi RT 010 RW 001 Pesanggrahan, South Petukangan"]}
+{"general_id":"NK-ZQybKksG83JKM5FGbKUG6r","city":["Pyongyang","Ansan-dong, Pyongyang"],"country":["kp"],"full":["Suite 401, Potonggang Hotel, Ansan-Dong, Pyongyang","Botonggang Hotel, Pongchon, Pyongyang, Ansan-dong, Pyongyang"],"region":["Pyongchon District"],"street":["Botonggang Hotel, Pongchon, Pyongyang","Suite 401, Potonggang Hotel, Ansan-Dong"]}
+{"general_id":"addr-adf34a41819841eb881b9bcd43bd261c258dca25","city":["North Kivu Province"],"country":["cd"],"full":["North Kivu Province"],"region":["North Kivu Province"]}
+{"general_id":"addr-c637baf44b96def91099f75d3a4717287644d6e7","city":["Rostov"],"country":["ru"],"full":["Military Prosecutor's Office of the Southern Military District of the Russian Federation. Pushkinskaya Ulitsa, 72А, Rostov, Rostov Oblast, 344022"],"postalCode":["344022"],"region":["Rostov Oblast"],"street":["Military Prosecutor's Office of the Southern Military District of the Russian Federation. Pushkinskaya Ulitsa, 72А"]}
+{"general_id":"NK-TvAbHrKXRdQDU44NuLgLyq","city":["Tehran"],"country":["ir"],"full":["Tehran, 59 Azadi Ali North Sohrevardi Avenue [Suite 1], 1576935561"],"postalCode":["1576935561"],"street":["59 Azadi Ali North Sohrevardi Avenue [Suite 1]"]}
+{"general_id":"NK-MLWUQcEZNNDS5EBVic3eJg","city":["Central District, Pyongyang","Pyongyang"],"country":["kp"],"full":["Central District, Pyongyang"],"street":["Central District"]}
+{"general_id":"addr-047582ee96c6b5e6c56554468f68109cfcc13542","city":["Miramshah, North Waziristan"],"country":["pk"],"full":["Dergey Manday Madrasa, Miramshah, North Waziristan"],"street":["Dergey Manday Madrasa"]}
+{"general_id":"addr-a6795d28a652798c30b148110207b60b7c01db1c","city":["Miramshah, North Waziristan"],"country":["pk"],"full":["Kela neighbourhood/Danda neighbourhood, Miramshah, North Waziristan"],"street":["Kela neighbourhood/Danda neighbourhood"]}
+{"general_id":"addr-a4cc42874fac7e68369d1b84beee17b821eb1441","city":["Miramshah, North Waziristan"],"country":["pk"],"full":["Manba’ul uloom Madrasa, Miramshah, North Waziristan"],"street":["Manba’ul uloom Madrasa"]}
+{"general_id":"NK-i9tngQWezTX2kzHZWgFn6C","city":["Tongan-dong, Central District, Pyongyang"],"country":["kp"],"full":["Tongan-dong, Central District, Pyongyang"]}
+{"general_id":"addr-96219b1458d4f5f5918baab5b8f75395b8dccfd6","city":["Mangungdae-gu, Pyongyang"],"country":["kp"],"full":["Mangungdae-gu, Pyongyang"]}
+{"general_id":"NK-5xotPThHZ7wybDCWoxpBDb","city":["Mangyongdae District, Pyongyang"],"country":["kp"],"full":["Mangyongdae District, Pyongyang"]}
+{"general_id":"addr-fa495c65f8043c0a799fff1a7ab455c88e43e5cc","city":["Kinshasa/Gombe"],"country":["cd"],"full":["5, avenue Oranger, Kinshasa/Gombe"],"street":["5, avenue Oranger"]}
+{"general_id":"addr-8e13a9ad95c78e82e7c4d44d1bc81458718d1846","city":["Minsk"],"country":["by"],"full":["220021 Minsk, Socialisticheskaya 2"],"postalCode":["220021"],"street":["Socialisticheskaya 2"]}
+{"general_id":"addr-1a889c644bdf7eb95bfe5a5a3d2808c5751e6b80","city":["Amman"],"country":["jo"],"full":["Amman"]}
+{"general_id":"addr-d10d904ffd32dd4a2b0a9785eed2271a49de53de","city":["Tehran"],"country":["ir"],"full":["Tehran, Postal address: Ziba Building, 10th Floor, Northern Sohrevardi Street"],"street":["Postal address: Ziba Building, 10th Floor, Northern Sohrevardi Street"]}
+{"general_id":"addr-6cae4de99878df362e5c800cec128641a6b62742","city":["Karachi"],"country":["pk"],"full":["Gulistan-e-Jauhar, Block 12, Karachi"],"street":["Gulistan-e-Jauhar, Block 12"]}
+{"general_id":"addr-eea367290ab9f4c049497a3c45b535bf0a87a733","city":["Karachi"],"country":["pk"],"full":["ST-1/A, Gulsahn-e-Iqbal, Block 2, Karachi 25300"],"postalCode":["25300"],"street":["ST-1/A, Gulsahn-e-Iqbal, Block 2"]}
+{"general_id":"addr-007fdb0e3654fc794a3f4e347f5b68882dbf3df5","city":["Mosul, Souq al-Nabi Yunis"],"country":["iq"],"full":["Mosul, Souq al-Nabi Yunis"]}
+{"general_id":"NK-PUwWsW7FfXwVB8mCSeVCeq","city":["Damascus"],"country":["sy"],"full":["30588, Damascus","Damascus"],"postOfficeBox":["30588"]}
+{"general_id":"addr-751dbe22b288c9051593ea9a6abc26c788dd63d1","city":["Esfahan"],"full":["599 Ata Al Malek Blvd [Stage 3], Emam Khomeini Street, Esfahan"],"street":["599 Ata Al Malek Blvd [Stage 3], Emam Khomeini Street"]}
+{"general_id":"NK-MLWUQcEZNNDS5EBVic3eJg","city":["Central District, Pyongyang","Pyongyang"],"country":["kp"],"full":["Central District, Pyongyang"],"street":["Central District"]}
+{"general_id":"addr-1a889c644bdf7eb95bfe5a5a3d2808c5751e6b80","city":["Amman"],"country":["jo"],"full":["Amman"]}
+{"general_id":"addr-1a889c644bdf7eb95bfe5a5a3d2808c5751e6b80","city":["Amman"],"country":["jo"],"full":["Amman"]}
