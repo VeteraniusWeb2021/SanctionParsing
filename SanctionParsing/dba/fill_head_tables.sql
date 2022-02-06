@@ -741,7 +741,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\crypto_wallet.txt';
+		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\CryptoWallet.txt';
 		insert into sanctions.crypto_wallet(
 				general_id ,
 				balance,
@@ -777,7 +777,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\directorships.txt';
+		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\Directorship.txt';
 		insert into sanctions.directorships(
 				general_id ,
 				director,
