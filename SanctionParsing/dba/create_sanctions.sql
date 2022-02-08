@@ -399,18 +399,21 @@ crypto_wallet_id varchar,
 primary key(legalEntity_id,crypto_wallet_id),
 foreign key (legalEntity_id) references sanctions.legalEntity(general_id),
 foreign key (crypto_wallet_id) references sanctions.entities(id));
+
 create table sanctions.legalEntity_directorships
 (legalEntity_id varchar,
 directorships_id varchar,
 primary key(legalEntity_id,directorships_id),
 foreign key (legalEntity_id) references sanctions.legalEntity(general_id),
 foreign key (directorships_id) references sanctions.entities(id));
+
 create table sanctions.legalEntity_identification
 (legalEntity_id varchar,
 identification_id varchar,
 primary key(legalEntity_id,identification_id),
 foreign key (legalEntity_id) references sanctions.legalEntity(general_id),
 foreign key (identification_id) references sanctions.entities(id));
+
 create table sanctions.legalEntity_jurisdiction
 (legalEntity_id varchar,
 jurisdiction_country varchar,
