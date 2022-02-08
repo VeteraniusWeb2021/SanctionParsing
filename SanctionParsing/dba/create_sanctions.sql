@@ -1,6 +1,5 @@
 --create database data_ocean_sanction_parsing;
-drop schema sanctions cascade;
-call public.create_schema_sanctions();
+
 create or replace procedure public.create_schema_sanctions()
 language plpgsql
 as $$
@@ -368,103 +367,103 @@ membershipOrganization text array,
 primary key (general_id),
 foreign key (general_id) references sanctions.entities(id)
 );
+
 create table sanctions.country 
 (code varchar,
 label varchar,
 primary key (code));
+
 create table sanctions.topics 
 (code varchar,
 label varchar,
 primary key (code));
-create table sanctions.entities_referents
-(entities varchar,
-referents varchar,
-primary key(entities,referents),
-foreign key (entities) references sanctions.entities(id),
-foreign key (referents) references sanctions.entities(id));
+
+
 create table sanctions.legalEntity_agencyClient
 (legalEntity_id varchar,
 agencyClient_representation_id varchar,
 primary key(legalEntity_id,agencyClient_representation_id),
-foreign key (legalEntity_id) references sanctions.legal_entity(general_id),
+foreign key (legalEntity_id) references sanctions.legalEntity(general_id),
 foreign key (agencyClient_representation_id) references sanctions.entities(id));
+
 create table sanctions.legalEntity_agentRepresentation
 (legalEntity_id varchar,
 agentRepresentation_representation_id varchar,
 primary key(legalEntity_id,agentRepresentation_representation_id),
-foreign key (legalEntity_id) references sanctions.legal_entity(general_id),
+foreign key (legalEntity_id) references sanctions.legalEntity(general_id),
 foreign key (agentRepresentation_representation_id) references sanctions.entities(id));
+
 create table sanctions.legalEntity_cryptoWallets
 (legalEntity_id varchar,
 crypto_wallet_id varchar,
 primary key(legalEntity_id,crypto_wallet_id),
-foreign key (legalEntity_id) references sanctions.legal_entity(general_id),
+foreign key (legalEntity_id) references sanctions.legalEntity(general_id),
 foreign key (crypto_wallet_id) references sanctions.entities(id));
 create table sanctions.legalEntity_directorships
 (legalEntity_id varchar,
 directorships_id varchar,
 primary key(legalEntity_id,directorships_id),
-foreign key (legalEntity_id) references sanctions.legal_entity(general_id),
+foreign key (legalEntity_id) references sanctions.legalEntity(general_id),
 foreign key (directorships_id) references sanctions.entities(id));
 create table sanctions.legalEntity_identification
 (legalEntity_id varchar,
 identification_id varchar,
 primary key(legalEntity_id,identification_id),
-foreign key (legalEntity_id) references sanctions.legal_entity(general_id),
+foreign key (legalEntity_id) references sanctions.legalEntity(general_id),
 foreign key (identification_id) references sanctions.entities(id));
 create table sanctions.legalEntity_jurisdiction
 (legalEntity_id varchar,
 jurisdiction_country varchar,
 primary key(legalEntity_id,jurisdiction_country),
-foreign key (legalEntity_id) references sanctions.legal_entity(general_id),
+foreign key (legalEntity_id) references sanctions.legalEntity(general_id),
 foreign key (jurisdiction_country) references sanctions.country(code));
 create table sanctions.legalEntity_mainCountry
 (legalEntity_id varchar,
 mainCountry_country varchar,
 primary key(legalEntity_id,mainCountry_country),
-foreign key (legalEntity_id) references sanctions.legal_entity(general_id),
+foreign key (legalEntity_id) references sanctions.legalEntity(general_id),
 foreign key (mainCountry_country) references sanctions.country(code));
 create table sanctions.legalEntity_membershipMember
 (legalEntity_id varchar,
 membershipMember varchar,
 primary key(legalEntity_id,membershipMember),
-foreign key (legalEntity_id) references sanctions.legal_entity(general_id),
+foreign key (legalEntity_id) references sanctions.legalEntity(general_id),
 foreign key (membershipMember) references sanctions.entities(id));
 create table sanctions.legalEntity_operatedVehicles
 (legalEntity_id varchar,
 operatedVehicles varchar,
 primary key(legalEntity_id,operatedVehicles),
-foreign key (legalEntity_id) references sanctions.legal_entity(general_id),
+foreign key (legalEntity_id) references sanctions.legalEntity(general_id),
 foreign key (operatedVehicles) references sanctions.entities(id));
 create table sanctions.legalEntity_ownedVehicles
 (legalEntity_id varchar,
 ownedVehicles varchar,
 primary key(legalEntity_id,ownedVehicles),
-foreign key (legalEntity_id) references sanctions.legal_entity(general_id),
+foreign key (legalEntity_id) references sanctions.legalEntity(general_id),
 foreign key (ownedVehicles) references sanctions.entities(id));
 create table sanctions.legalEntity_ownershipOwner
 (legalEntity_id varchar,
 ownershipOwner varchar,
 primary key(legalEntity_id,ownershipOwner),
-foreign key (legalEntity_id) references sanctions.legal_entity(general_id),
+foreign key (legalEntity_id) references sanctions.legalEntity(general_id),
 foreign key (ownershipOwner) references sanctions.entities(id));
 create table sanctions.legalEntity_parent
 (legalEntity_id varchar,
 parent varchar,
 primary key(legalEntity_id,parent),
-foreign key (legalEntity_id) references sanctions.legal_entity(general_id),
+foreign key (legalEntity_id) references sanctions.legalEntity(general_id),
 foreign key (parent) references sanctions.entities(id));
 create table sanctions.legalEntity_securities
 (legalEntity_id varchar,
 securities varchar,
 primary key(legalEntity_id,securities),
-foreign key (legalEntity_id) references sanctions.legal_entity(general_id),
+foreign key (legalEntity_id) references sanctions.legalEntity(general_id),
 foreign key (securities) references sanctions.entities(id));
 create table sanctions.legalEntity_subsidiaries
 (legalEntity_id varchar,
 subsidiaries varchar,
 primary key(legalEntity_id,subsidiaries),
-foreign key (legalEntity_id) references sanctions.legal_entity(general_id),
+foreign key (legalEntity_id) references sanctions.legalEntity(general_id),
 foreign key (subsidiaries) references sanctions.entities(id));
 create table sanctions.person_associates
 (person_id varchar,
@@ -706,5 +705,13 @@ flag varchar,
 primary key(vessel_id,flag),
 foreign key (vessel_id) references sanctions.vessel(general_id),
 foreign key (flag) references sanctions.country(code));
+
+create table sanctions.thing_topics
+(thing_id varchar,
+topics varchar,
+primary key(thing_id,topics),
+foreign key (thing_id) references sanctions.thing(general_id),
+foreign key (topics) references sanctions.topics(code));
 end;
 $$;
+call public.create_schema_sanctions();

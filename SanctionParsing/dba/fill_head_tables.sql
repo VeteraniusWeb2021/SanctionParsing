@@ -5,7 +5,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\entities.txt';
+		copy temp_json from 'C:\Essence_files\entities.txt';
 		insert into sanctions.entities(
 				caption ,
 				datasets  ,
@@ -28,10 +28,7 @@ begin
 end;
 $$;
 
-call sanctions.sp_fill_entities_with_json();
-select count(*) from sanctions.entities e ;
-select * from sanctions.entities e ;
-delete from sanctions.entities ;
+
 --/////////////////////////////////////////////////////////////////////
 
 create or replace procedure sanctions.sp_fill_thing_with_json()
@@ -39,7 +36,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\thing.txt';
+		copy temp_json from 'C:\Essence_files\thing.txt';
 		insert into sanctions.thing(
 				general_id ,
 				address,
@@ -94,10 +91,6 @@ begin
 end;
 $$;
 
-call sanctions.sp_fill_thing_with_json();
-delete from sanctions.thing ;
-select * from sanctions.thing t ;
-
 --/////////////////////////////////////////////////////////////////
 
 create or replace procedure sanctions.sp_fill_legalentity_with_json()
@@ -105,7 +98,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\LegalEntity.txt';
+		copy temp_json from 'C:\Essence_files\LegalEntity.txt';
 		insert into sanctions.legalentity(
 				general_id,
 				agencyClient,
@@ -184,10 +177,6 @@ begin
 end;				 					
 $$;
 
-call sanctions.sp_fill_legalentity_with_json();
-delete from sanctions.legalentity ;
-select * from sanctions.legalentity t ;
-
 --////////////////////////////////////////////////////////////////////////////////////////
 
 create or replace procedure sanctions.sp_fill_person_with_json()
@@ -195,7 +184,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\person.txt';
+		copy temp_json from 'C:\Essence_files\person.txt';
 		insert into sanctions.person(
 				general_id ,
 				associates,
@@ -248,10 +237,6 @@ begin
 end;
 $$;
 
-call sanctions.sp_fill_person_with_json();
-delete from sanctions.person ;
-select * from sanctions.person t ;
-
 --/////////////////////////////////////////////////////////////////////
 
 create or replace procedure sanctions.sp_fill_address_with_json()
@@ -259,7 +244,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\address.txt';
+		copy temp_json from 'C:\Essence_files\address.txt';
 		insert into sanctions.address(
 				general_id ,
 				city,
@@ -294,10 +279,6 @@ begin
 end;
 $$;
 
-call sanctions.sp_fill_address_with_json();
-delete from sanctions.address ;
-select * from sanctions.address t ;
-
 --/////////////////////////////////////////////////////////////////////
 
 create or replace procedure sanctions.sp_fill_interval_with_json()
@@ -305,7 +286,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\interval.txt';
+		copy temp_json from 'C:\Essence_files\interval.txt';
 		insert into sanctions.interval(
 				general_id ,
 				date,
@@ -336,10 +317,6 @@ begin
 end;
 $$;
 
-call sanctions.sp_fill_interval_with_json();
-delete from sanctions.interval ;
-select * from sanctions.interval t ;
-
 --/////////////////////////////////////////////////////////////////////
 
 create or replace procedure sanctions.sp_fill_value_with_json()
@@ -347,7 +324,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\value.txt';
+		copy temp_json from 'C:\Essence_files\value.txt';
 		insert into sanctions.value(
 				general_id ,
 				amount,
@@ -364,10 +341,6 @@ begin
 end;
 $$;
 
-call sanctions.sp_fill_value_with_json();
-delete from sanctions.value ;
-select * from sanctions.value t ;
-
 --/////////////////////////////////////////////////////////////////////
 
 create or replace procedure sanctions.sp_fill_organization_with_json()
@@ -375,7 +348,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\organization.txt';
+		copy temp_json from 'C:\Essence_files\organization.txt';
 		insert into sanctions.organization(
 				general_id ,
 				directorshipOrganization,
@@ -388,10 +361,6 @@ begin
 end;
 $$;
 
-call sanctions.sp_fill_organization_with_json();
-delete from sanctions.organization ;
-select * from sanctions.organization t ;
-
 --/////////////////////////////////////////////////////////////////////
 
 create or replace procedure sanctions.sp_fill_identification_with_json()
@@ -399,7 +368,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\identification.txt';
+		copy temp_json from 'C:\Essence_files\identification.txt';
 		insert into sanctions.identification(
 				general_id ,
 				authority,
@@ -418,10 +387,6 @@ begin
 end;
 $$;
 
-call sanctions.sp_fill_identification_with_json();
-delete from sanctions.identification ;
-select * from sanctions.identification t ;
-
 --/////////////////////////////////////////////////////////////////////
 
 create or replace procedure sanctions.sp_fill_sanction_with_json()
@@ -429,7 +394,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\sanction.txt';
+		copy temp_json from 'C:\Essence_files\sanction.txt';
 		insert into sanctions.sanction(
 				general_id ,
 				authority,
@@ -460,10 +425,6 @@ begin
 end;
 $$;
 
-call sanctions.sp_fill_sanction_with_json();
-delete from sanctions.sanction ;
-select * from sanctions.sanction t ;
-
 --/////////////////////////////////////////////////////////////////////
 
 create or replace procedure sanctions.sp_fill_security_with_json()
@@ -471,7 +432,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\security.txt';
+		copy temp_json from 'C:\Essence_files\security.txt';
 		insert into sanctions.security(
 				general_id ,
 				classification,
@@ -494,10 +455,6 @@ begin
 end;
 $$;
 
-call sanctions.sp_fill_security_with_json();
-delete from sanctions.security ;
-select * from sanctions.security t ;
-
 --/////////////////////////////////////////////////////////////////////
 
 create or replace procedure sanctions.sp_fill_other_link_with_json()
@@ -505,7 +462,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\UnknownLink.txt';
+		copy temp_json from 'C:\Essence_files\UnknownLink.txt';
 		insert into sanctions.other_link(
 				general_id ,
 				object,
@@ -518,10 +475,6 @@ begin
 end;
 $$;
 
-call sanctions.sp_fill_other_link_with_json();
-delete from sanctions.other_link ;
-select * from sanctions.other_link t ;
-
 --/////////////////////////////////////////////////////////////////////
 
 create or replace procedure sanctions.sp_fill_vessel_with_json()
@@ -529,7 +482,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\vessel.txt';
+		copy temp_json from 'C:\Essence_files\vessel.txt';
 		insert into sanctions.vessel(
 				general_id ,
 				callSign,
@@ -564,10 +517,6 @@ begin
 end;
 $$;
 
-call sanctions.sp_fill_vessel_with_json();
-delete from sanctions.vessel ;
-select * from sanctions.vessel t ;
-
 --/////////////////////////////////////////////////////////////////////
 
 create or replace procedure sanctions.sp_fill_asset_with_json()
@@ -575,7 +524,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\asset.txt';
+		copy temp_json from 'C:\Essence_files\asset.txt';
 		insert into sanctions.asset(
 				general_id ,
 				ownershipAsset)
@@ -586,10 +535,6 @@ begin
 end;
 $$;
 
-call sanctions.sp_fill_asset_with_json();
-delete from sanctions.asset ;
-select * from sanctions.asset t ;
-
 --/////////////////////////////////////////////////////////////////////
 
 create or replace procedure sanctions.sp_fill_vehicle_with_json()
@@ -597,7 +542,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\vehicle.txt';
+		copy temp_json from 'C:\Essence_files\vehicle.txt';
 		insert into sanctions.vehicle(
 				general_id ,
 				buildDate,
@@ -620,10 +565,6 @@ begin
 end;
 $$;
 
-call sanctions.sp_fill_vehicle_with_json();
-delete from sanctions.vehicle ;
-select * from sanctions.vehicle t ;
-
 --/////////////////////////////////////////////////////////////////////
 
 create or replace procedure sanctions.sp_fill_airplane_with_json()
@@ -631,7 +572,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\airplane.txt';
+		copy temp_json from 'C:\Essence_files\airplane.txt';
 		insert into sanctions.airplane(
 				general_id ,
 				icaoCode,
@@ -646,10 +587,6 @@ begin
 end;
 $$;
 
-call sanctions.sp_fill_airplane_with_json();
-delete from sanctions.airplane ;
-select * from sanctions.airplane t ;
-
 --/////////////////////////////////////////////////////////////////////
 
 create or replace procedure sanctions.sp_fill_associate_with_json()
@@ -657,7 +594,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\associate.txt';
+		copy temp_json from 'C:\Essence_files\associate.txt';
 		insert into sanctions.associate(
 				general_id ,
 				associate ,
@@ -672,10 +609,6 @@ begin
 end;
 $$;
 
-call sanctions.sp_fill_associate_with_json();
-delete from sanctions.associate ;
-select * from sanctions.associate t ;
-
 --/////////////////////////////////////////////////////////////////////
 
 create or replace procedure sanctions.sp_fill_company_with_json()
@@ -683,7 +616,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\company.txt';
+		copy temp_json from 'C:\Essence_files\company.txt';
 		insert into sanctions.company(
 				general_id ,
 				bikCode,
@@ -730,10 +663,6 @@ begin
 end;
 $$;
 
-call sanctions.sp_fill_company_with_json();
-delete from sanctions.company ;
-select * from sanctions.company t ;
-
 --/////////////////////////////////////////////////////////////////////
 
 create or replace procedure sanctions.sp_fill_crypto_wallet_with_json()
@@ -741,7 +670,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\CryptoWallet.txt';
+		copy temp_json from 'C:\Essence_files\CryptoWallet.txt';
 		insert into sanctions.crypto_wallet(
 				general_id ,
 				balance,
@@ -766,10 +695,6 @@ begin
 end;
 $$;
 
-call sanctions.sp_fill_crypto_wallet_with_json();
-delete from sanctions.crypto_wallet ;
-select * from sanctions.crypto_wallet t ;
-
 --/////////////////////////////////////////////////////////////////////
 
 create or replace procedure sanctions.sp_fill_directorships_with_json()
@@ -777,7 +702,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\Directorship.txt';
+		copy temp_json from 'C:\Essence_files\Directorship.txt';
 		insert into sanctions.directorships(
 				general_id ,
 				director,
@@ -792,10 +717,6 @@ begin
 end;
 $$;
 
-call sanctions.sp_fill_directorships_with_json();
-delete from sanctions.directorships ;
-select * from sanctions.directorships t ;
-
 --/////////////////////////////////////////////////////////////////////
 
 create or replace procedure sanctions.sp_fill_interest_with_json()
@@ -803,7 +724,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\interest.txt';
+		copy temp_json from 'C:\Essence_files\interest.txt';
 		insert into sanctions.interest(
 				general_id ,
 				role ,
@@ -816,10 +737,6 @@ begin
 end;
 $$;
 
-call sanctions.sp_fill_interest_with_json();
-delete from sanctions.interest ;
-select * from sanctions.interest t ;
-
 --/////////////////////////////////////////////////////////////////////
 
 create or replace procedure sanctions.sp_fill_family_with_json()
@@ -827,7 +744,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\family.txt';
+		copy temp_json from 'C:\Essence_files\family.txt';
 		insert into sanctions.family(
 				general_id ,
 				person ,
@@ -842,10 +759,6 @@ begin
 end;
 $$;
 
-call sanctions.sp_fill_family_with_json();
-delete from sanctions.family ;
-select * from sanctions.family t ;
-
 --/////////////////////////////////////////////////////////////////////
 
 create or replace procedure sanctions.sp_fill_membership_with_json()
@@ -853,7 +766,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\membership.txt';
+		copy temp_json from 'C:\Essence_files\membership.txt';
 		insert into sanctions.membership(
 				general_id ,
 				member,
@@ -866,10 +779,6 @@ begin
 end;
 $$;
 
-call sanctions.sp_fill_membership_with_json();
-delete from sanctions.membership ;
-select * from sanctions.membership t ;
-
 --/////////////////////////////////////////////////////////////////////
 
 create or replace procedure sanctions.sp_fill_ownership_with_json()
@@ -877,7 +786,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\ownership.txt';
+		copy temp_json from 'C:\Essence_files\ownership.txt';
 		insert into sanctions.ownership(
 				general_id ,
 				asset,
@@ -904,10 +813,6 @@ begin
 end;
 $$;
 
-call sanctions.sp_fill_ownership_with_json();
-delete from sanctions.ownership ;
-select * from sanctions.ownership t ;
-
 --/////////////////////////////////////////////////////////////////////
 
 create or replace procedure sanctions.sp_fill_passport_with_json()
@@ -915,7 +820,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\passport.txt';
+		copy temp_json from 'C:\Essence_files\passport.txt';
 		insert into sanctions.passport(
 				general_id ,
 				birthDate,
@@ -938,10 +843,6 @@ begin
 end;
 $$;
 
-call sanctions.sp_fill_passport_with_json();
-delete from sanctions.passport ;
-select * from sanctions.passport t ;
-
 --/////////////////////////////////////////////////////////////////////
 
 create or replace procedure sanctions.sp_fill_representation_with_json()
@@ -949,7 +850,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\representation.txt';
+		copy temp_json from 'C:\Essence_files\representation.txt';
 		insert into sanctions.representation(
 				general_id ,
 				agent,
@@ -962,10 +863,6 @@ begin
 end;
 $$;
 
-call sanctions.sp_fill_representation_with_json();
-delete from sanctions.representation ;
-select * from sanctions.representation t ;
-
 --/////////////////////////////////////////////////////////////////////
 
 create or replace procedure sanctions.sp_fill_publicBody_with_json()
@@ -973,7 +870,7 @@ language plpgsql as
 $$
 begin
 		create temporary table  temp_json (value json) on commit drop;
-		copy temp_json from 'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\publicBody.txt';
+		copy temp_json from 'C:\Essence_files\publicBody.txt';
 		insert into sanctions.publicBody(
 				general_id ,
 				directorshipOrganization,
@@ -986,16 +883,5 @@ begin
 end;
 $$;
 
-call sanctions.sp_fill_publicBody_with_json();
-delete from sanctions.publicBody ;
-select * from sanctions.publicBody t ;
 
-copy sanctions.country(code,label) from 
-'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\const_data\country_utf-8.csv' (delimiter ';',format csv);
 
-select * from sanctions.country;
-
-copy sanctions.topics(code,label) from 
-'D:\Downloads\veteranius\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\data\data_for_tables\const_data\topics_utf-8.csv' (delimiter ';',format csv);
-
-select * from sanctions.topics;
