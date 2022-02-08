@@ -1,0 +1,772 @@
+{"general_id":"ofac-45dcbc299f2bd5f9e67b8d82ec119e90e653528e","country":["mx"],"holder":["NK-24cEBmXGjPPVJRwMPGx3Yj"],"number":["60645 (Jalisco)"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-4ae73748690f38405b0dcb9bbe6f513d6b841c00","country":["mx"],"holder":["NK-29QcaMHzMvFWn3ATpveD8Q"],"number":["88504 (Jalisco)"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-2ebc353ab28efeb101a04145e0cfd46142b026ce","country":["ae"],"holder":["NK-2dkVxXt5fisUFJVjYBtjW5"],"number":["611462"],"type":["License"]}
+{"general_id":"ofac-cb6507a4a6d7a295824a709c288f1c99ea430aee","holder":["NK-2g7oHFbpWXGhHgXAyXptvV"],"number":["72426791"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-c9cd6abdd059f779e80b5515ef926cf686235bfa","holder":["NK-2jWw5haXf2uAZZ9dBUT9Be"],"number":["HRA 104175"],"type":["Trade License No."]}
+{"general_id":"ofac-834eefc5aa33df220650b742b57f2b8d0c266aad","country":["us"],"holder":["NK-2NkqjFdp5FErUdaaGEZZcM"],"number":["550-63-9593"],"type":["SSN"]}
+{"general_id":"ofac-ddc125d7e13255701d5edde72a6500cecc3cb40b","country":["mx"],"holder":["NK-2oMVgArByJxY6PPBzZdzTM"],"number":["C26300"],"type":["Cartilla de Servicio Militar Nacional"]}
+{"general_id":"ofac-8f0c8e59b68f665bf3de505c2d56a07e8ae61b2f","country":["us"],"holder":["NK-2VAWmSxrCcisHcdvSaJgiy"],"number":["601-62-3570"],"type":["SSN"]}
+{"general_id":"ofac-78aa353db52b4b9bc3bfef5c1b1eb6dfd6f42f9f","country":["ru"],"holder":["NK-2wTcDDdJTvTPkHH2nTYnW2"],"number":["770301001"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-145558554cbd60ffc492a22b735800c975497919","country":["mx"],"holder":["NK-2XR6TX8oJshcg7ACa7YU7P"],"number":["175066"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-a505d9640e93ed006fd71a26c325cf8fe464630d","holder":["NK-2yAt39FiXU9e43qmiVEi7z"],"number":["455"],"type":["Birth Certificate Number"]}
+{"general_id":"ofac-a93c23092a5b8fd30b4e2b7a90ec8445e729de73","country":["it"],"holder":["NK-39gBn3KrfXQod8DLVModNf"],"number":["SR 140256"],"type":["Trade License No."]}
+{"general_id":"ofac-d1eb35a36455f9af163313cddb90b3c5a94ed0c3","country":["mx"],"holder":["NK-3AGLXoPM9qZsdtejVotZu9"],"number":["RZZVAL62051010M200"],"type":["Electoral Registry No."]}
+{"general_id":"ofac-63dad93472a1efeb45967a13671720dfb557f71b","country":["mx"],"holder":["NK-3bqADYHUtddGtsBPYAoum8"],"number":["PTPNJR74042325H500"],"type":["Electoral Registry No."]}
+{"general_id":"ofac-8b4b400acd23c55b75cf09c395a981aa778fa36f","country":["ae"],"holder":["NK-3DVm7ktyEi5LGnRiAECHiT"],"number":["626883"],"type":["Trade License No."]}
+{"general_id":"ofac-11c47b63afa35fb195f9eb43a9149c24b85d6958","country":["mt"],"holder":["NK-3gn24BwM9TPtZLNLYxM2j5"],"number":["C33482"],"type":["Trade License No."]}
+{"general_id":"ofac-694df0fba13f6d58f3ac8603c599454f8162dab6","country":["ru"],"holder":["NK-3ofcyPRBGgwZt7cxTteBVg"],"number":["00823523"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-2b410541892e80e0f187896e7e5fc1f448c229ac","country":["de"],"holder":["NK-3rxJet9dvf8tVH2orymUti"],"number":["A0144378"],"type":["Travel Document Number"]}
+{"general_id":"ofac-2350794d460bac728c77bb7a1fcf615809ed302d","country":["mx"],"holder":["NK-3unDCrQFXJytzowTHsa3Ri"],"number":["ORGLIS740531121H100"],"type":["Electoral Registry No."]}
+{"general_id":"ofac-c7da3b1b7e9b765e1cdec0ed80a35817971f5708","country":["mx"],"holder":["NK-3Zz8YH2Kq6C29jXoXtxCjL"],"number":["GDL000506209"],"type":["VisaNumberID"]}
+{"general_id":"ofac-a97c5523457620880e4be00435bd09b2b3cbf2bf","country":["mx"],"holder":["NK-45SFzNcnHZXfzPb4zQ3Kai"],"number":["33288-1"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-8faff6075a5c0675dc9bfe4acbc2fb9ac6b3311e","country":["mx"],"holder":["NK-4hjf2sS8dh2GP28VKbR3Hm"],"number":["B7439509"],"type":["Cartilla de Servicio Militar Nacional"]}
+{"general_id":"ofac-376d4606eec0116cf6b22a46e25ec9a2a81506ed","country":["gt"],"holder":["NK-4oPfW54waCPNNeWDZYoVFV"],"number":["1112170002060K"],"type":["Driver's License No."]}
+{"general_id":"ofac-26ba72bbaf7aaf5b64220621afeecfa9134083b1","country":["us"],"holder":["NK-4qjEUenfDiAqScx3QTqAkW"],"number":["7136946 (Delaware)"],"type":["File Number"]}
+{"general_id":"ofac-a686ed6530d944f8b333c0338948d4bf11d09d1b","country":["ru"],"holder":["NK-4QTSqAcMmr9oGPCRQXtRDT"],"number":["13873675"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-e667f5e7c26fcfab1be09e504b72e0c60197af5c","country":["mx"],"holder":["NK-4scxXNvizH5KBaRAX2sYzT"],"number":["B-8134996"],"type":["Cartilla de Servicio Militar Nacional"]}
+{"general_id":"ofac-46ca44b0f1934f51aa4a47adfa5ad7a2bb2c1d37","country":["bg"],"holder":["NK-59Yy4MzPpSvTTpasqmTaF9"],"number":["831134806"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-8062db4165f4fddb1df87d76a0533528bd0a0395","country":["mt"],"holder":["NK-5BPwMpLXBy4PjsAwXkJtuG"],"number":["C 32519"],"type":["Trade License No."]}
+{"general_id":"ofac-2b0397605bcb358c9608c9599c6de8369b22ac9a","country":["mx"],"holder":["NK-5CYfh2FBxr3M3PfLgAHsma"],"number":["18949 (Sinaloa)"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-02d584339b67f3ad53e03ff08cf93fb1bf160cdd","country":["ru"],"holder":["NK-5g4gSL7Vq6tghctmqNtqzu"],"number":["20567335"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-a8e405f2289750d8b3456ad6f6329fb8907ceaaa","country":["mx"],"holder":["NK-5i2iVeGhUa77YMc8kjr5JE"],"number":["2024702"],"type":["VisaNumberID"]}
+{"general_id":"ofac-b1719ce6f5720597e8a6ec51d5c7253395534cb6","country":["bg"],"holder":["NK-5jGe75HwtfbqzA5Nvx2CPF"],"number":["131258494"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-5af71ffd45fa23cb88ea2886689736f98af47a2a","country":["mx"],"holder":["NK-5JLD8DDX29wssg3NqDYzYh"],"number":["251184"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-367640d0f788486ed271dd6d265b63ec89219fb4","holder":["NK-5QSihZf77gHJmKBCif6AzR"],"number":["HRA 104174"],"type":["Trade License No."]}
+{"general_id":"ofac-3e6ac7ba5b71a17d68ba25c59c0fda9daa4efae6","country":["mt"],"holder":["NK-5QxmhunQCzFCbb9Yyw49fr"],"number":["C 72745"],"type":["Trade License No."]}
+{"general_id":"ofac-86febea80838d3648208de511ee25066c7e4b86b","country":["mx"],"holder":["NK-5S8Xy4Ng7qptXSguGBqok6"],"number":["210057967"],"type":["Driver's License No."]}
+{"general_id":"ofac-b1b1a5aa36605ee33be247c23229419640cbf00a","country":["mt"],"holder":["NK-5X8f2T9k7she9rYx4KquE2"],"number":["C 76398"],"type":["Trade License No."]}
+{"general_id":"ofac-681667aea5027c53b76dd67ef170deb4d7ec62ce","country":["bg"],"holder":["NK-5zgGs38RB4uBtBDCom7VtL"],"number":["203018962"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-bca4432323bb6416d1c9ef3d88311f8c7edd265c","country":["mx"],"holder":["NK-6Atn8qdiokvz3yGG9Qd5yK"],"number":["83061 (Jalisco)"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-52b8d0052674903da5aedbf1665c8c369d34f98b","holder":["NK-6DxPcj2JyAGzYa2EWNW2UJ"],"number":["00830954"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-9601520401cc1e0a9158476292f0cfeaa490d9b7","country":["ua"],"holder":["NK-6EGnXTZMMAf8fSa5PH7McD"],"number":["41909645"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-7e684bdf68ff7286cd91079340a947cbdeac8e79","holder":["NK-6ghhFFubh4uWNFjgS9StM8"],"number":["07504318"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-5ecdbab5f27d781e7b908481fc06a5293e90af00","holder":["NK-6NqTqak7a2qyPwWMVs8n7i"],"number":["01860331"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-ce745a6f325ee50f067d831894ef7ba43f0392a0","country":["mx"],"holder":["NK-6QHfzMLja8axAKDJPbXgZv"],"number":["2308565"],"type":["Driver's License No."]}
+{"general_id":"ofac-27c44331fa6b071d00885cf880bba98dd36cf46c","country":["bg"],"holder":["NK-6RWDMqAEVUTyx6FL3Wp8ea"],"number":["121457476"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-e1d1ffffec1507ae2ea7646cfd159b10705df461","country":["mx"],"holder":["NK-6v2L6ma362UipfWBVD7iJz"],"number":["21708"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-5a59fea43e09b8c487729a809cb99ef114736558","country":["ru"],"holder":["NK-7kyY9QMMGmLek7Y6PPudHx"],"number":["13185231"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-3f13178d7a5d0b8642071a9fee62659b5bf075f6","country":["us"],"holder":["NK-7LTFQSQFmDZKEmhZCCfNbf"],"number":["561-77-9011"],"type":["SSN"]}
+{"general_id":"ofac-a1549671ff271b9da2674b8099c034d06dc14341","country":["mt"],"holder":["NK-7mx6ScpkDNz7V67mNPGs24"],"number":["C 37422"],"type":["Trade License No."]}
+{"general_id":"ofac-01f8028f3e4ce46dfa751986ac44faf398fc7673","holder":["NK-7vJGaikuTqSawRVjECfNAF"],"number":["1973"],"type":["Birth Certificate Number"]}
+{"general_id":"ofac-b4b5a686ed6f95968075cc0d0a4f8978a94fea31","country":["bg"],"holder":["NK-7zXxqRGrdeipmL4GuscxMU"],"number":["200112909"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-919fe9c1d1c6ddfc765e97a93877665bea61ce86","country":["us"],"holder":["NK-88N4ad8LPsvmwnE4AwYc7o"],"number":["87810564"],"type":["VisaNumberID"]}
+{"general_id":"ofac-2e245ab3962f4525b64c58d9c017bc72b54995b7","holder":["NK-88N4ad8LPsvmwnE4AwYc7o"],"number":["F0962973"],"type":["VisaNumberID"]}
+{"general_id":"ofac-da2e75a410d66941ed2bc6d4d7ef8556f910134c","country":["mt"],"holder":["NK-89fyouWj2MpZChdqnoDkiz"],"number":["C 41309"],"type":["Trade License No."]}
+{"general_id":"ofac-14f02da35e0b538c1e7c3777cbdd16db88cbb90a","country":["ru"],"holder":["NK-8FQNKaPzcaX7rXim75af4E"],"number":["29170220"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-482258935dec7309496eeb979f19aeb5508cd873","country":["mx"],"holder":["NK-8h5k26CruNMKS3mHutA5Ln"],"number":["79563 (Jalisco)"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-7a2761149af7c3f2e20bdf685d1b132ea13acac2","country":["ru"],"holder":["NK-8iH6NvfKCvs4sXFiYV9VrL"],"number":["00132598"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-b639fd947097363f21dd62d325b2a4fbf22c9f77","country":["bg"],"holder":["NK-8jhTSQmAfborKEDSthuLBC"],"number":["131251674"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-ccd128cb9b1c7e3d0dc5e083bd443aa3ac131fbe","country":["ae"],"holder":["NK-8nvgoM4vfUj9RSkKKUFDTg"],"number":["735469"],"type":["License"]}
+{"general_id":"ofac-6a4f165ae7ed1494e6c14d29067738e1b8abe90f","country":["mt"],"holder":["NK-8RnnhhGCix8RM76KXEtrWV"],"number":["C 28940"],"type":["Trade License No."]}
+{"general_id":"ofac-2dddf20ead9cc66235361682cc511ff29afa432f","country":["ir"],"holder":["NK-8rzDeZq2fNfoN73ZhgiTRb"],"number":["2233"],"type":["Birth Certificate Number"]}
+{"general_id":"ofac-d9b07b198b83a3287ae947335798934e169c36e3","holder":["NK-8zcdLDt8UVWmwb5f4pMgbX"],"number":["65-0842701"],"type":["US FEIN"]}
+{"general_id":"ofac-859918bc9108f388a41f3e07b0a051fddc472ddb","country":["ru"],"holder":["NK-8zHkvqLLma8yiMYfZTyfVC"],"number":["30167631"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-fbc2786cdc305acb299dd140ce9f7c6b637c915c","country":["md"],"holder":["NK-94Ao5ASxDGHtwAFFfF6ydo"],"number":["04900377"],"type":["Driver's License No."]}
+{"general_id":"ofac-2947fc72de3959e31a5bb9a352a5d8fafdfe74e3","country":["md"],"holder":["NK-94Ao5ASxDGHtwAFFfF6ydo"],"number":["A88000043"],"type":["Refugee ID Card"]}
+{"general_id":"ofac-bfc95d3a8bdda57a99e6608a343137ff0b80b1ca","country":["md"],"holder":["NK-94Ao5ASxDGHtwAFFfF6ydo"],"number":["CC00200261"],"type":["Stateless Person ID Card"]}
+{"general_id":"ofac-82a22c9465efa7b45ad18c494777bd320b490e2e","country":["mt"],"holder":["NK-9DKLVRH6MpzTQmiVMYdBs2"],"number":["C 73647"],"type":["Trade License No."]}
+{"general_id":"ofac-8d43f557e8bf358c6f0c0bc743ead7e27a2b3ff5","country":["pe"],"holder":["NK-9Eodxkr9RYxFQDFDWvmEaH"],"number":["Q-412185038"],"type":["Driver's License No."]}
+{"general_id":"ofac-2040fb49d076eb0cee7ae267c8a9a5b2feb8a492","country":["mx"],"holder":["NK-9gBUdSxdRWWyvS5Rfo8mLT"],"number":["61698-1"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-3f0055d24d541d84746f5cb53e696d9d809aeba0","holder":["NK-9iMscAYw3DuXrdQFMq8r4w"],"number":["7608"],"type":["Birth Certificate Number"]}
+{"general_id":"ofac-83b91314c54484de3d676fd47d527c65379310ae","country":["mx"],"holder":["NK-9KVW7YiuDMudVGTQEVYqqC"],"number":["22071"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-d5b6bff14e9e4a38f6ac5a03a4b64b573320edf0","country":["mx"],"holder":["NK-9qJaL5EuT7Zt2WnpsJcpn7"],"number":["65256"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-c768c5239759511025f436b143034cae75200c7c","country":["mx"],"holder":["NK-9qJaL5EuT7Zt2WnpsJcpn7"],"number":["47864"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-12cdb05cd055e9903fe5a15733925d2192bb0101","country":["mt"],"holder":["NK-9xhqEKqBCF74LE3ZyP8gbr"],"number":["C 19766"],"type":["Trade License No."]}
+{"general_id":"ofac-e1a335e47f4cd1bdb00015516fcfdc1f8e566263","country":["mx"],"holder":["NK-9YAd4ubKmZjK5dG7qW5zXE"],"number":["72346 (Jalisco)"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-dbaa747403a73b1f476ee8b0695ea18f4e7d687f","country":["gt"],"holder":["NK-9yQhxDwxYywN9hrYkB9Qgn"],"number":["227138"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-271c61225b3d303a3aca6872ccc7859fd1ecdc14","country":["ir"],"holder":["NK-A65MzrnwnRZSLrmC8t7vMW"],"number":["11670"],"type":["Trade License No."]}
+{"general_id":"ofac-62d9233a7ed91cd340e6613bd57cb7b315662e6e","country":["mt"],"holder":["NK-A6acad3R7Tux2GKBUqXqvy"],"number":["C 76396"],"type":["Trade License No."]}
+{"general_id":"ofac-bf7c6f0ef4f1189072e3151f5c882288bd5abca5","country":["us"],"holder":["NK-A7xTRUSyRy7ExzoAN6je6X"],"number":["5736292"],"type":["File Number"]}
+{"general_id":"ofac-b1d4c119444a8291ee57e6962d030bb888b51b98","country":["mx"],"holder":["NK-a8Sp5ZwqrENypA7LCxA9CX"],"number":["17656"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-03f8bb3557c751f896ea3d368d41ee4f38c079f4","country":["gt"],"holder":["NK-AbPd8ontTCsNzkgViK9nWD"],"number":["333575-429-295"],"type":["Trade License No."]}
+{"general_id":"ofac-345de4abbd524408c01abb61660bbbacb6e1069f","country":["mx"],"holder":["NK-AcEzD5yybHFv2dTcgiG6qJ"],"number":["178794"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-391e36c21063859d10b209ce76233310b418028e","country":["mx"],"holder":["NK-ACvmEVYMGqVNWimyeW4san"],"number":["TRSSBN69033132H900"],"type":["Electoral Registry No."]}
+{"general_id":"ofac-03658d04ba9a693318f4b63c4f31288522ecfe50","country":["mx"],"holder":["NK-ACvmEVYMGqVNWimyeW4san"],"number":["B4494067"],"type":["Cartilla de Servicio Militar Nacional"]}
+{"general_id":"ofac-7d4da8cf08807c9a469cde7449c228f9612987c0","country":["bg"],"holder":["NK-Aj9RpThT5jzt5RprwS8X4r"],"number":["201884908"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-54de73c76164da076b7171a1025615e3e207ae8d","country":["us"],"holder":["NK-AkjW7Bpzcqr7X4bsoLWC8U"],"number":["7136973 (Delaware)"],"type":["File Number"]}
+{"general_id":"ofac-a942591bd2ff1f1c6639240a2a1432eba8403e9f","country":["ru"],"holder":["NK-aKKzsxakvgsnHdeNdPfrC8"],"number":["02839043"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-8975f261ee6223fea1f96587800b55441ee2157a","country":["mx"],"holder":["NK-aLaeQCoNgpEAB2eu3mkZ5s"],"number":["325909"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-8210f8623c1629f0de3c63dc7ebaf16b08a47c69","country":["mx"],"holder":["NK-aLW2JGHUJoQ2AwxatowGiC"],"number":["3048*1"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-f0341d84f2c707f8780fef3d1a6a11c444b400e9","holder":["NK-AMqUsoAaNqWja8A8KjDGyP"],"number":["00705605"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-342ea6bd459925ccbeeca924af60abc1f4446ee5","country":["mx"],"holder":["NK-ATmwfVaqnExYqUqubSjJiS"],"number":["210082884"],"type":["Driver's License No."]}
+{"general_id":"ofac-4089868dec70b8aec988ba9cd4c51b9d56cc3475","country":["mx"],"holder":["NK-AtzaLtgqte9M5Ztcv4TpyJ"],"number":["168964"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-58417228f7d40522ff3d370827a0ba97c3983c41","country":["af"],"holder":["NK-av8poyx6yqV9q7Kuc3Jryj"],"number":["093"],"type":["Afghan Money Service Provider License Number"]}
+{"general_id":"ofac-c3d87105419d3d6071c30091c3c15d8fef269f7c","country":["us"],"holder":["NK-AWJqbLmcE85YM9ddxULmvD"],"number":["CH-217-0-431-423-3"],"type":["US FEIN"]}
+{"general_id":"ofac-ea141bd2cf565baa6d7df66f7bea55b8b08ddaac","country":["mt"],"holder":["NK-AXQe3keaFZ7Q7V3HYrR3Fg"],"number":["C 37423"],"type":["Trade License No."]}
+{"general_id":"ofac-869afd98862dde0dc762b48a8240265a8eca5621","country":["mx"],"holder":["NK-b38mgpRXyJaNJTvGNp2gY7"],"number":["B9764183"],"type":["Cartilla de Servicio Militar Nacional"]}
+{"general_id":"ofac-d5405b3c5d3ed91def630a75bca1d16547a01008","country":["mx"],"holder":["NK-b38mgpRXyJaNJTvGNp2gY7"],"number":["PRMNAL74122328H701"],"type":["Electoral Registry No."]}
+{"general_id":"ofac-427cd591bd3e446c456cbccc57f854f0bf3f5822","country":["bg"],"holder":["NK-B4wzAMW9ovynJsW3ggcQoS"],"number":["130839906"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-82edff13b1bbf433517ff51cb4302909b83262d9","country":["bg"],"holder":["NK-B4zCqyHwrsg4iftNCjCnH9"],"number":["121220666"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-6f1209df961e1bdc0d8dcea92520048918b8d222","holder":["NK-b8cj8GbZJi8DYeWdf6cVoB"],"number":["65-0315268"],"type":["US FEIN"]}
+{"general_id":"ofac-07fd22809b9e42033968197db907bc9253e738d1","country":["mx"],"holder":["NK-BAekEabmcN4uTqJJ5bdeCZ"],"number":["18740 (Jalisco)"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-d681ebbcfa7dad3f6cd75bb6e01d736ed68be86d","country":["bg"],"holder":["NK-Bcoh4oyQQUHPwGhnnSyFiT"],"number":["204682034"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-940dea5968088cf3de6b5b251ed6367214b85e7d","country":["ua"],"holder":["NK-bcPB2EncZdzGkBjd7BC4wc"],"number":["34436105"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-000d06ac4f5068d6ba9feca1ebf595dfdd38d38d","country":["pa"],"holder":["NK-Bi4Ukw3hBcpAgHhVBNGMeJ"],"number":["843504"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-27a0851e391cb989e8e9614053b109e3e6d9d3c4","country":["mx"],"holder":["NK-BiRMD2umvq6t893EXnt576"],"number":["B8765616"],"type":["Cartilla de Servicio Militar Nacional"]}
+{"general_id":"ofac-b0d26a59e5ee9558f748aded11ddc1d23375089e","country":["mx"],"holder":["NK-bm8QmfP3FMRpCpMBq7q8AE"],"number":["345497"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-6420e9c82f457ef691bc4257952f877f486ddfc0","country":["mx"],"holder":["NK-BMBk2whTmhveysbgAEHvhx"],"number":["66501"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-67633a02a5271d39539c8f6fdebd2000d08dc457","country":["mx"],"holder":["NK-Bu4kW7taUJudsF9cM4qn7m"],"number":["26075 (Jalisco)"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-e7713f5e7d08d3f393105d18567ebcec5647b700","holder":["NK-C373rC3fXujjZoDm4SJfMd"],"number":["11117863"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-e8971a3e3d3557c417cdaafff89e3892cefb1739","country":["mx"],"holder":["NK-c9bPxzCjorsgNDX5s7gXpL"],"number":["SCGMGR65110528H300"],"type":["Electoral Registry No."]}
+{"general_id":"ofac-e9991613bd71b772432b5d682026152d1c2dcc39","holder":["NK-C9jtFUpBw6unbxhHh6cXGZ"],"number":["592-29-5509"],"type":["SSN"]}
+{"general_id":"ofac-cdb7913302e7dd6c8a52ae2422c1b2e9c848a377","country":["mx"],"holder":["NK-cAnTNfZ5w97zwnSrzzFxLd"],"number":["RNBNAL66022328H401"],"type":["Electoral Registry No."]}
+{"general_id":"ofac-078e8a0061212685d15b8bb6ef2c8c08474f4246","country":["mx"],"holder":["NK-cAnTNfZ5w97zwnSrzzFxLd"],"number":["724097"],"type":["Driver's License No."]}
+{"general_id":"ofac-f1ee58a8ecdd2684f8c284101a7d72f14a92eb37","country":["mx"],"holder":["NK-CdL3gLsaStZ3Pjjd3qMuU5"],"number":["ZZUREP47080125H900"],"type":["Electoral Registry No."]}
+{"general_id":"ofac-b54a2aafb009dcff7214be32793e9fbfcdaa9678","country":["mx"],"holder":["NK-CFpug9CCbVLaiHc7rRLx5Z"],"number":["C720867"],"type":["Cartilla de Servicio Militar Nacional"]}
+{"general_id":"ofac-149ab1c18021ecf509e0e69b1a7f60b86d774032","country":["ae"],"holder":["NK-cGVwjFsQB9zxxYKqYWFxcp"],"number":["DMCC-30419"],"type":["License"]}
+{"general_id":"ofac-a74a23142a6e70c34e8f4f2ceb35cc14f2eb3b77","country":["mx"],"holder":["NK-CHErLH2sfYm2kagr8sM9Fv"],"number":["22839 (Jalisco)"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-0940a48ba13718a445494d434e9cce20d7f43994","holder":["NK-CiNiDANV6SyVdXsh4ZEuRR"],"number":["95533058"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-d30160f006bf97bafcd8c0407aa80c547487ba0e","holder":["NK-cJ2WSitztdVgRU8gNoaVAv"],"number":["6686"],"type":["Birth Certificate Number"]}
+{"general_id":"ofac-22a199bf17533b2c67055692739b89ae31c9007c","country":["mx"],"holder":["NK-cJy6yJ2L9R6Y2KcvzhPCWu"],"number":["42969 (Jalisco)"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-18ef58709b393a15521959a73ed9a7183ef4c62b","country":["mt"],"holder":["NK-CLHz5VT8ZUqkmz2VNL8Jkp"],"number":["C 25186"],"type":["Trade License No."]}
+{"general_id":"ofac-50ea6ed524500a7ef635fb1cbd1dacb83ee16192","country":["ru"],"holder":["NK-cmGb2RfTud8sCZAkfJxjw7"],"number":["17325717"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-01fcbe05accb9dfffa687b85e9f145fa6ac7a21f","country":["ru"],"holder":["NK-CNtajKD75HPcro3jTED8En"],"number":["09610705"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-1b3464c4e64b430aa909f224e4ab049293910103","country":["pa"],"holder":["NK-CoEzp6h5ogYuHnpPN9bRFF"],"number":["578349"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-6110ec46bb5b2e4ed9bf66dbad3958851f069fa9","country":["mx"],"holder":["NK-DBKEzoGTP4wmCyigiNCYfk"],"number":["73550 (Jalisco)"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-eedccfcb7c9cd993d9c1607e283b78f6d464670e","country":["mx"],"holder":["NK-dCcjsLBVm4WGCM3Se3DA3w"],"number":["52828 (Jalisco)"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-8f9acea2a1dae2d675eebaa6848339669abd8aec","country":["mx"],"holder":["NK-dcGsuvsCjWAbUTd6FD9Huj"],"number":["46092-1"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-139c6e83426aa3d2368fd5fb7d6b0e81268caa59","holder":["NK-DFKKyCWdKTpoYFUopaC95E"],"number":["44323193"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-7b9872dd0c441b48b8a9db4c78c895bd4da11cdc","country":["mt"],"holder":["NK-dfSSchqZmUHkhufDKRxrhk"],"number":["C 19763"],"type":["Trade License No."]}
+{"general_id":"ofac-5ea095ed6b696368c9523b3849ffea3a2087c0ba","country":["ru"],"holder":["NK-Di6Ds2Ne6Ve3Ua7XyccKEH"],"number":["27397712"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-3418e2e5ac49a40ebe9649e56f3c4d953e7a6f56","country":["mx"],"holder":["NK-diR8dqwcGLFjDQD4Xmr9AP"],"number":["CAPE6505164F5"],"type":["Electoral Registry No."]}
+{"general_id":"ofac-37eb5dae5a9834b9bff4e8ef63e6e6993b829288","holder":["NK-DiYN7keGKRrGcs3eCN3qyT"],"number":["14188237"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-29ddebaccdb7c09842d2816275efc357f0ee66e0","country":["mx"],"holder":["NK-DkwYd2ZihyJWoH743saRL3"],"number":["72549 (Jalisco)"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-39d7b224f5f94cbb98c3243bace8dcafb8865101","country":["mt"],"holder":["NK-dm27ug7gQCRd7bt76GBLAy"],"number":["C 77444"],"type":["Trade License No."]}
+{"general_id":"ofac-5522dc4cbc62b17c3cdc7ef76243d609f9c1d7a9","country":["it"],"holder":["NK-dMuHCqtXSZi5BBs7jVQJEm"],"number":["GE0426505"],"type":["Trade License No."]}
+{"general_id":"ofac-2fa8f896f5a882f6d87ae91e0e9c24ba0fbf40d7","country":["mx"],"holder":["NK-DTc8cKbk7pwZaiiypCBuxH"],"number":["CAPT6210144PA"],"type":["Electoral Registry No."]}
+{"general_id":"ofac-5a89ab7870bd49518e4e6e9a81ef954477380c69","country":["mt"],"holder":["NK-DwTW3cWAbjvdK785wmLy89"],"number":["C 58194"],"type":["Trade License No."]}
+{"general_id":"ofac-1e09c87455d03f1f5260f819aa798e3cd052986b","country":["mx"],"holder":["NK-DzbawD54EPeTsXbFHBXL2e"],"number":["79775 (Jalisco)"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-c43d2da530f3efb29589ad7ecded277daa9eaf0e","country":["bb"],"holder":["NK-DZBVc9V67ef8oqGpk6VWKT"],"number":["PL00825"],"type":["Pilot License Number"]}
+{"general_id":"ofac-dfd01427a714cb103a63b40fdeb61935dbb3cfee","country":["ca"],"holder":["NK-DZBVc9V67ef8oqGpk6VWKT"],"number":["L6802-15365-51223"],"type":["Driver's License No."]}
+{"general_id":"ofac-e37a24ef0428f152f2dfc5610f5cc336b17299ad","holder":["NK-EAHqTqjJAQX9h6N92ry6ux"],"number":["HRA 102533"],"type":["Trade License No."]}
+{"general_id":"ofac-b0334bc63b3723c950d9bde8ad9b953f7107ccd7","country":["mx"],"holder":["NK-eDBr5bBoMsPc2tbVrC6HPS"],"number":["53243"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-1f210c6ca64b39dc143fbf0a7aac7ad3af3e27b4","country":["mx"],"holder":["NK-eeeQp3HevbQCLJjvvSEofv"],"number":["41884"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-c85c7c35ee5a415670061a0b0aa57e7e41b4ee73","country":["mt"],"holder":["NK-EeKjQgsvPiVVh6WJ9NvVRQ"],"number":["C 76400"],"type":["Trade License No."]}
+{"general_id":"ofac-c5fcf889c869d77d13e227af7f2c5f63c8a202a7","country":["mx"],"holder":["NK-EJCSRhi6kzYanUqfPamQiA"],"number":["29070 (Jalisco)"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-49534eb1b2505d3ac691c4fb1dbc184fcf749289","country":["mt"],"holder":["NK-eL4aPtkjAXJrjNbPqSpYZJ"],"number":["C 24129"],"type":["Trade License No."]}
+{"general_id":"ofac-27dfc4c59d4c6e8d5755d25a74bb5ed74d0b2070","country":["mx"],"holder":["NK-epjPXBjVUoBJBRyXhsRDmo"],"number":["59574"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-e73e993b10717fb7a04589b1f69aa837e7481889","country":["mt"],"holder":["NK-EQ4uBJPhq4eduU2uGwWEAB"],"number":["C 44063"],"type":["Trade License No."]}
+{"general_id":"ofac-89d8eac13b93afe6d5ed01a601da9e613583193e","country":["bg"],"holder":["NK-ESsdibsdeXVAVW7tcUbMjM"],"number":["201275656"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-748ee224c9c8100ea2f5126e64e03cfe6911e43f","country":["mx"],"holder":["NK-ex2JXfDhSaneeqft6YiVjH"],"number":["17103"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-bd50a1a7e522bc5d5bd0e6d72999e0f6f44c7e0a","country":["ru"],"holder":["NK-eXjRNT57TgquzRsf3zrSBz"],"number":["60615883"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-0a32ba123bf7c96f2f7cd213fd43dacded021603","country":["us"],"holder":["NK-EzYkf7rbeTzmAkbSi9GNmy"],"number":["A7800002 Border Crossing"],"type":["Immigration No."]}
+{"general_id":"ofac-3bbc815faae11c783dc63e5f732ff5f4e47605d1","country":["mt"],"holder":["NK-f276CTc72sLRzDzyqr7QYc"],"number":["C 41310"],"type":["Trade License No."]}
+{"general_id":"ofac-a701de18c5cb3016925d15b68a84a0f0ff9955a3","country":["de"],"holder":["NK-F2C8ft7qqGT4cgoN8sJzy3"],"number":["A0092301"],"type":["Travel Document Number"]}
+{"general_id":"ofac-aa7460f590fedd173ee1d14f988f5fa5b46b8825","country":["mx"],"holder":["NK-F836PgjtPgsAaeEFtPHx48"],"number":["6022"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-26ac1ad4a745de0fa4601f0231a6b452b7197d11","country":["bg"],"holder":["NK-fAXCMSBsBHDL2QhaUcNPDf"],"number":["175387373"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-3f698a9b727de008ac2a25fcc697ddebf43be6bc","country":["bg"],"holder":["NK-FBtkDqYcMV25KcQsCqPgak"],"number":["131251717"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-90b17e03ddb6936e8fc5bf8dc5c48f3691ce70e9","country":["bg"],"holder":["NK-fc2HpAiFzg5TTCEqPnm92Y"],"number":["200481087"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-6fb4fea96a31a699c3591591571d491c3d4803a8","country":["us"],"holder":["NK-fCGt6rgmz9Gb5KrcMHrKuj"],"number":["548-91-5411"],"type":["SSN"]}
+{"general_id":"ofac-f8726db918afd0f2ee5183d6f79cfb8ffa57dcd4","country":["ru"],"holder":["NK-fDNpyXivC2ev2dygGjhtbZ"],"number":["40100094"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-a293129ff1ed00e913e5a84516240df05f7bc01c","country":["bg"],"holder":["NK-fDsXdph7AKy69EyBHsqPVY"],"number":["201220179"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-618cedfe505a3a9417ad69121a9ec90aab214d3b","country":["mx"],"holder":["NK-FhA6ttvJcxQUYmeYJe5YPQ"],"number":["84399 (Jalisco)"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-59f4016387cde5dfdfbbdebef0340180a481948f","country":["mx"],"holder":["NK-figDJXPz2ZUvJ5VWoJGz9V"],"number":["19365 (Sinaloa)"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-61539627075687d440254bd7bf4ee8d1743a837a","holder":["NK-FizdzdnnwambceJqRNydNe"],"number":["HRA 102565"],"type":["Trade License No."]}
+{"general_id":"ofac-6c0f7e5db0c1acc786bbcb4b4d3bc0aa5ea63a48","country":["mx"],"holder":["NK-fLN8V24SaEE6DnuapARpwc"],"number":["4495-1"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-5de86ad6d7626402476c809e6bec3b3dd0681e63","country":["us"],"holder":["NK-fmDRQTQpaih5geisAwVVKS"],"number":["423-31-3021"],"type":["SSN"]}
+{"general_id":"ofac-edd7bc0bfe165c1f0486564aeab91c39776f2e08","country":["ae"],"holder":["NK-FqNofaakMwuuV5MqEENq4d"],"number":["4736"],"type":["License"]}
+{"general_id":"ofac-22dc01770fbb1b8040080e85a43454658fc8ede3","country":["ru"],"holder":["NK-fqoK7aFvj9VDTkdWHbyXNZ"],"number":["00998197"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-fd98834b1ae3049714ac79f50d5ca4b6743ad380","country":["mx"],"holder":["NK-fRavCvHh3q8WD6nbEZ3vHk"],"number":["60417 (Jalisco)"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-3a83faad9aa22fdaa80380644b8d0b760b1c100a","holder":["NK-FTwde2bjqPptrtV4pP4g3j"],"number":["4043"],"type":["Birth Certificate Number"]}
+{"general_id":"ofac-2c89aa91f708d757d4fdd3bf3c4a791297e04190","country":["us"],"holder":["NK-fvSFKAsVjKnL7rAdiHpgpN"],"number":["5277495"],"type":["File Number"]}
+{"general_id":"ofac-1e710ab0614bfd858b4dd7e43a913633fbaaa87d","country":["ru"],"holder":["NK-FWY8kb8cB9zBXBSArf4L4u"],"number":["06513574"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-f753d449fd01cc05ec72f06a8d033e2a34c5bcfe","country":["ru"],"holder":["NK-FxyWG3MRAShPd6kq6N2aER"],"number":["01386148"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-76c333dcec01341ab32302a4b655d95d8545cec1","country":["ph"],"holder":["NK-g2u8ssdx89A9hXaACgsfJq"],"number":["33-3208848-3"],"type":["SSN"]}
+{"general_id":"ofac-e92bafde99bb938b65f4a71f20ee79ec686e7b78","holder":["NK-G5AAKMrFFCbcxzvUTtcssG"],"number":["11770"],"type":["Birth Certificate Number"]}
+{"general_id":"ofac-650d878607e8187a9af44c4c3ef3d9504524c7a4","country":["mx"],"holder":["NK-g7yVFNxoSgsNRha5AdMDWi"],"number":["4123 (Jalisco)"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-1bb331e8c9c99fe6a6ea4ea1377c076502d41620","holder":["NK-GaKhSJmFtFsh6wjf6h7KRE"],"number":["95-4227517"],"type":["US FEIN"]}
+{"general_id":"ofac-d4ccc35894a21f438f66eada6f53c7889e238ab0","country":["us"],"holder":["NK-gAmDsju8HdB8eRXbmj6k4h"],"number":["418-15-2837"],"type":["SSN"]}
+{"general_id":"ofac-9f04cee30bc37f5e132c4f21b32f3f86513f0733","country":["de"],"holder":["NK-GbZWRSTSSjpLTwZbc5RLZz"],"number":["A0020375"],"type":["Travel Document Number"]}
+{"general_id":"ofac-3fadcb2a72055252df655810c22d8be41023aaaa","country":["mx"],"holder":["NK-gETQ6Ue4JdxZHDHTinoVDF"],"number":["10987-1"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-20a3d3c5a00b906cd97a2c2b03faf54159466ff1","holder":["NK-GgdQSGw5JQKRWTVrocsrGU"],"number":["HRA102600"],"type":["Trade License No."]}
+{"general_id":"ofac-aaf9ac99d8704c94a1b27e65dc8c0bf16cb28ad5","country":["us"],"holder":["NK-GGz92eLyewFShUy8wJndbz"],"number":["07442833"],"type":["Driver's License No."]}
+{"general_id":"ofac-a768cef39666242fe34b945ef3562bfb039d3cc4","country":["mx"],"holder":["NK-GHvNXRhyme4ZZF2L447xij"],"number":["ACIBRB67102013H701"],"type":["Electoral Registry No."]}
+{"general_id":"ofac-bc5f86e6a34021c874bc68539573e8d45e2c4d2a","country":["mx"],"holder":["NK-GHvNXRhyme4ZZF2L447xij"],"number":["B4111940"],"type":["Cartilla de Servicio Militar Nacional"]}
+{"general_id":"ofac-2717a9c81aeb799cc1113e46fbfa684c1c102790","country":["mx"],"holder":["NK-GiDx3tfsRnfr3Cn5FWboYp"],"number":["180839"],"type":["Driver's License No."]}
+{"general_id":"ofac-6e17e3137db784874c815f5e11a98ed8cd24fc61","country":["us"],"holder":["NK-GkdvsQ57iMKxrbpQvg88hr"],"number":["589-17-6824"],"type":["SSN"]}
+{"general_id":"ofac-ce0782c903937e85a06895e40bc0de86b245a30f","country":["mt"],"holder":["NK-gpFmGhcjSWQ3qWQweGaWVn"],"number":["C 50905"],"type":["Trade License No."]}
+{"general_id":"ofac-d3bf36058c7dbca88769ae8de1cc996a5d4c7a91","country":["mx"],"holder":["NK-gPvJjos98jrAgUWwBQeTbZ"],"number":["310801"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-e396996ec0f7ffd1fbf80ff831a119aa68060c29","country":["ru"],"holder":["NK-GtWU82BPzSj6YLdsRq82qY"],"number":["00742767"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-f2293b45e164f91cb34a9eaccc9d73759b4ecc55","country":["hk"],"holder":["NK-gxAaygRkTrEdnXjPzjS9dk"],"number":["1429927"],"type":["Trade License No."]}
+{"general_id":"ofac-105a68f789e5b171a8c39165191db151f67df0c6","holder":["NK-gYfB3s6VFFZ6FQrsWgce2g"],"number":["38347"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-e1a6b07016c9ff1b82ce31e03c782f99c9fb661a","country":["bg"],"holder":["NK-gyorBJJWM2h2HMheHUUz5Y"],"number":["204642716"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-1b238c8ef38bc58926fc61f7b87630d98483718a","country":["mt"],"holder":["NK-GZDQ4LsJjUuDBMrMAjhcLK"],"number":["C 41949"],"type":["Trade License No."]}
+{"general_id":"ofac-43fc86c314b32a14d1353b9db76baacb8e46d134","holder":["NK-h8HkG9AmVCnJtCFWfN78pN"],"number":["36-3823186"],"type":["US FEIN"]}
+{"general_id":"ofac-f339c2715d99c1fd2dfa40affbe990be426857a3","country":["mx"],"holder":["NK-h96oabZ5bEPSZRsLMTJTSV"],"number":["324168"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-d3dc8a7e7c05a825f2c844cf3635f840f4ec6ec5","country":["mx"],"holder":["NK-HasyM4nfK3Rkw8s64qaZMF"],"number":["42877-1"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-dea29ae6a6a68a80785a888a35a99dc0b66cbcde","country":["ru"],"holder":["NK-HBwFxPU27bh6gisL7FVQdp"],"number":["59109241"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-7b5b345ba7943fbba4c992a2a654e03c99043cc0","country":["bg"],"holder":["NK-hEUtHvus55mqjBJppo3pZy"],"number":["175392527"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-dc60118f9c4678d51c6844ebb6846b71274e28a4","country":["mx"],"holder":["NK-hfrNRnKm6LU54q7xf9ykeB"],"number":["607092"],"type":["Cartilla de Servicio Militar Nacional"]}
+{"general_id":"ofac-fd443aff3dd65e3e9385eb8f939d0e327c919d9e","country":["mx"],"holder":["NK-hfrNRnKm6LU54q7xf9ykeB"],"number":["MRGNPR73051625H400"],"type":["Electoral Registry No."]}
+{"general_id":"ofac-906bc0b0873a118b205d210550bb07579cd2bd12","country":["mx"],"holder":["NK-HfYiugvvN3k99otTjyJjzD"],"number":["MZGSAR46070425H400"],"type":["Electoral Registry No."]}
+{"general_id":"ofac-3dda28273914e50f28b76433c90f5fee99bd686e","holder":["NK-hHiXSKZY7mRxveDBbjt5G9"],"number":["HRA 102601"],"type":["Trade License No."]}
+{"general_id":"ofac-1019ff578b051b1b2b45fafa8250a98bd87db10b","country":["mx"],"holder":["NK-hkJBgdDyx4A7WgftWkFL7M"],"number":["26736"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-8d5a2e37b65bcdf509574130ac5e5af17e5682fe","country":["bg"],"holder":["NK-HKSXca8EyD4rciZQqHabU3"],"number":["131567042"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-5e985883784872b0258325f2d0d9b7e56f0898f0","country":["bg"],"holder":["NK-HKWMkdDvNSyX6Ga4DYaTGS"],"number":["201084124"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-c017098d113cc761c74317199696d2e779c6ff3a","country":["mx"],"holder":["NK-HmpK5b2JkyFthWEY8s6ehk"],"number":["ARGARD80061"],"type":["Driver's License No."]}
+{"general_id":"ofac-369ac9f87bbf42fdb1d040729cc1f0719f674d20","country":["ua"],"holder":["NK-hMqExnoAzGQNVvJcs3oJho"],"number":["31332064"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-4a6ed333c095ebd5536ad4bb04df9c6b5bf42a20","holder":["NK-HNkrpLmcWA4x5WZ5Gfzgyb"],"number":["HRA 102544"],"type":["Trade License No."]}
+{"general_id":"ofac-89dad2282c5610e9992e8bcb2ca1bf1ca15c7f5d","country":["mx"],"holder":["NK-HQier5a9zZP9d8s8wXWrrm"],"number":["82219 (Jalisco)"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-d94b58b4b177529491de128caf92ac657de146dc","country":["bg"],"holder":["NK-hTiBpA9iHiTSvZcKhZXQce"],"number":["175010714"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-33105268888e2eb80a6acd577f06557b1614a789","country":["mt"],"holder":["NK-hy6f9pMFnyQrhzpyicEqua"],"number":["C 76394"],"type":["Trade License No."]}
+{"general_id":"ofac-d770da46f0a0dd6644386d9aae09879afd6bec4d","country":["us"],"holder":["NK-hYCLChs4onTpe8uNRRRADq"],"number":["CH-660-0-469-982-0"],"type":["US FEIN"]}
+{"general_id":"ofac-7a0e3c39d67adc67bfe28ffab39e2ab2fdd7dd09","country":["ru"],"holder":["NK-hZ4sR2Rx6pRwDmKTZvjGcT"],"number":["34390716"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-1092c4bade7d5739e52b621cfc43007859456ebf","holder":["NK-i47FEpK7zbFA5wQncLX7xY"],"number":["65-0467983"],"type":["US FEIN"]}
+{"general_id":"ofac-c1788412880ac6777d1fb1b1d6615adfe22934a8","country":["mt"],"holder":["NK-ig6YFCRPtjgsszkojr8KLr"],"number":["C 77446"],"type":["Trade License No."]}
+{"general_id":"ofac-7a076be733487e21f454801a88978e58da6ff85f","holder":["NK-iJzoq8h5XpFrvVV9rErHuw"],"number":["2377"],"type":["License"]}
+{"general_id":"ofac-fdbbd4d69bd939351075597d81cc60c4607ce8cc","country":["mx"],"holder":["NK-iuAsjkbbpTh6Zb8obLbxsU"],"number":["24808"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-ffdb46f39583124313717b342c893b9e3f53f720","country":["mx"],"holder":["NK-iycQqacoWvukGHcvfGoyyS"],"number":["39853"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-e1318a732bc50033678c2de449e9d024f3bcb351","country":["mx"],"holder":["NK-J2KyJb4iRCY3NEpEd7jXZq"],"number":["C 4892138"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-18dc7cca1ca4e28bcb2b17d5379b9e69175693a7","country":["gb"],"holder":["NK-j3hUBDcgoKwB7zRwTchNRA"],"number":["04110179"],"type":["Trade License No."]}
+{"general_id":"ofac-5e486fb8d1efc5ffddae5dd8af930f5f3a89b140","holder":["NK-j3oGu3hR8P2DPzk8myaSHP"],"number":["HRA102485"],"type":["Trade License No."]}
+{"general_id":"ofac-003487d9203922dcb71cbc5481fafdcf6de09000","country":["mx"],"holder":["NK-J4jGmvoxmg8At89rhc8vvv"],"number":["19522-2"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-9dd870f13d0cbc2a5e5116b6e0a2d21b2dfb351c","authority":["Sinaloa Public Registry"],"country":["mx"],"holder":["NK-j7GnjETpasENRSGPqXnEQ3"],"number":["75483"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-0ed5f387e0b3c59b5e60ee0710106718f78143c1","country":["bg"],"holder":["NK-JA5LCbgCFErBv2yZmTWftk"],"number":["203950885"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-96a0e1af60101d09f53cafc8aaba242a0eb6866e","country":["mx"],"holder":["NK-Jde3A9H73JuQiAjgfCCox3"],"number":["85508"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-6211ba708eedc41c4b837a41015e2632d9657624","holder":["NK-JdEDeAraCaEXQ7q2y9pv5F"],"number":["56467052"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-c0f07864ebcdc8a326c0721c1a157da77f5c16cb","holder":["NK-JGM9wWDvj2AT8xUWFGxsCE"],"number":["J17001W6Z12"],"type":["Driver's License No."]}
+{"general_id":"ofac-d643c8f4e76dbd8a229da4a169f557688c876c68","country":["mx"],"holder":["NK-Jh9UyDrU2NjuA3WbyFADwn"],"number":["77704 (Jalisco)"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-ad23da88d979a33043bfe023dd8e37265bf101df","country":["de"],"holder":["NK-jjvRk2rvUkmqnWmPLq5AVc"],"number":["A0003900"],"type":["Travel Document Number"]}
+{"general_id":"ofac-d218fd8ef4cb2588849df07a0c70bb4488b8a67a","country":["ae"],"holder":["NK-JmNrnPg2uML3j64XD5GwHU"],"number":["751444"],"type":["License"]}
+{"general_id":"ofac-654d7307ddfe4483a0d145ac3a419ed7e1c0ee7c","country":["mx"],"holder":["NK-jNazqnuNSMW8peiVoA2GK5"],"number":["9974-2"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-3440fba98f5568881b609892099e2a851d36bb39","country":["ru"],"holder":["NK-jqYj3PkfXfXwbbWAZVC3LL"],"number":["61540868"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-fc2f5113e78531e7eb947e2e7a74ecf99426ff09","country":["mx"],"holder":["NK-JsiL9CPVaK8MCJPPmnsdTD"],"number":["95562"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-9d83122a0eaedaa9d913a31eaf6785d09ab8108d","country":["bg"],"holder":["NK-JUJ3pvcjswpmYyKS7nMgRG"],"number":["202621673"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-8a19a61d825908b4063cd34c9f98ed998e0a9b7a","country":["mx"],"holder":["NK-jYGqk3ENgYiJZBxTMp5p2m"],"number":["CZSLBL54091825M200"],"type":["Electoral Registry No."]}
+{"general_id":"ofac-408e1b4169c33b9f77d3e1a9daffb66088272c06","country":["us"],"holder":["NK-JZyCziT2gX5MsX7C7WZfYK"],"number":["523-33-8386"],"type":["SSN"]}
+{"general_id":"ofac-d7eb8f003a8d0044d2c7e273b4b802bb166f7490","country":["pa"],"holder":["NK-k6CMKKkzkHjYNYZkf96MFa"],"number":["724213"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-b91ae757cc9ebbfa11723b7cc91f412bc42308cb","holder":["NK-kcLhJLBeSaNanWJ7BmqMeb"],"number":["4541992"],"type":["License"]}
+{"general_id":"ofac-d0465c088fe1c0dfc0b9b24d27a6bca38326216a","country":["ly"],"holder":["NK-kcLhJLBeSaNanWJ7BmqMeb"],"number":["41992"],"type":["Trade License No."]}
+{"general_id":"ofac-1e0faae1eb37e68263e685521f6e9c64a727f69b","country":["mx"],"holder":["NK-KD8rwZCoPm8oFE89P2vX9E"],"number":["39854"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-a81938b62037b04c6338b2f37fb82ce92f72b35a","holder":["NK-Keadyy9VHaGnTcuG3PL9mb"],"number":["48937526"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-931e1ccbd1595b541ed898cfd63281123dea530d","country":["mx"],"holder":["NK-kgKQjh53FE968of6t55hkg"],"number":["28153 (Jalisco)"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-28c08cab3d4712791eebd6c2ca445f2de220c189","holder":["NK-KMctXi4VCFUE8SkaQFLaaU"],"number":["98.805"],"type":["Public Security and Immigration No."]}
+{"general_id":"ofac-88beb27a93a242f3347e06511dbd3bb388e52e05","country":["mx"],"holder":["NK-Kn5a9LvRWL7juvEtG9TWoL"],"number":["44444"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-1289f5275750b985f11ff4be61b229a06f174a70","country":["mt"],"holder":["NK-knDGNQJkR4BaqiXvoCyPzR"],"number":["C34477"],"type":["Trade License No."]}
+{"general_id":"ofac-08bda5348862b9e7fa6da5689f8a5b3d3f169e7a","country":["bg"],"holder":["NK-Kq3hfqReyznLKmPkv7pmjm"],"number":["203892599"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-066547c45e0289ab346f68812bbdd7815307a8cf","country":["mx"],"holder":["NK-KQHtgyq2sbRZbicx4dptx4"],"number":["258473"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-c3356ff11f643b4aca2e34bfe3a3a57b08358833","holder":["NK-krhkxFWrxSzf9bZycnehTn"],"number":["32084605"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-7a65f6f8a2bbf097361a6b6606142936fa2b227b","country":["ca"],"holder":["NK-KRV6HDGRqo4xwRmwGYz6Cf"],"number":["M18867067"],"type":["MSB Registration Number"]}
+{"general_id":"ofac-5e86164570fecc1e38afa88395c63b73f4e1874b","country":["ae"],"holder":["NK-kt7QkkBjU7F66nyf4CY9RP"],"number":["1954371"],"type":["Trade License No."]}
+{"general_id":"ofac-12d679b23e4944648b1528df6a1f70e393b2ea3c","country":["ae"],"holder":["NK-kt7QkkBjU7F66nyf4CY9RP"],"number":["798536"],"type":["License"]}
+{"general_id":"ofac-cf978ae62219c574477d345ab76583a40e640d57","holder":["NK-Kts5ccyvSdmzkebabd7Cbt"],"number":["HRB94632"],"type":["Trade License No."]}
+{"general_id":"ofac-31668bf1881b45d22cb524a1d67f0b721ea47ea9","country":["ru"],"holder":["NK-LAVu7Z9e2KYvehgW3yWC2L"],"number":["57067113"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-c74a3222b4bca19f7073efa23a073658e2636993","country":["ru"],"holder":["NK-LdyhnV2q6gvm4jTfriTdaS"],"number":["07515747"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-11e2a1fe50d4c14b833c4af332a46c0254c27285","country":["mx"],"holder":["NK-LGStFRsTCJf6gdFHcpvTG4"],"number":["10374"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-8cc67903e37fe950ca57652354589a6aacfc1e92","country":["pa"],"holder":["NK-LjPFedJGaayBgYQTYndXyZ"],"number":["704338"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-c16716e5e56b51aee4804e6641547484b4024911","country":["mx"],"holder":["NK-LsKKY8GYwmEtXQ3shhALdr"],"number":["175774"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-99118e6fe8b6032aa6ac9797ff87b602a13b6ba8","holder":["NK-LXkm3LKEisGnDccqfconUU"],"number":["535436"],"type":["License"]}
+{"general_id":"ofac-997dafae945ddb8b17779b04259b85c9339b6bf4","country":["mx"],"holder":["NK-LxNTrqqNk5ehJehvGkTiQm"],"number":["81689"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-0b682e40cceeaadad967414244b899a3c5422743","country":["mx"],"holder":["NK-M3YTb2HpS29pShq4AczX5e"],"number":["42993 (Jalisco)"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-0d3055a266e980b25bae0d745573c0c0ed689f85","country":["ru"],"holder":["NK-M6xs6yMukk5Na8ggPeawRv"],"number":["1037739620390"],"type":["Trade License No."]}
+{"general_id":"ofac-b29605ed8f2bbc969354ddb378677c326be4cbbd","country":["ru"],"holder":["NK-M6xs6yMukk5Na8ggPeawRv"],"number":["54842899"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-31186ba8fe0c8cff622c29644a92c83767d61177","country":["mt"],"holder":["NK-m8PKRn53nCthEnUMbAdnQG"],"number":["C 58157"],"type":["Trade License No."]}
+{"general_id":"ofac-3e9efe61e25472ad68ecd3590343c273da5baed4","country":["mx"],"holder":["NK-M8RpFAMadPBy6rW4AKXqkL"],"number":["43753 (Jalisco)"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-0a136dd2551c8d4be02bf7b8f5f16c5629ad53ee","country":["mx"],"holder":["NK-mD48RLfEVUy5XS2eQvPuom"],"number":["CSSNJR71010628H801"],"type":["Electoral Registry No."]}
+{"general_id":"ofac-fe4f7078eff06eb0c41ae9a8d1544f38f84d19e6","country":["cy"],"holder":["NK-MDCmg6jR9WFMnJGUZ4qXtr"],"number":["C334268"],"type":["Trade License No."]}
+{"general_id":"ofac-56c5b86e7fda913f0c18a9cf43fce9665bfba8d4","country":["mx"],"holder":["NK-MgpBiYR6ByKxpTycdzLw9q"],"number":["33649"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-11924abb5ca572d991e6ccaaa2a95f544e0b7114","country":["mx"],"holder":["NK-MjGLWtht8VjX4YLmXTKnRx"],"number":["AGSNBL58030702M801"],"type":["Electoral Registry No."]}
+{"general_id":"ofac-a1d0a4ba13140bfddc9d35a1d2dc07974b84ad50","country":["mx"],"holder":["NK-mjxKxpRwvtgbJTJvRptfvT"],"number":["1909004"],"type":["SRE Permit No."]}
+{"general_id":"ofac-e7136049729099939ee324a5633eb68d85b65984","country":["mx"],"holder":["NK-mjxKxpRwvtgbJTJvRptfvT"],"number":["117592"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-b4ed9fdf76842d68d0a0c28334df03a229835923","holder":["NK-MnWKXgw9sCs5YXRVxQ3Q7C"],"number":["3284670"],"type":["Driver's License No."]}
+{"general_id":"ofac-51112e4a972f182040b48ff2b5e8bcfafb32825b","country":["ae"],"holder":["NK-moBgXmzUAKWA5ABZrkYrp3"],"number":["585026"],"type":["Tourism License No."]}
+{"general_id":"ofac-982547e9536810b1a87e1a8eed24d1109c937182","holder":["NK-mP7CPXLSEsXX36ypC4Ecww"],"number":["HRB 96253"],"type":["Trade License No."]}
+{"general_id":"ofac-c77d711f6078912938a1b1be64a0868fedb86695","country":["mx"],"holder":["NK-MqhAGkkAtmFEykyzEbnPDp"],"number":["88198 (Jalisco)"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-5d5a4284e77137b19a78ca509281b8faad43ac56","country":["ru"],"holder":["NK-MtBPZ4Uf2QJSPgQzRFsv3J"],"number":["18631592"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-e836e7cee2d6c44015783cfd1e11dbdab12be814","country":["by"],"holder":["NK-mU6dLf7cyiTt9fgHDqrQwR"],"number":["14512525"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-f45420676cb25cf78789565a3e1ebfc60786a4ca","country":["pa"],"holder":["NK-MUBCU752qMrnECFwyBCNBa"],"number":["704269"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-ee94d0a5648378db1e470fa0ab2054b59007bdf0","country":["ru"],"holder":["NK-MuW4EVnTD9nzbRbHpg7CkJ"],"number":["40335667"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-d80dbaff28084977f356f48cf3c281ef375fa8c8","country":["ru"],"holder":["NK-n6b8MW846DbHGUwwnhhCJp"],"number":["24544006"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-f7b90975aecf1628b3666eec3a7811ad781b50a5","country":["mx"],"holder":["NK-N6KeFb2kpkwSRpFLWWJXhb"],"number":["10740 (Jalisco)"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-d9db6339cfb75c936e5043cc757a1e1fe71070d5","country":["ru"],"holder":["NK-nASvExFNWFbhcrBywAqRdZ"],"number":["40199908"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-725a478c301ba64baacc88cd791f8bbae946fcb7","country":["mx"],"holder":["NK-nbhDY93WecQyTYnKEG2wcc"],"number":["343997"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-b090c7866194b845f632c0775506c865842a763e","country":["ae"],"holder":["NK-nCLcbPPDxB778n6VC6emHx"],"number":["4041"],"type":["License"]}
+{"general_id":"ofac-4dda3c114b92914729f3a25434ee2228d797b77a","country":["ae"],"holder":["NK-ndACsLDQCDM3yJwbFLYAZA"],"number":["DMCC564257"],"type":["License"]}
+{"general_id":"ofac-5516c926ec620bd7c0e951163a662467ff2e313b","country":["pa"],"holder":["NK-NdnTSVWwZQD7kEUyYWModu"],"number":["364300"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-9b3d262ecd466cabe43ba4d090d4a2e0dd4792cd","country":["us"],"holder":["NK-nEzfcZjtDGcmsbPHmyWPDB"],"number":["156-92-9858"],"type":["SSN"]}
+{"general_id":"ofac-9e8674ee8e9c23b0971c6eb70e82c1cc659083ca","country":["us"],"holder":["NK-NGxNaME5XZfyuameEpaR8A"],"number":["M600161650080"],"type":["Driver's License No."]}
+{"general_id":"ofac-f107f99cb1570b3378f94c4081c45c68df08f205","country":["us"],"holder":["NK-NGxNaME5XZfyuameEpaR8A"],"number":["027-68-4733"],"type":["SSN"]}
+{"general_id":"ofac-4c2226cea574e82103f9cd5e9b281db19fb34df6","holder":["NK-nLHVWVeJNpmyGUZ3zWhG6X"],"number":["772701001"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-d12080b65a58d7f710598929e967f2a982d84965","country":["mx"],"holder":["NK-nNtjo95TZZoH2o2QR7Z6aT"],"number":["15247"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-f78682792cf26ffb2e849447bfba88317c867baf","country":["mx"],"holder":["NK-NNU2XQVnifuWsz7SW5G3xK"],"number":["61497"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-9baf0eb8d0fd2f9a848ef8114b35f0edeec44332","country":["mx"],"holder":["NK-nnuFdFhRoKD5BVCbRoZqeg"],"number":["27387"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-1a12c88ec2a2780bbe8656dd094f9f9e80c1b476","country":["bg"],"holder":["NK-npKTUnEGR8xGU3moU5Umwy"],"number":["204839749"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-579b01edb56410cc7d5563c0c4ea51041c245b44","country":["gt"],"holder":["NK-NpQDxe6ZCCGHYWNovZysc8"],"number":["1995739560513"],"type":["Driver's License No."]}
+{"general_id":"ofac-629d56e2b4cc48d4433efdccffe638b00aede768","country":["ae"],"holder":["NK-NpVLLWgqmATfhu29NWnXtd"],"number":["683633"],"type":["Trade License No."]}
+{"general_id":"ofac-3108a4e716e8e0c6de9b5225676f9bcf85b7f368","country":["mt"],"holder":["NK-NqinTmqzdV9Uddbdvvq62P"],"number":["C31530"],"type":["Trade License No."]}
+{"general_id":"ofac-b19a5f24a0ba68ba4548c6a61c74cfa239803c5d","country":["mx"],"holder":["NK-nw62zxnqdroahPKGC7v8uf"],"number":["42946 (Jalisco)"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-dfb3268c798bcea884c745ced134df8952f740a2","country":["mx"],"holder":["NK-nWisTe6ZJS5TmwmU9YuPXq"],"number":["17919-1"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-72c618f6effe6e64867af9232077dc30d12f99f0","country":["bg"],"holder":["NK-Nynk36k7BTbPP7Ay2Gcoqx"],"number":["200874603"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-d51ef91c328bc90e98641097cf3ef47125bdc8d8","country":["mx"],"holder":["NK-nZBu9FTGLbmhorcuTERJaP"],"number":["61803"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-9c883baa18bdbb149b7affffbb86c14e3160e7d2","holder":["NK-oPTwQcfvpezLXrXkPURD9k"],"number":["55-2197267"],"type":["US FEIN"]}
+{"general_id":"ofac-18840967fd1606aed96b10d91bdd0000572f78c5","country":["mx"],"holder":["NK-oQL2an8iyY9dmZUc8FqgHq"],"number":["60606"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-1c1376f9d5b6b8977f1ad396ac270e16f7e9a4ed","holder":["NK-P8fevxSqUk8fhaRNQRC8WS"],"number":["36-3804626"],"type":["US FEIN"]}
+{"general_id":"ofac-1bd4ad749272f6b8789a150c8a89f60399388ffc","country":["in"],"holder":["NK-PDYYemR8uJpCHu2LCD76Gv"],"number":["MUM 85917"],"type":["Seafarer's Identification Document"]}
+{"general_id":"ofac-6d3cbd4bf08a71ae6baaa6d8ee3516175212bbfe","country":["ae"],"holder":["NK-PE5BJwPDCTiwwxm3suxU68"],"number":["561490"],"type":["License"]}
+{"general_id":"ofac-c3308900102e42de594ba5023721d61056ea9544","country":["mx"],"holder":["NK-PgfVNvLp6x5Xrbr58ufmAe"],"number":["290199"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-ff6ea52576d0cdb23a5994f5afaa28651540df1f","holder":["NK-PH3WhyH74m4ypQk4Dk9du2"],"number":["HRB94311"],"type":["Trade License No."]}
+{"general_id":"ofac-4991b12208407860fe1b1e1430fcf9cd45efaf07","country":["mx"],"holder":["NK-PmJBBmDQJk9j8ZkRBiwbnb"],"number":["46920"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-90f52d7002cfb8da89ce5c3dc834cd202b3798c3","country":["mx"],"holder":["NK-PNMayvpvtMCjosnaWWrgd8"],"number":["168954"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-12b8ea6b6acd0cbd6f4ce2fc86cc4c01d2921ec0","country":["pa"],"holder":["NK-PoVYykzu629fqwxqa2hUdm"],"number":["844396"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-0da899fa12f0d2bfb53f42445c62cb26086f48f8","country":["mx"],"holder":["NK-PRGhTqtSdZRWtyVmiTsYxD"],"number":["N-2017034206"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-221f6252d1e4dc6c08e8b3240e5d96d5918accde","country":["mx"],"holder":["NK-QBLLYqUDeSEsJNPTssgi6t"],"number":["C2606947"],"type":["Cartilla de Servicio Militar Nacional"]}
+{"general_id":"ofac-aab174c840babb3fe559b2c5fa05b1c00400d0d1","country":["mx"],"holder":["NK-QE758hJrMWbXTmqAg3R2Ch"],"number":["FLCCAL64032609H300"],"type":["Electoral Registry No."]}
+{"general_id":"ofac-35a47bbcd23beb6009cd890cd528009d9f69482f","country":["mx"],"holder":["NK-QgERz97u7MCxV6r8CS8YbB"],"number":["B8987689"],"type":["Cartilla de Servicio Militar Nacional"]}
+{"general_id":"ofac-f6f66924eb20191143be09fdb4c560522c511845","country":["mx"],"holder":["NK-QgogPQgd46fWRbvbQWrqPs"],"number":["NO4435810"],"type":["Driver's License No."]}
+{"general_id":"ofac-cb557ec70e70b976c44ac040047ef46ffc812806","country":["mx"],"holder":["NK-Qjq4Gtco2P7bbLED8gevDm"],"number":["58593 (Jalisco)"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-e5524e5780a5f81512a233380cf4c59b73205ac8","country":["ae"],"holder":["NK-Qk5ASWefynPCW4y5UDQAqU"],"number":["802032"],"type":["License"]}
+{"general_id":"ofac-f3027cf2da14bd3954458a75b7a5913d73e42d5e","country":["ae"],"holder":["NK-QKvpRm9fzy6Y3EoeTnbjjk"],"number":["668722"],"type":["License"]}
+{"general_id":"ofac-988aac121c207fe9e8a1f40f475b7e9bea04ba0c","holder":["NK-QokzFCVkDjViwukeTBS4yL"],"number":["HRB94573"],"type":["Trade License No."]}
+{"general_id":"ofac-14f9cd929e2bcbe6238530c7e0aa213f7d50e73c","country":["mt"],"holder":["NK-Qp95USnRym3TJX3TBexAAk"],"number":["C37437"],"type":["Trade License No."]}
+{"general_id":"ofac-883e3678053429177519b38b5a4c1d0edaa4acff","country":["mx"],"holder":["NK-QWppzJNWhNRJ9MLXg9F66Y"],"number":["A201611021236510536"],"type":["SRE Permit No."]}
+{"general_id":"ofac-bb715cd70d7b3712a1d5e41f64c52f91d9434800","country":["tr"],"holder":["NK-R3YBJWoR2rqA8GgWwWjcKi"],"number":["11550"],"type":["Driver's License No."]}
+{"general_id":"ofac-f7b2c5a868407e52dd8aea5265543a73677179f4","country":["mx"],"holder":["NK-R5BXXiWkxgvpFFHQyBKBHZ"],"number":["265072"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-f5a561217d8b9eafed3c7afaa37f498204b7b42f","country":["mx"],"holder":["NK-R5s5xLkYQqBeca4BKcfQhg"],"number":["C-528381"],"type":["Cartilla de Servicio Militar Nacional"]}
+{"general_id":"ofac-8ef17573393b4c506653dd7f0d58a07e170d36c5","country":["mx"],"holder":["NK-R5s5xLkYQqBeca4BKcfQhg"],"number":["HRBRRL77020430H900"],"type":["Electoral Registry No."]}
+{"general_id":"ofac-e8613f8445f0c37a1be89efdf020f5c6e32387fa","country":["mx"],"holder":["NK-RCVUiutGfmaVJ6agQ63EDU"],"number":["172714"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-2e494bbe92fedb42c8864629200e6297d2da0865","country":["au"],"holder":["NK-Rj8waSuXGtdSs9hawkAPS3"],"number":["13652517"],"type":["Driver's License No."]}
+{"general_id":"ofac-2cb6619fda50abc3a5b53488010fd7f07da0d277","country":["mt"],"holder":["NK-RMiEuANJiww3Hw6igwEiy8"],"number":["C 17918"],"type":["Trade License No."]}
+{"general_id":"ofac-816207ceb207487a6f423ebf6ebb03d8b28f4898","country":["bg"],"holder":["NK-RmuAJBEgLBcauciaSjzD5J"],"number":["202080417"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-a7d41eeb91b1c06e4e755af10ba1bf6e4c135436","country":["ua"],"holder":["NK-RpdiKdcK3D7yUs38fQHmaS"],"number":["25203037"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-e216881071d91c018ca7d19eadd2f5c1c289ed1a","country":["mt"],"holder":["NK-RpekPKrQ5SRoKDv23XeBUB"],"number":["C 41660"],"type":["Trade License No."]}
+{"general_id":"ofac-af155be9f017eb29fe8903cfab7e47b3de40c2d1","country":["sg"],"holder":["NK-RRX4zhjWUM4XvD6kCwFU4C"],"number":["201131193Z"],"type":["Trade License No."]}
+{"general_id":"ofac-f90b16c104c8ce26ca0e72e9ca49f5e027783cd3","holder":["NK-RSLL4J9hnhsixarxLpcZmA"],"number":["2326384"],"type":["Pilot License Number"]}
+{"general_id":"ofac-b3dcf111842ba99e4dc4c86945f7c8ddc232e9a8","country":["us"],"holder":["NK-RuPqYsmTVygWZMJDoZPGNW"],"number":["030510902"],"type":["US FEIN"]}
+{"general_id":"ofac-09b9eeac807af332e5cdd00f50dc0b32360505d6","country":["ru"],"holder":["NK-RxdBqozzfiZXLxhYcZZsni"],"number":["09287233"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-2145abc766bd8388566e9d762b91f730b6513f3a","country":["ru"],"holder":["NK-RxdBqozzfiZXLxhYcZZsni"],"number":["1249"],"type":["License"]}
+{"general_id":"ofac-69ce0a93c337e1fab7dd111b333f3db38dd39624","country":["mx"],"holder":["NK-ShMNVUHsjLQTvVJj5TGPrW"],"number":["74711 (Jalisco)"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-e45969b9739ab04ffcc153d08b89ea9ea4aa6bbc","country":["ru"],"holder":["NK-SQnE7ob2U7aopmnWQm9NAX"],"number":["07501739"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-55500bb67fc3cb352f0c23efbea84771b826f903","country":["us"],"holder":["NK-SRzF5442NYiaZmFiiufPYu"],"number":["650964520"],"type":["US FEIN"]}
+{"general_id":"ofac-7e5d535d4598684634c4e8f0fe63add78fd1c2d5","country":["gt"],"holder":["NK-SzH3LquqFkeJ7Hd8qUj5nP"],"number":["1-1-22-07-00030905-3"],"type":["Driver's License No."]}
+{"general_id":"ofac-980b1c0976e676728e354f2fafc3e2eac65b0b1b","country":["mx"],"holder":["NK-TEmTt877j7rHGk3qNqoEws"],"number":["AGSNCL69010402M000"],"type":["Electoral Registry No."]}
+{"general_id":"ofac-8f1d50cf7b57a58fd9e8a262e43cc92fd166b354","country":["mx"],"holder":["NK-Tjeyn2Ka4gcby4dTzwW7mp"],"number":["13537"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-1cafaf139ee9555b117874b75475d0a146322484","country":["ru"],"holder":["NK-U34BHS5TbPQLKUukuM9gGj"],"number":["00828288"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-7fca3fff2fb316a13e12f900864e935daedbb76b","country":["mx"],"holder":["NK-U4KhWyTHX37wq5tFTHRFmd"],"number":["79264-1"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-176629e8e2014aa852f62d3f76c8b99d33dfb2e7","country":["mx"],"holder":["NK-U7PN4mrvkJ87M46XnJisTR"],"number":["19451 (Jalisco)"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-a9ac9d42679c89aaa3e92dab1f4047282ec2fb78","holder":["NK-U8e8afHbK88gmGygzbutqx"],"number":["HRB 81573"],"type":["Trade License No."]}
+{"general_id":"ofac-83028c6dc1b0705ca9c7ee2d0e6c537121c67d4e","country":["fr"],"holder":["NK-U8zUcpQH7NrL7P4PHFjbCH"],"number":["525867504"],"type":["VisaNumberID"]}
+{"general_id":"ofac-fa7e009eed15098b40958f851071554e0a7fd062","country":["pa"],"holder":["NK-UG66GDGygxKuWYrVRdC76d"],"number":["844394"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-9cdcf88823a2a79130fe2a4c6856f28460b2346b","country":["ru"],"holder":["NK-UPUYVFJzQ2dovncZTpuDyc"],"number":["00745510"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-2c397e326409aa512e58e2efb3333fda9fb984b0","holder":["NK-UTZ85BEw8e7Kfq2D4Bc4jU"],"number":["HRA 102506"],"type":["Trade License No."]}
+{"general_id":"ofac-7e188d3ad9aea7977e6884d42af24e3f90b3cc36","country":["mx"],"holder":["NK-UUAbCmsPVrkc3b3AsHKAqj"],"number":["N-2019028273"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-932237e7f736cdea2f8863167c7dadf920fce294","country":["mx"],"holder":["NK-UXuV8r4VwckR85jANCMna6"],"number":["B7384371"],"type":["Cartilla de Servicio Militar Nacional"]}
+{"general_id":"ofac-8a2dbbb414bdcd836efb49f7229dcaf017b2d7c8","holder":["NK-V75jPWiE3RRRyuxsH5QA7d"],"number":["HRB 109492"],"type":["Trade License No."]}
+{"general_id":"ofac-620648fca208816bf6cba53b0604a84564c4471b","country":["us"],"holder":["NK-V89TTyNAb6C5RAPBF4AXYw"],"number":["6096108"],"type":["File Number"]}
+{"general_id":"ofac-20c8b542e96b5bdf41be77657b201b7447717e40","country":["mx"],"holder":["NK-VarSxfFLnvd5H2HJw6iUYu"],"number":["77083"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-449751cc8ebea019d8bc7f73b49c8fc7b627ca82","country":["bg"],"holder":["NK-VDpHHXAWYESso6RDBLvHZS"],"number":["201043177"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-eb08ddb95c8ceb2b6dd1721943e3e7b54a7e8766","country":["ru"],"holder":["NK-VDZwU5reK3Lvm9FszFr2vo"],"number":["00204814"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-9718969a39ff75677da2dbc4b768a1fc58bb8af4","country":["ru"],"holder":["NK-VDZwU5reK3Lvm9FszFr2vo"],"number":["3527"],"type":["License"]}
+{"general_id":"ofac-72cb2024be3b5da6000effac7952856ed2eb2aa6","country":["bg"],"holder":["NK-VerodrTpeEXUgFnYXN8YNr"],"number":["120598193"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-a9fae308636dd96918432396bd0772bcae7b115c","country":["us"],"holder":["NK-VewyuXEXAoYreFU2rUGQ9r"],"number":["000920912"],"type":["US FEIN"]}
+{"general_id":"ofac-fe4779f5a0ca09ef2faa76f3b3b90dfb2f4b82de","holder":["NK-VGRX3irduZjmZGMWdS32on"],"number":["29437172"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-aea30d4c4c53c625f1fa1aabf5a39568d5d4bafe","country":["bg"],"holder":["NK-VNNFbHrXfE2iSkBftvL4ac"],"number":["131252477"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-5e6315cc3164c589c51103e5d6bd849e94ba3505","country":["mx"],"holder":["NK-VPartANyeqcSnJkvavthuV"],"number":["OIOJMR60061425H900"],"type":["Electoral Registry No."]}
+{"general_id":"ofac-1a8afc721146516bf5ffb12e6400a12a8afa5332","country":["ua"],"holder":["NK-VrmdhRqfJcANHUt9YktLaW"],"number":["04937956"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-86d648bae2a0e2008c0579ceaaa377e48d01501b","country":["bg"],"holder":["NK-VVDPaQdVa7TNCWMaBbLetz"],"number":["202066022"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-0968a673939fd989487147f9fa5dd495b3a15773","country":["de"],"holder":["NK-VYb8dB74b6raZcYwbuQHgw"],"number":["A0139243"],"type":["Travel Document Number"]}
+{"general_id":"ofac-f4d23eee0788ebf2e66a5189d8983e1b12153191","holder":["NK-W6v2isBxhhvn9ae9QiTCYL"],"number":["365"],"type":["Birth Certificate Number"]}
+{"general_id":"ofac-51539d1c77cd3ef9d22e8e32834ab4595c0c14d2","country":["de"],"holder":["NK-WG9E5FYTy3ULqGGEphSnZs"],"number":["A0141062"],"type":["Travel Document Number"]}
+{"general_id":"ofac-871d6ce16fb088c52bc3052006dc4adbd14ef3aa","country":["pa"],"holder":["NK-WNwdXUJSqEh5RuspngQw6Z"],"number":["578348"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-ef6e5dce6b3495d65d73081dc11482a521cb1c9b","holder":["NK-WQ2ehC6wxYSs54WseQLJMY"],"number":["65-0389435"],"type":["US FEIN"]}
+{"general_id":"ofac-c0a73c6300e73098b106ac3f1e67f73d9e6a6a93","country":["af"],"holder":["NK-Wt9GqLN3Ku2MrxUbwqBbgs"],"number":["07385114"],"type":["Electoral Registry No."]}
+{"general_id":"ofac-04d65c34ba960f28568b825bcfc8e6e8a96e6bd1","holder":["NK-WtDGPb4zSBhidLdDezVbNV"],"number":["09610355"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-0df3517935272887e7cfd00c3aa4f5014b681151","country":["mx"],"holder":["NK-WVDHCV5wQcLEtcLyzkNuUr"],"number":["B-8193135"],"type":["Cartilla de Servicio Militar Nacional"]}
+{"general_id":"ofac-9c1c5c52026bbb896571c301bc7dc8309ff4234f","country":["mx"],"holder":["NK-WVDHCV5wQcLEtcLyzkNuUr"],"number":["VLZGRB72121605H300"],"type":["Electoral Registry No."]}
+{"general_id":"ofac-38e6b5cb53a9ba675885ec683cea7816faa4946a","country":["co"],"holder":["NK-X9VwCohTnF2gaVnRmLFs5M"],"number":["76001000150900"],"type":["Driver's License No."]}
+{"general_id":"ofac-e20bc0dd54445a1efd5577757a7f7096e21c5fe6","country":["af"],"holder":["NK-XcvWgfN8EmXRgr337Ev3sJ"],"number":["044"],"type":["Afghan Money Service Provider License Number"]}
+{"general_id":"ofac-2c33cfcf25e1c4065a11641f30856b1d96e2ee16","country":["mt"],"holder":["NK-XFnSU7W89SMRm2uN8YJk4q"],"number":["C 38094"],"type":["Trade License No."]}
+{"general_id":"ofac-0e31195ba231ace4cbbba0d18ad0b33059f7c08b","country":["mx"],"holder":["NK-XGYpgazfAxtksXLNEzCVJQ"],"number":["65256"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-7f3638933428160cf196299cf837cbd6c3a83a6b","country":["mx"],"holder":["NK-Xn9vb6sVfpRiGhV7s2ezu3"],"number":["CAPI560927RF4"],"type":["Electoral Registry No."]}
+{"general_id":"ofac-961bc022d7f222fd72cbeab405795526dcb23848","country":["ir"],"holder":["NK-XnMvs9JknMETY236MyVvk4"],"number":["32270"],"type":["Birth Certificate Number"]}
+{"general_id":"ofac-7a68335aa0212cf3d70cfcd45dd141fecf43ff23","country":["ru"],"holder":["NK-XnxxwRcviN5RLnv3Q3uWSx"],"number":["07521506"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-ff9c18b590d6501e213b226a1bd5a18b506ddfbd","country":["ru"],"holder":["NK-XShnMVPtVgqvL8r8DXSfbw"],"number":["45000256"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-90eb3763d7b92f03f289bfa68a4fd99ab5140458","holder":["NK-XtmkLh4MTJ8dkQEE2f2mfA"],"number":["717783"],"type":["License"]}
+{"general_id":"ofac-542caaf03ad265634a70485d37593f51ce2afbcd","country":["ru"],"holder":["NK-XwWisWZ6gohqkrckJUbBfi"],"number":["09804148"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-90bfaf09397020cb653a0f2f3dfeae242344e226","country":["ru"],"holder":["NK-XwyWnGE424aiKw3Bx4g3Jb"],"number":["40214946"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-48040d1a9f9167628319de31734645c6dc662278","country":["ru"],"holder":["NK-YAWUrt4GcaAMuYLbz6thHN"],"number":["09610839"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-febf5449a75df119c643ff371164f954cde338a2","country":["ru"],"holder":["NK-YEo7s4sFkXkNuctSHDrDGc"],"number":["53289443"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-0023ea6eb6a0f324af204073718629c0e8d88389","country":["bg"],"holder":["NK-YKmBfi5EJgJmvNY4seX7xD"],"number":["130329006"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-34f502702d4db65cb372ab73f28a946b2c8efdf1","holder":["NK-YMs4MkBPZvsXKetQWgJjKA"],"number":["HRA 92501"],"type":["Trade License No."]}
+{"general_id":"ofac-eac0f3c5cc8cd9fe23caa0d87c5fa65e8c452e8e","country":["mx"],"holder":["NK-YRi5GjpJGLbQXS3x4DvPaN"],"number":["12651 (Jalisco)"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-a01231e5d6e2cfd6f41ef6720832876136aa5328","country":["mx"],"holder":["NK-Yu8nGAZce3gRoWGCSckRro"],"number":["40246"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-f324cfee5244bf119b720a804f0249b9d1bafb9a","country":["au"],"holder":["NK-YVEdw4hiPRuSeFebgHbmGS"],"number":["12789234"],"type":["Driver's License No."]}
+{"general_id":"ofac-a458f47b1bb1e15dc6e493cc49fc38449ba2dee0","country":["mx"],"holder":["NK-YZeU9NqH9rdCDd8UKFDUQK"],"number":["B0759939"],"type":["Cartilla de Servicio Militar Nacional"]}
+{"general_id":"ofac-eedeaa62339dbff4ae4028252e6519b498b1bad7","country":["tr"],"holder":["NK-Z46gvWWD6E8t6QYBRobqs6"],"number":["8143922500001"],"type":["Central Registration System Number"]}
+{"general_id":"ofac-4dcf30993eb67be16bae7d8ee2e30c5da3c88581","country":["mx"],"holder":["NK-Z6UScVT79ppWofRrQg5mc3"],"number":["VLCBJN73112628H700"],"type":["Electoral Registry No."]}
+{"general_id":"ofac-9f5d5fc8ad8383287abe6eae0a2bcc9d5c9547ae","country":["ir"],"holder":["NK-ZAEAyR8nF3ortgfKaUvgJG"],"number":["9444"],"type":["Birth Certificate Number"]}
+{"general_id":"ofac-03775f2aa76ace4e5f32024f3504d1282e4112f8","country":["mx"],"holder":["NK-ZfPC6FA2VsGeT6M4A3wmi2"],"number":["7266"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-dc2819de132a16a351ea2cbbd03c7ae7783b8db4","country":["pa"],"holder":["NK-ZgMSvcKHVAu8FRBzpHazVX"],"number":["844226"],"type":["Folio Mercantil No."]}
+{"general_id":"ofac-10280ccd1e74ab1d855ab88db7f4b91f660fe7c2","country":["us"],"holder":["NK-ZnxRZmQNd64RFyWcN9vs82"],"number":["A38839964"],"type":["Immigration No."]}
+{"general_id":"ofac-bca9f4c0475a07496a2f2a3ccebbd889a1ee03f3","holder":["NK-ZtWruu7xRVAQmxWBXExRb9"],"number":["00156251"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-0f2e3f3041ba912732b0937c2b672cb9e64cd473","country":["by"],"holder":["ofac-33395"],"number":["07526946"],"type":["Government Gazette Number"]}
+{"general_id":"ofac-c632f483cac70af6d9ea0a4affed5312a70b9264","country":["ru"],"holder":["ofac-33858"],"number":["2202811729"],"type":["Driver's License No."]}
+{"general_id":"ofac-eccf28347b4d0a4b8c37db3b230613ae4c4bf158","holder":["ofac-33920"],"number":["20177871"],"type":["Driver's License No."]}
+{"general_id":"ofac-9b4abd1302cbd395aac58d6ea21d31e25d738ea0","country":["rs"],"holder":["ofac-33921"],"number":["2806"],"type":["Driver's License No."]}
+{"general_id":"eu-fsf-842f5c35a66c7896a05f918f59ee8db2bd652468","holder":["NK-26Wuf6B9yzZ95N89D6ZGoD"],"number":["M-0209"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-b79f4a68c47567251e5debe8312daf9d03d9a217","holder":["NK-26Wuf6B9yzZ95N89D6ZGoD"],"number":["M-0209"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-e3419dbca1dfe8429235e7e3cf5933ca0723b847","country":["tn"],"holder":["NK-28Df3vuX3ApZ5vwJbNMcaz"],"number":["05504161"],"type":["National identification card"]}
+{"general_id":"eu-fsf-2458f86329a81e595cf9224548932f4b635af58d","country":["tn"],"holder":["NK-2cTFJtkkJAxdQLfNeoxJVj"],"number":["00403106"],"type":["National identification card"]}
+{"general_id":"eu-fsf-d87494d3ae0890dcb6b742cb54769011a7ce19e2","holder":["NK-2Mdk9YADKMyneyjdhWMtwn"],"number":["3210783C002PB2"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-7af6697dd7457756dd7d59a90da0b84f4e57a266","holder":["NK-2Qo8ydZ5zPR5Se5GidfVsG"],"number":["KUDBKPPY"],"type":["SWIFT BIC"]}
+{"general_id":"eu-fsf-810a686f002c806bd9f8f13fa26f88b3cf849d1c","country":["tn"],"holder":["NK-2xM9EourkD9wBpcwMEkLbG"],"number":["05417770"],"type":["National identification card"]}
+{"general_id":"eu-fsf-1f4e15d4e4800dfa673d8d16dd65b1c8c7c4aaad","country":["cn"],"holder":["NK-3iQUsxzpmMeBUjrMPa4eA6"],"number":["653225197110100533"],"type":["National identification card"]}
+{"general_id":"eu-fsf-79b75148fb47962a169dc37242669afff44e1283","country":["tn"],"holder":["NK-48yqCwnNJxuaQWJ3oHUYVC"],"number":["00642271"],"type":["National identification card"]}
+{"general_id":"eu-fsf-ad650617f05610fa4a9f115e70ea6559437e2710","country":["tn"],"holder":["NK-4CYdkRKeH8Ab9AvVD2frDw"],"number":["05412560"],"type":["National identification card"]}
+{"general_id":"eu-fsf-d220629a35163a826f054489bd4c8d8e463a9ca9","country":["td"],"holder":["NK-4YkyPaxgQ48eRYPSpU5EzS"],"number":["103-00653129-22"],"type":["National identification card"]}
+{"general_id":"eu-fsf-5e722f86ab52568582cee5e62238640d45401afd","country":["pk"],"holder":["NK-5gNpgbdJ5D4m2iE67woWeB"],"number":["54401-2288025-9"],"type":["National identification card"]}
+{"general_id":"eu-fsf-986b0f538e749a6d39bfef9657e39298d4edf738","holder":["NK-5hkgtJUTcFqxtYXgFiDEVi"],"number":["Ration Card Number 0075258"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-7c8bf30acd473128d2d7a2339d1cad31a551729b","country":["ma"],"holder":["NK-5iXDX3dWG6N3eSHBS9seCE"],"number":["E-491591"],"type":["National identification card"]}
+{"general_id":"eu-fsf-fa7b712ef77d67fcea165056608c18d7ffec5216","holder":["NK-6HMtL7SYiNKwpkewd8za2L"],"number":["KDBKKPPY"],"type":["SWIFT BIC"]}
+{"general_id":"eu-fsf-2fb6bc9776b59e7a99ee4c17ace0b7dd410ee81c","holder":["NK-6pe3A3UzgMBo5uQ6qEiUye"],"number":["Ration card number 1729765"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-a7b4b3fb3a8b46918a3132f65087eb780c2cef72","holder":["NK-72cXy2ahCZjE5SVLVhkGqE"],"number":["100726604"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-9398aa475db77302e81f74f6fbbbb5b0009af8c3","country":["tn"],"holder":["NK-7BfNXcDHpuBRRpLz3gR2XC"],"number":["05409131"],"type":["National identification card"]}
+{"general_id":"eu-fsf-204ad7878dc074a37581109aa32393cf310a2a11","country":["tn"],"holder":["NK-7SVAF2eYBEjGfT3JqcvrU7"],"number":["04180053"],"type":["National identification card"]}
+{"general_id":"eu-fsf-c57b4a6ce38d8391f26178eeced510bceb68d4de","holder":["NK-84UhvM57GHMhWp7QpqVSXo"],"number":["100135173"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-fd0c1299d78abad274858ed801fd1e69cc887fa9","holder":["NK-8biNFb5E3vEyWvA94BNZjR"],"number":["1149204004707"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-ac3c18976036d2af3febb390de074fe35b4b6f79","country":["tn"],"holder":["NK-8fdvWQPfXcNst2WtB23kXj"],"number":["05514395"],"type":["National identification card"]}
+{"general_id":"eu-fsf-b338a3eee53b83ef28d28ba578538e5fa33dd119","holder":["NK-8FQNKaPzcaX7rXim75af4E"],"number":["7730018980"],"type":["National Fiscal Code"]}
+{"general_id":"eu-fsf-e446b8df4ae2d0071a25a73ad552042584015b44","holder":["NK-8FQNKaPzcaX7rXim75af4E"],"number":["1157746088170"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-090c499efb43b036aad4cb3102e08998ff86cbe6","holder":["NK-8H9aNbPG4ajrUyqFB4EnGv"],"number":["1 149 102 007 933"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-0581fd6d169eaecc1c508fe1390eb238fbe9ab72","holder":["NK-8H9aNbPG4ajrUyqFB4EnGv"],"number":["9 102 006 047"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-7dcfc1f64466b58615a06ce74ac8cf3abecd6dfc","holder":["NK-8RqwKRbYXfXHCeqhwUjKrj"],"number":["3310180C009PB7"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-5ed46ab79a4a275d47f1ce7a4ec138d57f0fa2cf","holder":["NK-8sPkZxff5qQ6eEQ4oxDS4W"],"number":["9111001119"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-1b758685be6a916eb9f491267a361204f4f7251f","holder":["NK-8sPkZxff5qQ6eEQ4oxDS4W"],"number":["1149102028602"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-3f6a3a5212f28e444d2849d6750a94496470b3ce","country":["tn"],"holder":["NK-8uLuortsK7U4dYyvgz6CRm"],"number":["04186963"],"type":["National identification card"]}
+{"general_id":"eu-fsf-5d8fec198be44e82478d32938090ddb85d760a72","holder":["NK-8xuLkBfvuVwLwY9TD8uH6X"],"number":["V-6864238"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-023344149d7a80bb683be369e7fda092f5046eca","country":["qa"],"holder":["NK-97Q46id8D7jJhKMRcdBeT7"],"number":["25463401784"],"type":["National identification card"]}
+{"general_id":"eu-fsf-018ca5b61c6a51bcb992f764de390e9dadaec8dd","country":["qa"],"holder":["NK-97Q46id8D7jJhKMRcdBeT7"],"number":["25463400086"],"type":["National identification card"]}
+{"general_id":"eu-fsf-f2b8c052c435c74da9feb523976c5597c0e0b5e5","country":["vg"],"holder":["NK-9DuLgbprcBxpAS6HTSWrTo"],"number":["1534407"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-7b299da5aafa8de63305dccea261b4491f191632","holder":["NK-a25Du9aFeQbQRSQJau4nWr"],"number":["119970331820"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-ce300662520b844f75092b6fdfe5c55e8d8b957e","holder":["NK-A5jNUAsrPzdufCDUao9erJ"],"number":["011518403"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-1ef8c0f152ac20d1a70aad4a10105e796aec6bd7","country":["af"],"holder":["NK-a9zaEt9BsFZ9aawgapfvNH"],"number":["OR 1961825"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-35d6b0716341b47ee92c2c280c80c534c398041b","country":["af"],"holder":["NK-acASYoqoUqgU692gBMoGtp"],"number":["4414"],"type":["National identification card"]}
+{"general_id":"eu-fsf-a8dcefa26b4a3f3559d4602aa6bf4edb89c5c7f6","holder":["NK-acUwXaftNzLGsPwQMD7ncp"],"number":["400051902"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-077f0ad480470613e45a7b941f6319d58d1751ba","country":["tn"],"holder":["NK-AeNFhP9w2DdEuJF8o2kbKg"],"number":["08434380"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-8cabfbead57cb391b64eb29c7c47c9ff3d53abb0","country":["sy"],"holder":["NK-AFqSUnGhZeBNYfo9LuebYM"],"number":["06010274705"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-427494288538c7767703b4bc24910adf7edb65f8","holder":["NK-aG3BaTy86qwqEQVzUtQfFB"],"number":["1 121 402 000 213"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-3a2056601266eb83cc523d83a0146187920ed2c0","holder":["NK-aG3BaTy86qwqEQVzUtQfFB"],"number":["1 402 015 986"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-2ed5a81af4c847e3c8bf5a4f7c850b283770f329","country":["ru"],"holder":["NK-ah5Aj6DXtLGupLwJQ3sLyZ"],"number":["8304661431"],"type":["National identification card"]}
+{"general_id":"eu-fsf-098ab5e9e7c42e1d21ce4cd6b651a0fdee287775","holder":["NK-aKKzsxakvgsnHdeNdPfrC8"],"number":["7705713236"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-b92938ecc1efa1a847e6630f8d9b01636a607725","holder":["NK-aKKzsxakvgsnHdeNdPfrC8"],"number":["1067746244026"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-6d2083a24e57513134be4b73ddf9fbf3b36a7a60","holder":["NK-AMqUsoAaNqWja8A8KjDGyP"],"number":["1149102054221"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-a592a63fc37aec1116e3b636c9918a7d374d54b7","country":["pk"],"holder":["NK-aSCVNcLJtF22rPazQg6aru"],"number":["54201-247561-5"],"type":["National identification card"]}
+{"general_id":"eu-fsf-b12922cd922a4e019288ccf53ec53c8b88c29220","country":["sy"],"holder":["NK-AurF6MEKwFiWGkGbqw6yk3"],"number":["010-30208342"],"type":["National identification card"]}
+{"general_id":"eu-fsf-d4f298c4094c1f38cdafcf05ce83bd944c9ec222","country":["tn"],"holder":["NK-axbf4UmsUBjpg2UbipM4Pn"],"number":["13601334"],"type":["National identification card"]}
+{"general_id":"eu-fsf-bfa1b3d1bd3af942105d68b64f5f367bef722f6a","country":["ma"],"holder":["NK-b3JyhpBRXufHASykZU63fR"],"number":["AB704306"],"type":["National identification card"]}
+{"general_id":"eu-fsf-0c2fdad8d3dc78db41aa5735ba635615e2c1b1a4","country":["af"],"holder":["NK-b5SgT8f5JTkQ4NkMkVEA3P"],"number":["55130"],"type":["National identification card"]}
+{"general_id":"eu-fsf-834b1a85ac5e72657135ae157ebcd644ab594db8","country":["tn"],"holder":["NK-B7gtwbszxaQYrTf7tqyeSG"],"number":["00178522"],"type":["National identification card"]}
+{"general_id":"eu-fsf-48ebaa59fceabdc73d24f0aba007d53457128718","country":["my"],"holder":["NK-bepSsAwGSgSC9TVkujS6AD"],"number":["660603-05-5267"],"type":["National identification card"]}
+{"general_id":"eu-fsf-823dd4e90732272cf4c3ef6fa59a593b6cd49560","country":["tn"],"holder":["NK-BJZ2b6KTv8nRjqVQFv8sro"],"number":["05417907"],"type":["National identification card"]}
+{"general_id":"eu-fsf-c8a8e57587f6752ace78bf829790b4c114890ad0","holder":["NK-BkSxHY6KkP2QEd2EbCTGpj"],"number":["6010302490003J"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-7c5d59de1bf4ee89dd94b8fcbb4711a46ea70ae9","country":["kw"],"holder":["NK-BnXmBRRuJKjMWQu8G9kGu6"],"number":["259092401188"],"type":["National identification card"]}
+{"general_id":"eu-fsf-c3005a61abe83aefb132ca0f3806543ee337dff7","country":["tn"],"holder":["NK-bQ8UREUvaEG6jYPwwhDA4r"],"number":["02914657"],"type":["National identification card"]}
+{"general_id":"eu-fsf-261b9baeb9f4c5b4130696774d604ef26595c498","country":["id"],"holder":["NK-bSWp8yboVGaKy4P4efwHnJ"],"number":["XD253038"],"type":["Temporary Travel Document"]}
+{"general_id":"eu-fsf-70549f9a1adf4dec6c916e9dacd51aea413ef7ba","country":["tn"],"holder":["NK-bYMxPcUKVopNcuCAUUgLF4"],"number":["05000799"],"type":["National identification card"]}
+{"general_id":"eu-fsf-2ca975b8654c5811b612ac48669130d865156ade","country":["af"],"holder":["NK-C67427w25NamYHAWRnTri2"],"number":["665"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-9e3c4594cce8910b6823c80e91561af183e7dc98","country":["af"],"holder":["NK-C67427w25NamYHAWRnTri2"],"number":["57388"],"type":["National identification card"]}
+{"general_id":"eu-fsf-981c5c5d566d4616dc348b31600fc2e6367e990e","country":["tn"],"holder":["NK-C7pe9QUbNwNdpfaNNZ2HEn"],"number":["04643632"],"type":["National identification card"]}
+{"general_id":"eu-fsf-ae58e9b09cd9fc15c46b3d2fe35abe413117e2ad","holder":["NK-CB8RMLYnsmqXigQRco7WuF"],"number":["4150160A119PB2"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-3435323561f02c366ca106535a5e7dd2f819a023","country":["tn"],"holder":["NK-ccuvp3aaeV62awgPtdoPB5"],"number":["00589759"],"type":["National identification card"]}
+{"general_id":"eu-fsf-c0467ddd4a8f0152567126419a34babe172f23b8","holder":["NK-CeQhAwGpstWV9RtoJi7EJ2"],"number":["3260377A081PB9"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-eae5b9d6883865ad634b2db05e4afab3a47153e8","country":["pk"],"holder":["NK-cgW34Z96XPQ7s5ThLoW9Mn"],"number":["35404-1577309-9"],"type":["National identification card"]}
+{"general_id":"eu-fsf-68d0cbc0acf99633507b4c5efa264a24e5f958bf","holder":["NK-CipSTpE2fxALdmQyoaPQ3B"],"number":["BC 17444"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-65687af75f767dcaa5e3a8905f3e87b904ad2ebe","country":["tn"],"holder":["NK-CixpCS2TCDpTxuDAKPG5gy"],"number":["00104253"],"type":["National identification card"]}
+{"general_id":"eu-fsf-d5a573de4b71182e2b3297a65370ebd88b2d5ac2","holder":["NK-CmRX8cd5RvmoNmsM7DHfCC"],"number":["O/00064"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-89ce5c4871e2ea17ea666a2b4aec2522646e613d","holder":["NK-CNtajKD75HPcro3jTED8En"],"number":["1027700381290"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-1e2eeae7d2e20949940e102d097862984eb4b247","holder":["NK-cS4PYWrNuW9AF7XNCpL9oS"],"number":["1027739001993"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-151f201792728184a8aa9883d474df2339f9282b","country":["iq"],"holder":["NK-Cvh4SSFHdq446dqLDNbMXT"],"number":["284158"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-0794ab287fb3f1148dff33eb612062a0720cc418","holder":["NK-cvqxQ6YMyR3NyD8YNS8oFo"],"number":["98606612"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-75580c778db22a2524463c9d78237d25b666c6dc","holder":["NK-CwBZR7DCtrL6fVU7dENaRs"],"number":["1121628414"],"type":["National identification card"]}
+{"general_id":"eu-fsf-2bda7899eb3513f68f54ebb6e8bdbf3c424bb821","country":["ma"],"holder":["NK-cWySE5JbPvGjTG58iRv9zK"],"number":["CD595054"],"type":["National identification card"]}
+{"general_id":"eu-fsf-560f2e6bb1eefc1e51b29bd99b9c287d9acaf231","holder":["NK-cZdHKoNPzursgKCTW5v5JZ"],"number":["3040771A125PB2"],"type":["National identification card"]}
+{"general_id":"eu-fsf-6c4d956f3f98ea2efc2440e060f8f5f898e98a69","holder":["NK-czGcazFh54dbin8HoSTyin"],"number":["0422909670000N"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-e3aff7183225ce57f7d386747062e972912fe932","holder":["NK-czGcazFh54dbin8HoSTyin"],"number":["A00001526"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-e14adffbd2b2243a63469ddac658c79d0e4cc4de","holder":["NK-D3xErQhGUc2uBnLCCgrTuT"],"number":["3220773C061PB1"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-4e9e29d0cec058bf5670df0173241719dc31be05","country":["tn"],"holder":["NK-d4CMBgpvUVCXMoMnsBFrU3"],"number":["00400688"],"type":["National identification card"]}
+{"general_id":"eu-fsf-3c303cb70c2151297e42cacd14c39a2945e774da","holder":["NK-dbeysicAp9qK2NQsTLDd5K"],"number":["V-7659695"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-4f2343a3a1f780bee4bd1ad64ff534b3de2be117","holder":["NK-Dg9f7sHCzKtTHUjvkeoFbf"],"number":["192695465"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-6665045787d443d90a3b8d4899b98626ff0dc152","holder":["NK-DhaZa8Dv2AdazFGqbgFDWq"],"number":["193299162"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-4534b2067ffd68441272992ade70aa8ac281b85e","country":["tn"],"holder":["NK-DHjvawtzPNQXF79kc3EW5Z"],"number":["00235016"],"type":["National identification card"]}
+{"general_id":"eu-fsf-c2812d0cd29d5dbac8b1431d382d92edba49e564","country":["ph"],"holder":["NK-Dj5FWSnnE7uHn7okya5VPq"],"number":["EC3524065"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-83d2034013d34911988088e0f942e21725c84a8b","country":["ye"],"holder":["NK-dk384QvTTvBoQYGK9qSjrA"],"number":["1388114"],"type":["National identification card"]}
+{"general_id":"eu-fsf-7bb455d76cee157aead2202b5acb19e9d70be6f4","country":["ye"],"holder":["NK-dk384QvTTvBoQYGK9qSjrA"],"number":["10010057512"],"type":["National identification card"]}
+{"general_id":"eu-fsf-ae8d33c6d29ca13cc6d2c3a863f764392b56ac3f","country":["sy"],"holder":["NK-dMuYLCvjAGUyq4hiyi9jGC"],"number":["2020316097"],"type":["National identification card"]}
+{"general_id":"eu-fsf-cd6786e0d21c3a104ff76514d3ed9d4efd3e208a","country":["sy"],"holder":["NK-dMuYLCvjAGUyq4hiyi9jGC"],"number":["10716775"],"type":["National identification card"]}
+{"general_id":"eu-fsf-b56433e25762e832fe6b69813fc99a468f2f464a","country":["sy"],"holder":["NK-dMuYLCvjAGUyq4hiyi9jGC"],"number":["2020409266"],"type":["National identification card"]}
+{"general_id":"eu-fsf-8323b7f3cd2023953392d65498c2f2e366284d81","country":["af"],"holder":["NK-Dv43Gbjs79dVoBzuy4GZVP"],"number":["812673"],"type":["National identification card"]}
+{"general_id":"eu-fsf-fa70b53e13cf7960b2742735c7d50426771dc3bf","country":["af"],"holder":["NK-Dv43Gbjs79dVoBzuy4GZVP"],"number":["2132370"],"type":["National identification card"]}
+{"general_id":"eu-fsf-078cab49c4a3ac41814e9d779a80f038f165b27e","country":["sa"],"holder":["NK-dYSzeekQRGKV5BcMvyXAVE"],"number":["2054275397"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-74350045d332d8f8bcee3b9ffb6be7f887cbb2e3","holder":["NK-e3tC2oZUWM4hZqRYXciUHC"],"number":["Katana (Naing) 0052495"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-b71b8dd91911a5f12d4e4a7fffe190437af2e369","holder":["NK-e3tC2oZUWM4hZqRYXciUHC"],"number":["13/KATANA (N)-005249"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-3b73d92e2cd79220a4b98ef84fd63109df4f0afa","holder":["NK-e9tRu2Nmxoc7655jjeogmN"],"number":["D00000898"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-f1b745a31b514ebd892868c84a3d77efc0520132","holder":["NK-EELmNNLApPzvefkicssdSp"],"number":["1-69-09-51400-64"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-3aedb5d1c0b12a301abfef458a47e50e105de519","country":["de"],"holder":["NK-eEoCKHTe3b5wUaLDgG92Ge"],"number":["5209445304"],"type":["National identification card"]}
+{"general_id":"eu-fsf-9dbf5cfdb423cb774e3dcba8b4052469903e29ea","country":["ma"],"holder":["NK-EF5vrJVsqtBrtC2JWYdTvW"],"number":["DE-473900"],"type":["National identification card"]}
+{"general_id":"eu-fsf-c938424f97d12518e8c8aa10a9c333256cfbf9ac","holder":["NK-EFveosVKdJzJTXV35AUMgQ"],"number":["192721937"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-59ddd2efa68339aa3036ac043ac44fedae9c92c0","holder":["NK-ejFDggh8jRpPf3SDsiSmjR"],"number":["DP0001520"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-1fe396dd175ab6e6cc1e8432712f26d932db49d6","country":["tn"],"holder":["NK-EmH8e9MofXJowKRzVaQxyr"],"number":["00299177"],"type":["National identification card"]}
+{"general_id":"eu-fsf-bee1a2738a7004e379ef10e5792e617526b9b65d","country":["pk"],"holder":["NK-eMxDsJL7HGPKiED3x6WDWW"],"number":["3520025509842-7"],"type":["National identification card"]}
+{"general_id":"eu-fsf-fc6ed713b867b537da967a1661a9aceca4ce19a0","country":["iq"],"holder":["NK-enysfPZnuxMGuZAGLgwTnQ"],"number":["00405771"],"type":["National identification card"]}
+{"general_id":"eu-fsf-eba8a690b5a672d623c015646aa32905cd7f20a8","country":["iq"],"holder":["NK-enysfPZnuxMGuZAGLgwTnQ"],"number":["540763"],"type":["Nationality certificate"]}
+{"general_id":"eu-fsf-53b12df391f1457e477be882a8cab1ac8fe0f936","country":["tn"],"holder":["NK-Eo7nAAYTq9cy4aeYfpJ3fv"],"number":["05590835"],"type":["National identification card"]}
+{"general_id":"eu-fsf-4b9a0ef93d1031b56938e23a9c06bafc3a5b6f83","country":["pk"],"holder":["NK-EQDPttanHM6mEi6VwxcqFv"],"number":["6110125312507"],"type":["National identification card"]}
+{"general_id":"eu-fsf-e5d73ab05c21bdfe9c027210e548018831f535d9","country":["pk"],"holder":["NK-EQDPttanHM6mEi6VwxcqFv"],"number":["24492025390"],"type":["National identification card"]}
+{"general_id":"eu-fsf-0450dd48159f47f21636ffec9a053bc324fdb165","holder":["NK-ES7WMt7ED5KUqzTcryUnA4"],"number":["V-6357038"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-aa3adafcfc41a4bdf33f42962395cafb59e3d085","country":["tn"],"holder":["NK-eSKhieu3D4ESjkm5hqUkCt"],"number":["04524472"],"type":["National identification card"]}
+{"general_id":"eu-fsf-016549eee5479309a15ff71f0ee208305fee5d36","holder":["NK-eU2JGQVhzRS5A4dwugtVzB"],"number":["1-64-87-77512-30"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-61f7f0fe6a7951aa680aa2d454a6328a79ab565b","country":["sa"],"holder":["NK-eVenoGwvnGLBN6x74zPsG7"],"number":["1089516791"],"type":["National identification card"]}
+{"general_id":"eu-fsf-ae2e84ec2b1364840ac8cda66a6cdb48216b8210","holder":["NK-F7YhhhBnd7aLo4YksQJMMq"],"number":["4302"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-c139f394391656c807874da796fcc3409776a83a","country":["jo"],"holder":["NK-fCGt6rgmz9Gb5KrcMHrKuj"],"number":["9681029476"],"type":["National identification card"]}
+{"general_id":"eu-fsf-d7ad00c045418e92634a6143decae9b4f2e92501","country":["us"],"holder":["NK-fCGt6rgmz9Gb5KrcMHrKuj"],"number":["548-91-5411"],"type":["Social Security Number"]}
+{"general_id":"eu-fsf-d3ab7c7543c2acaab9e9cd0fa004451213606455","country":["tn"],"holder":["NK-fd5eAhvEcV96troDxYGnE3"],"number":["02804872"],"type":["National identification card"]}
+{"general_id":"eu-fsf-633c004d74720d4b04a4e3b496e9440877011a05","country":["tn"],"holder":["NK-fEQz6qn4mbw2sPn9uXzri2"],"number":["02800443"],"type":["National identification card"]}
+{"general_id":"eu-fsf-e53acbfc45cbc7f5c7c09215c2f0d9264720c951","holder":["NK-FGjWdXXVxtYvgUCissgXQ9"],"number":["2001624001"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-47243c707c0ba7b1211f4e6b38f6b1aaa7d26f8f","country":["pk"],"holder":["NK-FjCv53QdUuHweqmLY7ZZCk"],"number":["33202-7126636-9"],"type":["National identification card"]}
+{"general_id":"eu-fsf-3b2956b74eb49ff20e38d31bd5a598e12b455372","country":["us"],"holder":["NK-fmDRQTQpaih5geisAwVVKS"],"number":["423-31-3021"],"type":["Social Security Number"]}
+{"general_id":"eu-fsf-b067745afbf30c90e5da610c498051078a1ee9fa","holder":["NK-foxyiq9UrYQseuzgfVjd5j"],"number":["V-7422049"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-0458906dc7b75b9e96c8217df9dc3d62a4d2a037","holder":["NK-FP5r7LtNJbCvCHmTpJLvgr"],"number":["3160678H018PB5"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-5518f2e0d1ee7b2fc46a841b0b755b93d236b555","holder":["NK-FpmsduxsHfe6qCLDep9jb2"],"number":["V-9499372"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-e631501cb3a992bbad5bb6890eb8c7a4da670ff0","country":["tn"],"holder":["NK-fPyAJQcyk2eTi2x7wVLQaw"],"number":["00319547"],"type":["National identification card"]}
+{"general_id":"eu-fsf-24e5541e2cc96d3f7a9c811ed679027842ac9118","holder":["NK-fQ89R5WCLtscqbsy44wHLk"],"number":["192750964"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-8d53311f0e15d09bc8a07e7e371e908f112eaaee","country":["de"],"holder":["NK-Ft5zPUKecdAiiJj3TKZBkW"],"number":["1007850441"],"type":["National identification card"]}
+{"general_id":"eu-fsf-e830acc6c692b40dfa218fab7bdd55d01cbb5db5","holder":["NK-FxyWG3MRAShPd6kq6N2aER"],"number":["1027739167246"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-e71d232f31d217cc3f01d136672ace95b8d9b9cd","holder":["NK-FxyWG3MRAShPd6kq6N2aER"],"number":["7701045732"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-0d902a07b95c66c504c677abd4390021121441c5","country":["sa"],"holder":["NK-fy8hEdTqw3W8Zhr7ApPjxA"],"number":["4-6032-0048-1"],"type":["National identification card"]}
+{"general_id":"eu-fsf-301e32be0609823dcfbd0096fcc7a8264e36c2a5","country":["iq"],"holder":["NK-FZBXKM8ATbhAWbTicVYabB"],"number":["284173"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-ec15392cde16dcf588159bd33c80b689b00d323a","holder":["NK-FZR9z8ZEqGJHo3ae2SGjus"],"number":["3120172H018PB4"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-6424cb71bd542507e15f0b7b92b171cde1c24efe","country":["cf"],"holder":["NK-g94WN6L3XJBSGBL4kxFwpp"],"number":["911-10-77"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-e808e5eb6ec9165aa1197aa7214e2e828081f0b9","holder":["NK-g9Y3cg9dP5DenCWGgnmB6M"],"number":["1 63 08 4 01 001 005E"],"type":["National identification card"]}
+{"general_id":"eu-fsf-dafd2c39e68464bfd5f0bbf9375c5b45059d7d5c","country":["pk"],"holder":["NK-gbTuNCj2K99HpFfg7aUQ4G"],"number":["61101-9618232-1"],"type":["National identification card"]}
+{"general_id":"eu-fsf-55de67beeca7b1b2c4acc7b601c335f0124a6bf8","holder":["NK-gdC6SKCc3WMpSNpyKBxFNq"],"number":["10978000004482"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-b254e8f8d9d813ff426e004591e1258dbeadf9e8","country":["fr"],"holder":["NK-ge4zP5EUMHvcec4gJ5vsVT"],"number":["070275Q007873"],"type":["National identification card"]}
+{"general_id":"eu-fsf-1091b855be87e1d5d574342193c1f0c849769794","holder":["NK-gFYyycrhQUYNGfaTWyTNic"],"number":["200801087"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-e42e62591691ce87456ffb0040524ad5d82ea239","holder":["NK-gFYyycrhQUYNGfaTWyTNic"],"number":["140000900032"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-a131a86cde8bba309ffec14ab3d6a9a483163513","holder":["NK-gFYyycrhQUYNGfaTWyTNic"],"number":["73320881AG1191MAM20000"],"type":["Election Card Number"]}
+{"general_id":"eu-fsf-888b04d6ed3d7692c1a9f4bae98485968bad774c","country":["us"],"holder":["NK-GGz92eLyewFShUy8wJndbz"],"number":["07442833"],"type":["Driving licence"]}
+{"general_id":"eu-fsf-7d14d1748911f7997a10753b8f96d9851de94f32","holder":["NK-gjxSVoWz8NmG4tVXcZRXkC"],"number":["0010411870001B"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-5fc81e1c13d4c9726023a2cc7b0be514452518ff","country":["iq"],"holder":["NK-goyYCJLkU5zmczBNm4cuDR"],"number":["300397"],"type":["Nationality certificate"]}
+{"general_id":"eu-fsf-87130c8726fa3c8c63275de6116269621649f2ce","country":["iq"],"holder":["NK-goyYCJLkU5zmczBNm4cuDR"],"number":["00813602"],"type":["National identification card"]}
+{"general_id":"eu-fsf-f2383a7dc58e726ff7bfc4df5005c3ee7d3de277","holder":["NK-gp52V4sRQp4PQgh5grJ4em"],"number":["9 102 157 783"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-6db81e54fb5526bb97276425f10ba799d8c58d28","holder":["NK-gp52V4sRQp4PQgh5grJ4em"],"number":["1 159 102 022 738"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-4897634307350a2cafac5d6c0627513220ad7942","country":["qa"],"holder":["NK-GQpykoFGgxBGSTcfbojKJg"],"number":["27263401275"],"type":["National identification card"]}
+{"general_id":"eu-fsf-9c7ea59e80741c172ade8ef3fabfa47428e3f022","country":["tn"],"holder":["NK-grMBmQyH3rSBRDzg8qyme2"],"number":["00589758"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-e538a5a2b83b199dc919d57e57610e9e3f63706b","holder":["NK-gYXtvXQ6gnTdst2TE8CVef"],"number":["3160566B046PB4"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-f459a90f5cf298f9a390ae0d2be4374956ea4a1c","country":["pk"],"holder":["NK-h5NJ9kWcNStMenCjBQUZcy"],"number":["5420250161699"],"type":["National identification card"]}
+{"general_id":"eu-fsf-d8520f4f0c1f8b0439b50460595ec7818e233214","country":["af"],"holder":["NK-h5NJ9kWcNStMenCjBQUZcy"],"number":["585629"],"type":["National identification card"]}
+{"general_id":"eu-fsf-abb8de7d6ef087ce08f34d4a6e241689fc6b73c1","holder":["NK-h6Cd4TYh7A7DiXLQKunug5"],"number":["202"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-6b957da088d9d50e39cc20a94af9ceae10466723","country":["ke"],"holder":["NK-h78qsJGjQfHvawq2J38Hhw"],"number":["23446085"],"type":["National identification card"]}
+{"general_id":"eu-fsf-e27873bb39714bfef3ce92dd29cddcc226598d8c","holder":["NK-hBkBgqeJTLY3Tm3TNHVAGx"],"number":["11262/1547"],"type":["National identification card"]}
+{"general_id":"eu-fsf-977fa68bc86b40d25f07bd12b2bdd9036442f700","country":["tt"],"holder":["NK-hbMN8uT8bGijBfJUdAYPZz"],"number":["B394445"],"type":["Birth certificate"]}
+{"general_id":"eu-fsf-b7875ea580018a6a6e70cd2b0ad5070282ab3349","country":["tt"],"holder":["NK-hbMN8uT8bGijBfJUdAYPZz"],"number":["892124B"],"type":["Driving licence"]}
+{"general_id":"eu-fsf-c42830dfe23ad31883e850fc001ea9db02dbc12b","country":["tt"],"holder":["NK-hbMN8uT8bGijBfJUdAYPZz"],"number":["19860222007"],"type":["National identification card"]}
+{"general_id":"eu-fsf-ca113de696a2befa357831e1d22a46d86a1df57b","country":["kp"],"holder":["NK-hBUB9ABPuedMjBBNVttLjD"],"number":["554410660"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-b3a8814b5cf023fffac0f4d686fa88be9eb875f1","holder":["NK-Hc8n3obdGhvLvGiNiCcyMj"],"number":["V-10002096"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-853925a5e1f5834cadad6cc141022991413c35ce","country":["ma"],"holder":["NK-hd9HHhbqqHw5mJkEGmSSdj"],"number":["G-0343089"],"type":["National identification card"]}
+{"general_id":"eu-fsf-3ac4d99b8d87478687cd0b3cadff55420279823d","country":["ma"],"holder":["NK-hd9HHhbqqHw5mJkEGmSSdj"],"number":["E-189935"],"type":["National identification card"]}
+{"general_id":"eu-fsf-a2a086efe209336cc4e7db2d6dea2c84d4666386","country":["ge"],"holder":["NK-hdFWhrEPEPbTiwPpy6tHfG"],"number":["08001007864"],"type":["National identification card"]}
+{"general_id":"eu-fsf-bf0525c802d6dd9794787236d965cc53cb8e8730","country":["tn"],"holder":["NK-HGneaEwNVY7gDo6qfSa8NM"],"number":["08705184"],"type":["National identification card"]}
+{"general_id":"eu-fsf-9a2d7b90333467543d93ed21f1e706c141f728d0","holder":["NK-HHietW4wMnRBEpnLH8uWp4"],"number":["A0008696"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-89064ec147dc111c37bc0d3daf3a7b7d93d6d535","country":["dk"],"holder":["NK-hkMuqxHFC87vhckfVXWRP8"],"number":["20645897"],"type":["Driving licence"]}
+{"general_id":"eu-fsf-d9c3dc325019ec23191421d72bf1d5fdbdf8169c","holder":["NK-HLwmW7WksKzQPTNccXew4W"],"number":["691598938"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-cd85e5df10d45e36444e5d7b4e0ec87793163fc9","holder":["NK-hMqExnoAzGQNVvJcs3oJho"],"number":["1159102130857"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-4a332d9cb5147c139a3e36f74e22543a7d15267d","holder":["NK-hN2v2yxFjGRYnwgH4gmGdy"],"number":["1037739044111"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-f165fae1d4ba17bd1a4c35981989723c0ced9500","holder":["NK-hN2v2yxFjGRYnwgH4gmGdy"],"number":["7725056162"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-64835fb8cf558717f414a4e58e54efeaf087ef06","country":["de"],"holder":["NK-hpLAi2NGdQaHX59vrCgLQH"],"number":["5209530116"],"type":["National identification card"]}
+{"general_id":"eu-fsf-3ac33f993ecb6f18349691ca05b28b420a01fdb6","country":["ly"],"holder":["NK-hTnCKHq365AHUedjXjXT5W"],"number":["55252"],"type":["National identification card"]}
+{"general_id":"eu-fsf-6ecd8ab4d2572d856390a24c55dbc07aefd04041","holder":["NK-httGM5ZRMQnarSH6JW3Z3y"],"number":["V-11311672"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-33d2a0b98c33436d6ed27c2bb7f96f29a7a4a8ff","country":["ru"],"holder":["NK-hZ4sR2Rx6pRwDmKTZvjGcT"],"number":["1037804006811"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-ab01b81166f85700c3263073a712ae940974b53a","holder":["NK-hZ4sR2Rx6pRwDmKTZvjGcT"],"number":["7802059185"],"type":["National Fiscal Code"]}
+{"general_id":"eu-fsf-63e75e5da4143b9c1991008f30c2545c582e7b7f","holder":["NK-iAvDrfyEXTmGq4WKBz6HQc"],"number":["5434358"],"type":["IMO (vessel identification)"]}
+{"general_id":"eu-fsf-0ceb66169e0ffd7018b2accf97be16ce3401274c","country":["sa"],"holder":["NK-ikahJTphYTw4mKKkAtkvKa"],"number":["1028745097"],"type":["National identification card"]}
+{"general_id":"eu-fsf-fc3af0a72db1bec006267963fe5e01d9797b339a","country":["af"],"holder":["NK-inS88sTsYJafH9RXfijF63"],"number":["300786"],"type":["National identification card"]}
+{"general_id":"eu-fsf-297ea0c3dd955ed29926c231efae92ec3f786222","holder":["NK-ipPVxvGDFLHcTMwy6GwyrC"],"number":["V-8608523"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-b93b511a7b72e134676d78d7621bd14ce235369b","holder":["NK-ipRzDLfkqznZct9ewb87AM"],"number":["V-1565144"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-8b09e91d60394e9c08e20d3021d4be80c6d08fab","holder":["NK-ix4jPtDBtjQYKsGbjqEBxk"],"number":["1 027 809 210 054"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-dc014428a73f33f7d541a7b447b3bd68b9415317","holder":["NK-ix4jPtDBtjQYKsGbjqEBxk"],"number":["7 825 064 262"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-38ec31c49c0e42fd09167ee9f343d866c6b08fd4","holder":["NK-iY2ReVhQMJ8WwB7Er4VCdW"],"number":["03 01  118013"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-441506f051bac5eca83ee0ebe2d56790374d8dfa","holder":["NK-izFW73iCbd6Fa7mbJqqvLw"],"number":["34409/129"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-6386542fce30c83e6f08bff1fd251b58d2b21794","holder":["NK-j4Y8dwNpfRoas4MAPLamfi"],"number":["35202-4135948-7"],"type":["National identification card"]}
+{"general_id":"eu-fsf-c8085d6ddabf19f6fd728666a1ae50404a01fa37","holder":["NK-j4Y8dwNpfRoas4MAPLamfi"],"number":["29553654234"],"type":["National identification card"]}
+{"general_id":"eu-fsf-ff71577339881eccdbc98d290ca741e8b80ee5cb","country":["ir"],"holder":["NK-j5JeWXNPRMhEiMSSzvUP3Z"],"number":["0035-11785"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-6c09ac172aa28bb88e2e96cd4dae9acd93a4f8b6","holder":["NK-j62ehVUQaid2RJD6hbV5xa"],"number":["Ration card number 0134852"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-0ffd872ae52c28f27d3cafab3aee20585d363c4f","country":["tn"],"holder":["NK-j8euZhdf7Dw3W2h2X9nze8"],"number":["00354671"],"type":["National identification card"]}
+{"general_id":"eu-fsf-771e3eb69090fbc00d68b518aa87fcb1c9620f4b","country":["de"],"holder":["NK-jbX6Eqa64eVtWXGZufcvqW"],"number":["5802098444"],"type":["National identification card"]}
+{"general_id":"eu-fsf-d5b0192e510e113d3196b96ef59b6e4367c5f1d5","country":["id"],"holder":["NK-Jc4gDZoeqsNQJjceTEea2Q"],"number":["1127083101740003"],"type":["National identification card"]}
+{"general_id":"eu-fsf-4932684c81663967af2b3af16f14c3e9ea14875c","holder":["NK-jF8BNiALWKUrHkWYxR3EsU"],"number":["ILSIKPPY"],"type":["SWIFT BIC"]}
+{"general_id":"eu-fsf-570674f37ccc32684710b493e9f0cc56bd67e4ae","country":["sy"],"holder":["NK-jfAHZ9sXEQ4mw6zM4bGmHE"],"number":["CMSYSYDA"],"type":["SWIFT BIC"]}
+{"general_id":"eu-fsf-97165b564d60a348db30bf0ee752ae14556a69ed","holder":["NK-jfpAHW5Z8277QSDwjgPmHy"],"number":["V-3304045"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-3063d389c72d01db14b3c12599a2a5898ae0a6f5","holder":["NK-jGfbYQ77iSwKFJXXYHhnb4"],"number":["Tatmadaw Kyee 19571"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-7baadbc238f319d3e9ce492e6fc5eaf57ec78957","country":["kw"],"holder":["NK-Jm9GKoE2pZQHc63nYCnkpo"],"number":["281020505755"],"type":["National identification card"]}
+{"general_id":"eu-fsf-adbb39b3e8ddc8c211b85c76bdb40cd1e29f45bb","country":["tn"],"holder":["NK-JNqWdZZQoCntbabx25Y32i"],"number":["02951793"],"type":["National identification card"]}
+{"general_id":"eu-fsf-47854ede34547a400d9c83cebf3b96408021784c","holder":["NK-jPHr8JnLgTFxvnqfyx3vYK"],"number":["3080756A068PB5"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-e3aeaf313d775ba656c55b2b4145f8b9fcc247c6","country":["tn"],"holder":["NK-jRyybueFJyqcsrdWkrPRZL"],"number":["05411511"],"type":["National identification card"]}
+{"general_id":"eu-fsf-22b90a1ed0adbdb8d90253b4230570cc2160d29c","country":["pk"],"holder":["NK-jSpQA9YrWk2A7dySeHLjYp"],"number":["5420124679187"],"type":["National identification card"]}
+{"general_id":"eu-fsf-fec8d4d353908b8499d1cd0ecd9e50ae68fff4d2","holder":["NK-jvK3ewYTb7oHVxawWXyJft"],"number":["1179102021460"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-341f956ab30d113018ef79033b7426ec5e81852b","country":["qa"],"holder":["NK-jvrGy4kVDpHRAC2f6jpChB"],"number":["27363400684"],"type":["National identification card"]}
+{"general_id":"eu-fsf-a1aa9cda9890b92cd334f334531818e087bcee4d","holder":["NK-jXP86tVCCKJQQHWCius23t"],"number":["V-6557495"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-aa7f1dcc0abe2135096339a565f69e51805fec97","holder":["NK-jxSDuoGZu7GtJgeGiaUy6m"],"number":["1149102099717"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-9ccf3fe076af23c97001eaf6902bd65679e1a418","holder":["NK-JYzezBhCTAT8S4GGMh7JWj"],"number":["191295361"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-49411e6f079a4b5160d716d398114a22863d4a94","holder":["NK-JZmnPQBsPeaSSiKtZvgdEq"],"number":["V-7087964"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-b77969a521b2467ddb7ac659fe2f3edba8da9906","holder":["NK-k2CyriHZoaokUNi9VZiFKY"],"number":["119820043341"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-131b99a5be9a0fd5184697f886e6865cc5e71470","holder":["NK-k2CyriHZoaokUNi9VZiFKY"],"number":["137803"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-040fad1aff955c958f1ae7e125f3d6d5bc36ca7e","holder":["NK-k2Hegqq3vKufLi7GMKMWY5"],"number":["Ration Card no. 0094195"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-0219a07b2f8d4853de6c9ecb7ca824541bb755bc","country":["tn"],"holder":["NK-k3fQnirzbP4F2AoADLo7oq"],"number":["04192479"],"type":["National identification card"]}
+{"general_id":"eu-fsf-3273a1712d7d589f5887129644248f5434e4b40d","holder":["NK-k6QH8EUub85bDjVtv6qpMg"],"number":["973406"],"type":["National identification card"]}
+{"general_id":"eu-fsf-a3249830fc42a8035cea4edab4c9fe60d108ba16","country":["mm"],"holder":["NK-kAM2M2rAgGVmT8jmqfxbcM"],"number":["156387282"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-8cf84aa75d4f3985b79a4659855276b4dbc56e11","country":["ye"],"holder":["NK-kfKAaKxQ2EsRM46RXaQAs8"],"number":["01010744444"],"type":["National identification card"]}
+{"general_id":"eu-fsf-4d3b0aad638183bf2880d8c00e77cf54231989d8","holder":["NK-KJb3C5pEvwG2LrpnbDnkkf"],"number":["3300570K025PB3"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-f24f2b13176994b27f01fb76c25e7de68dca74ac","country":["kw"],"holder":["NK-kjtq6N5a3tBH8zCnsz7zxV"],"number":["281082701081"],"type":["National identification card"]}
+{"general_id":"eu-fsf-bf6360a8f64357750e31d5a614a91f5dc3b58aa4","country":["pk"],"holder":["NK-kkj3LbkMz3ow6GWYq5jCr4"],"number":["5440005229635"],"type":["National identification card"]}
+{"general_id":"eu-fsf-385bd576450b136ec39349e9cc9743ec6d6e37fc","holder":["NK-Kkqkx2YyMbqhJzEJY6NEaN"],"number":["V-8348784"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-6b76c769c6740bf1eefa20598227cd400e8f2c01","holder":["NK-KKyTyMfgSopwCo6Ff8SNDu"],"number":["3270771C016PB2"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-89243371132c9729d7d436c0556a70d8014f6f50","authority":["Sous-Préfecture of Bernay"],"country":["fr"],"holder":["NK-kmLyRDPiFLFgZzx4JksoHq"],"number":["101127200129"],"type":["National identification card"]}
+{"general_id":"eu-fsf-2d76cc509b163886b29d656fdbe22fde9e93fcd4","holder":["NK-kmyqJUK4SheACowgKdJ95U"],"number":["13080011550"],"type":["National identification card"]}
+{"general_id":"eu-fsf-8be65bc8c5f299aa425513a99cc33c727b5eef2f","country":["sy"],"holder":["NK-kmyqJUK4SheACowgKdJ95U"],"number":["5877002"],"type":["National identification card"]}
+{"general_id":"eu-fsf-17792f297f48075bc45417b9e958c8cb1f1f47c0","country":["tn"],"holder":["NK-knkGar2Envkg3fTf6GyBGd"],"number":["00166569"],"type":["National identification card"]}
+{"general_id":"eu-fsf-3991161c42b4ade459fbea85440143e1d4733d08","country":["sy"],"holder":["NK-KNuzWv2ZK65duZyLCmWYwN"],"number":["060- 10276707"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-93a1d5691ef2d3bca4cf3d697a641d38ca3bfe5a","country":["af"],"holder":["NK-koHy2AxKveghGe96SNT4Q6"],"number":["44323"],"type":["National identification card"]}
+{"general_id":"eu-fsf-5b2676aba7fc220f3d99f0c45d69202f4dc7eee1","holder":["NK-KrvwgxhN9nKeQTVGSUMeHj"],"number":["V-14970215"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-1f0e4e8d2c160466a0c5fc0fe66aa305b98ef914","holder":["NK-KSuZVkdKCu89c4fdmarCLU"],"number":["V-14444352"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-ef9fb9ad3dd1dab376d102f38f8d82aee8ec0112","country":["vg"],"holder":["NK-kttfDMixrQKWrS2rT3ATAJ"],"number":["1510484"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-21f6a6ade9a1f17ce399523ce62bb6723b1c3155","holder":["NK-kxmBVAQxWHVYyFjv2EpZ9Z"],"number":["0018061/104"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-c2d1f3e2796dc869c4ed843b37c8e8f098c0a644","holder":["NK-L2nE9WukEvKDsg2wZ6nbVy"],"number":["V-9761075"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-a638daabe16046f165d8ca0c2924c09023a28c47","holder":["NK-L9Bmd8EMSpmr4u5jc4ms3j"],"number":["BPA Nr. 1336597587"],"type":["National identification card"]}
+{"general_id":"eu-fsf-96465410b76f4da2b217190446e9d51eb4a41023","country":["mm"],"holder":["NK-Lme4V5QWJ3uZXogQE6ohqT"],"number":["105444192"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-c11fb3d27a55f5a07ede266ea4f1f51596caf90d","holder":["NK-LnTF2XwkE7LKYHiVduwfPP"],"number":["06010274747"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-a42f5aed49e36946901da2bf6f99d147b2453c70","country":["ae"],"holder":["NK-LnTF2XwkE7LKYHiVduwfPP"],"number":["784-1976-7135283-5"],"type":["Resident's Permit"]}
+{"general_id":"eu-fsf-c154f7f0700d281244431070853738d7be3ba6b2","country":["tn"],"holder":["NK-Lq2aoGv28HNSWddXWJwhqv"],"number":["09006300"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-3d4d3f2d6dc5bdf134bca4333b897ad48058fd84","holder":["NK-LT3c8gRfLPmXBhcwozRGJH"],"number":["V‐10352300"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-eb794b7c589c856f17fbff76a3b765faf337aa2b","holder":["NK-m2Sb2V4G2S6gVcxYXMKjTT"],"number":["1077762942212"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-2b04be9a82f044aeae5dc52c48bfc306cb2c5e50","holder":["NK-m2Sb2V4G2S6gVcxYXMKjTT"],"number":["7729588440"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-c4df23ed0a6720c6955838265fe82d115e262aa2","holder":["NK-m2Sb2V4G2S6gVcxYXMKjTT"],"number":["9729299794"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-3f53177d3d3335431bbcdb493bc601b5d6a852af","holder":["NK-m2Sb2V4G2S6gVcxYXMKjTT"],"number":["1207700324941"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-80b2cb05d16b92af6b6a58d8640dc6c9a4c3cfe8","holder":["NK-m2Sb2V4G2S6gVcxYXMKjTT"],"number":["772901001"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-47e0f7d54dd028be88918dd7c3ace04526343ef5","holder":["NK-mBBEADp3Y3txA4oQATrEGS"],"number":["12/SAKHANA(N)020199"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-8337e04ea4588a790ca88e46fbcc3a35d9ca3831","holder":["NK-MhdYbPdWtbxgbykWe7sT5a"],"number":["V-8714253"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-43db271a9adfccaa02ea0e5163de0c7206dac500","holder":["NK-MNmd2ihnk68Uk9FnZAET3X"],"number":["1-64-86-22311-29"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-13e46f037263532b739ffcfcc8aa41679754e829","country":["gb"],"holder":["NK-MquwTyyeWLtztCZQbR6v6k"],"number":["01794877"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-9b0d91b4738b021725801e741f5ef6558e417834","holder":["NK-mS7dt9jAK6uGMuQkSHK7z2"],"number":["3603251708570001"],"type":["National identification card"]}
+{"general_id":"eu-fsf-b17dcc752094422e465a8e18fd9d9e1923631dca","holder":["NK-mtbh48YZHa9YoRRJ7kBr34"],"number":["H0100009"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-cc04b045f937cbc99411da6044f248b4f7ac13e2","holder":["NK-mtbh48YZHa9YoRRJ7kBr34"],"number":["33301/862"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-92bf633ca2f6f0d88f15b9b45de1d1f6a322f3de","holder":["NK-mtbh48YZHa9YoRRJ7kBr34"],"number":["M0003264580"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-76808153c16121e779d24a061a8c95f292658a4e","country":["tn"],"holder":["NK-mtnfvKHUDmezUJ6dVodNT6"],"number":["04711809"],"type":["National identification card"]}
+{"general_id":"eu-fsf-4899834c8401cd1b981e5a800810238474c77d18","holder":["NK-mvhgpPnxVbdC2fXDbaE2a5"],"number":["3130476M077PB6"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-97fd0256d277ebcb08f599d530e741bc7e9fd3e4","country":["gb"],"holder":["NK-mxRzYY3A69Bm9k8AtRJujp"],"number":["59058C"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-a9d76f262e4273840427e1d9c8fc33233fe90939","holder":["NK-n5u97PHVuSD8RSa3zpEYJv"],"number":["1047503170"],"type":["National identification card"]}
+{"general_id":"eu-fsf-331641fc7973e07dfb075f70034eea89e106116e","country":["tn"],"holder":["NK-n6gLSvx63LDi7xwDTWLkUx"],"number":["05539378"],"type":["National identification card"]}
+{"general_id":"eu-fsf-5d12722f328f085af4aa6c144366521d478890c7","country":["sa"],"holder":["NK-N9QM47e8sNaKbzDw5bG9nM"],"number":["2135314355"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-7c5bea0988333be6d1b99b3e27fa57073fed15ad","country":["sa"],"holder":["NK-N9QM47e8sNaKbzDw5bG9nM"],"number":["202112421"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-8d21a2c0ced7e84fd94f249ce7a8644ca95ce540","country":["id"],"holder":["NK-na3gp4v8nVKqP2exjvyhh3"],"number":["3573010405480001"],"type":["National identification card"]}
+{"general_id":"eu-fsf-2d093f0ae7cdd0f59019191f56882cbbcceb4e91","holder":["NK-NaVtjbXE9TxTf6aw8VJDSR"],"number":["12DAGANA011336"],"type":["National identification card"]}
+{"general_id":"eu-fsf-f5be876a8a3065591a27ccdea2a43b5c1cf1ab9f","country":["us"],"holder":["NK-nEzfcZjtDGcmsbPHmyWPDB"],"number":["SSN 156-92-9858"],"type":["National identification card"]}
+{"general_id":"eu-fsf-2048bebc11809472454b0eb8734ff539209b9b66","country":["iq"],"holder":["NK-nEzfcZjtDGcmsbPHmyWPDB"],"number":["M0887925"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-f5c93845de68ceed36c9f326b66ef1023bba9511","country":["pk"],"holder":["NK-NgwMQPuArWBaG7bt87Jr4h"],"number":["5430312277059"],"type":["National identification card"]}
+{"general_id":"eu-fsf-a9706eb72a492570d8acb5bda74e459fc9a4123c","holder":["NK-nJ9cbf6Z69ft8Mzt4Fg9eo"],"number":["1147746527279"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-cce42ae62d16aa33d0497e6b4aaf44cf8edf0f6f","holder":["NK-nJ9cbf6Z69ft8Mzt4Fg9eo"],"number":["7704863782e"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-dfa562b2cb513572007ae15eeafd4aef2cbf823e","holder":["NK-nK4iK8y6KbYx6TcDbQF8s4"],"number":["302581"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-f740aef07319148173752b4f5db4ce1db70426b8","holder":["NK-nK4iK8y6KbYx6TcDbQF8s4"],"number":["192-3238459-9"],"type":["National identification card"]}
+{"general_id":"eu-fsf-a7a011ccfb2977fb44b7422bcadebc6fb60beed5","holder":["NK-nLWF3Ck6wFfkk7NbvdiCiB"],"number":["01817002"],"type":["National identification card"]}
+{"general_id":"eu-fsf-b72d8f6536e958175d7cd8a366f397e4df7f5ded","holder":["NK-nmQnC4pMDF9xCwg8LQMT45"],"number":["V-14211633"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-1fa4fdd7101282ee5ca8db7d7710669bcd965992","country":["tn"],"holder":["NK-nntFdVtE5LLPs9sJcfcp8C"],"number":["05515496"],"type":["National identification card"]}
+{"general_id":"eu-fsf-4f5bf76cab3dafbe1864e197c2775e9d476042bc","holder":["NK-nWC8qvybqCxi4En2WvUHiM"],"number":["700016217"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-f1c7dccd753181dc8f30d093324bdb170846bff9","holder":["NK-NYTjButwxf7zyuxNU5YZ2n"],"number":["V-15222057"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-76f456bc33fd34ecc1e63cb118700a226cfea42d","holder":["NK-NZWxdBcb7wbnLB3nfqUrQy"],"number":["836220035"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-94537dca8503093c4f539a2a4a92926bb20e2b59","holder":["NK-o86yiJGTohwft2jLsMeiCn"],"number":["M6600000258472"],"type":["National identification card"]}
+{"general_id":"eu-fsf-8d0efe3240dce849b5eca8a663bb5933d4bb4953","holder":["NK-oL8TkNAUYVNdTZgaH6EQbT"],"number":["500036524"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-c809456e94d762679a32624d9294cad90c987575","holder":["NK-oL8TkNAUYVNdTZgaH6EQbT"],"number":["590046884"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-f6567143ca748b980d972c50a0077fffa297e638","country":["fr"],"holder":["NK-oTjBcQuAtgd4z5HAkx9UXR"],"number":["0205561020089"],"type":["National identification card"]}
+{"general_id":"eu-fsf-2831853ba92d069698d4d074246ce24e13dce03c","authority":["sous-prefecture of police of Lorient, France"],"country":["fr"],"holder":["NK-oTjBcQuAtgd4z5HAkx9UXR"],"number":["050456101445"],"type":["National identification card"]}
+{"general_id":"eu-fsf-dbf9ba3e61b81fcb61007c72a04dd4e1fc75695a","holder":["NK-oUHjoxn7Zk6vRFwzrG7X7h"],"number":["192363182"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-e72c206ba5f415d638158b8a7c127e152fb64a67","country":["ye"],"holder":["NK-PrkqbwW8p8kYJJEgMRm8ZP"],"number":["216040"],"type":["National identification card"]}
+{"general_id":"eu-fsf-bab6d49cc98e6277c1caf62ed7c486b0533efc64","holder":["NK-PX28BrgeV7BsJnjs8cY7yV"],"number":["1610101490000S"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-431cb664a78fecf34d4b896cce7f40fdb23db484","country":["gw"],"holder":["NK-PZtyxrFVTWiQGdvWxbitKL"],"number":["Unknown national ID"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-e3d338fc5528591f1824b0d76794f61d3ced43b2","country":["tn"],"holder":["NK-Qa584FgTtDj66eoz3UoVBS"],"number":["W374031"],"type":["National identification card"]}
+{"general_id":"eu-fsf-cd6968e7a7c2ded80406d3bd7803b8c0e023c624","authority":["Ministry of Foreign Affairs"],"country":["ae"],"holder":["NK-QDA5LgEhSCQWRHCo2VpGnY"],"number":["31/2013/20/003140"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-be4786213acc6026267160e8e8e8135faac53179","holder":["NK-Qf6BpHihRYyiHyuQTwd6KB"],"number":["DP0000761"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-afa6c9a97e03609b4d80fa4bdbc7b8128c39d17a","country":["af"],"holder":["NK-QPPjiVRGYmxBDgDn9YUrSB"],"number":["545167"],"type":["National identification card"]}
+{"general_id":"eu-fsf-8427e4661ac993a2f544e077bee75de6da9d5d78","holder":["NK-QTU2PeqSnH8fYyEchEVwpP"],"number":["3191167E003PB1"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-82a379323e064ecdd347c5d96c9d98edd023b228","holder":["NK-QZqBfKQoxy9HDD3aZbDBy2"],"number":["05258253"],"type":["National identification card"]}
+{"general_id":"eu-fsf-e180373fd9fb70b05756f2404f96bdc385664df6","holder":["NK-R3vJhYzu8LbmtGHiK8Ty9z"],"number":["1024026187"],"type":["National identification card"]}
+{"general_id":"eu-fsf-50bee15132f7557082dd021ef818de2d1eccc95b","holder":["NK-Rm2UTPDLF9ycXkMNNYJosG"],"number":["1149102012620"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-11a797d37eafe30f71fe2058e9a9bb33cc770982","holder":["NK-Rm2UTPDLF9ycXkMNNYJosG"],"number":["9111000450"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-a4d76eb9ee66d6ffcdd1b12ba96cc8839ea047de","country":["tt"],"holder":["NK-Rm79STfLDGBbwftinDT33a"],"number":["19670704052"],"type":["National identification card"]}
+{"general_id":"eu-fsf-2fe9e528ec3c1d8e20ff5fcdc56c7168396f71af","country":["tn"],"holder":["NK-S2iDY9idVmaBDNu9TdGTfw"],"number":["00777029"],"type":["National identification card"]}
+{"general_id":"eu-fsf-d56e500a5b6549b598405d4d0cc0141753ad92df","country":["ly"],"holder":["NK-S7PSCTUgXkJuSAw5MSVjdo"],"number":["96/184442"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-555013cb568d6efb33cd319a8de2a005ff04704b","country":["ma"],"holder":["NK-SAqB9BZQAtw4d4C7HVmf4P"],"number":["H-135467"],"type":["National identification card"]}
+{"general_id":"eu-fsf-1be61f3d5457865efdd5482d5d23c41193a30821","holder":["NK-SFSdJQgtaDAw9Xo6QREPam"],"number":["1-78-09-44621-80"],"type":["National identification card"]}
+{"general_id":"eu-fsf-56c0ebe4fa602e4853e813bcffd0fe531a4a5ad6","holder":["NK-SHmRR8aYFZywzvqXQEug46"],"number":["193402282"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-f3d05217bd38a590d027fcf1ff403788097e2e25","holder":["NK-Sikwe5UY72iEztpPd7Bd9K"],"number":["12/La Ma Na (N)  089 489"],"type":["National identification card"]}
+{"general_id":"eu-fsf-fcbeb24f834a38f29629a51490ffa56e1f05a7b6","country":["af"],"holder":["NK-SL7ewv85eyreJxKRg9aoja"],"number":["19657"],"type":["National identification card"]}
+{"general_id":"eu-fsf-060310bc8705b1230ea6603bdf40b44fec3ba5b8","holder":["NK-Snpdrrnd78N5gS4qLnLsVF"],"number":["M-1601"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-84d1a56558fe93b79c3fcedc75e82aee73651f92","holder":["NK-SNu7dKJPeWDGwKbvLtTVTE"],"number":["V-8042567"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-9915925a149b716c081eaaf55f2ebfb7dd09da20","holder":["NK-SWdvUPEEaMF6EJcv33tuZW"],"number":["3040573E050PB7"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-3d53c31b2cf5b7ec9b936d966f4eaa58f988291a","country":["tn"],"holder":["NK-T2VYMT3zkPioh5bMTA7gZE"],"number":["06810509"],"type":["National identification card"]}
+{"general_id":"eu-fsf-9b0eb276ee31b64368fe73b9af2a34169ddacbfc","holder":["NK-T7JZT8wpgmeX7WrAYWc9kL"],"number":["06090034007"],"type":["National identification card"]}
+{"general_id":"eu-fsf-2fbecf9bfdd70179eb356c914ee9a256845cc4f1","country":["by"],"holder":["NK-T8gUkRw8UGrBkbJcqNW76z"],"number":["190950894"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-dca8ff34d4caa182ef30b27013df704ade5f326e","country":["ru"],"holder":["NK-T8gUkRw8UGrBkbJcqNW76z"],"number":["7704734000/ 770301001"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-d79ce1318c5afd6bf2b7b92a0f386a946a75c6f6","country":["tn"],"holder":["NK-T9Uttg2rxrvrTqjwc3zUS3"],"number":["05054425"],"type":["National identification card"]}
+{"general_id":"eu-fsf-828973317aea071dcb7b432ca87b4ba24be07ea8","holder":["NK-TBbzhgdhkqFnnZnkpFg9Cg"],"number":["5342883"],"type":["IMO (vessel identification)"]}
+{"general_id":"eu-fsf-698125c99867ef1d10ac6a0fde8d075794d52358","country":["ye"],"holder":["NK-TgtcLttM72P3CLpUpmVAw8"],"number":["00085243"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-aa666c03c0043524b0b94b75a768ff35eed3c543","country":["tn"],"holder":["NK-TqMYorueC5fVHAtR9PLUEt"],"number":["04682068"],"type":["National identification card"]}
+{"general_id":"eu-fsf-b2f3b9ad731c9e16a4c04c9ccda7d0d7213f626c","holder":["NK-U4CFxpu4yAz2Ff5aon2t5s"],"number":["A0680623"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-ab80d08e2d040b3941228b3bc7527882d8908448","holder":["NK-U6U3PLSWVkmELDV7ruF5DA"],"number":["M4800002143743"],"type":["National identification card"]}
+{"general_id":"eu-fsf-1873f220baec02d2f37f68c68bab4840450f2734","country":["tn"],"holder":["NK-UoVruErChit3zrmS2ahJiY"],"number":["05150331"],"type":["National identification card"]}
+{"general_id":"eu-fsf-cfa613deaa3c7acf1b07c976540aa5326d7a2477","country":["sd"],"holder":["NK-UWeL9uUmrBm5mGZ6K2zPbL"],"number":["202-2708-8368"],"type":["National identification card"]}
+{"general_id":"eu-fsf-d2090ae42b10f9a2b03d4db8cc71aa500e880700","holder":["NK-UWnvVbyGgBSund99h6UCBb"],"number":["220334"],"type":["National identification card"]}
+{"general_id":"eu-fsf-27a148b1db86daf7d7b6d31c02a745a8b5830651","country":["ly"],"holder":["NK-UWnvVbyGgBSund99h6UCBb"],"number":["345751"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-71dff0f123ea982c0c328ef9637d2dbc64e6a0d0","country":["ly"],"holder":["NK-UWnvVbyGgBSund99h6UCBb"],"number":["1990/345751"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-4dd9eae37abc454ea42f2f5eaa920ff9d5877c14","holder":["NK-V35KzbZu3Emo8vCm3vj547"],"number":["1209100012648"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-dee156666dbca9d7ecc1506d4d60df19ebaeafab","country":["ye"],"holder":["NK-V67kRYWVvhQ9j2UCRoZ9Xv"],"number":["388181"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-94e6fa5c87e44767b6cf9f1f578be93a9070ef43","holder":["NK-VEYNAjvjbTm6aKcCeDvQvG"],"number":["600390798"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-f084140aed1419ea367ee58cebc87e372c7fb084","country":["ly"],"holder":["NK-VRkQdKszweYadKAvFHTCBF"],"number":["119880387067"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-7d4a93c6e80c0642de6a37e7cdc31f80393bfdb5","country":["de"],"holder":["NK-VYb8dB74b6raZcYwbuQHgw"],"number":["A 0139243 German travel document"],"type":["Temporary Travel Document"]}
+{"general_id":"eu-fsf-76a7cbe0ebca3289f157cb3f05fd52135d5fcf6d","country":["kw"],"holder":["NK-Vz5VgnfshKeVyyyWiZe7w8"],"number":["26112240061"],"type":["National identification card"]}
+{"general_id":"eu-fsf-e6b4b445b653b72d08b38f9e50873ecc772cabf2","country":["af"],"holder":["NK-VZzMQbdKjgszeYYn6zJZhq"],"number":["1136"],"type":["National identification card"]}
+{"general_id":"eu-fsf-b42598ae74f5e91dc34066fc3d8ffdcbf2d980f3","holder":["NK-W4B8GkYaSA6J87zdJgEPoB"],"number":["1159102026742"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-57534a1e75fac28fa05e846b8eb75d5bb5770771","country":["sa"],"holder":["NK-WabSXTBGeQaff2Z6fGXYiD"],"number":["1027508157"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-f9f27fda60b6facb573dd4045c43da10b958ea31","holder":["NK-WEC2SdiST9wmkDF9obPxE7"],"number":["19820215"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-028c97eca7a16fa50953056aded99dff52de18d7","country":["eg"],"holder":["NK-WEC2SdiST9wmkDF9obPxE7"],"number":["1084010"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-b3ec6c1980ac3c3475176888af2073cecf4c843c","holder":["NK-WfuZ69hGt9puYq63PQgy7a"],"number":["V-6978710"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-0b56bf2d220be84636c96250453d8f414363ac07","country":["tn"],"holder":["NK-WGXqg6CDZG9b3aZ7nifwfG"],"number":["05189459"],"type":["National identification card"]}
+{"general_id":"eu-fsf-6686c6c34418f594cd3491fee35a8f10c06759b3","country":["kw"],"holder":["NK-WhLam78z3bciSRaVircDSH"],"number":["284013101406"],"type":["National identification card"]}
+{"general_id":"eu-fsf-cd39dc90e936b112a416bd460c65d100e95fa7c2","holder":["NK-WNJTb3xdr6mU42egdiukTD"],"number":["V-8263861"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-2f419508c211e858e03d9f11df32bce126eb41ed","country":["tn"],"holder":["NK-WqHVfPCQ228SqRXJgRuYf9"],"number":["02810614"],"type":["National identification card"]}
+{"general_id":"eu-fsf-1b89c648fde4a3ae8107bdfab52dd84275465cd4","country":["om"],"holder":["NK-WsAmDJbtteDd7dpaU8UxrG"],"number":["98606491"],"type":["National identification card"]}
+{"general_id":"eu-fsf-c04dc9c5a4e3e6d547b75fa1979262a0bf0458f0","country":["tn"],"holder":["NK-WU6NaTkJefFxsdUi4HscER"],"number":["00547946"],"type":["National identification card"]}
+{"general_id":"eu-fsf-4d108139f2a71caa07627e0f211aa196301645b3","country":["tn"],"holder":["NK-WUPpDaaKFWYDWbAco9c4Pg"],"number":["04622472"],"type":["National identification card"]}
+{"general_id":"eu-fsf-83cb343de27aad23a9f1100b2aa7cae14d2deab5","holder":["NK-WuX9jdaAREQnYKtF89FB5S"],"number":["44103-5251752-5"],"type":["National identification card"]}
+{"general_id":"eu-fsf-b313df575b4cb16e3a0b0dab58af5559c24c10eb","country":["iq"],"holder":["NK-X6tntAvn7kt8X7KK7ZWmv5"],"number":["2863795 S"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-5ba1eb830f62b73e93856ed6ce787f8dd9f4b09e","holder":["NK-Xa4aTnFMGknaLZxBnP8DtC"],"number":["3240483A023PB7"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-fe44d67be4ae3d5c9834c88c1d536351b023abdd","country":["pk"],"holder":["NK-XcvWgfN8EmXRgr337Ev3sJ"],"number":["3187777"],"type":["National Fiscal Code"]}
+{"general_id":"eu-fsf-b03deaf49cb94bfa3af835cd29cf8c4ab21d8215","country":["pk"],"holder":["NK-XcvWgfN8EmXRgr337Ev3sJ"],"number":["0980338"],"type":["National Fiscal Code"]}
+{"general_id":"eu-fsf-4a5a3802927d760611a02a61241ca50230788994","country":["af"],"holder":["NK-XcvWgfN8EmXRgr337Ev3sJ"],"number":["044"],"type":["Trade license"]}
+{"general_id":"eu-fsf-71bb7395c8dac0741e056a6f64bff09e98b219d9","country":["pk"],"holder":["NK-XcvWgfN8EmXRgr337Ev3sJ"],"number":["1774308"],"type":["National Fiscal Code"]}
+{"general_id":"eu-fsf-1dcbd20d3e3d6fb11374eda915855fb085f8507a","holder":["NK-XczEqvW9Sa4oHnNtQvT8Kv"],"number":["V-10132041"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-019365095816a1e2748ad015bf97e9e9fd95160f","country":["qa"],"holder":["NK-XDJ67tFbWhWjNptT6jFQAz"],"number":["27763401255"],"type":["National identification card"]}
+{"general_id":"eu-fsf-6668070d5523ab84383219d7ae2101ec63f89b01","holder":["NK-XKQAYzUVEDQTZhiRTLeyv6"],"number":["V-6250588"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-f5033590c9c42dd306a3010f0a7c59d71156c4dd","country":["ye"],"holder":["NK-XncT97kKSssBcJudFNLd7s"],"number":["1417576"],"type":["National identification card"]}
+{"general_id":"eu-fsf-5efb1d1b16f7079335e4ab81548a0d72071a5445","holder":["NK-XoqFhHxoN2UZ3JiiQYqJM5"],"number":["BC 23750"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-64e241a0a3d9a801904ac22d9cd5d8a7fdbbf3ac","country":["tn"],"holder":["NK-XpK2qVpp2znGtkZTX4BCnx"],"number":["00683530"],"type":["National identification card"]}
+{"general_id":"eu-fsf-e9a686b31a53fcefca1cb0d9ea828e079a714b00","holder":["NK-XvGLgDgYChdKHfQUTJgNTp"],"number":["4180955A015P80"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-c0ad105898948c1723ae8dc1d0a58e945988c6eb","holder":["NK-XVj4nHqwXoth2wNvBzCJYb"],"number":["640120-01-5529"],"type":["National identification card"]}
+{"general_id":"eu-fsf-4bebc5cb2cbd083c9dd2d83952f4385eae16a4cb","country":["ml"],"holder":["NK-XWD5MBhu6kgQg6XZiss73q"],"number":["073/ SPICRE"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-ce7227dfd769751754aba4d5914fb3516e3e03b2","holder":["NK-Y6SYDzw8584Xr6LbbojRai"],"number":["M-0271"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-4aaf772267a28e582cadc490a8d3bb8e60d91d13","holder":["NK-Y9titxs4GtEWQAmKendCkv"],"number":["BC 25723"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-7f783e0c996aadd0ca3f7e5290391978db016a1b","holder":["NK-YBC8dcWutcaPC52oWwoLQD"],"number":["11096919534"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-c4efcd4c3aa4bf7f70ff4860a4026b10bbd986d7","country":["tn"],"holder":["NK-YBre9hod3kp3F3iK3L2C3S"],"number":["00046988"],"type":["National identification card"]}
+{"general_id":"eu-fsf-a4f819a92421d56209a816f422afdfc6e7ab2c68","holder":["NK-YddugV2Fh4eQTDnCToPruM"],"number":["0012011820046M"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-fee1ce9011acd376e2e9166ae0e07f116cc44c47","holder":["NK-YEo7s4sFkXkNuctSHDrDGc"],"number":["7826717210"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-505af9aaaccebdefc91d1e4d91ade05d913a4f33","holder":["NK-YEo7s4sFkXkNuctSHDrDGc"],"number":["1037828021660"],"type":["Registration Number"]}
+{"general_id":"eu-fsf-f3351fefa8bd437aba9f7f76a1da94b6367610ff","country":["id"],"holder":["NK-YfzC9BkaoJwBqgNyFeNQpe"],"number":["3219222002.2181558"],"type":["National identification card"]}
+{"general_id":"eu-fsf-4d6e2374d616de1d082f2505ac6a81bef1bca6c2","country":["id"],"holder":["NK-YfzC9BkaoJwBqgNyFeNQpe"],"number":["2181558"],"type":["National identification card"]}
+{"general_id":"eu-fsf-4f0c65cac835487648bb165c797cdf8f844b134d","holder":["NK-YHjsnXyKHpqsnodo7yHN28"],"number":["DCBK KPPY"],"type":["SWIFT BIC"]}
+{"general_id":"eu-fsf-94c023ba1914505c0e6969f00f8e0f90b90c1e63","holder":["NK-YJXjTavES9eUhdruvmCPBx"],"number":["M-5658"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-64760cf0ee3965eabbea7fc23b8090d75275865e","holder":["NK-Yr47nepwPGgDBTFG6MwecC"],"number":["V-11691429"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-6a3370a19fe7cb75a1fbf26884581e8605da3560","holder":["NK-ZBiKyY8nacvDCoFwDUX2d5"],"number":["1-72-96-80384-52"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-8862ccb184eddf0c8dbc900b6f7e65440a3c8eca","holder":["NK-ZWgDFSBpriLV9tHq6adZPc"],"number":["12/THAGAKA(NAING)012432"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-6de0ad8c0b2503552282034d61244621f7a7c180","holder":["NK-ZY6nQYTbJFFAvJ5pyhEFpf"],"number":["13571379758"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-ce6938e2876390c7aea3a5adc417f2a4747422c1","holder":["Q16171767"],"number":["V-6432672"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-c2c28a321a457b040b32f0e0ab410fd472554a68","holder":["Q28110629"],"number":["3240563K033PB5"],"type":["National identification card"]}
+{"general_id":"eu-fsf-ebdbc8b923b01feb6891b6deae92d41ebccade37","holder":["Q5839852"],"number":["V-4114842"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-a7cd0468ad84a5634dc4c520bdd4b8e68f007f57","holder":["Q60626586"],"number":["3110577A020PB2"],"type":["Other identification number"]}
+{"general_id":"eu-fsf-6137871d51d366f7d9f2c46583ae6785be4d8101","holder":["Q83283317"],"number":["3010871K003PB1"],"type":["Other identification number"]}
