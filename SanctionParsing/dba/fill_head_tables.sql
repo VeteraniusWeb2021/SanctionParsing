@@ -1,6 +1,6 @@
 
 
-create or replace procedure sanctions.sp_fill_entities_with_json()
+create or replace procedure sanctions.sp_fill_entities()
 language plpgsql as
 $$
 begin
@@ -31,7 +31,7 @@ $$;
 
 --/////////////////////////////////////////////////////////////////////
 
-create or replace procedure sanctions.sp_fill_thing_with_json()
+create or replace procedure sanctions.sp_fill_thing()
 language plpgsql as
 $$
 begin
@@ -93,7 +93,7 @@ $$;
 
 --/////////////////////////////////////////////////////////////////
 
-create or replace procedure sanctions.sp_fill_legalentity_with_json()
+create or replace procedure sanctions.sp_fill_legalentity()
 language plpgsql as
 $$
 begin
@@ -179,7 +179,7 @@ $$;
 
 --////////////////////////////////////////////////////////////////////////////////////////
 
-create or replace procedure sanctions.sp_fill_person_with_json()
+create or replace procedure sanctions.sp_fill_person()
 language plpgsql as
 $$
 begin
@@ -239,7 +239,7 @@ $$;
 
 --/////////////////////////////////////////////////////////////////////
 
-create or replace procedure sanctions.sp_fill_address_with_json()
+create or replace procedure sanctions.sp_fill_address()
 language plpgsql as
 $$
 begin
@@ -281,7 +281,7 @@ $$;
 
 --/////////////////////////////////////////////////////////////////////
 
-create or replace procedure sanctions.sp_fill_interval_with_json()
+create or replace procedure sanctions.sp_fill_interval()
 language plpgsql as
 $$
 begin
@@ -319,7 +319,7 @@ $$;
 
 --/////////////////////////////////////////////////////////////////////
 
-create or replace procedure sanctions.sp_fill_value_with_json()
+create or replace procedure sanctions.sp_fill_value()
 language plpgsql as
 $$
 begin
@@ -343,7 +343,7 @@ $$;
 
 --/////////////////////////////////////////////////////////////////////
 
-create or replace procedure sanctions.sp_fill_organization_with_json()
+create or replace procedure sanctions.sp_fill_organization()
 language plpgsql as
 $$
 begin
@@ -363,7 +363,7 @@ $$;
 
 --/////////////////////////////////////////////////////////////////////
 
-create or replace procedure sanctions.sp_fill_identification_with_json()
+create or replace procedure sanctions.sp_fill_identification()
 language plpgsql as
 $$
 begin
@@ -389,7 +389,7 @@ $$;
 
 --/////////////////////////////////////////////////////////////////////
 
-create or replace procedure sanctions.sp_fill_sanction_with_json()
+create or replace procedure sanctions.sp_fill_sanction()
 language plpgsql as
 $$
 begin
@@ -427,7 +427,7 @@ $$;
 
 --/////////////////////////////////////////////////////////////////////
 
-create or replace procedure sanctions.sp_fill_security_with_json()
+create or replace procedure sanctions.sp_fill_security()
 language plpgsql as
 $$
 begin
@@ -457,7 +457,7 @@ $$;
 
 --/////////////////////////////////////////////////////////////////////
 
-create or replace procedure sanctions.sp_fill_other_link_with_json()
+create or replace procedure sanctions.sp_fill_other_link()
 language plpgsql as
 $$
 begin
@@ -477,7 +477,7 @@ $$;
 
 --/////////////////////////////////////////////////////////////////////
 
-create or replace procedure sanctions.sp_fill_vessel_with_json()
+create or replace procedure sanctions.sp_fill_vessel()
 language plpgsql as
 $$
 begin
@@ -519,7 +519,7 @@ $$;
 
 --/////////////////////////////////////////////////////////////////////
 
-create or replace procedure sanctions.sp_fill_asset_with_json()
+create or replace procedure sanctions.sp_fill_asset()
 language plpgsql as
 $$
 begin
@@ -537,7 +537,7 @@ $$;
 
 --/////////////////////////////////////////////////////////////////////
 
-create or replace procedure sanctions.sp_fill_vehicle_with_json()
+create or replace procedure sanctions.sp_fill_vehicle()
 language plpgsql as
 $$
 begin
@@ -567,7 +567,7 @@ $$;
 
 --/////////////////////////////////////////////////////////////////////
 
-create or replace procedure sanctions.sp_fill_airplane_with_json()
+create or replace procedure sanctions.sp_fill_airplane()
 language plpgsql as
 $$
 begin
@@ -589,7 +589,7 @@ $$;
 
 --/////////////////////////////////////////////////////////////////////
 
-create or replace procedure sanctions.sp_fill_associate_with_json()
+create or replace procedure sanctions.sp_fill_associate()
 language plpgsql as
 $$
 begin
@@ -611,7 +611,7 @@ $$;
 
 --/////////////////////////////////////////////////////////////////////
 
-create or replace procedure sanctions.sp_fill_company_with_json()
+create or replace procedure sanctions.sp_fill_company()
 language plpgsql as
 $$
 begin
@@ -665,7 +665,7 @@ $$;
 
 --/////////////////////////////////////////////////////////////////////
 
-create or replace procedure sanctions.sp_fill_crypto_wallet_with_json()
+create or replace procedure sanctions.sp_fill_crypto_wallet()
 language plpgsql as
 $$
 begin
@@ -697,7 +697,7 @@ $$;
 
 --/////////////////////////////////////////////////////////////////////
 
-create or replace procedure sanctions.sp_fill_directorships_with_json()
+create or replace procedure sanctions.sp_fill_directorships()
 language plpgsql as
 $$
 begin
@@ -719,7 +719,7 @@ $$;
 
 --/////////////////////////////////////////////////////////////////////
 
-create or replace procedure sanctions.sp_fill_interest_with_json()
+create or replace procedure sanctions.sp_fill_interest()
 language plpgsql as
 $$
 begin
@@ -739,7 +739,7 @@ $$;
 
 --/////////////////////////////////////////////////////////////////////
 
-create or replace procedure sanctions.sp_fill_family_with_json()
+create or replace procedure sanctions.sp_fill_family()
 language plpgsql as
 $$
 begin
@@ -761,7 +761,7 @@ $$;
 
 --/////////////////////////////////////////////////////////////////////
 
-create or replace procedure sanctions.sp_fill_membership_with_json()
+create or replace procedure sanctions.sp_fill_membership()
 language plpgsql as
 $$
 begin
@@ -781,7 +781,7 @@ $$;
 
 --/////////////////////////////////////////////////////////////////////
 
-create or replace procedure sanctions.sp_fill_ownership_with_json()
+create or replace procedure sanctions.sp_fill_ownership()
 language plpgsql as
 $$
 begin
@@ -815,7 +815,7 @@ $$;
 
 --/////////////////////////////////////////////////////////////////////
 
-create or replace procedure sanctions.sp_fill_passport_with_json()
+create or replace procedure sanctions.sp_fill_passport()
 language plpgsql as
 $$
 begin
@@ -845,7 +845,7 @@ $$;
 
 --/////////////////////////////////////////////////////////////////////
 
-create or replace procedure sanctions.sp_fill_representation_with_json()
+create or replace procedure sanctions.sp_fill_representation()
 language plpgsql as
 $$
 begin
@@ -865,7 +865,7 @@ $$;
 
 --/////////////////////////////////////////////////////////////////////
 
-create or replace procedure sanctions.sp_fill_publicBody_with_json()
+create or replace procedure sanctions.sp_fill_publicBody()
 language plpgsql as
 $$
 begin
