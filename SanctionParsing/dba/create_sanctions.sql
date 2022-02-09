@@ -420,36 +420,42 @@ jurisdiction_country varchar,
 primary key(legalEntity_id,jurisdiction_country),
 foreign key (legalEntity_id) references sanctions.legalEntity(general_id),
 foreign key (jurisdiction_country) references sanctions.country(code));
+
 create table sanctions.legalEntity_mainCountry
 (legalEntity_id varchar,
 mainCountry_country varchar,
 primary key(legalEntity_id,mainCountry_country),
 foreign key (legalEntity_id) references sanctions.legalEntity(general_id),
 foreign key (mainCountry_country) references sanctions.country(code));
+
 create table sanctions.legalEntity_membershipMember
 (legalEntity_id varchar,
 membershipMember varchar,
 primary key(legalEntity_id,membershipMember),
 foreign key (legalEntity_id) references sanctions.legalEntity(general_id),
 foreign key (membershipMember) references sanctions.entities(id));
+
 create table sanctions.legalEntity_operatedVehicles
 (legalEntity_id varchar,
 operatedVehicles varchar,
 primary key(legalEntity_id,operatedVehicles),
 foreign key (legalEntity_id) references sanctions.legalEntity(general_id),
 foreign key (operatedVehicles) references sanctions.entities(id));
+
 create table sanctions.legalEntity_ownedVehicles
 (legalEntity_id varchar,
 ownedVehicles varchar,
 primary key(legalEntity_id,ownedVehicles),
 foreign key (legalEntity_id) references sanctions.legalEntity(general_id),
 foreign key (ownedVehicles) references sanctions.entities(id));
+
 create table sanctions.legalEntity_ownershipOwner
 (legalEntity_id varchar,
 ownershipOwner varchar,
 primary key(legalEntity_id,ownershipOwner),
 foreign key (legalEntity_id) references sanctions.legalEntity(general_id),
 foreign key (ownershipOwner) references sanctions.entities(id));
+
 create table sanctions.legalEntity_parent
 (legalEntity_id varchar,
 parent varchar,
