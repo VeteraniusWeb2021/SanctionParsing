@@ -186,7 +186,7 @@ begin
 	join sanctions.thing t on t.general_id = e.id 
 	join sanctions.legalentity l on l.general_id = e.id 
 	join sanctions.person p on p.general_id = e.id 
-where e.id = $1;
+where e.id_int = $1;
 end;
 $$language plpgsql;
 
