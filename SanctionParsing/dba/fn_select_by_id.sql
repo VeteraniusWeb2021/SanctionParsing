@@ -1,4 +1,4 @@
-create or replace function sanctions.fn_select_by_id(id_int_person int)
+create or replace function sanctions.fn_get_by_id(id_int_person int)
 returns table (
 id_int int,
 caption text,
@@ -188,8 +188,12 @@ begin
 	join sanctions.person p on p.general_id = e.id 
 where e.id_int = $1;
 end;
-$$language plpgsql;
+$$ language plpgsql;
+
+--select * from sanctions.fn_select_by_id(1);
 
 
 
-select * from sanctions.fn_select_by_id(1);
+
+
+
