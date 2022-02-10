@@ -1,5 +1,6 @@
-create or replace function sanctions.fn_select_by_id(id_person text)
+create or replace function sanctions.fn_select_by_id(id_int_person int)
 returns table (
+id_int int,
 caption text,
 datasets text array,
 first_seen text,
@@ -92,6 +93,7 @@ $$
 begin
 	return query
 	select 
+	e.id_int,
 	e.caption ,
 	e.datasets,
 	e.first_seen ,
@@ -188,4 +190,6 @@ where e.id = $1;
 end;
 $$language plpgsql;
 
-select * from sanctions.fn_select_by_id('NK-22HtK7WrxZ2sU3rmhz6PuZ');
+
+
+select * from sanctions.fn_select_by_id(1);
