@@ -11,13 +11,7 @@ INSERT INTO sanctions.legalEntity_cryptoWallets
 INSERT INTO sanctions.legalEntity_directorships
 (select e.general_id ,unnest (e.directorshipDirector) from sanctions.legalentity e); 
 
-INSERT INTO sanctions.legalEntity_identification
-(select e.general_id ,unnest (e.identificiation) from sanctions.legalentity e)
-on conflict on constraint legalEntity_identification_identification_id_fkey
-do nothing;
-
-
-
+	 	 
 
 INSERT INTO sanctions.legalEntity_jurisdiction
 (select e.general_id ,unnest (e.jurisdiction) from sanctions.legalentity e);
