@@ -1,9 +1,8 @@
 --create database data_ocean_sanction_parsing;
 
-create or replace procedure public.create_schema_sanctions()
-language plpgsql
-as $$
-begin
+create or replace function sanctions.create_schema_sanctions()
+returns void as
+$$
 create schema sanctions;
 create table sanctions.entities
 (id_int serial,
@@ -721,6 +720,7 @@ topics varchar,
 primary key(thing_id,topics),
 foreign key (thing_id) references sanctions.thing(general_id),
 foreign key (topics) references sanctions.topics(code));
-end;
-$$;
-call public.create_schema_sanctions();
+
+$$ language sql;
+
+call sanctions.create_schema_sanctions();
