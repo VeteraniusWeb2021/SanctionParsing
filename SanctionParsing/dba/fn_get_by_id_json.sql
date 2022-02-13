@@ -1,7 +1,11 @@
-
-
+--
+--with t as
+--(select * from  fn_get(10060))
+--
+--select json_build_array(fn_get(10060));
+--
 --create or replace function fn_get(id_int int)
---returns setof sanctions.entities_true as
+--returns table entities_true as
 --$$
 --begin
 --	return query
@@ -9,6 +13,9 @@
 --		where et.id_int=$1);
 --end;
 --$$ language plpgsql;
+
+
+
 --
 --select id from  fn_get(1);
 --
@@ -22,9 +29,10 @@
 --end;
 --$$ language plpgsql;
 --
---select row( fn_person('NK-22HtK7WrxZ2sU3rmhz6PuZ'),
---fn_thing('NK-22HtK7WrxZ2sU3rmhz6PuZ'));
+--select row(fn_person('NK-22HtK7WrxZ2sU3rmhz6PuZ'));
 --
+--fn_thing('NK-22HtK7WrxZ2sU3rmhz6PuZ'));
+----
 --
 --create or replace function fn_get_by_id(id_int int)
 --returns text as
@@ -43,17 +51,24 @@
 --
 --
 ----/////////////////////////////////
---	create or replace function fn_get_json(id_int int)
+
+
+--create or replace function fn_get_json_test(id_int int)
 --returns  json as
 --$$
+--declare
+--myrow sanctions.entities%ROWTYPE;
 --begin
 --	return 
---	json_object(select * from sanctions.entities_true et
---		where et.id_int=$1);
+--	row_to_json(fn_get_entities(1));
 --end;
 --$$ language plpgsql;
---				
---select  json_build_array(row_to_json(fn_get(10060)), row_to_json(fn_get(2)));
+--
+--
+----				
+--select  json_build_object(row(fn_get(10060)), row(fn_get(2)));
+--select row_to_json(fn_get_entities(1));
+
 --////////////////////
 
 create or replace function fn_get_entities(id_int int)
@@ -122,9 +137,6 @@ begin
 	
 end;
 $$ language plpgsql;
-
-select fn_get_by_id_json(10);
-
 
 
 --///////////////////
