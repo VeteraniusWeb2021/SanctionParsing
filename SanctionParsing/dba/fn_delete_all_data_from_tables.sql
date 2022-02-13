@@ -1,4 +1,4 @@
-create or replace function fn_delete_all_data_from_tables()
+create or replace function sanctions.fn_delete_all_data_from_tables()
 returns void as
 $$
 begin
