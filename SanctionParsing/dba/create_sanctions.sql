@@ -18,6 +18,15 @@ target boolean,
 unique(id_int),
 primary key (id)
 );
+create table sanctions.entities_true
+(id_int serial,
+caption text,
+datasets text array,
+first_seen text,
+id text,
+last_seen text,
+referents text array,
+schema text);
 create table sanctions.thing
 (general_id text,
 address text array,

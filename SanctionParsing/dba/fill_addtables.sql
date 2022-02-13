@@ -1,4 +1,22 @@
 
+insert into sanctions.entities_true
+	(caption ,
+	datasets  ,
+	first_seen ,
+	id ,
+	last_seen ,
+	referents  ,
+	schema )
+(select 
+	caption ,
+	datasets  ,
+	first_seen ,
+	id ,
+	last_seen ,
+	referents ,
+	schema from sanctions.entities e
+	where e.target = true) on conflict do nothing;
+
 INSERT INTO sanctions.legalEntity_agencyClient
 (select e.general_id ,unnest (e.agencyclient) from sanctions.legalentity e)on conflict do nothing;
 

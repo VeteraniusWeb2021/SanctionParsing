@@ -28,7 +28,9 @@ begin
 end;
 $$;
 
-
+create table sanctions.entities_true
+as select * from sanctions.entities e 
+where e.target = true ;
 --/////////////////////////////////////////////////////////////////////
 
 create or replace procedure sanctions.sp_fill_thing()
