@@ -674,29 +674,29 @@ begin
 				from temp_json24 ) on conflict(general_id) do nothing;
 
 
---begin
---		create temporary table  temp_json25 (value json) on commit drop;
---		copy temp_json25 from 'C:\Essence_files\passport.txt';
---		insert into sanctions.passport(
---				general_id ,
---				birthDate,
---				birthPlace,
---				gender,
---				givenName,
---				passportNumber,
---				personalNumber,
---				surname)
---			(select 
---				value->>'general_id',
---				array (select json_array_elements_text (value->'birthDate')),
---				array (select json_array_elements_text (value->'birthPlace')),
---				array (select json_array_elements_text (value->'gender')),
---				array (select json_array_elements_text (value->'givenName')),
---				array (select json_array_elements_text (value->'passportNumber')),
---				array (select json_array_elements_text (value->'personalNumber')),
---				array (select json_array_elements_text (value->'surname'))
---				from temp_json25 ) on conflict(general_id) do nothing;
---
+
+		create temporary table  temp_json25 (value json) on commit drop;
+		copy temp_json25 from 'C:\Essence_files\passport.txt';
+		insert into sanctions.passport(
+				general_id ,
+				birthDate,
+				birthPlace,
+				gender,
+				givenName,
+				passportNumber,
+				personalNumber,
+				surname)
+			(select 
+				value->>'general_id',
+				array (select json_array_elements_text (value->'birthDate')),
+				array (select json_array_elements_text (value->'birthPlace')),
+				array (select json_array_elements_text (value->'gender')),
+				array (select json_array_elements_text (value->'givenName')),
+				array (select json_array_elements_text (value->'passportNumber')),
+				array (select json_array_elements_text (value->'personalNumber')),
+				array (select json_array_elements_text (value->'surname'))
+				from temp_json25 ) on conflict(general_id) do nothing;
+
 
 
 		create temporary table  temp_json26 (value json) on commit drop;
