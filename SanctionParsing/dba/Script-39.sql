@@ -131,12 +131,41 @@ select fn_get_by_id_json(10);
 
 
 create or replace function fn_get_thing(id text)
-returns setof sanctions.thing as
+returns json as
 $$
+declare
+js json;
+i int = 1;
+arr text array;
+elem text;
+tmp json = ('{"1":[]}');
 begin
-	return query
+	js = row_to_json(t) from
 	(select * from sanctions.thing et
-		where et.general_id = $1);
+		where et.general_id = $1)t;
+	if json_array_length(js::json #>'{addressentity}')>0 
+		then 
+			arr = (select array(select json_array_elements_text
+				(js::json #>'{addressentity}')));
+			 foreach elem in array arr
+				loop
+				tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_entity(elem)::jsonb);
+				end loop;
+			js = jsonb_set(js::jsonb,'{addressentity}',(tmp::json#>'{1}')::jsonb);
+	end if;
+		
+	if json_array_length(js::json #>'{sanctions}')>0 
+		then
+			arr = (select array(select json_array_elements_text
+				(js::json #>'{sanctions}')));
+			foreach elem in array arr 
+			loop
+			tmp= jsonb_insert(tmp::jsonb,'{1,0}',fn_get_entity(elem)::jsonb);
+				end loop;
+			js = jsonb_set(js::jsonb,'{sanctions}',(tmp::json#>'{1}')::jsonb);
+	end if;
+			
+	return js;
 end;
 $$ language plpgsql;
 
@@ -161,7 +190,7 @@ begin
 end;
 $$ language plpgsql;
 --/////////////////////////////////////////////////
-create or replace function fn_get_address(id text)
+create or replace function fn_get_addresses(id text)
 returns setof sanctions.address as
 $$
 begin
@@ -401,7 +430,20 @@ begin
 end;
 $$ language plpgsql;
 
+--////////////////////////////
+create or replace function fn_get_country_thing(id text)
+returns json as
+$$
 
+begin
+			 		
+	return (select row_to_json(ghj) as country from(
+	 select array (select sc."label" as country from
+					(select general_id,unnest(country) as country from sanctions.thing)st
+						join sanctions.country sc on sc.code=st.country
+		 					where st.general_id = $1)country)ghj);				
+end;
+$$ language plpgsql;
 
 
 
