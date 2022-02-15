@@ -1,4 +1,6 @@
-create or replace function sanctions.fn_get_by_id(id_int_person int)
+select * from sanctions.fn_get_by_id_id(629864);
+
+create or replace function sanctions.fn_get_by_id_id(id_int_person int)
 returns table (
 id_int int,
 caption text,
@@ -186,14 +188,18 @@ begin
 	join sanctions.thing t on t.general_id = e.id 
 	join sanctions.legalentity l on l.general_id = e.id 
 	join sanctions.person p on p.general_id = e.id 
-where e.id_int = $1;
+where e.id_int = 3418;
 end;
 $$ language plpgsql;
 
---select * from sanctions.fn_select_by_id(1);
+select * from sanctions.entities
+ where id = 'ofac-1aaabfcb2cf211ba998d636a2303e15ad091d3da';
 
-
-
+select * from sanctions.entities e
+join sanctions.thing t on t.general_id = e.id 
+	join sanctions.legalentity l on l.general_id = e.id 
+	join sanctions.person p on p.general_id = e.id 
+	where e.id = 'NK-QthD3sQ5gXpBrH3DXvd58m';
 
 
 

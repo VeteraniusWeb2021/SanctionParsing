@@ -16,11 +16,11 @@ $$
 declare
 js json;
 js_country json;
-i int = 1;
 arr text array;
 elem text;
 tmp json = ('{"1":[]}');
 begin
+	raise notice 'thing js %',js;
 	js = row_to_json(t) from
 	(select * from sanctions.thing et
 		where et.general_id = $1)t;
@@ -30,9 +30,11 @@ begin
 				(js::json #>'{addressentity}')));
 			 foreach elem in array arr
 				loop
-				tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_entity(elem)::jsonb);
+				tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_addresses_head(elem)::jsonb);
+				
 				end loop;
 			js = jsonb_set(js::jsonb,'{addressentity}',(tmp::json#>'{1}')::jsonb);
+		
 	end if;
 		
 	if json_array_length(js::json #>'{sanctions}')>0 
@@ -41,7 +43,7 @@ begin
 				(js::json #>'{sanctions}')));
 			foreach elem in array arr 
 			loop
-			tmp= jsonb_insert(tmp::jsonb,'{1,0}',fn_get_entity(elem)::jsonb);
+			tmp= jsonb_insert(tmp::jsonb,'{1,0}',fn_get_sanctions_head(elem)::jsonb);
 				end loop;
 			js = jsonb_set(js::jsonb,'{sanctions}',(tmp::json#>'{1}')::jsonb);
 	end if;
@@ -57,7 +59,7 @@ begin
 				(js::json #>'{unknownLinkFrom}')));
 			 foreach elem in array arr
 				loop
-				tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_entity(elem)::jsonb);
+				tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_other_link_head(elem)::jsonb);
 				end loop;
 			js = jsonb_set(js::jsonb,'{unknownLinkFrom}',(tmp::json#>'{1}')::jsonb);
 	end if;
@@ -67,10 +69,11 @@ begin
 				(js::json #>'{unknownLinkTo}')));
 			 foreach elem in array arr
 				loop
-				tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_entity(elem)::jsonb);
+				tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_other_link_head(elem)::jsonb);
 				end loop;
 			js = jsonb_set(js::jsonb,'{unknownLinkTo}',(tmp::json#>'{1}')::jsonb);
 	end if;
+		
 	return js;
 end;
 $$ language plpgsql;

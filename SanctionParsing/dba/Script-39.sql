@@ -170,265 +170,256 @@ end;
 $$ language plpgsql;
 
 --/////////////////////////////////////////////////
-create or replace function fn_get_person(id text)
-returns setof sanctions.person as
-$$
-begin
-	return query
-	(select * from sanctions.person et
-		where et.general_id = $1);
-end;
-$$ language plpgsql;
+--create or replace function fn_get_person(id text)
+--returns setof sanctions.person as
+--$$
+--begin
+--	return query
+--	(select * from sanctions.person et
+--		where et.general_id = $1);
+--end;
+--$$ language plpgsql;
 --/////////////////////////////////////////////////
-create or replace function fn_get_legalentity(id text)
-returns setof sanctions.legalentity as
-$$
-begin
-	return query
-	(select * from sanctions.legalentity et
-		where et.general_id = $1);
-end;
-$$ language plpgsql;
+--create or replace function fn_get_legalentity(id text)
+--returns setof sanctions.legalentity as
+--$$
+--begin
+--	return query
+--	(select * from sanctions.legalentity et
+--		where et.general_id = $1);
+--end;
+--$$ language plpgsql;
 --/////////////////////////////////////////////////
-create or replace function fn_get_addresses(id text)
-returns setof sanctions.address as
-$$
-begin
-	return query
-	(select * from sanctions.address et
-		where et.general_id = $1);
-end;
-$$ language plpgsql;
+--create or replace function fn_get_addresses(id text)
+--returns setof sanctions.address as
+--$$
+--begin
+--	return query
+--	(select * from sanctions.address et
+--		where et.general_id = $1);
+--end;
+--$$ language plpgsql;
 --/////////////////////////////////////////////////
-create or replace function fn_get_interval(id text)
-returns setof sanctions.interval as
-$$
-begin
-	return query
-	(select * from sanctions.interval et
-		where et.general_id = $1);
-end;
-$$ language plpgsql;
+--create or replace function fn_get_interval(id text)
+--returns setof sanctions.interval as
+--$$
+--begin
+--	return query
+--	(select * from sanctions.interval et
+--		where et.general_id = $1);
+--end;
+--$$ language plpgsql;
 --/////////////////////////////////////////////////
-create or replace function fn_get_value(id text)
-returns setof sanctions.value as
-$$
-begin
-	return query
-	(select * from sanctions.value et
-		where et.general_id = $1);
-end;
-$$ language plpgsql;
+--create or replace function fn_get_value(id text)
+--returns setof sanctions.value as
+--$$
+--begin
+--	return query
+--	(select * from sanctions.value et
+--		where et.general_id = $1);
+--end;
+--$$ language plpgsql;
 				--/////////////////////////////////////////////////
-create or replace function fn_get_asset(id text)
-returns setof sanctions.asset as
-$$
-begin
-	return query
-	(select * from sanctions.asset et
-		where et.general_id = $1);
-end;
-$$ language plpgsql;
+--create or replace function fn_get_asset(id text)
+--returns setof sanctions.asset as
+--$$
+--begin
+--	return query
+--	(select * from sanctions.asset et
+--		where et.general_id = $1);
+--end;
+--$$ language plpgsql;
 --/////////////////////////////////////////////////
-create or replace function fn_get_vehicle(id text)
-returns setof sanctions.vehicle as
-$$
-begin
-	return query
-	(select * from sanctions.vehicle et
-		where et.general_id = $1);
-end;
-$$ language plpgsql;
+--create or replace function fn_get_vehicle(id text)
+--returns setof sanctions.vehicle as
+--$$
+--begin
+--	return query
+--	(select * from sanctions.vehicle et
+--		where et.general_id = $1);
+--end;
+--$$ language plpgsql;
 --/////////////////////////////////////////////////
-create or replace function fn_get_airplane(id text)
-returns setof sanctions.airplane as
-$$
-begin
-	return query
-	(select * from sanctions.airplane et
-		where et.general_id = $1);
-end;
-$$ language plpgsql;
+--create or replace function fn_get_airplane(id text)
+--returns setof sanctions.airplane as
+--$$
+--begin
+--	return query
+--	(select * from sanctions.airplane et
+--		where et.general_id = $1);
+--end;
+--$$ language plpgsql;
 --/////////////////////////////////////////////////
-create or replace function fn_get_associate(id text)
-returns setof sanctions.associate as
-$$
-begin
-	return query
-	(select * from sanctions.associate et
-		where et.general_id = $1);
-end;
-$$ language plpgsql;
+--create or replace function fn_get_associate(id text)
+--returns setof sanctions.associate as
+--$$
+--begin
+--	return query
+--	(select * from sanctions.associate et
+--		where et.general_id = $1);
+--end;
+--$$ language plpgsql;
+----/////////////////////////////////////////////////
+--create or replace function fn_get_company(id text)
+--returns setof sanctions.company as
+--$$
+--begin
+--	return query
+--	(select * from sanctions.company et
+--		where et.general_id = $1);
+--end;
+--$$ language plpgsql;
+----/////////////////////////////////////////////////
+--create or replace function fn_get_organization(id text)
+--returns setof sanctions.organization as
+--$$
+--begin
+--	return query
+--	(select * from sanctions.organization et
+--		where et.general_id = $1);
+--end;
+--$$ language plpgsql;
+----/////////////////////////////////////////////////
+--create or replace function fn_get_crypto_wallet(id text)
+--returns setof sanctions.crypto_wallet as
+--$$
+--begin
+--	return query
+--	(select * from sanctions.crypto_wallet et
+--		where et.general_id = $1);
+--end;
+--$$ language plpgsql;
 --/////////////////////////////////////////////////
-create or replace function fn_get_company(id text)
-returns setof sanctions.company as
-$$
-begin
-	return query
-	(select * from sanctions.company et
-		where et.general_id = $1);
-end;
-$$ language plpgsql;
+--create or replace function fn_get_directorships(id text)
+--returns setof sanctions.directorships as
+--$$
+--begin
+--	return query
+--	(select * from sanctions.directorships et
+--		where et.general_id = $1);
+--end;
+--$$ language plpgsql;
+----/////////////////////////////////////////////////
+--create or replace function fn_get_interest(id text)
+--returns setof sanctions.interest as
+--$$
+--begin
+--	return query
+--	(select * from sanctions.interest et
+--		where et.general_id = $1);
+--end;
+--$$ language plpgsql;
+----/////////////////////////////////////////////////
+--create or replace function fn_get_family(id text)
+--returns setof sanctions.family as
+--$$
+--begin
+--	return query
+--	(select * from sanctions.family et
+--		where et.general_id = $1);
+--end;
+--$$ language plpgsql;
+----/////////////////////////////////////////////////
+--create or replace function fn_get_identification(id text)
+--returns setof sanctions.identification as
+--$$
+--begin
+--	return query
+--	(select * from sanctions.identification et
+--		where et.general_id = $1);
+--end;
+--$$ language plpgsql;
 --/////////////////////////////////////////////////
-create or replace function fn_get_organization(id text)
-returns setof sanctions.organization as
-$$
-begin
-	return query
-	(select * from sanctions.organization et
-		where et.general_id = $1);
-end;
-$$ language plpgsql;
+--create or replace function fn_get_membership(id text)
+--returns setof sanctions.membership as
+--$$
+--begin
+--	return query
+--	(select * from sanctions.membership et
+--		where et.general_id = $1);
+--end;
+--$$ language plpgsql;
+----/////////////////////////////////////////////////
+--create or replace function fn_get_ownership(id text)
+--returns setof sanctions.ownership as
+--$$
+--begin
+--	return query
+--	(select * from sanctions.ownership et
+--		where et.general_id = $1);
+--end;
+--$$ language plpgsql;
 --/////////////////////////////////////////////////
-create or replace function fn_get_crypto_wallet(id text)
-returns setof sanctions.crypto_wallet as
-$$
-begin
-	return query
-	(select * from sanctions.crypto_wallet et
-		where et.general_id = $1);
-end;
-$$ language plpgsql;
---/////////////////////////////////////////////////
-create or replace function fn_get_directorships(id text)
-returns setof sanctions.directorships as
-$$
-begin
-	return query
-	(select * from sanctions.directorships et
-		where et.general_id = $1);
-end;
-$$ language plpgsql;
---/////////////////////////////////////////////////
-create or replace function fn_get_interest(id text)
-returns setof sanctions.interest as
-$$
-begin
-	return query
-	(select * from sanctions.interest et
-		where et.general_id = $1);
-end;
-$$ language plpgsql;
---/////////////////////////////////////////////////
-create or replace function fn_get_family(id text)
-returns setof sanctions.family as
-$$
-begin
-	return query
-	(select * from sanctions.family et
-		where et.general_id = $1);
-end;
-$$ language plpgsql;
---/////////////////////////////////////////////////
-create or replace function fn_get_identification(id text)
-returns setof sanctions.identification as
-$$
-begin
-	return query
-	(select * from sanctions.identification et
-		where et.general_id = $1);
-end;
-$$ language plpgsql;
---/////////////////////////////////////////////////
-create or replace function fn_get_membership(id text)
-returns setof sanctions.membership as
-$$
-begin
-	return query
-	(select * from sanctions.membership et
-		where et.general_id = $1);
-end;
-$$ language plpgsql;
---/////////////////////////////////////////////////
-create or replace function fn_get_ownership(id text)
-returns setof sanctions.ownership as
-$$
-begin
-	return query
-	(select * from sanctions.ownership et
-		where et.general_id = $1);
-end;
-$$ language plpgsql;
---/////////////////////////////////////////////////
-create or replace function fn_get_passport(id text)
-returns setof sanctions.passport as
-$$
-begin
-	return query
-	(select * from sanctions.passport et
-		where et.general_id = $1);
-end;
-$$ language plpgsql;
---/////////////////////////////////////////////////
-create or replace function fn_get_representation(id text)
-returns setof sanctions.representation as
-$$
-begin
-	return query
-	(select * from sanctions.representation et
-		where et.general_id = $1);
-end;
-$$ language plpgsql;
---/////////////////////////////////////////////////
-create or replace function fn_get_sanction(id text)
-returns setof sanctions.sanction as
-$$
-begin
-	return query
-	(select * from sanctions.sanction et
-		where et.general_id = $1);
-end;
-$$ language plpgsql;
---/////////////////////////////////////////////////
-create or replace function fn_get_security(id text)
-returns setof sanctions.security as
-$$
-begin
-	return query
-	(select * from sanctions.security et
-		where et.general_id = $1);
-end;
-$$ language plpgsql;
---/////////////////////////////////////////////////
-create or replace function fn_get_other_link(id text)
-returns setof sanctions.other_link as
-$$
-begin
-	return query
-	(select * from sanctions.other_link et
-		where et.general_id = $1);
-end;
-$$ language plpgsql;
---/////////////////////////////////////////////////
-create or replace function fn_get_vessel(id text)
-returns setof sanctions.vessel as
-$$
-begin
-	return query
-	(select * from sanctions.vessel et
-		where et.general_id = $1);
-end;
-$$ language plpgsql;
---/////////////////////////////////////////////////
-create or replace function fn_get_publicBody(id text)
-returns setof sanctions.publicBody as
-$$
-begin
-	return query
-	(select * from sanctions.publicBody et
-		where et.general_id = $1);
-end;
-$$ language plpgsql;
---/////////////////////////////////////////////////
-create or replace function fn_get_publicBody(id text)
-returns setof sanctions.publicBody as
-$$
-begin
-	return query
-	(select * from sanctions.publicBody et
-		where et.general_id = $1);
-end;
-$$ language plpgsql;
+--create or replace function fn_get_passport(id text)
+--returns setof sanctions.passport as
+--$$
+--begin
+--	return query
+--	(select * from sanctions.passport et
+--		where et.general_id = $1);
+--end;
+--$$ language plpgsql;
+----/////////////////////////////////////////////////
+--create or replace function fn_get_representation(id text)
+--returns setof sanctions.representation as
+--$$
+--begin
+--	return query
+--	(select * from sanctions.representation et
+--		where et.general_id = $1);
+--end;
+--$$ language plpgsql;
+----/////////////////////////////////////////////////
+--create or replace function fn_get_sanction(id text)
+--returns setof sanctions.sanction as
+--$$
+--begin
+--	return query
+--	(select * from sanctions.sanction et
+--		where et.general_id = $1);
+--end;
+--$$ language plpgsql;
+----/////////////////////////////////////////////////
+--create or replace function fn_get_security(id text)
+--returns setof sanctions.security as
+--$$
+--begin
+--	return query
+--	(select * from sanctions.security et
+--		where et.general_id = $1);
+--end;
+--$$ language plpgsql;
+----/////////////////////////////////////////////////
+--create or replace function fn_get_other_link(id text)
+--returns setof sanctions.other_link as
+--$$
+--begin
+--	return query
+--	(select * from sanctions.other_link et
+--		where et.general_id = $1);
+--end;
+--$$ language plpgsql;
+----/////////////////////////////////////////////////
+--create or replace function fn_get_vessel(id text)
+--returns setof sanctions.vessel as
+--$$
+--begin
+--	return query
+--	(select * from sanctions.vessel et
+--		where et.general_id = $1);
+--end;
+--$$ language plpgsql;
+----/////////////////////////////////////////////////
+--create or replace function fn_get_publicBody(id text)
+--returns setof sanctions.publicBody as
+--$$
+--begin
+--	return query
+--	(select * from sanctions.publicBody et
+--		where et.general_id = $1);
+--end;
+--$$ language plpgsql;
+----/////////////////////////////////////////////////
 
 --////////////////////////////
 create or replace function fn_get_country_thing(id text)
@@ -444,7 +435,41 @@ begin
 		 					where st.general_id = $1)country)ghj);				
 end;
 $$ language plpgsql;
+--//////////////////
 
+create or replace function fn_get_country_address(id text)
+returns json as
+$$
+
+begin
+			 		
+	return (select row_to_json(ghj) as country from(
+	 select array (select sc."label" as country from
+					(select general_id,unnest(country) as country from sanctions.address)st
+						join sanctions.country sc on sc.code=st.country
+		 					where st.general_id = $1)country)ghj);				
+end;
+$$ language plpgsql;
+
+--/////////////
+
+create or replace function fn_get_interval(id text)
+returns json as
+$$
+declare
+js json;
+tmp json = ('{"1":[]}');
+begin
+--	js = fn_get_entity($1);
+	js = (select row_to_json(t) from (select * from sanctions."interval" e
+		where e.general_id = $1)t);
+	
+--	js = jsonb_set(js::jsonb,'{properties}',tmp::jsonb);
+	return js;
+end;
+$$ language plpgsql;
+
+--/////////////////////////
 
 
 
