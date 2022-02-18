@@ -28,9 +28,26 @@ begin
 end;
 $$;
 
-create table sanctions.entities_true
-as select * from sanctions.entities e 
-where e.target = true ;
+insert into sanctions.entities_true (caption ,
+									datasets  ,
+									first_seen ,
+									id ,
+									last_seen ,
+									referents  ,
+									schema)
+(select caption ,
+		datasets  ,
+		first_seen ,
+		id ,
+		last_seen ,
+		referents  ,
+		schema  from sanctions.entities e where e.target = true);
+--	10093 rows
+	
+--drop table sanctions.entities_true cascade;
+--create table sanctions.entities_true
+--as select * from sanctions.entities e 
+--where e.target = true ;
 --/////////////////////////////////////////////////////////////////////
 
 create or replace procedure sanctions.sp_fill_thing()

@@ -1539,13 +1539,20 @@ $$ language plpgsql;
 
 select ff();
 
-select fn_get_person_head('NK-cvFkaxVPep3JncUvjeV3FG','NK-cvFkaxVPep3JncUvjeV3FG');
+select * from sanctions.entities where id = 'NK-QthD3sQ5gXpBrH3DXvd58m';
+
+
+select fn_get_person_head('NK-QthD3sQ5gXpBrH3DXvd58m','NK-QthD3sQ5gXpBrH3DXvd58m');
+
+copy(
+select	 jsonb_pretty((select fn_get_person_head('NK-QthD3sQ5gXpBrH3DXvd58m','NK-QthD3sQ5gXpBrH3DXvd58m'))::jsonb)
+	) to 'G:\database\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\NICOLAU_NEW.txt';
 
 
 
 
 
-
+select json_strip_nulls(fn_get_person_head('NK-QthD3sQ5gXpBrH3DXvd58m','NK-QthD3sQ5gXpBrH3DXvd58m'));
 
 
 
@@ -1559,7 +1566,7 @@ select fn_get_person_head('NK-cvFkaxVPep3JncUvjeV3FG','NK-cvFkaxVPep3JncUvjeV3FG
 select * from sanctions.entities_true
 where id = 'NK-cvFkaxVPep3JncUvjeV3FG';
 
-select * from sanctions.legalentity;
+select * except(e.general_id) from sanctions.legalentity e;
 
 where general_id = 'NK-QthD3sQ5gXpBrH3DXvd58m';
 
