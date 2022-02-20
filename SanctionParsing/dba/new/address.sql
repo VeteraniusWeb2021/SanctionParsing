@@ -6,7 +6,7 @@ create table addr
 (general_id text,
 city text array,
 country text array,
-"full" text array,
+full text array,
 latitude text array,
 longitude text array,
 postOfficeBox text array,
@@ -19,7 +19,8 @@ street2 text array,
 things text array,
 controlCount int
 );	
-	
+	truncate addr;
+
 		insert into addr(
 				general_id ,
 				city,
@@ -40,7 +41,7 @@ controlCount int
 				value->>'general_id',
 				array (select json_array_elements_text (value->'city')),
 				array (select json_array_elements_text (value->'country')),
-				array (select json_array_elements_text (value->'"full"')),
+				array (select json_array_elements_text (value->'full')),
 				array (select json_array_elements_text (value->'latitude')),
 				array (select json_array_elements_text (value->'longitude')),
 				array (select json_array_elements_text (value->'postOfficeBox')),
@@ -89,7 +90,7 @@ insert into sanctions.address(
 				street2,
 				things from (	
 select *,row_number() over(partition by general_id order by controlCount desc),count(*) over(partition by general_id) from addr le
-)t where row_number = 1) ;
+)t where row_number = 1) on conflict (general_id) do update set "full" = excluded.full;
 --7525
 				
 				

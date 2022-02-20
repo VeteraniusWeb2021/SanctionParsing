@@ -84,3 +84,11 @@ insert into sanctions.entities(
 --	insert 33920				
 					
 truncate temp_json;		
+
+
+copy sanctions.country(code,label) from 
+'C:\Essence_files\country_utf-8.csv' (delimiter ';',format csv) ;
+
+
+copy sanctions.topics(code,label) from 
+'C:\Essence_files\topics_utf-8.csv' (delimiter ';',format csv);
