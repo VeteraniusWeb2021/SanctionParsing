@@ -1,6 +1,6 @@
 
 
-create or replace function sanctions.fn_get_page(quantity_records_by_page int,number_page int)
+create or replace function fn_get_page(quantity_records_by_page int,number_page int)
 returns table (
 id_int int,
 caption text,
@@ -23,7 +23,7 @@ $$ language plpgsql;
 
 
 
-create or replace function sanctions.fn_get_page_json(quantity_records_by_page int,number_page int)
+create or replace function fn_get_page_json(quantity_records_by_page int,number_page int)
 returns json as
 $$
 declare 
