@@ -1,6 +1,7 @@
 --create database data_ocean_sanction_parsing;
-drop schema sanctions cascade;
-select public.create_schema_sanctions();
+
+
+
 create or replace function public.create_schema_sanctions()
 returns void as
 $$

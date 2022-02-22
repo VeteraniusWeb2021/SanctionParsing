@@ -1,10 +1,21 @@
 В схеме sanctions есть функции
 fn_delete_all_data_from_tables-удалить данные со всех таблиц. Из кантри и топикс не удаляются записи;
-fn_one_fill_head_tables-заполнение таблиц основных;
+fn_new_fill_head_tables-заполнение таблиц основных;
 fn_one_fill_add_tables-заполнение вспомогательных таблиц;
 
+Выполнить скрипты в файлах для создания базы с нуля:
+select public.create_schema_sanctions();
+select sanctions.fn_one_new_fill_head_tables();
+select sanctions.fn_one_fill_add_tables();
+get_person
+get_organization
+get_company
+get_vessel
+get_airplane
+fn_get_by_id_json
+
 Если в схеме отсутствуют эти функции, то их нужно создать из соответсвующего скрипта.
-В пустом дампе они присутсвуют.
+
 
 Путь к файлам с данными C:\Essence_files\название файла
 Или создать базу из дампа filled.dump.

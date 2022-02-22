@@ -46,8 +46,8 @@ begin
 				(js::json #>'{directorshiporganization}')));
 			 foreach elem in array arr
 				loop
-				raise notice ' elem %',elem;
-			raise notice ' $2 %',$2;
+				
+			
 				if $2 != elem then
 				tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_directorships_head(elem,$2,'directorshiporganization')::jsonb);
 					else 
@@ -65,8 +65,8 @@ begin
 				(js::json #>'{membershiporganization}')));
 			 foreach elem in array arr
 				loop
-				raise notice ' elem %',elem;
-			raise notice ' $2 %',$2;
+				
+			
 				if $2 != elem then
 				tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_membership_head(elem,$2,'membershiporganization')::jsonb);
 					else 
@@ -93,11 +93,11 @@ begin
 	js = fn_get_entity($1);
 																							
 	pro = jsonb_insert(pro::jsonb,'{properties,0}',fn_get_interval($1)::jsonb);
-			raise notice '96 pro %',pro;																			
+																						
 	pro = jsonb_insert(pro::jsonb,'{properties,1}',fn_get_interest($1)::jsonb);
-raise notice '98 pro %',pro;
+
 	pro = jsonb_insert(pro::jsonb,'{properties,2}',fn_get_membership($1,$2,$3)::jsonb);
-raise notice '100 pro %',pro;
+
 																							
 	js = jsonb_set(js::jsonb,'{properties}',(pro::json #> '{properties}')::jsonb);
 	
@@ -121,22 +121,16 @@ begin
 				
 	pro = jsonb_insert(pro::jsonb,'{properties,0}',fn_get_interval($1)::jsonb);
 		
-	
-					raise notice '121 pro %',pro;
-		
-		
+				
+				
 	pro = jsonb_insert(pro::jsonb,'{properties,1}',fn_get_interest($1)::jsonb);
-	
+		
+	pro = jsonb_insert(pro::jsonb,'{properties,2}',fn_get_directorships($1,$2,$3)::jsonb);
 
-
-raise notice '123 pro %',pro;
-	
-pro = jsonb_insert(pro::jsonb,'{properties,2}',fn_get_directorships($1,$2,$3)::jsonb);
-
-				raise notice '126 pro %',pro;																			
+																							
 	js = jsonb_set(js::jsonb,'{properties}',(pro::json #> '{properties}')::jsonb);
 	
-	raise notice '129 js %',js;
+	
 	return js;
 end;
 $$ language plpgsql;
@@ -162,7 +156,7 @@ begin
 		if flag = 'membershiporganization' then																	
 			if json_array_length(js::json #>'{member}')>0 
 					then 
-							raise notice 'flag %',flag;
+							
 							flag='stop';
 							arr = (select array(select json_array_elements_text
 							(js::json #>'{member}')));
@@ -183,7 +177,7 @@ begin
 	
 			if $3 = 'membershipmember' then
 					flag='stop';
-							raise notice 'flag %',flag;		
+								
 					if json_array_length(js::json #>'{organization}')>0 
 							then 
 								tmp  = ('{"1":[]}');
@@ -194,8 +188,7 @@ begin
 										if $2 != elem then   
 										
 									tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_entity_head(elem,$2,flag)::jsonb);
-									raise notice 'elem %',elem;
-									raise notice 'tmp %',tmp;
+									
 								else 
 										tmp = jsonb_insert(tmp::jsonb,'{1,0}',(to_json(elem))::jsonb);
 									end if;																											
@@ -239,7 +232,7 @@ begin
 								if $2 != elem then   
 								
 							tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_entity_head(elem,$2,flag)::jsonb);
-							raise notice 'tmp %',tmp;
+							
 						
 							else 
 								tmp = jsonb_insert(tmp::jsonb,'{1,0}',(to_json(elem))::jsonb);
@@ -251,7 +244,7 @@ begin
 		end if;
 	
 			if $3 = 'directorshipdirector' then
-					raise notice 'flag %',flag;
+					
 					flag='stop';
 									
 					if json_array_length(js::json #>'{organization}')>0 
@@ -264,8 +257,7 @@ begin
 										if $2 != elem then   
 										
 									tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_entity_head(elem,$2,flag)::jsonb);
-									raise notice 'elem %',elem;
-									raise notice 'tmp %',tmp;
+									
 								else 
 										tmp = jsonb_insert(tmp::jsonb,'{1,0}',(to_json(elem))::jsonb);
 									end if;																											
@@ -274,7 +266,7 @@ begin
 							js = jsonb_set(js::jsonb,'{organization}',(tmp::json#>'{1}')::jsonb);
 					end if;
 			end if;	
-		raise notice '266 js %',js;
+		
 	return js;
 	
 end;
@@ -282,12 +274,3 @@ $$ language plpgsql;
 
 --///////////////////////////
 
-copy (
-select fn_get_organization_head('NK-6WWqPkygJozisnzmfyTEGp','NK-6WWqPkygJozisnzmfyTEGp')
-	) to 'G:\database\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\get_organization_q461631.json';
-
---fn_get_membership_head
---fn_get_directorship_head
---fn_get_directorship
---fn_get_membership
-fn_get_entity_head

@@ -1,37 +1,45 @@
-select * from sanctions.entities e 
-join sanctions.thing t on t.general_id = e.id
-join sanctions.legalentity le on e.id = le.general_id
-join sanctions.person p on p.general_id=e.id 
-where e.id = 'NK-QthD3sQ5gXpBrH3DXvd58m';
 
-select * from sanctions.address 
-where general_id = 'addr-20e2840d60856294b8a5d1ce298691dabde77048';
 
-create table fooo(aaAA text);
-select * from fooo;
+select fn_get_by_id_json(568);
 
-select * from sanctions.entities where id = 'NK-3BVtJzAjEC2abSYriTd2Xg';
+select * from sanctions.entities where id = 'NK-3tCPzE4XpTJF5FmcCQqGMm';
+
+select * from sanctions.vessel where general_id = 'NK-3KadRpv8QzzgiHGqFdda54';
+
+select * from sanctions.entities_true where id = 'NK-aLkCv3cdnDGzsYqiESfZMC';
+
+select * from sanctions.entities_true ;
+
+select * from sanctions.directorships;
 
 copy (
 
-select fn_get_organization_head('Q461631','Q461631')
+select fn_get_person_head('NK-aLkCv3cdnDGzsYqiESfZMC','NK-aLkCv3cdnDGzsYqiESfZMC')
 
-	) to 'G:\database\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\new_Q461631.json';
+	) to 'G:\database\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\person_NK-aLkCv3cdnDGzsYqiESfZMC.json';
 
 
-select row_to_json(le) from sanctions.legalentity le where general_id = 'NK-QthD3sQ5gXpBrH3DXvd58m';
 
-select fn_get_person_head('eu-fsf-eu-2409-29','eu-fsf-eu-2409-29');
 
-select fn_get_organization_head('Q461631','Q461631');
 
-select fn_get_company_head('NK-2jgGmJaCam25UVaLGFrL4y','NK-2jgGmJaCam25UVaLGFrL4y');
 
-select * from sanctions.directorships where general_id = 'ofac-ae9b8e62f30f76b0830042e346d309092b0ca111';
+select fn_get_person_head('NK-aLkCv3cdnDGzsYqiESfZMC','NK-aLkCv3cdnDGzsYqiESfZMC');
+
+select fn_get_organization_head('NK-3tCPzE4XpTJF5FmcCQqGMm','NK-3tCPzE4XpTJF5FmcCQqGMm');
+
+select fn_get_company_head('NK-5uGUpiQvPfcxJFdV9srsXQ','NK-5uGUpiQvPfcxJFdV9srsXQ');
+
+select fn_get_vessel_head('NK-3KadRpv8QzzgiHGqFdda54','NK-3KadRpv8QzzgiHGqFdda54');
+
+select fn_get_airplane_head('NK-2Dm77ySwRh5BkuNFcKWd47','NK-2Dm77ySwRh5BkuNFcKWd47');
+
+select * from sanctions.directorships where general_id = 'NK-5uGUpiQvPfcxJFdV9srsXQ';
 
 select * from sanctions.entities where id ilike '%q461631';
 
-select * from sanctions.entities where "schema" = 'Company';
+select * from sanctions.entities where "schema" = 'Airplane';
+
+select * from sanctions.entities where id = 'NK-3KadRpv8QzzgiHGqFdda54';
 
 create or replace function test_null(_js json)
 returns json as
@@ -98,8 +106,7 @@ begin
 	foreach a in array arr
 		loop
 			if a != any(value_array) then
-				raise notice 'a %',a;
-				raise 'stop';
+				
 			else raise notice 'a %',a;
 			end if;
 			

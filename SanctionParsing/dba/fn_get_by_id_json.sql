@@ -83,6 +83,7 @@ $$ language plpgsql;
 --/////////////////////////
 --///////////////////////////////
 --////////////////////////////////////
+
 create or replace function fn_get_by_id_json(id_int int)
 returns json as
 $$
@@ -92,38 +93,19 @@ id text = (select id from fn_get_entities($1));
 begin
 	
 		case s
+		
 		when 'Person' then return fn_get_person_head(id,id);
 			
-		when 'Company' then return 
-			json_build_array
-				(row_to_json(fn_get_entities($1)),
-				 row_to_json(fn_get_thing(id)),
-				 row_to_json(fn_get_value(id)),
-				 row_to_json(fn_get_asset(id)),
-				 row_to_json(fn_get_legalentity(id)),
-				 row_to_json(fn_get_organization(id)),
-				 row_to_json(fn_get_company(id))
-				 );
-		when 'Vessel' then return 
-			json_build_array
-				(row_to_json(fn_get_entities($1)),
-		 		 row_to_json(fn_get_thing(id)),
-		 		 row_to_json(fn_get_value(id)),
-				 row_to_json(fn_get_asset(id)),
-				 row_to_json(fn_get_vehicle(id)),
-				 row_to_json(fn_get_vessel(id))
-				 );
-		when 'Airplane' then return 
-			json_build_array
-				(row_to_json(fn_get_entities($1)),
-				 row_to_json(fn_get_thing(id)),
-				 row_to_json(fn_get_value(id)),
-				 row_to_json(fn_get_asset(id)),
-				 row_to_json(fn_get_vehicle(id)),
-				 row_to_json(fn_get_airplane(id))
-				 );
+		when 'Company' then return fn_get_company_head(id,id);
+			
+		when 'Vessel' then return fn_get_vessel_head(id,id);
+			
+		when 'Airplane' then return fn_get_airplane_head(id,id);
+			
 		when 'Organization' then return fn_get_organization_head(id,id);
-				
+		
+		else return to_json('There is no entry for this number.'::text);
+		
 		end case;
 	
 end;
@@ -131,12 +113,6 @@ $$ language plpgsql;
 
 
 --///////////////////
-select fn_get_entities(1);
-copy (
-select fn_get_by_id_json(263)
-	) to 'G:\database\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\NK-3BVtJzAjEC2abSYriTd2Xg.json';
-
-select * from sanctions.entities_true where id = 'NK-3Gp49m7nmeMoKXry4TkNcq';
 
 
 --create or replace function fn_get_thing(id text)

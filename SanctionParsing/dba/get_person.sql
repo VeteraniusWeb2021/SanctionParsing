@@ -146,7 +146,7 @@ begin
 			 foreach elem in array arr
 				loop
 				if $2 != elem then
-				tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_other_link_head(elem,$2)::jsonb);
+				tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_other_link_head(elem,$2,'unknownlinkfrom')::jsonb);
 				else 
 					tmp = jsonb_insert(tmp::jsonb,'{1,0}',(to_json(elem))::jsonb);
 				end if;
@@ -161,7 +161,7 @@ begin
 			 foreach elem in array arr
 				loop
 				if $2 != elem then 
-				tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_other_link_head(elem,$2)::jsonb);
+				tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_other_link_head(elem,$2,'unknownlinkto')::jsonb);
 				else 
 					tmp = jsonb_insert(tmp::jsonb,'{1,0}',(to_json(elem))::jsonb);
 				end if; 
@@ -248,6 +248,25 @@ $$ language plpgsql;
 
 --//////////////////
 
+create or replace function fn_get_thing_head(id text,id_old text,flag text)
+returns json as
+$$
+declare
+js json;
+pro json = ('{"properties":[]}');
+begin
+	
+																						
+	js = fn_get_entity($1);
+	pro = jsonb_insert(pro::jsonb,'{properties,0}',fn_get_thing($1,$2,$3)::jsonb);
+																						
+	js = jsonb_set(js::jsonb,'{properties}',(pro::json #> '{properties}')::jsonb);
+
+	
+	return js;
+end;
+$$ language plpgsql;
+
 create or replace function fn_get_other_link(id text,id_old text)
 returns json as
 $$
@@ -299,6 +318,62 @@ $$ language plpgsql;
 
 --/////////////////////
 
+create or replace function fn_get_other_link(id text,id_old text,flag text)
+returns json as
+$$
+declare
+js json;
+arr text array;
+elem text;
+flag text = $3;
+tmp json = ('{"1":[]}');
+begin
+	js = row_to_json(t) from
+	(select * from sanctions.other_link et
+		where et.general_id = $1)t;
+	js = strip_nulls(js);
+	
+	if flag = 'unknownlinkto' then 
+		if json_array_length(js::json #>'{object}')>0 
+			then 
+				arr = (select array(select json_array_elements_text
+					(js::json #>'{object}')));
+				 foreach elem in array arr
+					loop
+					if $2 != elem then
+					tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_thing_head(elem,$2,'object')::jsonb);
+					else 
+						tmp = jsonb_insert(tmp::jsonb,'{1,0}',(to_json(elem))::jsonb);
+					end if;
+					end loop;
+				js = jsonb_set(js::jsonb,'{object}',(tmp::json#>'{1}')::jsonb);
+		end if;
+	end if;
+
+
+	if flag = 'unknownlinkfrom' then
+		if json_array_length(js::json #>'{subject}')>0 
+			then 
+				tmp  = ('{"1":[]}');
+				arr = (select array(select json_array_elements_text
+					(js::json #>'{subject}')));
+				 foreach elem in array arr
+					loop
+					if $2 != elem then
+					tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_thing_head(elem,$2,'subject')::jsonb);
+					else 
+						tmp = jsonb_insert(tmp::jsonb,'{1,0}',(to_json(elem))::jsonb);
+					end if;
+					end loop;
+				js = jsonb_set(js::jsonb,'{subject}',(tmp::json#>'{1}')::jsonb);
+		end if;
+	end if;
+	return js;
+end;
+$$ language plpgsql;
+
+--/////////////////////
+
 create or replace function fn_get_other_link_head(id text,id_old text)
 returns json as
 $$
@@ -318,6 +393,22 @@ $$ language plpgsql;
 
 --//////////////////////////
 
+create or replace function fn_get_other_link_head(id text,id_old text,flag text)
+returns json as
+$$
+declare
+js json;
+pro json = ('{"properties":[]}');
+begin
+	js = fn_get_entity($1);
+	pro = jsonb_insert(pro::jsonb,'{properties,0}',fn_get_interval($1)::jsonb);
+	pro = jsonb_insert(pro::jsonb,'{properties,1}',fn_get_interest($1)::jsonb);
+	pro = jsonb_insert(pro::jsonb,'{properties,2}',fn_get_other_link($1,$2,$3)::jsonb);
+	js = jsonb_set(js::jsonb,'{properties}',(pro::json #> '{properties}')::jsonb);
+
+	return js;
+end;
+$$ language plpgsql;
 
 
 create or replace function fn_get_sanctions(id text,id_old text)
@@ -412,12 +503,6 @@ $$ language plpgsql;
 
 --/////////////////////////////
 
-
---/////////////////////////////////
-
-
---////////////////////////////
-
 create or replace function fn_get_sanctions_head(id text,id_old text)
 returns json as
 $$
@@ -492,7 +577,7 @@ begin
 					if $2 != elem then	
 					
 						tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_representation_head(elem,$2,'agencyclient')::jsonb);
---							raise notice 'row 445 %',tmp;																							
+																							
 																													
 					else 
 						tmp = jsonb_insert(tmp::jsonb,'{1,0}',(to_json(elem))::jsonb);
@@ -645,7 +730,7 @@ begin
 			 foreach elem in array arr
 				loop
 				if $2 != elem then
-				tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_ownership_head(elem,$2)::jsonb);
+				tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_ownership_head(elem,$2,'ownershipowner')::jsonb);
 				else 
 					tmp = jsonb_insert(tmp::jsonb,'{1,0}',(to_json(elem))::jsonb);
 				end if;	
@@ -811,13 +896,13 @@ js json;
 pro json = ('{"properties":[]}');
 begin
 	js = fn_get_entity($1);
-				raise notice 'js %',js;																			
+																							
 	pro = jsonb_insert(pro::jsonb,'{properties,0}',fn_get_thing($1,$2)::jsonb);
-				raise notice 'pro %',js;																			
+																							
 	pro = jsonb_insert(pro::jsonb,'{properties,1}',fn_get_legalentity($1,$2)::jsonb);
-raise notice 'pro %',js;	
+	
 	pro = jsonb_insert(pro::jsonb,'{properties,2}',fn_get_person($1,$2)::jsonb);
-raise notice 'pro %',js;	
+	
 																							
 	js = jsonb_set(js::jsonb,'{properties}',(pro::json #> '{properties}')::jsonb);
 	
@@ -926,7 +1011,7 @@ begin
 						if $2 != elem then   
 						
 					tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_legalentity_head(elem,$2)::jsonb);
-					raise notice '875 %',tmp;
+					
 				else 
 						tmp = jsonb_insert(tmp::jsonb,'{1,0}',(to_json(elem))::jsonb);
 					end if;																											
@@ -1013,6 +1098,7 @@ begin
 	(select * from sanctions.value et
 		where et.general_id = $1)t;
 	if js is null then return '{}';end if;
+	js = json_strip_nulls(js);
 	js = strip_nulls(js);
 	
 								
@@ -1092,7 +1178,7 @@ begin
 					 foreach elem in array arr
 					loop
 						if $2 != elem then   
-						raise 'stop director';
+						
 					tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_legalentity_head(elem,$2)::jsonb);
 					else 
 						tmp = jsonb_insert(tmp::jsonb,'{1,0}',(to_json(elem))::jsonb);
@@ -1110,7 +1196,7 @@ begin
 					 foreach elem in array arr
 					loop
 						if $2 != elem then   
-						raise 'stop organiz';
+						
 					tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_organization_head(elem,$2)::jsonb);
 					else 
 						tmp = jsonb_insert(tmp::jsonb,'{1,0}',(to_json(elem))::jsonb);
@@ -1339,7 +1425,7 @@ begin
 					loop
 						if $2 != elem then   
 						
-					tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_legalentity_head(elem,$2)::jsonb);
+					tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_entity_head(elem,$2,'operator')::jsonb);
 					else 
 						tmp = jsonb_insert(tmp::jsonb,'{1,0}',(to_json(elem))::jsonb);
 					end if;																											
@@ -1357,7 +1443,7 @@ begin
 					loop
 						if $2 != elem then   
 						
-					tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_legalentity_head(elem,$2)::jsonb);
+					tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_entity_head(elem,$2,'owner')::jsonb);
 					else 
 						tmp = jsonb_insert(tmp::jsonb,'{1,0}',(to_json(elem))::jsonb);
 					end if;																											
@@ -1420,7 +1506,7 @@ begin
 					loop
 						if $2 != elem then   
 						
-					tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_ownership_head(elem,$2,'company')::jsonb);
+					tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_ownership_head(elem,$2,'ownershipasset')::jsonb);
 					else 
 						tmp = jsonb_insert(tmp::jsonb,'{1,0}',(to_json(elem))::jsonb);
 					end if;																											
@@ -1452,14 +1538,14 @@ begin
 																		
 		if json_array_length(js::json #>'{asset}')>0 
 			then 
-				flag = 'stop';
+				
 				arr = (select array(select json_array_elements_text
 					(js::json #>'{asset}')));
 					 foreach elem in array arr
 					loop
 						if $2 != elem then   
 						
-					tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_asset_head(elem,$2,flag)::jsonb);
+					tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_asset_head(elem,$2)::jsonb);
 					else 
 						tmp = jsonb_insert(tmp::jsonb,'{1,0}',(to_json(elem))::jsonb);
 					end if;																											
@@ -1496,7 +1582,7 @@ returns json as
 $$
 declare
 js json;
-flag text;
+flag text = flag;
 arr text array;
 elem text;
 tmp json = ('{"1":[]}');
@@ -1507,7 +1593,7 @@ begin
 		where et.general_id = $1)t;
 	js = strip_nulls(js);
 			
-		if flag != 'company' then
+		if flag = 'ownershipowner' then
 			if json_array_length(js::json #>'{asset}')>0 
 				then 
 						arr = (select array(select json_array_elements_text
@@ -1526,7 +1612,7 @@ begin
 			end if;
 		end if;
 	
-		if flag = 'company' then
+		if flag = 'ownershipasset' then
 			if json_array_length(js::json #>'{owner}')>0 
 					then 
 						tmp  = ('{"1":[]}');
@@ -1534,9 +1620,11 @@ begin
 							(js::json #>'{owner}')));
 							 foreach elem in array arr
 							loop
+								
 								if $2 != elem then   
 								
-							tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_legalentity_head(elem,$2)::jsonb);
+							tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_entity_head(elem,$2,flag)::jsonb);
+						
 							else 
 								tmp = jsonb_insert(tmp::jsonb,'{1,0}',(to_json(elem))::jsonb);
 							end if;																											
@@ -1772,8 +1860,7 @@ begin
 										if $2 != elem then   
 										
 									tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_entity_head(elem,$2,flag)::jsonb);
-									raise notice 'elem %',elem;
-									raise notice 'tmp %',tmp;
+									
 								else 
 										tmp = jsonb_insert(tmp::jsonb,'{1,0}',(to_json(elem))::jsonb);
 									end if;																											
@@ -1783,7 +1870,7 @@ begin
 					end if;
 			end if;	
 	return js;
-raise '1629';
+
 end;
 $$ language plpgsql;
 
@@ -1938,7 +2025,6 @@ $$ language plpgsql;
 --end;
 --$$ language plpgsql;
 
-select distinct "schema" from sanctions.entities_true
 
 create or replace function fn_get_entity_head(id text,id_old text,flag text)
 returns json as
@@ -1946,11 +2032,27 @@ $$
 declare 
 key_schema text;
 js json;
+js_vessel json;
+key_schema_vessel text;
 pro json = ('{"properties":[]}');
 begin
 	js = fn_get_entity($1);
-
+	js_vessel = fn_get_entity($2);
+	
 	key_schema = (js::json->>'schema');
+	key_schema_vessel = (js_vessel::json->>'schema');
+
+	if key_schema_vessel = 'Vessel' then 
+		pro = jsonb_insert(pro::jsonb,'{properties,0}',fn_get_thing($1,$2,$3)::jsonb);
+		js = jsonb_set(js::jsonb,'{properties}',(pro::json #> '{properties}')::jsonb);
+		return js;
+	end if;
+
+	if key_schema_vessel = 'Airplane' then 
+		pro = jsonb_insert(pro::jsonb,'{properties,0}',fn_get_thing($1,$2,$3)::jsonb);
+		js = jsonb_set(js::jsonb,'{properties}',(pro::json #> '{properties}')::jsonb);
+		return js;
+	end if;
 
 	case key_schema
 
@@ -1987,15 +2089,15 @@ begin
 		when 'Airplane' then
 		
 			pro = jsonb_insert(pro::jsonb,'{properties,0}',fn_get_thing($1,$2,$3)::jsonb);
-			
+	
+				
 			pro = jsonb_insert(pro::jsonb,'{properties,1}',fn_get_value($1)::jsonb);
 																									
 			pro = jsonb_insert(pro::jsonb,'{properties,2}',fn_get_asset($1,$2,$3)::jsonb);
-		
+	
 			pro = jsonb_insert(pro::jsonb,'{properties,3}',fn_get_vehicle($1,$2,$3)::jsonb);
-		
-			pro = jsonb_insert(pro::jsonb,'{properties,3}',fn_get_airplane($1,$2,$3)::jsonb);
 			
+			pro = jsonb_insert(pro::jsonb,'{properties,4}',fn_get_airplane($1,$2,$3)::jsonb);			
 		
 		when 'Vessel' then
 		
@@ -2004,10 +2106,10 @@ begin
 			pro = jsonb_insert(pro::jsonb,'{properties,1}',fn_get_value($1)::jsonb);
 																									
 			pro = jsonb_insert(pro::jsonb,'{properties,2}',fn_get_asset($1,$2,$3)::jsonb);
-		
+	
 			pro = jsonb_insert(pro::jsonb,'{properties,3}',fn_get_vehicle($1,$2,$3)::jsonb);
-		
-			pro = jsonb_insert(pro::jsonb,'{properties,3}',fn_get_vessel($1,$2,$3)::jsonb);
+			
+			pro = jsonb_insert(pro::jsonb,'{properties,4}',fn_get_vessel($1,$2,$3)::jsonb);	
 	
 	end case;
 
@@ -2122,6 +2224,7 @@ a text;
 value_array text array = array['general_id','amount','amounteur','amountusd'];
 begin
 	
+	
 	arr = (select array(select json_object_keys(js) )) ;
 	foreach a in array arr
 	
@@ -2146,53 +2249,6 @@ $$ language plpgsql;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-select fn_entity_head('NK-2vVMGmwbuV8cG7hs6gfzEG','NK-2vVMGmwbuV8cG7hs6gfzEG','stop');
-
-
-
-
-
-
-
-
-
-
-
-
-
-create or replace function ff()
-returns text as
-$$
-declare
-js json = fn_get_person_head('NK-QthD3sQ5gXpBrH3DXvd58m','NK-QthD3sQ5gXpBrH3DXvd58m');
-begin
-			 		
-	if(json_array_length(js::json #>'{referents}')>0) then return 'true';
-	 	
-	 end if;
-	return 'false';
-end;
-$$ language plpgsql;
-
-
-select fn_get_person_head('NK-QthD3sQ5gXpBrH3DXvd58m','NK-QthD3sQ5gXpBrH3DXvd58m');
-
-copy(
-select fn_get_person_head('NK-QthD3sQ5gXpBrH3DXvd58m','NK-QthD3sQ5gXpBrH3DXvd58m')
-	) to 'G:\database\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\NICOLAU_NEW.json';
 
 
 
