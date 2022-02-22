@@ -31,7 +31,7 @@ js json;
 begin
 
 	js = (select array_to_json(array(
-select row_to_json(t) from (select * from sanctions.fn_get_page(50,1)) t
+select row_to_json(t) from (select * from sanctions.fn_get_page($1,$2)) t
 			)));
 	
 return js;
