@@ -2,9 +2,9 @@
 
 select fn_get_by_id_json(568);
 
-select fn_get_page(200,2);
+select fn_get_page(20,700);
 
-select fn_get_page_json(200,100);
+select fn_get_page_json(20,700);
 
 select * from sanctions.entities where id = 'NK-3tCPzE4XpTJF5FmcCQqGMm';
 
