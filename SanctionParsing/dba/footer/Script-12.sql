@@ -768,7 +768,7 @@ begin
 	pro = jsonb_insert(pro::jsonb,'{properties,0}',fn_get_thing($1,$2)::jsonb);
 																						
 	pro = jsonb_insert(pro::jsonb,'{properties,1}',fn_get_legalentity($1,$2)::jsonb);
-raise notice '765';
+
 	pro = jsonb_insert(pro::jsonb,'{properties,2}',fn_get_person($1,$2)::jsonb);
 
 																							
@@ -1612,7 +1612,8 @@ begin
 							loop
 								if $2 != elem then   
 								
-							tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_legalentity_head(elem,$2,flag)::jsonb);
+							tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_entity_head(elem,$2,flag)::jsonb);
+							
 							else 
 								tmp = jsonb_insert(tmp::jsonb,'{1,0}',(to_json(elem))::jsonb);
 							end if;																											
@@ -1634,8 +1635,9 @@ begin
 									loop
 										if $2 != elem then   
 										
-									tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_legalentity_head(elem,$2,flag)::jsonb);
-									raise notice '875 %',tmp;
+									tmp = jsonb_insert(tmp::jsonb,'{1,0}',fn_get_entity_head(elem,$2,flag)::jsonb);
+									raise notice 'elem %',elem;
+									raise notice 'tmp %',tmp;
 								else 
 										tmp = jsonb_insert(tmp::jsonb,'{1,0}',(to_json(elem))::jsonb);
 									end if;																											
@@ -1786,6 +1788,140 @@ end;
 $$ language plpgsql;
 
 
+create or replace function fn_get_entity_head(id text,id_old text,flag text)
+returns json as
+$$
+declare 
+
+js json;
+pro json = ('{"properties":[]}');
+begin
+	js = fn_get_entity($1);
+
+	if (js::json->>'schema') = 'Person' then
+																							
+		pro = jsonb_insert(pro::jsonb,'{properties,0}',fn_get_thing($1,$2,$3)::jsonb);
+																								
+		pro = jsonb_insert(pro::jsonb,'{properties,1}',fn_get_legalentity($1,$2,$3)::jsonb);
+	
+		pro = jsonb_insert(pro::jsonb,'{properties,2}',fn_get_person($1,$2,$3)::jsonb);
+	
+	raise notice 'pro %',pro;
+	
+	elsif (js::json->>'schema') = 'Organization' then
+	
+		pro = jsonb_insert(pro::jsonb,'{properties,0}',fn_get_thing($1,$2,$3)::jsonb);
+																								
+		pro = jsonb_insert(pro::jsonb,'{properties,1}',fn_get_legalentity($1,$2,$3)::jsonb);
+	
+		pro = jsonb_insert(pro::jsonb,'{properties,2}',fn_get_organization($1,$2,$3)::jsonb);
+	
+	elsif (js::json->>'schema') = 'Company' then
+	
+		pro = jsonb_insert(pro::jsonb,'{properties,0}',fn_get_thing($1,$2,$3)::jsonb);
+																								
+		pro = jsonb_insert(pro::jsonb,'{properties,1}',fn_get_legalentity($1,$2,$3)::jsonb);
+	
+		pro = jsonb_insert(pro::jsonb,'{properties,2}',fn_get_organization($1,$2,$3)::jsonb);
+	
+		pro = jsonb_insert(pro::jsonb,'{properties,3}',fn_get_value($1)::jsonb);
+																								
+		pro = jsonb_insert(pro::jsonb,'{properties,4}',fn_get_asset($1,$2,$3)::jsonb);
+	
+		pro = jsonb_insert(pro::jsonb,'{properties,5}',fn_get_company($1,$2,$3)::jsonb);
+	
+	
+		
+	end if;
+	js = jsonb_set(js::jsonb,'{properties}',(pro::json #> '{properties}')::jsonb);
+
+	return js;
+
+end;
+$$ language plpgsql;
+
+create or replace function fn_get_person(id text,id_old text,flag text)
+returns json as
+$$
+declare
+js json;
+begin
+	
+	js = row_to_json(t) from
+	(select * from sanctions.person et
+		where et.general_id = $1)t;
+																								
+	js = test_null(js);
+
+return js;
+end;
+$$ language plpgsql;
+
+create or replace function fn_get_organization(id text,id_old text,flag text)
+returns json as
+$$
+declare
+js json;
+begin
+	
+	js = row_to_json(t) from
+	(select * from sanctions.organization et
+		where et.general_id = $1)t;
+																								
+	js = test_null(js);
+
+return js;
+end;
+$$ language plpgsql;
+
+create or replace function fn_get_company(id text,id_old text,flag text)
+returns json as
+$$
+declare
+js json;
+begin
+	
+	js = row_to_json(t) from
+	(select * from sanctions.company et
+		where et.general_id = $1)t;
+																								
+	js = test_null(js);
+
+return js;
+end;
+$$ language plpgsql;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+select fn_entity_head('NK-2vVMGmwbuV8cG7hs6gfzEG','NK-2vVMGmwbuV8cG7hs6gfzEG','stop');
+
+
+
+
+
+
+
+
+
+
+
+
+
 create or replace function ff()
 returns text as
 $$
@@ -1812,10 +1948,7 @@ select * from sanctions.representation where general_id = 'ofac-1aaabfcb2cf211ba
 select fn_get_person_head('NK-QthD3sQ5gXpBrH3DXvd58m','NK-QthD3sQ5gXpBrH3DXvd58m');
 
 copy(
-
-
 select fn_get_person_head('NK-QthD3sQ5gXpBrH3DXvd58m','NK-QthD3sQ5gXpBrH3DXvd58m')
-
 	) to 'G:\database\veteranius-vcs\vcs\SanctionParsing\SanctionParsing\dba\NICOLAU_NEW.json';
 
 
